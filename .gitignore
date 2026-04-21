@@ -1,0 +1,13 @@
+.DS_Store
+._*
+__pycache__/
+.tmp/
+tmp/
+
+# Local/private vault data that should not be published by accident.
+private/
+*.local.md
+*.secret.md
+
+# Codex/runtime artifacts
+.codex/
