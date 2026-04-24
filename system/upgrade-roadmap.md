@@ -9,6 +9,8 @@ JARVIS Light should stay small until real usage proves the need for more.
 - Fresh-chat handoffs
 - Project index routing
 - Source-aware memory labels
+- Artifact hygiene and verification
+- Large project note scaling guidance
 
 ## Consider Later Only If Needed
 

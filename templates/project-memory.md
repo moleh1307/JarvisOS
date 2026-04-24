@@ -8,6 +8,10 @@ What is the project for?
 
 - Objective:
 - Latest status:
+- Current canonical artifact/output:
+- Current active script/workflow:
+- Last completed step:
+- Known caveats:
 - Next action:
 - Blockers:
 - Canonical workspace/repo:
@@ -26,6 +30,16 @@ Use source labels when provenance matters:
 - `External source`:
 
 Do not fill all labels by default.
+
+For generated artifacts, prefer compact operational bullets:
+
+- Input:
+- Script/workflow:
+- Output:
+- Status: canonical / delivery / diagnostic / temporary / superseded
+- Validation:
+- Caveat:
+- Next step:
 
 ## Constraints
 
@@ -50,3 +64,14 @@ What should happen next?
 ## References
 
 What files, repos, docs, sessions, or handoffs matter?
+
+## Scaling Guidance
+
+If this file becomes a long chronological log or hard to scan, split the project into a folder:
+
+- `memory/projects/<project>/index.md`
+- `memory/projects/<project>/methods.md`
+- `memory/projects/<project>/outputs.md`
+- `memory/projects/<project>/decisions.md` if project-local decisions need a home
+
+Keep `index.md` focused on current state, active outputs, caveats, and next actions.

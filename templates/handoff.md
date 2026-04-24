@@ -22,6 +22,14 @@ Why is this work being done?
 
 What has already been finished?
 
+For generated artifacts, label status clearly:
+
+- canonical
+- delivery
+- diagnostic
+- temporary
+- superseded
+
 ## In Progress
 
 What is underway?
@@ -37,6 +45,8 @@ List immediate next actions in order.
 ## What To Re-Read First
 
 List the minimum notes/files/artifacts needed before acting.
+
+Use clickable absolute markdown links for local artifacts in user-facing handoff starters when possible.
 
 Use source labels when provenance matters:
 

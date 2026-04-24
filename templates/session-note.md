@@ -28,6 +28,16 @@ Use source labels when provenance matters:
 
 What got done?
 
+For generated artifacts, record:
+
+- Input:
+- Script/workflow:
+- Output:
+- Status: canonical / delivery / diagnostic / temporary / superseded
+- Validation:
+- Caveat:
+- Next step:
+
 ## Decisions
 
 What decisions were made? Add durable ones to `logs/decisions.md`.
@@ -47,6 +57,8 @@ What should the next session do first?
 - Stable user preference/working rule appeared:
 - Unfinished work/blocker/next step exists:
 - Fresh-chat handoff needed:
+- Generated artifact verified:
+- Canonical output stored in project workspace:
 - Notes updated:
 
 ## References

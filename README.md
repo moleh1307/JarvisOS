@@ -94,9 +94,21 @@ Use provenance labels only when they help trust or future re-checking:
 
 Do not label every bullet. Use labels only where ambiguity matters.
 
-### 5. No Premature Project Skills
+### 5. Artifact Hygiene
+
+Generated artifacts should be easy to audit later. For every meaningful output, record what it is, how it was made, whether it is canonical/delivery/diagnostic/temporary/superseded, and the validation result.
+
+Canonical outputs should live in the project workspace. Delivery copies in `Downloads` or Desktop are useful, but they should not become the source of truth unless explicitly declared canonical.
+
+### 6. No Premature Project Skills
 
 Project-specific skills should be extracted only after a workflow repeats. At the start of a project, use project notes and session notes. Let notes discover the workflow; create skills only after the workflow stabilizes.
+
+### 7. Split Large Project Notes Only When Needed
+
+Keep project notes flat while they remain easy to scan. If a project note becomes a long chronological log, migrate to a project folder with an `index.md` plus focused notes such as `methods.md` and `outputs.md`.
+
+Do not split preemptively. Split when retrieval is getting worse.
 
 ## Folder Structure
 
@@ -171,6 +183,7 @@ Before finishing meaningful work, ask:
 - Did a stable user preference appear?
 - Is there unfinished work, a blocker, or an exact next step?
 - Has the chat become long, compacted, or likely to continue elsewhere?
+- Was any generated artifact verified and stored in the canonical project workspace?
 
 If none of these matter, leave the vault alone.
 

@@ -14,6 +14,11 @@ JARVIS Light is a local continuity workflow for Codex. It uses markdown files as
 - Do not dump transcripts.
 - Do not invent memory.
 - Do not create noisy notes just because a conversation happened.
+- Memory should preserve the next useful action, not the whole story.
+- Keep canonical generated artifacts inside the relevant project repo/workspace.
+- Treat `Downloads` and Desktop copies as temporary or delivery copies unless explicitly declared canonical.
+- Use clickable absolute markdown links when referencing local artifacts.
+- Verify exact artifacts before saying they are ready.
 
 ## Retrieval Order
 
@@ -39,6 +44,7 @@ Write durable memory for:
 - next steps
 - handoff state
 - recurring workflows
+- generated artifacts that future agents need, including whether each artifact is canonical, delivery, diagnostic, temporary, or superseded
 
 Avoid storing:
 
@@ -59,6 +65,33 @@ When provenance matters, label durable facts with:
 - `External source`
 
 Use labels only where they improve trust or tell a future agent what to re-check.
+
+## Artifact Hygiene
+
+Every generated artifact should answer:
+
+- What is this?
+- How was it made?
+- Should it be treated as canonical, delivery, diagnostic, temporary, or superseded?
+
+Before saying an artifact is ready, verify it:
+
+- data outputs: file exists, row count, key columns/header, summary counts, small sample, and caveats;
+- plots/images: render or open the file, check title/axes/definition, and confirm the canonical output path;
+- documents/decks/PDFs: open or render enough to confirm the file is not corrupt and contains expected content.
+
+When writing memory for generated artifacts, prefer compact operational bullets: input path, script/workflow path, output path, method definition, validation result, caveat, and next step.
+
+## Large Project Notes
+
+Project notes should stay quick to scan. If a project note becomes a long chronological log or retrieval becomes painful, split it into a project folder:
+
+- `memory/projects/<project>/index.md`
+- `memory/projects/<project>/methods.md`
+- `memory/projects/<project>/outputs.md`
+- `memory/projects/<project>/decisions.md` if project-local decisions need a home
+
+Do not split preemptively. Split only when retrieval is getting worse, and leave a clear pointer from the old project note.
 
 ## Handoffs
 

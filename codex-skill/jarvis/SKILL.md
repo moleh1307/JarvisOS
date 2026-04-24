@@ -15,6 +15,10 @@ JARVIS Light is a local, markdown-first operating mode for Codex. Treat the vaul
 - Ask when ambiguity would materially affect code, memory, project direction, or irreversible work.
 - Never claim to remember facts that are not in the current context or vault.
 - Prefer human-readable markdown over opaque storage or transcript dumps.
+- Memory should preserve the next useful action, not the whole story.
+- Keep canonical generated artifacts inside the project repo/workspace output directory.
+- Treat `Downloads` and Desktop copies as temporary or delivery copies unless explicitly declared canonical.
+- Use clickable absolute markdown links when referencing local artifacts in user-facing responses.
 
 ## Retrieve Context First
 
@@ -29,6 +33,8 @@ Before non-trivial work:
 ## Execute
 
 Do the work directly after retrieving enough context. Do not let note-taking become ceremony.
+
+Before saying a generated artifact is ready, verify the exact file. For data outputs, check existence, row count, key columns/header, summary counts, a small sample, and known caveats. For plots/images, render or open the artifact and check title, axes, definition, and canonical output path. For documents/decks/PDFs, open or render enough to confirm the file is not corrupt and contains expected content.
 
 ## Write Durable Memory
 
@@ -54,6 +60,19 @@ Use source labels when provenance affects trust or future action:
 
 Do not over-label obvious notes.
 
+## Artifact Memory
+
+When writing memory for generated artifacts, prefer compact operational bullets:
+
+- input path
+- script/workflow path
+- output path
+- method definition
+- artifact status: canonical / delivery / diagnostic / temporary / superseded
+- validation result
+- known caveat
+- next step
+
 ## Choose The Right Note
 
 - Project state -> `memory/projects/<project>.md`
@@ -63,6 +82,8 @@ Do not over-label obvious notes.
 - Active continuation -> `handoffs/YYYY-MM-DD-topic-handoff.md`
 
 Prefer updating an existing canonical note over creating a new one.
+
+If a project memory file becomes a long chronological log, hard to scan, or roughly several hundred lines long, consider splitting it into `memory/projects/<project>/index.md` plus focused notes such as `methods.md`, `outputs.md`, and `decisions.md`. Do not split preemptively; do it only when retrieval is getting worse, and leave a clear pointer from the old project note.
 
 ## Handoff Discipline
 
