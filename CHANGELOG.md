@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.17 - 2026-04-28
+
+- Added Company Mode v0.5.5 Adoption Takeover Authority.
+- After audit and baseline preservation, adopted projects become owned operating projects; existing code is evidence, not authority.
+- Added Next-Task Ownership: roles must create, assign, or start necessary follow-up work instead of ending with vague "should" handoffs.
+- Clarified that Chief of Staff routes work and Product/Founder roles define product-quality milestones when gaps are visible.
+
 ## 0.0.16 - 2026-04-28
 
 - Added Company Mode v0.5.4 autonomous shipping and tool-aware QA policy.

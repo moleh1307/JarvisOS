@@ -46,6 +46,8 @@ Company Mode provides:
 - tool-aware QA gate: user-facing artifacts must be tested with available tools before asking the user to review
 - autonomous shipping gate: internal PRs/branches are review artifacts for the agent company, not user-approval traps
 - repo readiness gate: GitHub repos must include basic handoff docs such as `README.md` before being treated as shipped
+- Adoption Takeover Authority: after audit, baseline preservation, and takeover confirmation, the company owns the project outcome instead of remaining a cautious guest
+- next-task ownership: when a role identifies necessary follow-up work, it creates/assigns/starts the work order unless blocked
 
 Company Mode does not provide:
 
@@ -299,6 +301,26 @@ Founder should:
 6. Create the Company Mode layer around the existing structure, including `company/team-roster.md`.
 7. Avoid rewriting, reorganizing, renaming, or migrating existing structure before audit and explicit work orders.
 
+## Adoption Takeover Authority
+
+Adoption Mode is caution before understanding, not permanent caution.
+
+After the audit is complete and the user confirms takeover, asks to build on top, approves baseline preservation, or otherwise authorizes the company to continue, the company becomes the active operating owner of the project. Existing code, docs, branches, PRs, and structure are evidence, not authority.
+
+Takeover flow:
+
+1. Audit first.
+2. Preserve the current state with a baseline commit, tag, release note, archive, or clearly documented snapshot when feasible.
+3. Record that the company has taken operating ownership in `company/current-state.md`.
+4. Create or update work orders for the next necessary changes.
+5. Proceed as the accountable project team, not as a passive outside reviewer.
+
+After takeover, roles may refactor, redesign, replace, merge, delete, reorganize, or rebuild parts of the project when justified by the charter, quality bar, verification, and task scope.
+
+Still escalate before deleting user data, force-pushing, changing repo settings/remotes, publishing releases without approval, spending money, using secrets, changing the strategic goal, or changing research methodology.
+
+Do not keep treating the prior project state as sacred after takeover. The company is responsible for the outcome.
+
 ## Continue Loop
 
 When the user says `continue`:
@@ -315,7 +337,8 @@ When the user says `continue`:
 10. Create improvement work orders if quality gaps remain.
 11. If the task reveals reusable workflow friction or a behavior defect, file a compact feedback candidate instead of burying it in chat.
 12. Update task board, role memory, current state, and integration log.
-13. Report compactly with the explicit next action.
+13. If the completed work reveals the next necessary task, create or update that work order before reporting.
+14. Report compactly with the explicit next action.
 
 Use precise next-action language:
 
@@ -325,6 +348,30 @@ Use precise next-action language:
 - `Ready for review:` when a milestone/artifact is waiting for user review.
 
 Avoid `next likely task` unless there is genuine uncertainty and no role can responsibly choose yet. If the next action is uncertain, state why and either create a planning task or ask the minimum needed question.
+
+## Next-Task Ownership
+
+Company Mode should operate the project, not describe how someone else should operate it.
+
+When any role identifies necessary follow-up work, it must do one of these before ending the turn:
+
+- create a new work order and mark it `todo` or `active`;
+- assign the task to the correct role and route it through Chief of Staff;
+- start the task immediately if it is unblocked and within scope;
+- mark `Decision needed:` with the exact consequential choice the user must make;
+- mark `Blocked:` with the exact missing access, credential, data, policy, or artifact.
+
+Do not end completion reports with vague handoffs such as:
+
+- "Founder should define..."
+- "Product Designer should consider..."
+- "Next likely task..."
+- "Someone should..."
+- "The team may want to..."
+
+If the next owner is obvious, assign it. If the next task is obvious, create it. If the next action is a planning task, create the planning task and make it the next task. If uncertainty is real, state the uncertainty and convert it into either `Decision needed:` or a bounded planning work order.
+
+Chief of Staff must route work, not merely report that another role should route it. Founder and Product roles must define product-quality milestones when quality gaps are visible instead of handing that responsibility back to the user.
 
 ## Tool-Aware QA Gate
 

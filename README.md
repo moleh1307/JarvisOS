@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.16`
+Current version: `0.0.17`
 
-Latest update: Company Mode v0.5.4 adds autonomous shipping, repo readiness, and tool-aware QA gates for user-facing work.
+Latest update: Company Mode v0.5.5 adds Adoption Takeover Authority and Next-Task Ownership so agents stop acting like guests after audit.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -74,6 +74,8 @@ Follow the latest workflow rules from now on, especially:
 - roles should critique weak orders and propose better paths
 - version changes must update visible docs
 - reusable workflow friction should become a feedback candidate
+- after adoption audit and baseline preservation, takeover means the company owns the project outcome
+- if a role identifies necessary follow-up work, it must create/assign/start the work order unless blocked
 - verified role/task branch pushes and PR updates can proceed without asking when the remote exists and no sensitive/release risk is present
 - after internal acceptance, merge safe role/task branches and push main when project policy allows
 - ask before protected/default branch changes when policy is unknown, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or risking secrets/private memory
@@ -266,6 +268,8 @@ The optional serious-project layer:
 - tool-aware QA before user review
 - autonomous internal PR/merge behavior
 - repo readiness gate with README requirement
+- Adoption Takeover Authority
+- Next-Task Ownership
 - selective innovation mode
 - workflow feedback loop
 - GitHub / PR workflow guidance
@@ -436,6 +440,8 @@ The Founder becomes **Founder / Organizational Auditor**:
 
 Adoption Mode should not rewrite or reorganize the project before it understands it.
 
+After audit and baseline preservation, adoption should turn into takeover. The company becomes responsible for the project outcome; existing code is evidence, not authority. Roles may refactor, redesign, replace, merge, delete, reorganize, or rebuild parts of the project when justified by the charter, quality bar, verification, and task scope.
+
 ### Quality Bar
 
 Company Mode should not stop at “it works.”
@@ -484,6 +490,8 @@ Completion reports should use explicit next-action language:
 - `Blocked:` for concrete blockers
 - `Decision needed:` for consequential user choices
 - `Ready for review:` for artifacts awaiting user review
+
+If a role identifies the next necessary task, it should create, assign, or start that work order before ending the turn. Do not finish with vague handoffs such as "Founder should define..." or "Product Designer should consider..." unless the report also creates the actual work order or marks a concrete blocker/decision.
 
 Example commit author:
 
