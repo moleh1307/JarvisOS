@@ -75,7 +75,8 @@ Follow the latest workflow rules from now on, especially:
 - version changes must update visible docs
 - reusable workflow friction should become a feedback candidate
 - verified role/task branch pushes and PR updates can proceed without asking when the remote exists and no sensitive/release risk is present
-- ask before pushing to main, merging, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or risking secrets/private memory
+- after internal acceptance, merge safe role/task branches and push main when project policy allows
+- ask before protected/default branch changes when policy is unknown, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or risking secrets/private memory
 - every completion should state verification, blockers, and one explicit next-action label:
   - Next task:
   - Blocked:
@@ -469,7 +470,7 @@ For coding projects, the workflow also supports:
 - PR handoffs
 - version changes after reliable milestones
 
-If the remote already exists, verification passed, and the current branch is a role/task branch, agents may push the branch and open/update a PR without asking first. They should still ask before pushing directly to `main`, merging, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or pushing anything that may contain private data.
+If the remote already exists, verification passed, and the current branch is a role/task branch, agents may push the branch and open/update a PR without asking first. After internal acceptance, the reviewer role should merge the role/task branch and push `main` when project policy allows. They should still ask before protected/default branch changes when policy is unknown, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or pushing anything that may contain private data.
 
 For normal autonomous Company Mode projects, PRs are internal review artifacts. If a role opens a PR, the reviewer role should review it, request fixes if needed, then merge it after internal acceptance. Do not leave a draft PR waiting for the user unless there is a real product, release, secret, cost, or strategic decision.
 
