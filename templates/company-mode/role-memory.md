@@ -1,5 +1,12 @@
 # Role Memory: <Role Name>
 
+## Identity
+
+- Role title:
+- Role name:
+- Role slug:
+- Reports to:
+
 ## Current Responsibility
 
 What this role owns right now.
@@ -13,6 +20,11 @@ What this role owns right now.
 ## Durable Context
 
 Only keep context this role needs later.
+
+## Team / Scope Changes
+
+| Date | Change | Reason | Status |
+| --- | --- | --- | --- |
 
 ## Outputs Produced
 

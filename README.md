@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.7`
+Current version: `0.0.8`
 
-Latest update: Company Mode now requires visible version documentation whenever an internal/project version changes. It also includes role identity, interruption handling, and workspace-default rules from recent field tests.
+Latest update: Company Mode v0.3 adds Adaptive Team Mode: the Founder can evolve the team, roles can critique weak orders, and each role can have a persistent name alongside its title.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -24,6 +24,124 @@ It is the lightweight/manual mode: local markdown, explicit retrieval, compact m
 ## The One-Sentence Version
 
 JARVIS Light makes Codex behave less like a fresh chat and more like an organized teammate that can read the project state, do the work, and leave the next session in a better position.
+
+## Copy-Paste Starts
+
+Use these prompts as starting points. Replace the project details and paths.
+
+### 1. Normal Continuity Work
+
+```text
+Jarvis, use JARVIS.
+
+Read the relevant project memory first, then help me with:
+...
+```
+
+### 2. Fresh-Chat Handoff
+
+```text
+Jarvis, use JARVIS.
+
+This chat is getting long. Create a fresh-chat handoff for this project.
+Include current objective, completed work, blockers, exact next steps, and files the next chat should read first.
+```
+
+### 3. New App Or Product
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Start a new project in Company Mode.
+Project idea:
+...
+
+Your first role is Founder.
+Ask only setup questions that materially affect the project.
+Choose the right workspace, create the team, and start with the highest-leverage first work orders.
+```
+
+### 4. Existing Repo Adoption
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Adopt this existing project into Company Mode:
+/path/to/project
+
+Your first role is Founder / Organizational Auditor.
+Audit first, then create the company layer around the existing structure.
+Do not reorganize or rewrite anything before the audit.
+```
+
+### 5. Research Project
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Start a research team for:
+...
+
+Your first role is Principal Investigator / Founder.
+Clarify the research question, identify required roles, define methodology risks, and create the first work orders.
+```
+
+### 6. Data / Quant Project
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Start a data/quant project for:
+...
+
+Your first role is Founder.
+Create roles for data engineering, modeling/statistics, validation, and reproducibility as needed.
+Do not let anyone call results ready without verification and artifact hygiene.
+```
+
+### 7. Website Or Launch Page
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Build a serious website for:
+...
+
+Founder should include Product Designer, Frontend Engineer, Copy/Positioning, and Visual QA if useful.
+The team should critique weak design or messaging without waiting for me to say "make it better."
+```
+
+### 8. Writing / Thesis / Book
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Create an editorial team for:
+...
+
+Founder should create roles for research, outline, drafting, critical review, and production editing as needed.
+Keep citations, claims, and next writing tasks durable in markdown.
+```
+
+### 9. Bug Or Side Quest During Company Mode
+
+```text
+Jarvis, side quest for the current Company Mode project:
+...
+
+Classify this as clarification, defect, side quest, or scope change.
+Preserve the interrupted task and tell me whether the main flow resumes afterward.
+```
+
+### 10. Release / Version Update
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+Run release readiness for this project.
+Check verification, version metadata, README/changelog visibility, git status, and whether a PR or tag is needed.
+Do not mark final acceptance without my approval.
+```
 
 ## What Is Inside
 
@@ -57,6 +175,9 @@ The optional serious-project layer:
 - review gates
 - internal critique
 - out-of-box thinking
+- adaptive team changes
+- assertive role critique
+- optional role names
 - GitHub / PR workflow guidance
 - adoption mode for existing projects
 
@@ -233,10 +354,17 @@ Roles should:
 - aim for top-tier output for the project stage
 - think out of the box
 - challenge conventional assumptions
+- critique weak orders and propose better paths
 - identify weak parts before the user has to
 - create improvement work orders when obvious gaps exist
 - visually/materially verify user-facing artifacts
 - wait for user approval before final acceptance
+
+Founder and Chief of Staff can evolve the team as the project changes: hire new roles, merge redundant roles, retire completed roles, or add temporary specialists. Each role may also keep a short name alongside its title, such as:
+
+```text
+[Role: Product Designer | Name: Iris]
+```
 
 For coding projects, the workflow also supports:
 
@@ -326,31 +454,7 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
    Jarvis, use JARVIS. Read the relevant project memory first.
    ```
 
-6. For a new serious project:
-
-   ```text
-   Jarvis, use JARVIS and JARVIS Company Mode.
-
-   Start a new project in Company Mode.
-   Project idea:
-   ...
-
-   Your first role is Founder.
-   Ask only setup questions that materially affect the project.
-   ```
-
-7. For an existing project:
-
-   ```text
-   Jarvis, use JARVIS and JARVIS Company Mode.
-
-   Adopt this existing project into Company Mode:
-   /path/to/project
-
-   Your first role is Founder / Organizational Auditor.
-   Audit first, then create the company layer around the existing structure.
-   Do not reorganize or rewrite anything before the audit.
-   ```
+6. For Company Mode examples, use the copy-paste starts near the top of this README.
 
 ## Operating Loop
 

@@ -44,6 +44,7 @@ What can go wrong if agents make bad assumptions?
 - Founder:
 - Chief of Staff:
 - Specialist roles:
+- Role names:
 
 ## First Milestone
 

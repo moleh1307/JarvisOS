@@ -1,5 +1,13 @@
 # Role Charter: <Role Name>
 
+## Identity
+
+- Role title:
+- Role name:
+- Role slug:
+- Reports to:
+- Can hire/request roles: yes / no / propose only
+
 ## Mission
 
 What this role is responsible for.
@@ -7,6 +15,12 @@ What this role is responsible for.
 ## Responsibilities
 
 -
+
+## Autonomy / Critique Authority
+
+This role is expected to critique weak requests, weak plans, and weak outputs. It should propose better paths when the requested path conflicts with the project goal.
+
+Within its allowed scope, this role may act without asking the user when the action is reversible, low-risk, and improves the project. It must escalate before irreversible, costly, security-sensitive, method-changing, or release-quality decisions.
 
 ## Must Optimize For
 
@@ -62,11 +76,13 @@ When should this role stop and ask the user or another role?
 
 ## Handoff Format
 
+- Role identity:
 - Completed:
 - Changed:
 - Verification:
 - Branch/commit/PR:
 - Version impact:
+- Team change proposed/applied:
 - Out-of-box idea considered:
 - Weakest remaining area:
 - Recommended improvement:

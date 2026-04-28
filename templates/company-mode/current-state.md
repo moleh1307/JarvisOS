@@ -27,6 +27,13 @@
 
 What is currently in progress?
 
+## Team State
+
+- Active roles:
+- Named identities:
+- Roles added/retired/merged:
+- Role gaps Founder is watching:
+
 ## Interruption / Side Quest State
 
 - Current interruption:
