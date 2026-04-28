@@ -44,6 +44,8 @@ How should the output be checked before completion?
 
 ## Quality / Critique Check
 
+- Innovation Mode: forced / invoked / skipped
+- Innovation Mode reason:
 - Weakest part:
 - Top-tier improvement opportunity:
 - Out-of-box idea considered:

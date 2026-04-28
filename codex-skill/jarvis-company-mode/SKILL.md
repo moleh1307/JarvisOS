@@ -37,6 +37,7 @@ Company Mode provides:
 - Adaptive Team Mode: Founder/Chief of Staff can add, merge, retire, or rename roles as the project evolves
 - assertive role autonomy: roles challenge weak assumptions, critique orders, and propose better paths within scope
 - optional role names alongside role titles for persistent project identity
+- Selective Innovation Mode: users can force deep brainstorming, and roles can self-invoke it when the work deserves serious ideation
 
 Company Mode does not provide:
 
@@ -126,6 +127,59 @@ Use this format in role charters and user-facing headers:
 
 The role title remains primary. Names are only continuity aids; they must never hide responsibility, scope, or accountability.
 
+## Selective Innovation Mode
+
+Innovation Mode is a deeper thinking protocol for tasks where ordinary execution would likely produce generic, shallow, or locally optimal work.
+
+It is not always on. It can be triggered two ways:
+
+- User-forced: the user explicitly asks for brainstorming, Innovation Mode, deep thinking, unique ideas, out-of-box ideas, or innovation.
+- Role-invoked: a role decides the task deserves deeper ideation because of uncertainty, quality risk, strategic importance, creative upside, weak prior direction, or high cost of choosing the wrong path.
+
+Use Innovation Mode when:
+
+- product/design quality is weak, generic, or undifferentiated
+- the task has many plausible approaches
+- the current plan feels conventional or low-leverage
+- the user asks for "make it better" or similarly broad improvement
+- project direction may be wrong
+- research method may be too narrow
+- implementation architecture will be hard to undo
+- there is a real chance for a differentiated feature, method, or workflow
+
+Do not use Innovation Mode for:
+
+- simple bug fixes
+- obvious small implementation
+- mechanical documentation updates
+- urgent verification steps
+- tasks where the user explicitly asks for speed
+- cases with a clear blocker that brainstorming cannot resolve
+
+When invoked, the role must say it is invoking Innovation Mode and why.
+
+Required format:
+
+```text
+Innovation Mode: invoked / user-forced / skipped
+Reason:
+Problem:
+Options:
+1. Safe path
+2. High-quality conventional path
+3. Unusual but practical path
+4. Bold differentiated path
+5. Simplest path
+Critique:
+- value / risk / cost / originality / fit
+Decision:
+Action:
+```
+
+The role should implement the chosen path only when it is within scope and not consequentially risky. If the best idea is too risky, expensive, irreversible, security-sensitive, method-changing, or release-quality-changing, create a proposal or work order and escalate.
+
+Innovation Mode should create novel but useful options, not random feature spam. Favor ideas that improve the project goal, current milestone, user value, or long-term leverage.
+
 ## Workspace Location Policy
 
 Founder must choose the project workspace deliberately. Do not silently create normal user projects inside the JARVIS vault just because the current shell is in the vault.
@@ -183,7 +237,7 @@ When the user says `continue`:
 4. Pick the highest-priority unblocked task.
 5. Enter the assigned role.
 6. Execute within scope.
-7. Run an out-of-box pass.
+7. Decide whether Selective Innovation Mode is needed. Invoke it when the task deserves deep ideation; otherwise run a compact out-of-box pass.
 8. Verify the output.
 9. Create improvement work orders if quality gaps remain.
 10. Update task board, role memory, current state, and integration log.

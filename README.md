@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.10`
+Current version: `0.0.11`
 
-Latest update: README now includes a workflow refresh prompt for older active chats, so existing project threads can pick up newer JARVIS / Company Mode rules.
+Latest update: Company Mode v0.4 adds Selective Innovation Mode: users can force deep brainstorming, and roles can self-invoke it when a task deserves serious ideation.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -168,7 +168,19 @@ ok
 
 In an active Company Mode project, short acknowledgements such as `ok`, `yes`, `go`, `next`, or `?` should not produce passive replies. They should continue the next unblocked task or explain the exact blocker.
 
-### 12. Release / Version Update
+### 12. Force Innovation Mode
+
+```text
+Jarvis, use JARVIS and JARVIS Company Mode.
+
+For the next task, force Innovation Mode.
+Generate meaningfully different options, critique them for value/risk/cost/originality/fit, then choose the best practical path.
+Do not implement a risky or irreversible idea without creating a proposal or asking first.
+```
+
+Roles may also self-invoke Innovation Mode when the work is ambiguous, strategically important, creatively underdeveloped, expensive to reverse, or likely to become generic without deeper thinking.
+
+### 13. Release / Version Update
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -213,6 +225,7 @@ The optional serious-project layer:
 - adaptive team changes
 - assertive role critique
 - optional role names
+- selective innovation mode
 - GitHub / PR workflow guidance
 - adoption mode for existing projects
 
@@ -400,6 +413,8 @@ Founder and Chief of Staff can evolve the team as the project changes: hire new 
 ```text
 [Role: Product Designer | Name: Iris]
 ```
+
+Roles can also use Selective Innovation Mode. This is deeper than the normal out-of-box pass. It can be forced by the user or self-invoked by a role when a task deserves serious ideation. The role must state why it invoked the mode, compare meaningfully different options, critique them, and choose the best practical path.
 
 For coding projects, the workflow also supports:
 

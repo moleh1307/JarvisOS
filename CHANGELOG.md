@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.11 - 2026-04-28
+
+- Added Company Mode v0.4 Selective Innovation Mode.
+- Users can force deep brainstorming for a role/task.
+- Roles can self-invoke Innovation Mode when uncertainty, quality risk, strategic importance, creative upside, or high reversal cost justifies deeper ideation.
+- Added work-order fields to record whether Innovation Mode was forced, invoked, or skipped.
+
 ## 0.0.10 - 2026-04-28
 
 - Added README workflow refresh prompt for older active chats after JARVIS / Company Mode updates.
