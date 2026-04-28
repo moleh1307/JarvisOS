@@ -116,6 +116,10 @@ It adds:
 - workflow feedback candidates
 - Adoption Mode for existing projects
 
+After an Adoption Mode audit and baseline preservation, takeover means the Company owns the project outcome. Existing code is evidence, not authority; roles may improve, refactor, redesign, or rebuild within charter, quality, verification, and escalation boundaries.
+
+If a Company Mode role identifies necessary follow-up work, it must create, assign, or start the work order unless blocked. Do not end with vague handoffs such as "Founder should..." or "Product Designer should..." when the next task can be made concrete.
+
 For new projects, Founder initializes the company from the user's idea.
 
 For existing projects, Founder acts as Organizational Auditor:
