@@ -8,6 +8,8 @@
 - Priority:
 - Created:
 - Depends on:
+- Parent / interrupted task:
+- Classification: mainline / clarification / defect / side quest / scope change
 - Branch:
 - PR:
 - Version impact: none / patch / minor / major / artifact-only

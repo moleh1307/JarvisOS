@@ -8,6 +8,7 @@
 - Coordinator role:
 - Executing role:
 - Active task:
+- Interrupted / parent task:
 - Review state: active / review / ready-for-user-review / waiting-user-approval / paused
 - Blockers:
 - Next likely task:
@@ -24,6 +25,15 @@
 ## Active Work
 
 What is currently in progress?
+
+## Interruption / Side Quest State
+
+- Current interruption:
+- Classification: none / clarification / defect / side quest / scope change
+- Owning role:
+- Parent task:
+- Resolution state:
+- Resume plan:
 
 ## Blockers / Escalations
 

@@ -15,6 +15,11 @@
 | ID | Owner | Task | Status | Priority | Depends On | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 
+## Interruptions / Side Quests
+
+| ID | Owner | Classification | Task | Status | Parent Task | Resume Plan |
+| --- | --- | --- | --- | --- | --- | --- |
+
 ## Review
 
 | ID | Reviewer | Output | Status | Acceptance Criteria | Notes |
