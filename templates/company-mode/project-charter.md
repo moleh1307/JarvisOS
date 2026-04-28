@@ -4,6 +4,7 @@
 
 - Name:
 - Type: app / website / research / data / writing / other
+- Workspace classification: real active project / experiment / data workspace / archive / JARVIS test-demo
 - Workspace/repo:
 - Company Mode status: active / review / ready-for-user-review / waiting-user-approval / paused / closed
 

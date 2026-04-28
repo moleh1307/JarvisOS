@@ -69,6 +69,20 @@ company/
 
 Use `templates/company-mode/` when available.
 
+## Workspace Location Policy
+
+Founder must choose the project workspace deliberately. Do not silently create normal user projects inside the JARVIS vault just because the current shell is in the vault.
+
+Recommended default:
+
+- Real active projects, apps, products, research repos, and GitHub-bound work: the user's normal active projects folder, for example `~/Projects/Active/<ProjectName>`.
+- Archived real projects: the user's archive folder, for example `~/Projects/Archive/<ProjectName>`.
+- Data-heavy shared datasets or cross-project data stores: the user's data/projects folder, for example `~/Projects/Data/<ProjectName>`.
+- Experiments that are not yet real products: the user's experiments folder, for example `~/Projects/Experiments/<ProjectName>`.
+- JARVIS workflow tests, demos, and throwaway Company Mode trials only: a vault-local folder such as `<JARVIS-vault>/projects/<ProjectName>`.
+
+If a new greenfield app/product/research project does not explicitly say it is a JARVIS test, Founder should use the user's normal active projects folder and create `company/` inside that workspace. If the choice is ambiguous, ask one setup-level question before creating files.
+
 ## Initialization Modes
 
 ### Greenfield Mode
@@ -79,10 +93,11 @@ Founder should:
 
 1. Ask only questions that materially affect setup.
 2. Define goal, non-goals, constraints, risks, and success criteria.
-3. Decide the useful roles and file depth.
-4. Include design/visual QA for user-facing products unless clearly unnecessary.
-5. Create project charter, current state, task board, role charters, role memories, and first work orders.
-6. Add out-of-box expectations to role charters.
+3. Choose the workspace using the Workspace Location Policy.
+4. Decide the useful roles and file depth.
+5. Include design/visual QA for user-facing products unless clearly unnecessary.
+6. Create project charter, current state, task board, role charters, role memories, and first work orders.
+7. Add out-of-box expectations to role charters.
 
 ### Adoption Mode
 

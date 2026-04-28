@@ -5,6 +5,7 @@
 - Objective:
 - Current milestone:
 - Latest status:
+- Workspace classification:
 - Coordinator role:
 - Executing role:
 - Active task:
