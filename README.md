@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.12`
+Current version: `0.0.13`
 
-Latest update: Company Mode v0.5 adds a JARVIS R&D Feedback Loop so real project friction can become triaged workflow improvements instead of getting lost in chat.
+Latest update: Company Mode v0.5.1 adds a canonical `team-roster.md` so role names are file-backed and cannot drift across long chats.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -240,6 +240,7 @@ The optional serious-project layer:
 - adaptive team changes
 - assertive role critique
 - optional role names
+- team roster for canonical role identity
 - selective innovation mode
 - workflow feedback loop
 - GitHub / PR workflow guidance
@@ -430,6 +431,8 @@ Founder and Chief of Staff can evolve the team as the project changes: hire new 
 [Role: Product Designer | Name: Iris]
 ```
 
+Role names are optional and file-backed. `company/team-roster.md` is the canonical source for role title, role name, status, scope, and header format. If a role has no name in the roster, the agent should use only `[Role: <Role Title>]` and must not invent a name from chat context.
+
 Roles can also use Selective Innovation Mode. This is deeper than the normal out-of-box pass. It can be forced by the user or self-invoked by a role when a task deserves serious ideation. The role must state why it invoked the mode, compare meaningfully different options, critique them, and choose the best practical path.
 
 Company Mode also supports a feedback loop for improving the workflow itself. When a project exposes reusable friction, a behavior defect, a missing rule, or a useful emergent pattern, the team can file a compact feedback candidate. A JARVIS R&D / maintainer team can then triage it as `reject`, `document-only`, `patch-skill`, `update-template`, `add-eval-scenario`, or `public-release`. Feedback candidates are not rules until promoted.
@@ -485,6 +488,7 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
     │   ├── role-charter.md
     │   ├── role-memory.md
     │   ├── task-board.md
+    │   ├── team-roster.md
     │   └── work-order.md
     ├── decision-entry.md
     ├── handoff.md

@@ -7,6 +7,9 @@
 - Role slug:
 - Reports to:
 - Can hire/request roles: yes / no / propose only
+- Canonical header:
+
+`company/team-roster.md` is the source of truth for role title, optional name, status, scope, and canonical header. If this charter conflicts with the roster, update this charter or create a reconciliation task; do not improvise a different user-facing identity.
 
 ## Mission
 

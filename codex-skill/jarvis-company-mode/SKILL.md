@@ -7,7 +7,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 Company Mode is an optional JARVIS Light layer for serious projects that benefit from specialist roles.
 
-It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, and feedback loops stored in markdown.
+It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, identity roster, and feedback loops stored in markdown.
 
 ## Use When
 
@@ -27,6 +27,7 @@ Company Mode provides:
 - Chief of Staff continuation loop
 - specialist roles
 - role charters and role memories
+- team roster as canonical role identity registry
 - task board and work orders
 - review gates
 - top-tier quality expectations
@@ -36,7 +37,7 @@ Company Mode provides:
 - git/GitHub/PR guidance for coding projects
 - Adaptive Team Mode: Founder/Chief of Staff can add, merge, retire, or rename roles as the project evolves
 - assertive role autonomy: roles challenge weak assumptions, critique orders, and propose better paths within scope
-- optional role names alongside role titles for persistent project identity
+- optional role names alongside role titles, file-backed by `company/team-roster.md` for persistent project identity
 - Selective Innovation Mode: users can force deep brainstorming, and roles can self-invoke it when the work deserves serious ideation
 - JARVIS R&D Feedback Loop: project teams can report workflow friction, behavior defects, missing rules, or useful emergent patterns back to a JARVIS workflow-maintenance team for triage
 
@@ -56,6 +57,7 @@ Create a `company/` folder inside the project workspace or repo:
 company/
   project-charter.md
   adoption-audit.md      # only for existing-project adoption
+  team-roster.md
   current-state.md
   task-board.md
   integration-log.md
@@ -118,7 +120,7 @@ This is disciplined autonomy, not chaos. Roles may act within their scope after 
 
 ## Role Names
 
-Each project role may give itself a short role-appropriate name during initialization or first activation.
+Each project role may have a short role-appropriate name during initialization or first activation, but names must be file-backed.
 
 Use this format in role charters and user-facing headers:
 
@@ -127,6 +129,25 @@ Use this format in role charters and user-facing headers:
 ```
 
 The role title remains primary. Names are only continuity aids; they must never hide responsibility, scope, or accountability.
+
+`company/team-roster.md` is the canonical source for active role identity:
+
+- role slug
+- role title
+- optional role name
+- status: active / temporary / retired / merged
+- reports to
+- scope
+- canonical header
+
+Rules:
+
+- Never invent a role name in a user-facing header.
+- If `team-roster.md` has no name for the role, use `[Role: <Role Title>]`.
+- If `team-roster.md` defines a name, use `[Role: <Role Title> | Name: <Role Name>]`.
+- Active roles should not share the same name unless one is explicitly marked as an alias, transition, or retired identity.
+- If `team-roster.md`, role memory, and role charter disagree, treat `team-roster.md` as canonical and create a small reconciliation task or feedback candidate.
+- During initialization or adoption, Founder should create `team-roster.md` before named role headers are used.
 
 ## Selective Innovation Mode
 
@@ -243,8 +264,8 @@ Founder should:
 3. Choose the workspace using the Workspace Location Policy.
 4. Decide the useful roles and file depth.
 5. Include design/visual QA for user-facing products unless clearly unnecessary.
-6. Give each role an optional short role-appropriate name while keeping the role title primary.
-7. Create project charter, current state, task board, role charters, role memories, and first work orders.
+6. Decide optional role names while keeping the role title primary.
+7. Create project charter, team roster, current state, task board, role charters, role memories, and first work orders.
 8. Add out-of-box expectations and assertive critique authority to role charters.
 
 ### Adoption Mode
@@ -259,8 +280,8 @@ Founder should:
 2. Read enough evidence to understand reality.
 3. Create `company/adoption-audit.md`.
 4. Separate `User-stated`, `Observed in repo`, `Tool result`, `Agent inference`, and `Unknown / needs confirmation`.
-5. Infer roles from the real project, not a generic template, and give roles optional short names where useful.
-6. Create the Company Mode layer around the existing structure.
+5. Infer roles from the real project, not a generic template, and choose optional short names where useful.
+6. Create the Company Mode layer around the existing structure, including `company/team-roster.md`.
 7. Avoid rewriting, reorganizing, renaming, or migrating existing structure before audit and explicit work orders.
 
 ## Continue Loop
@@ -268,17 +289,18 @@ Founder should:
 When the user says `continue`:
 
 1. Enter `[Role: Chief of Staff]`.
-2. Read `company/current-state.md` and `company/task-board.md`.
-3. Check blocked/review tasks before new work.
-4. Pick the highest-priority unblocked task.
-5. Enter the assigned role.
-6. Execute within scope.
-7. Decide whether Selective Innovation Mode is needed. Invoke it when the task deserves deep ideation; otherwise run a compact out-of-box pass.
-8. Verify the output.
-9. Create improvement work orders if quality gaps remain.
-10. If the task reveals reusable workflow friction or a behavior defect, file a compact feedback candidate instead of burying it in chat.
-11. Update task board, role memory, current state, and integration log.
-12. Report compactly.
+2. Read `company/team-roster.md` if it exists.
+3. Read `company/current-state.md` and `company/task-board.md`.
+4. Check blocked/review tasks before new work.
+5. Pick the highest-priority unblocked task.
+6. Enter the assigned role using the roster-backed header.
+7. Execute within scope.
+8. Decide whether Selective Innovation Mode is needed. Invoke it when the task deserves deep ideation; otherwise run a compact out-of-box pass.
+9. Verify the output.
+10. Create improvement work orders if quality gaps remain.
+11. If the task reveals reusable workflow friction or a behavior defect, file a compact feedback candidate instead of burying it in chat.
+12. Update task board, role memory, current state, and integration log.
+13. Report compactly.
 
 ## No Passive Acknowledgement
 
@@ -309,6 +331,12 @@ Minimum format:
 
 ```text
 [Role: <active role>]
+```
+
+Named format is allowed only when the name exists in `company/team-roster.md`:
+
+```text
+[Role: <active role> | Name: <canonical role name>]
 ```
 
 Use the role that is actually responsible:

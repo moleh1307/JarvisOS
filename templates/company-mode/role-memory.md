@@ -6,6 +6,9 @@
 - Role name:
 - Role slug:
 - Reports to:
+- Canonical header:
+
+`company/team-roster.md` is canonical for role identity. If this memory disagrees with the roster, follow the roster and create a reconciliation task if needed.
 
 ## Current Responsibility
 

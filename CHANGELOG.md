@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.13 - 2026-04-28
+
+- Added Company Mode v0.5.1 canonical role identity registry.
+- Added `company/team-roster.md` template as the source of truth for role title, optional role name, status, scope, and canonical header.
+- Added rule that agents must not invent role names in user-facing headers.
+- Updated Company Mode templates so role charters, role memories, and current state point back to the team roster.
+
 ## 0.0.12 - 2026-04-28
 
 - Added Company Mode v0.5 JARVIS R&D Feedback Loop.

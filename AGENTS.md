@@ -22,6 +22,7 @@ JARVIS Light is a local continuity workflow for Codex. It uses markdown files as
 - Learn from repeated friction, but do not silently rewrite core rules from one-off events.
 - Use JARVIS Company Mode for serious projects when specialist roles, task boards, review gates, or adoption audits would reduce confusion.
 - In Company Mode, record reusable workflow friction as feedback candidates; route general workflow issues to the maintainer/R&D project instead of silently making new rules.
+- In Company Mode, role names must come from `company/team-roster.md`; if no name is defined, use the role title only.
 
 ## Retrieval Order
 
@@ -108,6 +109,7 @@ It adds:
 - task board
 - work orders
 - role memory
+- team roster for canonical role identity
 - review gates
 - internal critique
 - out-of-box thinking
@@ -127,6 +129,8 @@ For existing projects, Founder acts as Organizational Auditor:
 Company Mode should not stop at "it works." User-facing products need design/visual QA and user approval before final acceptance.
 
 If Company Mode itself fails or reveals a reusable improvement, create a compact feedback candidate. A maintainer/R&D project should triage feedback as reject, document-only, patch-skill, update-template, add-eval-scenario, or public-release before it becomes a rule.
+
+Role names are optional and file-backed. Do not invent names from chat context; use `company/team-roster.md` as the source of truth for named headers.
 
 ## Governed Self-Improvement
 

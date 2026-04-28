@@ -18,6 +18,7 @@
 ## Canonical Artifacts
 
 - Project charter:
+- Team roster:
 - Task board:
 - Integration log:
 - Repo/workspace:
@@ -30,7 +31,7 @@ What is currently in progress?
 ## Team State
 
 - Active roles:
-- Named identities:
+- Named identities: source of truth is `company/team-roster.md`
 - Roles added/retired/merged:
 - Role gaps Founder is watching:
 
