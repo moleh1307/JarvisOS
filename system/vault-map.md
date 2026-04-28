@@ -10,6 +10,8 @@ Root operating rules.
 
 Installable Codex skill package. Copy `codex-skill/jarvis/SKILL.md` into `~/.codex/skills/jarvis/SKILL.md`.
 
+Optional Company Mode skill lives at `codex-skill/jarvis-company-mode/SKILL.md`.
+
 ### `memory/projects/`
 
 Durable project notes and current-state summaries. Start with `memory/projects/index.md`.
@@ -34,6 +36,8 @@ Durable decisions.
 
 Reusable note templates.
 
+`templates/company-mode/` contains optional templates for role-based projects: adoption audit, project charter, current state, task board, role charter, role memory, work order, and integration log.
+
 ### `system/`
 
 System-level notes for the workflow itself:
@@ -53,3 +57,4 @@ System-level notes for the workflow itself:
 - Candidate self-improvement lesson -> `system/learning-log.md`
 - Recurring failure pattern -> `system/failure-patterns.md`
 - Consequential proposed workflow change -> `system/proposals/`
+- Company Mode project operation -> project-local `company/` folder, guided by `codex-skill/jarvis-company-mode/SKILL.md` and `templates/company-mode/`

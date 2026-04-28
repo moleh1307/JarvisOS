@@ -20,6 +20,7 @@ JARVIS Light is a local continuity workflow for Codex. It uses markdown files as
 - Use clickable absolute markdown links when referencing local artifacts.
 - Verify exact artifacts before saying they are ready.
 - Learn from repeated friction, but do not silently rewrite core rules from one-off events.
+- Use JARVIS Company Mode for serious projects when specialist roles, task boards, review gates, or adoption audits would reduce confusion.
 
 ## Retrieval Order
 
@@ -93,6 +94,35 @@ Project notes should stay quick to scan. If a project note becomes a long chrono
 - `memory/projects/<project>/decisions.md` if project-local decisions need a home
 
 Do not split preemptively. Split only when retrieval is getting worse, and leave a clear pointer from the old project note.
+
+## Company Mode
+
+Company Mode is optional. Use it when a project is large enough that specialist roles would improve the work.
+
+It adds:
+
+- Founder / Project Architect
+- Chief of Staff
+- specialist roles
+- task board
+- work orders
+- role memory
+- review gates
+- internal critique
+- out-of-box thinking
+- Adoption Mode for existing projects
+
+For new projects, Founder initializes the company from the user's idea.
+
+For existing projects, Founder acts as Organizational Auditor:
+
+1. inspect the repo/folder first,
+2. create `company/adoption-audit.md`,
+3. separate observed facts from inferences and unknowns,
+4. infer roles from actual project structure,
+5. avoid reorganizing or rewriting before explicit work orders.
+
+Company Mode should not stop at "it works." User-facing products need design/visual QA and user approval before final acceptance.
 
 ## Governed Self-Improvement
 

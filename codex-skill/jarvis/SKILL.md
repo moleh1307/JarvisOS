@@ -20,6 +20,7 @@ JARVIS Light is a local, markdown-first operating mode for Codex. Treat the vaul
 - Treat `Downloads` and Desktop copies as temporary or delivery copies unless explicitly declared canonical.
 - Use clickable absolute markdown links when referencing local artifacts in user-facing responses.
 - Learn from repeated friction through `system/learning-log.md`, but do not silently rewrite core rules from one-off events.
+- For serious projects that need specialist perspectives, use the optional `jarvis-company-mode` skill: Founder, Chief of Staff, roles, task boards, review gates, adoption audits, and `continue` commands.
 
 ## Retrieve Context First
 
@@ -84,6 +85,14 @@ Use `system/failure-patterns.md` for stable recurring failure modes and `system/
 Promotion statuses are: `candidate`, `repeated`, `promoted`, `rejected`, and `superseded`.
 
 Do not create learning entries for tiny tasks or one-off preferences. Do not let self-improvement become ceremony.
+
+## Company Mode Add-On
+
+When a project is too large for one undifferentiated agent mode, use Company Mode. It keeps normal JARVIS Light memory rules but adds project-local role files under `company/`, including Founder, Chief of Staff, specialist charters, role memories, task board, work orders, review gates, and integration log.
+
+In active Company Mode projects, interpret `continue` as: Chief of Staff reads durable state, selects the next unblocked task, enters the assigned role, executes within scope, verifies, updates memory, and reports compactly.
+
+For existing projects, use Adoption Mode: audit the repo/folder first, separate observed facts from inferences, then create the company layer around the actual structure.
 
 ## Choose The Right Note
 
