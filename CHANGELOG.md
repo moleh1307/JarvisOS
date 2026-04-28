@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.10 - 2026-04-28
+
+- Added README workflow refresh prompt for older active chats after JARVIS / Company Mode updates.
+- Clarified when to refresh an existing chat versus create a fresh-chat handoff.
+
 ## 0.0.9 - 2026-04-28
 
 - Added Company Mode no-passive-acknowledgement rule.

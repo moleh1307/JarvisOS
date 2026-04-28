@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.9`
+Current version: `0.0.10`
 
-Latest update: Company Mode now has a no-passive-acknowledgement rule, so short replies like `ok`, `yes`, `go`, or `?` keep active projects moving when the next task is clear.
+Latest update: README now includes a workflow refresh prompt for older active chats, so existing project threads can pick up newer JARVIS / Company Mode rules.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -47,7 +47,34 @@ This chat is getting long. Create a fresh-chat handoff for this project.
 Include current objective, completed work, blockers, exact next steps, and files the next chat should read first.
 ```
 
-### 3. New App Or Product
+### 3. Refresh An Older Active Chat
+
+Use this when JARVIS or Company Mode has been updated while an older project chat is still active.
+
+```text
+Jarvis, workflow refresh.
+
+Read the latest installed JARVIS and JARVIS Company Mode skills before continuing:
+- ~/.codex/skills/jarvis/SKILL.md
+- ~/.codex/skills/jarvis-company-mode/SKILL.md
+
+Then read this project's company/current-state.md and company/task-board.md.
+
+Follow the latest workflow rules from now on, especially:
+- role header on every Company Mode reply
+- no passive acknowledgement; ok/yes/go/next/? should continue when unblocked
+- Founder can evolve the team when needed
+- roles should critique weak orders and propose better paths
+- version changes must update visible docs
+```
+
+For long or messy threads, use a fresh-chat handoff instead of trying to keep the old chat alive.
+
+```text
+Jarvis, create a fresh-chat handoff for this project using the latest JARVIS workflow.
+```
+
+### 4. New App Or Product
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -61,7 +88,7 @@ Ask only setup questions that materially affect the project.
 Choose the right workspace, create the team, and start with the highest-leverage first work orders.
 ```
 
-### 4. Existing Repo Adoption
+### 5. Existing Repo Adoption
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -74,7 +101,7 @@ Audit first, then create the company layer around the existing structure.
 Do not reorganize or rewrite anything before the audit.
 ```
 
-### 5. Research Project
+### 6. Research Project
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -86,7 +113,7 @@ Your first role is Principal Investigator / Founder.
 Clarify the research question, identify required roles, define methodology risks, and create the first work orders.
 ```
 
-### 6. Data / Quant Project
+### 7. Data / Quant Project
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -99,7 +126,7 @@ Create roles for data engineering, modeling/statistics, validation, and reproduc
 Do not let anyone call results ready without verification and artifact hygiene.
 ```
 
-### 7. Website Or Launch Page
+### 8. Website Or Launch Page
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -111,7 +138,7 @@ Founder should include Product Designer, Frontend Engineer, Copy/Positioning, an
 The team should critique weak design or messaging without waiting for me to say "make it better."
 ```
 
-### 8. Writing / Thesis / Book
+### 9. Writing / Thesis / Book
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
@@ -123,7 +150,7 @@ Founder should create roles for research, outline, drafting, critical review, an
 Keep citations, claims, and next writing tasks durable in markdown.
 ```
 
-### 9. Bug Or Side Quest During Company Mode
+### 10. Bug Or Side Quest During Company Mode
 
 ```text
 Jarvis, side quest for the current Company Mode project:
@@ -133,7 +160,7 @@ Classify this as clarification, defect, side quest, or scope change.
 Preserve the interrupted task and tell me whether the main flow resumes afterward.
 ```
 
-### 10. Keep Going Without Micromanaging
+### 11. Keep Going Without Micromanaging
 
 ```text
 ok
@@ -141,7 +168,7 @@ ok
 
 In an active Company Mode project, short acknowledgements such as `ok`, `yes`, `go`, `next`, or `?` should not produce passive replies. They should continue the next unblocked task or explain the exact blocker.
 
-### 11. Release / Version Update
+### 12. Release / Version Update
 
 ```text
 Jarvis, use JARVIS and JARVIS Company Mode.
