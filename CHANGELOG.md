@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.15 - 2026-04-28
+
+- Added Company Mode v0.5.3 Founder-led discovery clarification.
+- Founder should ask all material project questions before deciding roles, company depth, and first work orders.
+- Examples no longer ask the user to pre-select roles for data, research, website, or writing projects.
+- Updated workflow refresh prompt with current v0.5.x roster, feedback, GitHub autonomy, and explicit next-action rules.
+
 ## 0.0.14 - 2026-04-28
 
 - Added Company Mode v0.5.2 GitHub autonomy clarification.

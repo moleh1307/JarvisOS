@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.14`
+Current version: `0.0.15`
 
-Latest update: Company Mode v0.5.2 clarifies GitHub autonomy and requires explicit next-action language instead of vague "likely" wording.
+Latest update: Company Mode v0.5.3 clarifies Founder-led discovery: the Founder asks all material questions first, then decides the team and first work orders.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -58,14 +58,29 @@ Read the latest installed JARVIS and JARVIS Company Mode skills before continuin
 - ~/.codex/skills/jarvis/SKILL.md
 - ~/.codex/skills/jarvis-company-mode/SKILL.md
 
-Then read this project's company/current-state.md and company/task-board.md.
+Then read:
+- company/team-roster.md if it exists
+- company/current-state.md
+- company/task-board.md
+
+If company/team-roster.md does not exist, create or propose a small workflow refresh task to add it.
 
 Follow the latest workflow rules from now on, especially:
-- role header on every Company Mode reply
+- every Company Mode reply starts with a roster-backed role header
+- role names are optional and must come from company/team-roster.md
+- if no role name exists, use only [Role: Role Title]
 - no passive acknowledgement; ok/yes/go/next/? should continue when unblocked
 - Founder can evolve the team when needed
 - roles should critique weak orders and propose better paths
 - version changes must update visible docs
+- reusable workflow friction should become a feedback candidate
+- verified role/task branch pushes and PR updates can proceed without asking when the remote exists and no sensitive/release risk is present
+- ask before pushing to main, merging, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or risking secrets/private memory
+- every completion should state verification, blockers, and one explicit next-action label:
+  - Next task:
+  - Blocked:
+  - Decision needed:
+  - Ready for review:
 ```
 
 For long or messy threads, use a fresh-chat handoff instead of trying to keep the old chat alive.
@@ -84,8 +99,8 @@ Project idea:
 ...
 
 Your first role is Founder.
-Ask only setup questions that materially affect the project.
-Choose the right workspace, create the team, and start with the highest-leverage first work orders.
+Ask all material questions needed to understand the project.
+Then choose the right workspace, decide the team, and create the first high-leverage work orders.
 ```
 
 ### 5. Existing Repo Adoption
@@ -110,7 +125,8 @@ Start a research team for:
 ...
 
 Your first role is Principal Investigator / Founder.
-Clarify the research question, identify required roles, define methodology risks, and create the first work orders.
+Ask all material questions needed to understand the research question, data, method, risks, and success criteria.
+Then decide the research team and create the first work orders.
 ```
 
 ### 7. Data / Quant Project
@@ -122,7 +138,8 @@ Start a data/quant project for:
 ...
 
 Your first role is Founder.
-Create roles for data engineering, modeling/statistics, validation, and reproducibility as needed.
+Ask all material questions needed to understand the data, objective, constraints, validation needs, and delivery target.
+Then decide the required team and first work orders.
 Do not let anyone call results ready without verification and artifact hygiene.
 ```
 
@@ -134,7 +151,8 @@ Jarvis, use JARVIS and JARVIS Company Mode.
 Build a serious website for:
 ...
 
-Founder should include Product Designer, Frontend Engineer, Copy/Positioning, and Visual QA if useful.
+Founder should ask all material questions needed to understand the audience, offer, brand, content, visual direction, constraints, and success criteria.
+Then decide the team and first work orders.
 The team should critique weak design or messaging without waiting for me to say "make it better."
 ```
 
@@ -146,7 +164,8 @@ Jarvis, use JARVIS and JARVIS Company Mode.
 Create an editorial team for:
 ...
 
-Founder should create roles for research, outline, drafting, critical review, and production editing as needed.
+Founder should ask all material questions needed to understand audience, thesis, scope, sources, tone, structure, and delivery format.
+Then decide the editorial team and first work orders.
 Keep citations, claims, and next writing tasks durable in markdown.
 ```
 
@@ -381,9 +400,10 @@ Examples:
 
 Use this when starting from an idea.
 
-The Founder asks only setup-level questions, then creates:
+The Founder asks all material questions needed to understand the project, then creates:
 
 - project charter
+- team roster
 - current state
 - task board
 - role charters

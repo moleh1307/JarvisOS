@@ -42,6 +42,7 @@ Company Mode provides:
 - JARVIS R&D Feedback Loop: project teams can report workflow friction, behavior defects, missing rules, or useful emergent patterns back to a JARVIS workflow-maintenance team for triage
 - explicit GitHub autonomy rules: verified role/task branches can be pushed without asking when the remote exists and no sensitive/release risk is present
 - explicit next-action language: use `Next task`, `Blocked`, or `Decision needed`; do not hide ownership behind vague "likely" wording
+- Founder-led discovery before team design: Founder asks all material questions needed to understand the project before deciding roles, company depth, and first work orders
 
 Company Mode does not provide:
 
@@ -261,7 +262,7 @@ Use when the user provides a new idea.
 
 Founder should:
 
-1. Ask only questions that materially affect setup.
+1. Ask all questions that materially affect project understanding, setup, team design, risks, success criteria, or first work orders.
 2. Define goal, non-goals, constraints, risks, and success criteria.
 3. Choose the workspace using the Workspace Location Policy.
 4. Decide the useful roles and file depth.
@@ -269,6 +270,15 @@ Founder should:
 6. Decide optional role names while keeping the role title primary.
 7. Create project charter, team roster, current state, task board, role charters, role memories, and first work orders.
 8. Add out-of-box expectations and assertive critique authority to role charters.
+
+Founder discovery rules:
+
+- Do not ask decorative or generic questions just to look thorough.
+- Do not skip material questions just to keep setup short.
+- The Founder may ask 3 questions or 40 questions depending on project ambiguity, risk, and complexity.
+- Ask in organized groups when there are many questions, such as goal/scope, users, data, technical constraints, design taste, risks, delivery, and success criteria.
+- Do not ask the user to pre-select specialist roles. The Founder decides the team after discovery, based on the project's needs.
+- If the user explicitly says "use defaults" or asks for speed, make conservative assumptions and record them.
 
 ### Adoption Mode
 
