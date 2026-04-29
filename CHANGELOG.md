@@ -1,9 +1,16 @@
 # Changelog
 
+## 0.0.32 - 2026-04-29
+
+- Merged the public `jarvis` and `jarvis-company-mode` skill packages into one `jarvis-os` package.
+- Kept the skill set split internally through progressive `codex-skill/jarvis-os/references/` files.
+- Removed the separate public `codex-skill/jarvis` and `codex-skill/jarvis-company-mode` folders.
+- Updated README install and start prompts so users install one skill and let JARVIS OS choose Core or Specialist Mode from the task shape.
+
 ## 0.0.31 - 2026-04-29
 
 - Introduced JARVIS Specialist Mode as the future-facing name for the role-based project workflow.
-- Preserved Company Mode as a compatibility alias for existing prompts, folders, chats, and the `jarvis-company-mode` package path.
+- Preserved Company Mode as a compatibility alias for existing prompts, folders, chats, and the legacy `jarvis-company-mode` package path at that version.
 - Shifted public README framing toward JARVIS OS while noting that the repository path may keep the older JARVIS Light name during migration.
 - Updated the public README, AGENTS instructions, JARVIS skill, Specialist Mode skill, and key references so both old and new invocation phrases remain clear.
 

@@ -16,7 +16,7 @@ Run this playbook when:
 ## Refresh Procedure
 
 1. Start with a roster-backed role header. Use Chief of Staff for normal refresh/routing, Skill Engineer for skill/template fixes, Workflow Architect for workflow diagnosis.
-2. Read the latest installed `jarvis` and `jarvis-company-mode` `SKILL.md` files.
+2. Read the latest installed `jarvis-os` `SKILL.md` file.
 3. Read live project state:
    - `company/team-roster.md` if it exists
    - `company/current-state.md`

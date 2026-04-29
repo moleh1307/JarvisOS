@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.31`
+Current version: `0.0.32`
 
-Latest update: JARVIS Specialist Mode is now the future-facing name for the role-based project workflow. Company Mode remains a compatibility alias, and the public template still preserves the existing `jarvis-company-mode` package path.
+Latest update: JARVIS OS is now a single Codex skill package. The old `jarvis` and `jarvis-company-mode` packages are merged into `jarvis-os`; Specialist Mode lives inside `jarvis-os/references/` and Company Mode remains a compatibility alias.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -34,7 +34,7 @@ Use these prompts as starting points. Replace the project details and paths.
 ### 1. Normal Continuity Work
 
 ```text
-Jarvis, use JARVIS.
+Jarvis, use JARVIS OS.
 
 Read the relevant project memory first, then help me with:
 ...
@@ -43,7 +43,7 @@ Read the relevant project memory first, then help me with:
 ### 2. Fresh-Chat Handoff
 
 ```text
-Jarvis, use JARVIS.
+Jarvis, use JARVIS OS.
 
 This chat is getting long. Create a fresh-chat handoff for this project.
 Include current objective, completed work, blockers, exact next steps,
@@ -57,12 +57,11 @@ Use this when JARVIS or Specialist Mode / Company Mode has been updated while an
 ```text
 Jarvis, workflow refresh.
 
-Use JARVIS and JARVIS Specialist Mode.
+Use JARVIS OS Specialist Mode.
 
-Read the latest installed skills:
-- ~/.codex/skills/jarvis/SKILL.md
-- ~/.codex/skills/jarvis-company-mode/SKILL.md
-- ~/.codex/skills/jarvis-company-mode/references/workflow-refresh.md if it exists
+Read the latest installed JARVIS OS skill:
+- ~/.codex/skills/jarvis-os/SKILL.md
+- ~/.codex/skills/jarvis-os/references/workflow-refresh.md if it exists
 
 Then read the live project state:
 - company/team-roster.md if it exists
@@ -96,7 +95,7 @@ Jarvis, create a fresh-chat handoff for this project using the latest JARVIS wor
 ### 4. New App Or Product
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Start a new project in Specialist Mode.
 Project idea:
@@ -110,7 +109,7 @@ Then choose the right workspace, decide the team, and create the first high-leve
 ### 5. Existing Repo Adoption
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Adopt this existing project into Specialist Mode:
 /path/to/project
@@ -123,7 +122,7 @@ Do not reorganize or rewrite anything before the audit.
 ### 6. Research Project
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Start a research team for:
 ...
@@ -137,7 +136,7 @@ Then decide the research team and create the first work orders.
 ### 7. Data / Quant Project
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Start a data/quant project for:
 ...
@@ -152,7 +151,7 @@ Do not let anyone call results ready without verification and artifact hygiene.
 ### 8. Website Or Launch Page
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Build a serious website for:
 ...
@@ -166,7 +165,7 @@ The team should critique weak design or messaging without waiting for me to say 
 ### 9. Writing / Thesis / Book
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Create an editorial team for:
 ...
@@ -198,7 +197,7 @@ In an active Specialist Mode / Company Mode project, short acknowledgements such
 ### 12. Force Innovation Mode
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 For the next task, force Innovation Mode.
 Generate meaningfully different options.
@@ -214,7 +213,7 @@ Roles may also self-invoke Innovation Mode when the work is ambiguous, strategic
 Use this when a real project exposes a reusable JARVIS / Specialist Mode improvement.
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Feedback for the workflow:
 ...
@@ -227,7 +226,7 @@ Do not turn it into a standing rule until it is triaged.
 ### 14. Release / Version Update
 
 ```text
-Jarvis, use JARVIS and JARVIS Specialist Mode.
+Jarvis, use JARVIS OS Specialist Mode.
 
 Run release readiness for this project.
 Check verification, version metadata, README/changelog visibility,
@@ -605,9 +604,9 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
 .
 ├── AGENTS.md
 ├── codex-skill/
-│   ├── jarvis/
-│   │   └── SKILL.md
-│   └── jarvis-company-mode/
+│   └── jarvis-os/
+│       ├── agents/
+│       │   └── openai.yaml
 │       ├── SKILL.md
 │       └── references/
 │           ├── adoption-takeover.md
@@ -667,30 +666,23 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
    cd ~/JARVIS
    ```
 
-2. Install the base JARVIS skill:
+2. Install the single JARVIS OS skill:
 
    ```bash
-   mkdir -p ~/.codex/skills/jarvis
-   cp codex-skill/jarvis/SKILL.md ~/.codex/skills/jarvis/SKILL.md
-   ```
-
-3. Optional: install Specialist Mode:
-
-   ```bash
-   rm -rf ~/.codex/skills/jarvis-company-mode
+   rm -rf ~/.codex/skills/jarvis ~/.codex/skills/jarvis-company-mode ~/.codex/skills/jarvis-os
    mkdir -p ~/.codex/skills
-   cp -R codex-skill/jarvis-company-mode ~/.codex/skills/jarvis-company-mode
+   cp -R codex-skill/jarvis-os ~/.codex/skills/jarvis-os
    ```
 
-4. Start Codex from the vault folder.
+3. Start Codex from the vault folder.
 
-5. For normal continuity work:
+4. For normal continuity work:
 
    ```text
-   Jarvis, use JARVIS. Read the relevant project memory first.
+   Jarvis, use JARVIS OS. Read the relevant project memory first.
    ```
 
-6. For Specialist Mode examples, use the copy-paste starts near the top of this README.
+5. For Specialist Mode examples, use the copy-paste starts near the top of this README.
 
 ## Operating Loop
 
@@ -733,7 +725,7 @@ If not, do not write memory just to write memory.
 2. Edit `memory/projects/index.md`.
 3. Create one project note from `templates/project-memory.md`.
 4. Keep `AGENTS.md` as the root operating rule file.
-5. Install only the skills you actually want to use.
+5. Install the single `jarvis-os` skill from `codex-skill/jarvis-os`.
 
 ## Publishing Your Own Fork
 

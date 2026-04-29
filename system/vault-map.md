@@ -8,9 +8,9 @@ Root operating rules.
 
 ### `codex-skill/`
 
-Installable Codex skill package. Copy `codex-skill/jarvis/SKILL.md` into `~/.codex/skills/jarvis/SKILL.md`.
+Installable Codex skill package. Copy `codex-skill/jarvis-os/` into `~/.codex/skills/jarvis-os/`.
 
-Optional Specialist Mode / Company Mode skill lives at `codex-skill/jarvis-company-mode/SKILL.md`.
+Specialist Mode / Company Mode references live inside `codex-skill/jarvis-os/references/`; there is no separate Specialist Mode skill package.
 
 ### `memory/projects/`
 
@@ -57,4 +57,4 @@ System-level notes for the workflow itself:
 - Candidate self-improvement lesson -> `system/learning-log.md`
 - Recurring failure pattern -> `system/failure-patterns.md`
 - Consequential proposed workflow change -> `system/proposals/`
-- Specialist Mode / Company Mode project operation -> project-local `company/` folder, guided by `codex-skill/jarvis-company-mode/SKILL.md` and `templates/company-mode/`
+- Specialist Mode / Company Mode project operation -> project-local `company/` folder, guided by `codex-skill/jarvis-os/SKILL.md` and `templates/company-mode/`

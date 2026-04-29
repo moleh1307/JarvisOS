@@ -1,0 +1,4 @@
+interface:
+  display_name: "JARVIS OS"
+  short_description: "Local continuity plus optional Specialist Mode"
+  default_prompt: "Use $jarvis-os. Read the relevant local context, decide whether this needs Core or Specialist Mode, execute the task, and preserve durable state."

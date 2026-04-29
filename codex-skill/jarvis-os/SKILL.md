@@ -1,11 +1,18 @@
 ---
-name: jarvis
-description: "Persistent local-first operating protocol for Codex using a markdown vault for continuity across chats, projects, coding, research, and planning. Use when Codex should retrieve relevant markdown context before acting, ask on consequential ambiguity, perform the task, and update project/session/handoff notes when durable state changes."
+name: jarvis-os
+description: "Unified JARVIS OS operating protocol for Codex. Use for local-first markdown continuity across chats, projects, coding, research, planning, memory, decisions, artifacts, handoffs, and Specialist Mode / Company Mode. For ordinary work, run lightweight JARVIS Core. For serious projects, agent teams, Founder/Chief-of-Staff flows, adoption audits, work orders, and role-based execution, activate JARVIS Specialist Mode from the references inside this same skill."
 ---
 
 # JARVIS OS
 
 JARVIS OS is a local, markdown-first operating mode for Codex. Treat the vault as durable memory and the current chat as a temporary working surface. This public template was formerly named JARVIS Light; the old name remains a compatibility label.
+
+This single skill includes both layers:
+
+- **JARVIS Core**: lightweight continuity for normal tasks.
+- **JARVIS Specialist Mode**: role/team workflow for serious projects, formerly Company Mode.
+
+The user should only need to install and invoke this one skill. `Company Mode` remains a compatibility alias for Specialist Mode prompts and project folders.
 
 ## Outcome Contract
 
@@ -33,7 +40,19 @@ Before finishing meaningful work, the outcome should satisfy:
 - Treat `Downloads` and Desktop copies as temporary or delivery copies unless explicitly declared canonical.
 - Use clickable absolute markdown links when referencing local artifacts in user-facing responses.
 - Learn from repeated friction through `system/learning-log.md`, but do not silently rewrite core rules from one-off events.
-- For serious projects that need specialist perspectives, use the optional JARVIS Specialist Mode layer provided by the `jarvis-company-mode` skill: Founder, Chief of Staff, roles, task boards, review gates, adoption audits, and `continue` commands. `Company Mode` remains a supported compatibility alias.
+- For serious projects that need specialist perspectives, activate JARVIS Specialist Mode from this skill's references: Founder, Chief of Staff, roles, task boards, review gates, adoption audits, and `continue` commands. `Company Mode` remains a supported compatibility alias.
+
+## Choose Core Or Specialist Mode
+
+Default to JARVIS Core when the user asks for a normal single-agent task: answer a question, edit a file, continue one project, create an artifact, inspect memory, or do ordinary coding/research help.
+
+Activate Specialist Mode when the work benefits from durable role separation or project governance:
+
+- the user asks for Specialist Mode, Company Mode, an agent team, an agent army, a company, a studio, or a research team;
+- the task is a serious greenfield project, existing-project adoption, product/app/site build, research program, data/quant project, release, or long-running workflow;
+- the project needs Founder/Chief-of-Staff routing, work orders, role memories, QA gates, internal review, or autonomous `continue` behavior.
+
+If the user gives a serious project but does not name a mode, infer the appropriate mode from the project shape. Ask only when the mode choice would materially change risk, scope, cost, or file layout.
 
 ## Retrieve Context First
 
@@ -122,6 +141,21 @@ Do not create learning entries for tiny tasks or one-off preferences. Do not let
 ## Specialist Mode Add-On
 
 When a project is too large for one undifferentiated agent mode, use JARVIS Specialist Mode. It keeps normal JARVIS OS memory rules but adds project-local role files under `company/`, including Founder, Chief of Staff, specialist charters, role memories, team roster, task board, work orders, review gates, adaptive project-shape inference, operating mode, workflow feedback, and integration log. `Company Mode` remains valid for older prompts, folders, and chats.
+
+Load Specialist Mode details progressively from this skill's `references/` folder:
+
+- Greenfield setup: `references/greenfield.md`
+- Existing-project adoption or takeover: `references/adoption-takeover.md`
+- Workflow refresh for older active chats: `references/workflow-refresh.md`
+- Continue/status/short replies/interruptions/response preflight: `references/continuation.md`
+- Adaptive project-shape inference, operating modes, confidence lanes, adversarial review, Claim Review Loop, and queue re-ranking: `references/adaptive-operating-patterns.md`
+- Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
+- Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
+- Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
+- GitHub, PRs, releases, versioning, and repo readiness: `references/github-release-versioning.md`
+- Selective Innovation Mode and workflow feedback: `references/innovation-feedback.md`
+
+Do not load every reference by default. Read the smallest reference set that matches the active task and operating mode.
 
 In active Specialist Mode / Company Mode projects, interpret `continue` as: Chief of Staff reads durable state, selects the next unblocked task, enters the assigned role, executes within scope, verifies, updates memory, and reports compactly.
 
