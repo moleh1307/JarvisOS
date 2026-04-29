@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.25`
+Current version: `0.0.26`
 
-Latest update: Company Mode v0.8.1 adds Operating Mode Declaration so `continue` routes differently for discovery, build, audit, polish, release, dogfood, research attack, recovery, and maintenance.
+Latest update: the older-chat workflow refresh prompt is now compact and stable. The installed skills remain the source of truth for the detailed rules.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -54,56 +54,33 @@ Use this when JARVIS or Company Mode has been updated while an older project cha
 ```text
 Jarvis, workflow refresh.
 
-Read the latest installed JARVIS and JARVIS Company Mode skills before continuing:
+Use JARVIS and JARVIS Company Mode.
+
+Read the latest installed skills:
 - ~/.codex/skills/jarvis/SKILL.md
 - ~/.codex/skills/jarvis-company-mode/SKILL.md
 
-Then read:
+Then read the live project state:
 - company/team-roster.md if it exists
 - company/current-state.md
 - company/task-board.md
+- company/integration-log.md if it exists
 
-If company/team-roster.md does not exist, create or propose a small workflow refresh task to add it.
+If this project is missing newer Company Mode fields, create a small workflow refresh task and update the company state before continuing.
 
-Follow the latest workflow rules from now on, especially:
-- every Company Mode reply starts with a roster-backed role header
-- before every user-facing reply, run Response Preflight; if Company Mode is active or the topic is Company Mode/workflow R&D, the first line must be the roster-backed role header
-- if unsure which role owns the reply, use Chief of Staff for routing/status, Workflow Architect for workflow diagnosis/design, and Skill Engineer for skill/rule/template changes
-- role names are optional and must come from company/team-roster.md
-- if no role name exists, use only [Role: Role Title]
-- no passive acknowledgement; ok/yes/go/next/? should continue when unblocked
-- Founder can evolve the team when needed
-- roles should critique weak orders and propose better paths
-- version changes must update visible docs
-- reusable workflow friction should become a feedback candidate
-- internal role review is the default; do not ask me for routine comments/review/approval when the team can decide
-- internally accept milestones after role review and QA, then continue to the next useful task
-- craft-critical user-facing work must classify craft criticality, activate design leadership, run reference intelligence, write an art direction brief, compare divergent concepts, and pass screenshot-based Design QA before major implementation
-- if UI/visual work is rejected as generic, ugly, AI-looking, template-like, or not best-in-field, re-enter Creative Preproduction instead of restyling incrementally or asking me for taste by default
-- before creating or reshaping a serious project, Founder runs Project-Shape Inference: infer what kind of work this is, what makes success hard, what evidence matters, what roles/artifacts are needed, and which verification/adversarial gates are justified
-- company/current-state.md should declare an Operating mode, and Chief of Staff should use it to route `continue` rather than treating every phase like generic task execution
-- do not use fixed project-type recipes; choose roles/artifacts from the actual project shape
-- use confidence lanes for consequential claims/results: verified, working-assumption, speculative, needs-audit, rejected
-- trigger adversarial review for major proof claims, design directions, method choices, architecture decisions, data results, release candidates, or public claims
-- after meaningful discoveries, Chief of Staff should check whether the bottleneck changed and re-rank the queue instead of blindly following old work orders
-- after adoption audit and baseline preservation, takeover means the company owns the project outcome
-- if a role identifies necessary follow-up work, it must create/assign/start the work order unless blocked
-- if I approve a listed set of safe actions, execute the whole approved set instead of asking again item by item
-- project-scoped free dev/test dependencies, official stack plugins, and normal test assets can be installed when required by the accepted stack or QA plan unless they require sudo/global install, credentials, paid services, telemetry/cloud enablement, destructive changes, or unusual system-level impact
-- approval for a dependency/tooling class carries through the current task chain; do not ask again for exact package-manager commands after I approve the class or say not to ask again
-- clean isolated agent-created QA/demo data without asking when needed for review/release; ask only before touching real user data
-- report single-role work as the executing role, and multi-role aggregate work as Chief of Staff
-- after several QA/infrastructure tasks, Founder or Chief of Staff should check whether the next task improves product/research value rather than only adding more tests
-- verified role/task branch pushes and PR updates can proceed without asking when the remote exists and no sensitive/release risk is present
-- when I provide a GitHub repo URL for a coding project, configure it and push a verified README-backed baseline unless there is a concrete blocker
-- after internal acceptance, merge safe role/task branches and push main when project policy allows
-- ask before protected/default branch changes when policy is unknown, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or risking secrets/private memory
-- every completion should state verification, blockers, and one explicit next-action label:
-  - Next task:
-  - Blocked:
-  - Decision needed:
-  - User review requested:
+Continue from the next unblocked task using the latest workflow rules.
+Do not ask me for routine review or approval unless the latest escalation rules require it.
 ```
+
+The installed skills are the source of truth. This prompt intentionally does not copy every rule into the README, because the detailed rules change over time.
+
+A successful refresh should usually reconcile:
+
+- roster-backed role headers
+- `company/current-state.md` operating mode
+- no-passive-acknowledgement continuation
+- internal review and autonomous next-task routing
+- README, changelog, version, QA, GitHub, and release-safety surfaces
 
 For long or messy threads, use a fresh-chat handoff instead of trying to keep the old chat alive.
 

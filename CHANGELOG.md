@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.26 - 2026-04-29
+
+- Replaced the oversized README workflow refresh prompt with a compact, stable prompt.
+- Clarified that installed JARVIS skills are the source of truth for detailed refresh behavior.
+- Added a short refresh reconciliation checklist instead of copying the full evolving rule set into GitHub README.
+
 ## 0.0.25 - 2026-04-29
 
 - Added Company Mode v0.8.1 Operating Mode Declaration.
