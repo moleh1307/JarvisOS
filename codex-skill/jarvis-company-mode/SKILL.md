@@ -5,7 +5,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 # JARVIS Company Mode
 
-Company Mode v0.6.3 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, and feedback loops stored in markdown.
+Company Mode v0.7 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, and feedback loops stored in markdown.
 
 Use when the user asks for:
 
@@ -24,6 +24,7 @@ Read only the references needed for the current task:
 - Continue/status/short replies/interruptions: `references/continuation.md`
 - Roles, team roster, role names, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
+- Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
 - GitHub, PRs, releases, versioning, and repo readiness: `references/github-release-versioning.md`
 - Selective Innovation Mode and workflow feedback: `references/innovation-feedback.md`
 
@@ -71,6 +72,8 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 - Existing code is evidence, not authority.
 - Roles are responsible operators, not order-taking personas; they critique weak plans and propose better paths.
 - User-facing products need design/product quality ownership and visual/material QA responsibility.
+- Craft-critical or signature user-facing work requires Creative Preproduction before major implementation: craft criticality classification, design leadership, reference intelligence, art direction, divergent concepts, and screenshot-based Design QA.
+- If user-facing work is rejected as generic, ugly, AI-looking, template-like, or not best-in-field, do not restyle incrementally or ask the user for taste by default; re-enter Creative Preproduction and produce a stronger direction internally.
 - Do not call artifacts ready until the actual artifact is verified when tools are available.
 - Internal review is the default. Do not ask the user for routine comments, review, or approval when the team can judge the work itself.
 - Short replies such as `ok`, `yes`, `go`, `next`, and `?` continue the next unblocked task unless blocked or waiting for a real user decision.
@@ -91,7 +94,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Current Boundary
 
-Company Mode v0.6.3 provides:
+Company Mode v0.7 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -110,6 +113,7 @@ Company Mode v0.6.3 provides:
 - Approval carry-forward, QA-data cleanup autonomy, standard toolchain install autonomy, and first-baseline push guidance.
 - Internal milestone acceptance without routine user review gates.
 - Project-scoped dependency/plugin autonomy, role-accurate reporting, and product-judgment checks to avoid QA/test treadmill behavior.
+- Creative Preproduction and Taste Gate for craft-critical user-facing artifacts.
 
 Company Mode does not provide:
 

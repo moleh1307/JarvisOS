@@ -27,6 +27,7 @@ For user-facing apps, websites, documents, decks, images, or packaged artifacts:
 
 - QA tests the actual artifact, not only source files or build scripts.
 - Use available tools such as Computer Use, browser testing, screenshots, renderers, test scripts, package launch commands, or file inspection.
+- For craft-critical or signature work, load `references/creative-preproduction.md` and run screenshot-based Design QA against the art direction brief, not only functional QA.
 - Apps: launch packaged app when feasible, inspect visible UI, exercise core flows, quit/reopen when persistence matters, and record evidence.
 - Websites: inspect rendered page, key responsive states, navigation, forms/interactions, and console/build errors when feasible.
 - Documents/decks/PDFs: render/open enough pages to confirm artifact is not corrupt and layout/content are credible.
@@ -66,6 +67,8 @@ Before a milestone is internally accepted, run a short critique:
 - Should the next task be polish, QA, packaging, documentation, research validation, or release preparation?
 
 If obvious quality gaps exist, create new work orders and continue. Do not wait for the user to say "improve UI" or "make it better" when the gap is visible.
+
+For craft-critical or signature work, internal critique must include the Creative Preproduction generic UI kill switch. If the artifact looks generic, template-like, gradient/card-heavy without product reason, default component-library shaped, or disconnected from the product metaphor, reject internally and re-enter Creative Preproduction.
 
 If no internal blockers remain, Founder/Chief of Staff may record `internally accepted` and immediately create or start the next milestone/work order.
 

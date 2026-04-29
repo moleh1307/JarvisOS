@@ -12,11 +12,13 @@ Use `[Role: Founder]`.
 4. Do not ask the user to pre-select specialist roles. Founder decides the team after discovery.
 5. If the user says "use defaults" or asks for speed, make conservative assumptions and record them.
 6. Choose workspace using the location policy below.
-7. Decide company depth: minimal, normal, or fuller team. Founder owns this sizing decision.
+7. Decide company depth: minimal, normal, fuller team, or craft-critical team. Founder owns this sizing decision.
 8. Create `project-charter.md`, `team-roster.md`, `current-state.md`, `task-board.md`, role charters, role memories, and first work orders.
-9. For app, website, UI, document, deck, or other user-facing product work, include a strong Designer/Product Designer role and visual/product QA responsibility unless clearly unnecessary.
-10. Add out-of-box expectations and assertive critique authority to each role charter.
-11. Report initialized company, workspace classification, team roster, and next task.
+9. Classify user-facing craft criticality: `utility-only`, `polished product`, `craft-critical`, or `signature product`.
+10. For app, website, UI, document, deck, or other user-facing product work, include a strong Designer/Product Designer role and visual/product QA responsibility unless clearly unnecessary.
+11. For `craft-critical` or `signature product`, add or activate Creative Director / Art Director, Product Designer / UX, UI Engineer, and Design QA / Critic responsibilities before implementation.
+12. Add out-of-box expectations and assertive critique authority to each role charter.
+13. Report initialized company, workspace classification, craft criticality, team roster, and next task.
 
 Founder may ask 3 questions or 40 questions depending on ambiguity, risk, and complexity. When many questions are needed, group them by goal/scope, users, data, technical constraints, design taste, risks, delivery, and success criteria.
 
@@ -40,6 +42,7 @@ The first setup report should include:
 
 - project name and workspace;
 - project charter path;
+- craft criticality for user-facing work;
 - team roster;
 - first active work order;
 - assumptions made;

@@ -71,6 +71,10 @@ For coding work:
 
 What must be true before this role says the task is done?
 
+For user-facing work, include visual/product quality. For research/data work, include methodological and reproducibility quality. Do not treat "it runs" as sufficient when the role can see obvious quality gaps.
+
+For craft-critical or signature user-facing work, this role must respect Creative Preproduction: reference intelligence, art direction, divergent concepts, and screenshot-based Design QA happen before internal acceptance. Creative Director / Art Director and Design QA can reject generic visual work even if it is technically functional.
+
 Before handoff, record the best out-of-box idea considered and whether it was acted on, deferred, or rejected.
 
 ## Escalation Conditions

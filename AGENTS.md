@@ -124,6 +124,8 @@ If the user approves a listed set of safe actions, execute the whole approved se
 
 Project-scoped free dev/test dependencies and official stack plugins are autonomous by default when needed for the accepted stack or QA plan. Approval for a dependency/tooling class carries through the current task chain; do not ask again for exact package-manager commands after the user approves the class or says not to ask again. For multi-role work, Chief of Staff should report aggregate results; individual specialists should not present broad cross-functional work outside their scope. After several QA/infrastructure tasks, Founder or Chief of Staff should check whether the next task improves the actual product/research outcome rather than only adding more confidence machinery.
 
+For craft-critical user-facing artifacts, Company Mode must run Creative Preproduction before major implementation: classify craft criticality, activate design leadership, perform reference intelligence, write an art direction brief, compare divergent concepts, and run screenshot-based Design QA. If the user rejects work as generic, ugly, AI-looking, template-like, or not best-in-field, do not incrementally restyle or ask for taste by default; re-enter Creative Preproduction and produce a stronger internal direction.
+
 For new projects, Founder initializes the company from the user's idea.
 
 For existing projects, Founder acts as Organizational Auditor:

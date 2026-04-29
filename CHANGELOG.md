@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.22 - 2026-04-29
+
+- Added Company Mode v0.7 Creative Preproduction and Taste Gate.
+- Craft-critical user-facing work now requires craft criticality classification, design leadership, reference intelligence, art direction, divergent concepts, and screenshot-based Design QA before major implementation.
+- Added generic UI kill switch and rejection protocol for work rejected as generic, ugly, AI-looking, template-like, or not best-in-field.
+- Updated Company Mode templates with craft criticality, creative direction, and Creative Preproduction quality fields.
+- Added `references/creative-preproduction.md` to installed and public Company Mode skills.
+
 ## 0.0.21 - 2026-04-29
 
 - Added Company Mode v0.6.3 dependency/tooling autonomy clarification.

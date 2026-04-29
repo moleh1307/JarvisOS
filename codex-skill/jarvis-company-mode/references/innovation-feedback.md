@@ -22,6 +22,8 @@ Use it when:
 - implementation architecture will be hard to undo;
 - there is a chance for a differentiated feature, method, or workflow.
 
+For craft-critical user-facing work, Creative Preproduction is stronger than normal Innovation Mode. Load `references/creative-preproduction.md` when taste, originality, visual identity, public presentation, or repeated design rejection is central. Use Innovation Mode for concept thinking, but do not skip the required reference intelligence, art direction brief, divergent concepts, and screenshot-based Design QA.
+
 Skip it for simple bug fixes, obvious small implementation, mechanical docs, urgent verification, speed-focused tasks, or blockers that brainstorming cannot resolve.
 
 Required format when invoked:

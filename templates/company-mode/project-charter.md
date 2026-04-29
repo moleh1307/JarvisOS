@@ -7,6 +7,7 @@
 - Workspace classification: real active project / experiment / data workspace / archive / JARVIS test-demo
 - Workspace/repo:
 - Company Mode status: active / review / internally-accepted / waiting-user-decision / paused / closed
+- Craft criticality: utility-only / polished product / craft-critical / signature product / not applicable
 
 ## Goal
 
@@ -28,8 +29,20 @@ What should this project not try to do yet?
 
 - Technical:
 - Design/product:
+- Art direction / taste:
 - Research/method:
 - Time/cost/access:
+
+## Creative Direction
+
+For user-facing or presentation-sensitive work:
+
+- Target feel:
+- Product metaphor:
+- Reference direction:
+- Anti-reference / must-not-feel-like:
+- Required design roles:
+- Design QA requirement:
 
 ## Success Criteria
 

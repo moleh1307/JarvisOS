@@ -6,6 +6,7 @@
 - Current milestone:
 - Latest status:
 - Workspace classification:
+- Craft criticality:
 - Coordinator role:
 - Executing role:
 - Active task:
@@ -61,6 +62,8 @@ What has been accepted into project state recently?
 - Weakest current area:
 - Next quality improvement:
 - Best out-of-box opportunity:
+- Creative direction status:
+- Design QA status:
 - Verification gaps:
 - User decision needed:
 

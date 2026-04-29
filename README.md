@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.21`
+Current version: `0.0.22`
 
-Latest update: Company Mode v0.6.3 tightens project-scoped dependency autonomy, role-accurate reporting, and product-judgment checks.
+Latest update: Company Mode v0.7 adds Creative Preproduction and Taste Gate for craft-critical user-facing work.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -76,6 +76,8 @@ Follow the latest workflow rules from now on, especially:
 - reusable workflow friction should become a feedback candidate
 - internal role review is the default; do not ask me for routine comments/review/approval when the team can decide
 - internally accept milestones after role review and QA, then continue to the next useful task
+- craft-critical user-facing work must classify craft criticality, activate design leadership, run reference intelligence, write an art direction brief, compare divergent concepts, and pass screenshot-based Design QA before major implementation
+- if UI/visual work is rejected as generic, ugly, AI-looking, template-like, or not best-in-field, re-enter Creative Preproduction instead of restyling incrementally or asking me for taste by default
 - after adoption audit and baseline preservation, takeover means the company owns the project outcome
 - if a role identifies necessary follow-up work, it must create/assign/start the work order unless blocked
 - if I approve a listed set of safe actions, execute the whole approved set instead of asking again item by item
@@ -459,6 +461,10 @@ Company Mode should not stop at “it works.”
 Roles should:
 
 - aim for top-tier output for the project stage
+- classify craft criticality for user-facing or presentation-sensitive work
+- run Creative Preproduction for craft-critical or signature artifacts before major implementation
+- use reference intelligence and anti-references for serious design/presentation work
+- create divergent concepts and choose internally before building
 - think out of the box
 - challenge conventional assumptions
 - critique weak orders and propose better paths
@@ -498,6 +504,14 @@ For user-facing work, the company should use available tools for internal QA and
 Project-scoped dev/test dependencies and official stack plugins are normal autonomous work when they are needed for the accepted stack or QA plan. Examples include Vitest, Playwright test packages and browser assets, Tauri dialog/plugin additions, local lint/build tools, and official framework plugins. Ask only for sudo/global installs, credentials, paid services, telemetry/cloud runtime behavior, destructive changes, unusual system-level impact, or strategic stack changes.
 
 Reports should preserve role boundaries. A single-role task reports as that role. Cross-functional implementation/QA/product summaries should report as Chief of Staff after reading the relevant work orders and role memories. If several consecutive tasks only add QA or infrastructure, Founder or Chief of Staff should run a product-judgment check before creating another verification task.
+
+### Creative Preproduction And Taste Gate
+
+For craft-critical user-facing artifacts, Company Mode should not build first and judge later. Founder classifies the work as `utility-only`, `polished product`, `craft-critical`, or `signature product`. Craft-critical and signature work should activate Creative Director / Art Director, Product Designer / UX, UI Engineer, and Design QA responsibilities before major implementation.
+
+Before implementation, the team should gather best-in-class references and anti-references, write an art direction brief, compare divergent concepts, and choose a direction internally. Design QA should reject screenshots that look generic, template-like, card-heavy without product reason, decorative-gradient-driven, default component-library shaped, or disconnected from the product metaphor.
+
+If the user rejects visual quality as generic, ugly, AI-looking, template-like, or not best-in-field, the team should not simply tweak CSS or ask for taste. It should re-enter Creative Preproduction, strengthen the art direction, generate divergent concepts, and run screenshot-based Design QA again.
 
 Completion reports should use explicit next-action language:
 

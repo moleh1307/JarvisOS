@@ -14,6 +14,7 @@
 - PR:
 - Version impact: none / patch / minor / major / artifact-only
 - Workflow feedback impact: none / candidate / routed-to-JARVIS-R&D
+- Craft criticality: utility-only / polished product / craft-critical / signature product / not applicable
 
 ## Objective
 
@@ -47,6 +48,12 @@ How should the output be checked before completion?
 
 - Innovation Mode: forced / invoked / skipped
 - Innovation Mode reason:
+- Creative Preproduction: not needed / compact / full
+- Reference intelligence completed:
+- Art direction brief:
+- Divergent concepts considered:
+- Generic UI kill switch result:
+- Screenshot-based Design QA:
 - Weakest part:
 - Top-tier improvement opportunity:
 - Out-of-box idea considered:
