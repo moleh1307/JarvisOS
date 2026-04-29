@@ -23,7 +23,7 @@ JARVIS Light is a local continuity workflow for Codex. It uses markdown files as
 - Use JARVIS Company Mode for serious projects when specialist roles, task boards, review gates, or adoption audits would reduce confusion.
 - In Company Mode, record reusable workflow friction as feedback candidates; route general workflow issues to the maintainer/R&D project instead of silently making new rules.
 - In Company Mode, role names must come from `company/team-roster.md`; if no name is defined, use the role title only.
-- In Company Mode, Founder should infer project shape before workflow design and choose roles, artifacts, operating mode, confidence lanes, strategy maps, and adversarial review gates from the actual problem rather than fixed project-type recipes.
+- In Company Mode, Founder should infer project shape before workflow design and choose roles, artifacts, operating mode, confidence lanes, strategy maps, adversarial review gates, and claim review loops from the actual problem rather than fixed project-type recipes.
 
 ## Retrieval Order
 
@@ -149,7 +149,7 @@ Before creating or reshaping a serious Company Mode project, Founder should run 
 
 Company Mode current state should declare an operating mode such as discovery, build, audit, polish, release, dogfood, research attack, recovery, or maintenance. Chief of Staff uses this mode during `continue` to route work, load the right references, and avoid treating every phase like generic task execution.
 
-For consequential internal results, Company Mode should use confidence lanes and adversarial review proportionally. Mark important claims/results as verified, working-assumption, speculative, needs-audit, or rejected; proof claims, major design directions, method choices, architecture decisions, data results, release candidates, and public claims should be attacked before they become stable project truth. After meaningful discoveries, Chief of Staff should re-rank the queue instead of blindly executing old work orders.
+For consequential internal results, Company Mode should use confidence lanes and adversarial review proportionally. Mark important claims/results as verified, working-assumption, speculative, needs-audit, or rejected; proof claims, major design directions, method choices, architecture decisions, data results, release candidates, and public claims should be attacked before they become stable project truth. When downstream work depends on a consequential claim, use the Claim Review Loop: state the claim, assign a confidence lane, attack it independently, then mark the outcome as promoted, revised, rejected, or split before re-ranking the queue. After meaningful discoveries, Chief of Staff should re-rank the queue instead of blindly executing old work orders.
 
 ## Governed Self-Improvement
 

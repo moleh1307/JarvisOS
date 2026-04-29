@@ -1,6 +1,6 @@
 # Adaptive Operating Patterns
 
-Use this reference when Company Mode must decide how to shape a project, which operating mode it is in, how much structure to create, how to label confidence, whether to run adversarial review, and when to re-rank the queue.
+Use this reference when Company Mode must decide how to shape a project, which operating mode it is in, how much structure to create, how to label confidence, whether to run adversarial review, how to run the Claim Review Loop, and when to re-rank the queue.
 
 These are general operating patterns, not project-type recipes. Do not hardcode "math projects need X" or "apps need Y." Infer the project's needs from the user's goal, the observed project, the risk profile, and the success bar.
 
@@ -99,6 +99,35 @@ Review output should state:
 - surviving claim after review;
 - new confidence lane;
 - next work order if needed.
+
+## Claim Review Loop
+
+Use this loop when downstream work would depend on a consequential claim, assumption, result, direction, or method.
+
+Examples:
+
+- proof lemma or mathematical route;
+- product/design direction;
+- architecture decision;
+- data/statistical result;
+- research methodology choice;
+- release/readiness claim;
+- strategy assumption.
+
+The loop is:
+
+1. State the claim precisely enough to attack.
+2. Assign its current confidence lane.
+3. Create or run an independent attack/review task before downstream work treats it as stable.
+4. Record the strongest attack and what survived.
+5. End with exactly one outcome:
+   - `promoted`: stable enough to build on;
+   - `revised`: usable only in a narrower or corrected form;
+   - `rejected`: should not be used downstream;
+   - `split`: converted into sharper subclaims or subproblems.
+6. Chief of Staff re-ranks the queue from that outcome.
+
+Do not create a review task for every small implementation detail. Use the loop when being wrong would waste substantial work, publish a false claim, lock in weak design, corrupt data conclusions, or send the company down the wrong route.
 
 ## Queue Re-Ranking
 

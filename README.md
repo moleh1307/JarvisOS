@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.27`
+Current version: `0.0.28`
 
-Latest update: Company Mode v0.8.2 adds a dedicated Workflow Refresh Playbook so older active chats know how to refresh without copying the whole rule set into the prompt.
+Latest update: Company Mode v0.8.3 adds the Claim Review Loop so important assumptions are attacked, revised, promoted, rejected, or split before downstream work depends on them.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -426,7 +426,7 @@ The Founder asks all material questions needed to understand the project, then c
 - role charters
 - role memories
 - first work orders
-- optional strategy/evidence/adversarial-review artifacts when useful
+- optional strategy/evidence/adversarial-review/claim-review artifacts when useful
 
 Then you can mostly say:
 
@@ -546,7 +546,18 @@ For serious projects, use confidence lanes proportionally:
 - `needs-audit`
 - `rejected`
 
-Consequential internal results should trigger adversarial review or an explicit decision not to review. The review should try to break the result before it becomes stable project truth. After meaningful discoveries, Chief of Staff should ask whether the bottleneck changed and re-rank the queue if needed.
+Consequential internal results should trigger adversarial review or an explicit decision not to review. The review should try to break the result before it becomes stable project truth.
+
+When downstream work depends on a consequential claim, use the Claim Review Loop:
+
+1. State the claim.
+2. Assign its confidence lane.
+3. Attack it independently.
+4. Record the strongest attack and surviving claim.
+5. Mark the outcome as `promoted`, `revised`, `rejected`, or `split`.
+6. Re-rank the queue from that outcome.
+
+After meaningful discoveries, Chief of Staff should ask whether the bottleneck changed and re-rank the queue if needed.
 
 ### Creative Preproduction And Taste Gate
 

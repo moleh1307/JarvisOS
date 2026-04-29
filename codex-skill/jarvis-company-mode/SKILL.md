@@ -5,7 +5,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 # JARVIS Company Mode
 
-Company Mode v0.8.2 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, and feedback loops stored in markdown.
+Company Mode v0.8.3 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, claim review loops, and feedback loops stored in markdown.
 
 Use when the user asks for:
 
@@ -23,7 +23,7 @@ Read only the references needed for the current task:
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
 - Workflow refresh for older active chats: `references/workflow-refresh.md`
 - Continue/status/short replies/interruptions/response preflight: `references/continuation.md`
-- Adaptive project-shape inference, operating mode declaration, confidence lanes, strategy maps, adversarial review, and queue re-ranking: `references/adaptive-operating-patterns.md`
+- Adaptive project-shape inference, operating mode declaration, confidence lanes, strategy maps, adversarial review, Claim Review Loop, and queue re-ranking: `references/adaptive-operating-patterns.md`
 - Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
 - Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
@@ -100,12 +100,13 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 - User-facing reports should come from the executing role for single-role work, or Chief of Staff for multi-role aggregate work; do not let one specialist present broad cross-role implementation/QA/product work as if it all belonged to that specialist.
 - Serious projects should use confidence lanes proportionally: verified, working assumption, speculative, rejected, or needs audit. Do not let speculative work become stable memory without labeling and review.
 - Consequential internal results should trigger adversarial review or an explicit decision not to review: proof claims, major design directions, method choices, architecture decisions, data results, release candidates, and public claims should be attacked before being treated as stable.
+- When downstream work depends on a consequential claim, run the Claim Review Loop: state the claim, assign a confidence lane, attack it independently, then mark the outcome as `promoted`, `revised`, `rejected`, or `split` before re-ranking the queue.
 - For hard or uncertain projects, a task board alone may be insufficient. Founder/Chief of Staff should create a strategy map, evidence ledger, or adversarial-review artifact when it would improve continuation.
 - After meaningful discoveries, Chief of Staff must ask whether the bottleneck changed and re-rank the queue instead of blindly executing old work orders.
 
 ## Current Boundary
 
-Company Mode v0.8.2 provides:
+Company Mode v0.8.3 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -132,6 +133,7 @@ Company Mode v0.8.2 provides:
 - Confidence lanes for serious claims and artifacts.
 - Strategy maps / attack trees / evidence ledgers as optional artifacts for hard projects.
 - Adversarial Review Trigger for consequential internal results.
+- Claim Review Loop for assumptions/results that downstream work depends on.
 - Queue Re-Ranking after discoveries change the bottleneck.
 
 Company Mode does not provide:
@@ -154,10 +156,11 @@ Company Mode does not provide:
 7. Execute within allowed scope.
 8. Verify using role-appropriate tools. For user-facing work, verify the rendered/packaged artifact when feasible.
 9. Label confidence for serious claims and trigger adversarial review when the result is consequential.
-10. Run a compact internal critique before presenting a milestone.
-11. Use operating mode to choose the correct default behavior, then re-rank the queue if a discovery changes the bottleneck.
-12. Update task board, current state, role memory, integration log, and project memory when state materially changes.
-13. Report compactly with: completed work, verification, blockers, feedback candidates if any, and one explicit next-action label.
+10. If downstream work depends on a consequential claim, run the Claim Review Loop before treating it as stable.
+11. Run a compact internal critique before presenting a milestone.
+12. Use operating mode to choose the correct default behavior, then re-rank the queue if a discovery changes the bottleneck.
+13. Update task board, current state, role memory, integration log, and project memory when state materially changes.
+14. Report compactly with: completed work, verification, blockers, feedback candidates if any, and one explicit next-action label.
 
 Use exact next-action labels:
 

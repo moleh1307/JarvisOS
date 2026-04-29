@@ -17,6 +17,7 @@
 - Craft criticality: utility-only / polished product / craft-critical / signature product / not applicable
 - Confidence lane: verified / working-assumption / speculative / needs-audit / rejected / not applicable
 - Adversarial review: not needed / consider / required / completed
+- Claim review outcome: none / promoted / revised / rejected / split
 - Queue impact: none / may re-rank / re-ranked
 
 ## Objective
@@ -71,6 +72,7 @@ How should the output be checked before completion?
 - Review trigger:
 - Reviewer role:
 - Review result:
+- Claim review outcome: none / promoted / revised / rejected / split
 - Queue re-ranking needed:
 
 ## Workflow Feedback

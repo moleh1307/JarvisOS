@@ -28,6 +28,7 @@
 - Strategy map / attack tree:
 - Evidence ledger:
 - Adversarial review log:
+- Claim review log:
 - Repo/workspace:
 - Main outputs:
 
@@ -71,6 +72,7 @@ What has been accepted into project state recently?
 - Current bottleneck:
 - Queue re-ranking needed:
 - Claims/results needing audit:
+- Claims/results needing claim review:
 - Creative direction status:
 - Design QA status:
 - Verification gaps:

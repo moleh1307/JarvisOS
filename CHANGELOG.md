@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.28 - 2026-04-29
+
+- Added Company Mode v0.8.3 Claim Review Loop.
+- Consequential claims that downstream work depends on should be stated, confidence-labeled, attacked independently, and marked as `promoted`, `revised`, `rejected`, or `split`.
+- Updated installed/public adaptive operating references, skill index, README, AGENTS, and version surfaces.
+
 ## 0.0.27 - 2026-04-29
 
 - Added Company Mode v0.8.2 Workflow Refresh Playbook.

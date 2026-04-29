@@ -41,5 +41,6 @@ Use this optional artifact for consequential internal results that should be att
 
 ## Decision
 
-- Accept / revise / reject / keep speculative:
+- Claim review outcome: promoted / revised / rejected / split / not applicable
+- Decision: accept / revise / reject / keep speculative:
 - Rationale:
