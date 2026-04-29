@@ -5,7 +5,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 # JARVIS Company Mode
 
-Company Mode v0.8.1 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, and feedback loops stored in markdown.
+Company Mode v0.8.2 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, and feedback loops stored in markdown.
 
 Use when the user asks for:
 
@@ -21,6 +21,7 @@ Read only the references needed for the current task:
 
 - Greenfield setup: `references/greenfield.md`
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
+- Workflow refresh for older active chats: `references/workflow-refresh.md`
 - Continue/status/short replies/interruptions/response preflight: `references/continuation.md`
 - Adaptive project-shape inference, operating mode declaration, confidence lanes, strategy maps, adversarial review, and queue re-ranking: `references/adaptive-operating-patterns.md`
 - Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
@@ -31,7 +32,7 @@ Read only the references needed for the current task:
 
 For a normal `continue`, read `team-roster.md`, `current-state.md`, `task-board.md`, relevant role memory, and the current operating mode. Load only the reference matching the task type and mode.
 
-For a workflow refresh in an old chat, read this `SKILL.md`, then the live project `company/` files. Load references only when the active task needs them.
+For a workflow refresh in an old chat, read this `SKILL.md`, `references/workflow-refresh.md`, then the live project `company/` files. Load other references only when the active task needs them.
 
 ## Required Project Files
 
@@ -104,7 +105,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Current Boundary
 
-Company Mode v0.8.1 provides:
+Company Mode v0.8.2 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -127,6 +128,7 @@ Company Mode v0.8.1 provides:
 - Response Preflight / Header Guard for role-header reliability in Company Mode and workflow R&D discussions.
 - Adaptive Project-Shape Inference before workflow design.
 - Operating Mode Declaration so continuation stays aligned with the project's current phase.
+- Workflow Refresh Playbook for upgrading older active chats without copying the whole rule set into the prompt.
 - Confidence lanes for serious claims and artifacts.
 - Strategy maps / attack trees / evidence ledgers as optional artifacts for hard projects.
 - Adversarial Review Trigger for consequential internal results.
@@ -185,6 +187,7 @@ Do not escalate for routine verified role/task branch pushes, internal PR update
 ## User Commands
 
 - `continue`: run the next unblocked task.
+- `workflow refresh`: reconcile an older active chat/project with the latest installed JARVIS and Company Mode rules.
 - `ok`, `okay`, `yes`, `yep`, `go`, `next`, `do it`: continue when active and unblocked.
 - `?`, `why`, `what now`: inspect state and continue or state the exact blocker.
 - `status`: summarize current state, active task, blockers, and exact next action.

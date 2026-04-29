@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.27 - 2026-04-29
+
+- Added Company Mode v0.8.2 Workflow Refresh Playbook.
+- Added `references/workflow-refresh.md` to installed/public Company Mode skills.
+- Updated the public refresh prompt to point older active chats at the dedicated refresh reference instead of embedding detailed rules.
+
 ## 0.0.26 - 2026-04-29
 
 - Replaced the oversized README workflow refresh prompt with a compact, stable prompt.

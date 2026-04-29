@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.26`
+Current version: `0.0.27`
 
-Latest update: the older-chat workflow refresh prompt is now compact and stable. The installed skills remain the source of truth for the detailed rules.
+Latest update: Company Mode v0.8.2 adds a dedicated Workflow Refresh Playbook so older active chats know how to refresh without copying the whole rule set into the prompt.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -60,6 +60,7 @@ Use JARVIS and JARVIS Company Mode.
 Read the latest installed skills:
 - ~/.codex/skills/jarvis/SKILL.md
 - ~/.codex/skills/jarvis-company-mode/SKILL.md
+- ~/.codex/skills/jarvis-company-mode/references/workflow-refresh.md if it exists
 
 Then read the live project state:
 - company/team-roster.md if it exists
