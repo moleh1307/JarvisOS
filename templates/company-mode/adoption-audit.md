@@ -44,6 +44,7 @@ Consequential gaps or assumptions that should not be treated as fact.
 - Main failure modes:
 - Evidence/artifacts that matter:
 - Needed roles/disciplines:
+- Initial operating mode:
 - Confidence lanes needed: none / light / strict
 - Verification/adversarial gates:
 - Strategy map or evidence ledger needed: no / yes, because

@@ -5,7 +5,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 # JARVIS Company Mode
 
-Company Mode v0.8 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, and feedback loops stored in markdown.
+Company Mode v0.8.1 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, and feedback loops stored in markdown.
 
 Use when the user asks for:
 
@@ -22,14 +22,14 @@ Read only the references needed for the current task:
 - Greenfield setup: `references/greenfield.md`
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
 - Continue/status/short replies/interruptions/response preflight: `references/continuation.md`
-- Adaptive project-shape inference, confidence lanes, strategy maps, adversarial review, and queue re-ranking: `references/adaptive-operating-patterns.md`
+- Adaptive project-shape inference, operating mode declaration, confidence lanes, strategy maps, adversarial review, and queue re-ranking: `references/adaptive-operating-patterns.md`
 - Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
 - Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
 - GitHub, PRs, releases, versioning, and repo readiness: `references/github-release-versioning.md`
 - Selective Innovation Mode and workflow feedback: `references/innovation-feedback.md`
 
-For a normal `continue`, read `team-roster.md`, `current-state.md`, `task-board.md`, relevant role memory, and only the reference matching the task type.
+For a normal `continue`, read `team-roster.md`, `current-state.md`, `task-board.md`, relevant role memory, and the current operating mode. Load only the reference matching the task type and mode.
 
 For a workflow refresh in an old chat, read this `SKILL.md`, then the live project `company/` files. Load references only when the active task needs them.
 
@@ -72,6 +72,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 - Founder asks all material project questions before deciding team, file depth, and first work orders.
 - Founder must infer the project's shape before workflow design: what kind of work this is, what makes success hard, what evidence matters, what roles/artifacts are needed, what confidence lanes apply, and what verification or adversarial review gates are justified.
 - Founder must not use fixed project-type recipes. Apps, research, data, writing, product, and strategy projects may need different artifacts, but those artifacts come from project-shape inference, not hardcoded categories.
+- `company/current-state.md` should declare the project's current operating mode, such as `discovery`, `build`, `audit`, `polish`, `release`, `dogfood`, `research attack`, `recovery`, or `maintenance`. Chief of Staff uses this mode to route `continue`, choose references, and avoid the wrong kind of next task.
 - For existing projects: audit first, then create the company layer.
 - Adoption caution ends after audit/baseline/takeover; the company then owns the project outcome.
 - Existing code is evidence, not authority.
@@ -103,7 +104,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Current Boundary
 
-Company Mode v0.8 provides:
+Company Mode v0.8.1 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -125,6 +126,7 @@ Company Mode v0.8 provides:
 - Creative Preproduction and Taste Gate for craft-critical user-facing artifacts.
 - Response Preflight / Header Guard for role-header reliability in Company Mode and workflow R&D discussions.
 - Adaptive Project-Shape Inference before workflow design.
+- Operating Mode Declaration so continuation stays aligned with the project's current phase.
 - Confidence lanes for serious claims and artifacts.
 - Strategy maps / attack trees / evidence ledgers as optional artifacts for hard projects.
 - Adversarial Review Trigger for consequential internal results.
@@ -143,7 +145,7 @@ Company Mode does not provide:
 
 1. Understand whether this is greenfield, adoption, continuation, status, defect, side quest, release, or feedback.
 2. For setup/adoption, run Project-Shape Inference before designing team, artifacts, confidence lanes, and work orders.
-3. Read the smallest relevant live context: `team-roster.md`, `current-state.md`, `task-board.md`, role memory, and the specific reference file needed.
+3. Read the smallest relevant live context: `team-roster.md`, `current-state.md`, `task-board.md`, operating mode, role memory, and the specific reference file needed.
 4. Use the roster-backed role header for the responsible role.
 5. Before sending any user-facing reply, run Response Preflight and fix the header if needed.
 6. Create or update a work order for meaningful work.
@@ -151,7 +153,7 @@ Company Mode does not provide:
 8. Verify using role-appropriate tools. For user-facing work, verify the rendered/packaged artifact when feasible.
 9. Label confidence for serious claims and trigger adversarial review when the result is consequential.
 10. Run a compact internal critique before presenting a milestone.
-11. Re-rank the queue if a discovery changes the bottleneck.
+11. Use operating mode to choose the correct default behavior, then re-rank the queue if a discovery changes the bottleneck.
 12. Update task board, current state, role memory, integration log, and project memory when state materially changes.
 13. Report compactly with: completed work, verification, blockers, feedback candidates if any, and one explicit next-action label.
 

@@ -1,6 +1,6 @@
 # Adaptive Operating Patterns
 
-Use this reference when Company Mode must decide how to shape a project, how much structure to create, how to label confidence, whether to run adversarial review, and when to re-rank the queue.
+Use this reference when Company Mode must decide how to shape a project, which operating mode it is in, how much structure to create, how to label confidence, whether to run adversarial review, and when to re-rank the queue.
 
 These are general operating patterns, not project-type recipes. Do not hardcode "math projects need X" or "apps need Y." Infer the project's needs from the user's goal, the observed project, the risk profile, and the success bar.
 
@@ -21,6 +21,32 @@ Answer proportionally:
 - Is a task board enough, or does the project need a strategy map, evidence ledger, attack tree, calibration pack, or similar artifact?
 
 For simple projects, this may be five bullets. For complex research, product, data, writing, strategy, or architecture projects, it can be fuller.
+
+## Operating Mode Declaration
+
+Project-shape inference describes the work. Operating mode describes what the company should do now.
+
+Record the current mode in `company/current-state.md`:
+
+```text
+Operating mode: discovery / build / audit / polish / release / dogfood / research attack / recovery / maintenance
+```
+
+Use `other: <short label>` if none fit.
+
+Mode meanings:
+
+- `discovery`: ask material questions, infer project shape, and avoid premature implementation.
+- `build`: execute scoped work that advances the artifact, repo, research, or deliverable.
+- `audit`: inspect existing reality, preserve baseline, and separate observed facts from inferences before changing things.
+- `polish`: improve quality, distinctiveness, clarity, ergonomics, or craft before adding more surface area.
+- `release`: verify version/docs/git/package/public-risk surfaces and respect release escalation boundaries.
+- `dogfood`: use the artifact or workflow in a real session and record privacy-safe observations.
+- `research attack`: pursue the strongest proof/disproof/method line and attack consequential claims before stabilizing them.
+- `recovery`: fix broken state, failed QA, stale docs, branch drift, or artifact mismatch before new work.
+- `maintenance`: make small safe updates without changing strategy, architecture, or project direction.
+
+Chief of Staff should use operating mode during `continue` to choose the right reference files, role, next task type, and queue re-ranking behavior. Update the mode when the project phase changes; do not preserve a stale mode just because the previous work order used it.
 
 ## Confidence Lanes
 
@@ -107,6 +133,6 @@ These patterns are meant to reduce confusion, not create ceremony.
 Use the lightest structure that preserves the next useful action:
 
 - Tiny task: skip Company Mode.
-- Simple Company Mode project: one-line shape inference, normal task board, no optional artifacts.
-- Serious uncertain project: shape inference, confidence lanes, strategy map, and adversarial review for consequential results.
-- Long-horizon project: periodic compression of current state, dead ends, live artifacts, and next attacks.
+- Simple Company Mode project: one-line shape inference, operating mode, normal task board, no optional artifacts.
+- Serious uncertain project: shape inference, operating mode, confidence lanes, strategy map, and adversarial review for consequential results.
+- Long-horizon project: periodic compression of operating mode, current state, dead ends, live artifacts, and next attacks.

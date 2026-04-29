@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.24`
+Current version: `0.0.25`
 
-Latest update: Company Mode v0.8 adds Adaptive Project-Shape Inference, confidence lanes, adversarial review triggers, optional strategy/evidence artifacts, and queue re-ranking after discoveries.
+Latest update: Company Mode v0.8.1 adds Operating Mode Declaration so `continue` routes differently for discovery, build, audit, polish, release, dogfood, research attack, recovery, and maintenance.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -81,6 +81,7 @@ Follow the latest workflow rules from now on, especially:
 - craft-critical user-facing work must classify craft criticality, activate design leadership, run reference intelligence, write an art direction brief, compare divergent concepts, and pass screenshot-based Design QA before major implementation
 - if UI/visual work is rejected as generic, ugly, AI-looking, template-like, or not best-in-field, re-enter Creative Preproduction instead of restyling incrementally or asking me for taste by default
 - before creating or reshaping a serious project, Founder runs Project-Shape Inference: infer what kind of work this is, what makes success hard, what evidence matters, what roles/artifacts are needed, and which verification/adversarial gates are justified
+- company/current-state.md should declare an Operating mode, and Chief of Staff should use it to route `continue` rather than treating every phase like generic task execution
 - do not use fixed project-type recipes; choose roles/artifacts from the actual project shape
 - use confidence lanes for consequential claims/results: verified, working-assumption, speculative, needs-audit, rejected
 - trigger adversarial review for major proof claims, design directions, method choices, architecture decisions, data results, release candidates, or public claims
@@ -293,6 +294,7 @@ The optional serious-project layer:
 - GitHub / PR workflow guidance
 - adoption mode for existing projects
 - modular skill references so agents load only the detailed procedure they need
+- operating mode declaration for mode-aware continuation
 
 This is for projects where one undifferentiated agent would likely mix design, backend, frontend, QA, research, writing, and release work into one blurry pile.
 
@@ -497,6 +499,24 @@ Before designing the team or first work orders, Founder should infer the project
 - whether a strategy map, evidence ledger, attack tree, claims map, design calibration, or similar artifact would help
 
 This is not a recipe system. A research problem, app, data project, writing project, and strategy project may all get different structures, but only because the specific problem demands it.
+
+### Operating Mode Declaration
+
+Project-shape inference describes what kind of work this is. Operating mode says what the company should do now.
+
+`company/current-state.md` should declare one current operating mode:
+
+- `discovery`
+- `build`
+- `audit`
+- `polish`
+- `release`
+- `dogfood`
+- `research attack`
+- `recovery`
+- `maintenance`
+
+Chief of Staff uses this during `continue` to choose the right role, reference file, next task type, and queue re-ranking behavior. A project should not handle setup questions, product polishing, release readiness, broken-state recovery, and hard research attacks with the same generic loop.
 
 Founder and Chief of Staff can evolve the team as the project changes: hire new roles, merge redundant roles, retire completed roles, or add temporary specialists. Each role may also keep a short name alongside its title, such as:
 

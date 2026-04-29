@@ -20,8 +20,9 @@ Use `[Role: Founder / Organizational Auditor]`.
 4. Separate `User-stated`, `Observed in repo`, `Tool result`, `Agent inference`, and `Unknown / needs confirmation`.
 5. Infer roles from the real project rather than a generic template.
 6. Run post-audit Project-Shape Inference: what kind of work this actually is, what makes success hard, what artifacts matter, what confidence lanes and adversarial gates are needed, and what should not be overbuilt.
-7. Create the Company Mode layer around the existing structure, including `team-roster.md`.
-8. Do not rewrite, reorganize, rename, or migrate before audit and explicit work orders.
+7. Choose the initial operating mode for `company/current-state.md`; adoption usually starts as `audit`, then moves to `recovery`, `build`, `polish`, `release`, or another fitting mode after the audit/baseline.
+8. Create the Company Mode layer around the existing structure, including `team-roster.md`.
+9. Do not rewrite, reorganize, rename, or migrate before audit and explicit work orders.
 
 The audit should answer:
 

@@ -8,6 +8,7 @@
 - Workspace classification:
 - Craft criticality:
 - Project shape:
+- Operating mode: discovery / build / audit / polish / release / dogfood / research attack / recovery / maintenance / other
 - Confidence policy:
 - Coordinator role:
 - Executing role:

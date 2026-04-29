@@ -7,19 +7,40 @@ Use this reference for `continue`, `status`, short replies, blockers, interrupti
 When the user says `continue`:
 
 1. Enter `[Role: Chief of Staff]`.
-2. Read `company/team-roster.md`, `company/current-state.md`, `company/task-board.md`, and relevant role memory.
-3. Check blocked/review tasks before new work.
-4. Pick the highest-priority unblocked task.
-5. Enter the assigned role using the roster-backed header.
-6. Execute within the task's allowed scope.
-7. Decide whether Selective Innovation Mode is needed.
-8. Verify role-appropriately. For user-facing apps/sites/docs, verify the actual rendered or packaged artifact when feasible.
-9. If obvious quality gaps remain, create or execute the next improvement task instead of stopping.
-10. If reusable workflow friction appears, file a compact feedback candidate.
-11. Update task board, current state, role memory, and integration log.
-12. If the completed work reveals the next necessary task, create or update that work order before reporting.
-13. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
-14. Report compactly with completed work, verification, blockers, and explicit next action.
+2. Read `company/team-roster.md`, `company/current-state.md`, `company/task-board.md`, operating mode, and relevant role memory.
+3. Use the operating mode to choose the right default behavior and reference file before executing.
+4. Check blocked/review tasks before new work.
+5. Pick the highest-priority unblocked task unless the operating mode or a new bottleneck justifies re-ranking.
+6. Enter the assigned role using the roster-backed header.
+7. Execute within the task's allowed scope.
+8. Decide whether Selective Innovation Mode is needed.
+9. Verify role-appropriately. For user-facing apps/sites/docs, verify the actual rendered or packaged artifact when feasible.
+10. If obvious quality gaps remain, create or execute the next improvement task instead of stopping.
+11. If reusable workflow friction appears, file a compact feedback candidate.
+12. Update task board, current state, role memory, integration log, and operating mode if the project phase changed.
+13. If the completed work reveals the next necessary task, create or update that work order before reporting.
+14. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
+15. Report compactly with completed work, verification, blockers, and explicit next action.
+
+## Operating Mode Routing
+
+`company/current-state.md` should include an `Operating mode` field. Chief of Staff uses it as a routing signal, not a rigid taxonomy.
+
+Recommended modes:
+
+- `discovery`: ask material questions, infer project shape, avoid premature file creation or implementation.
+- `build`: implement the highest-leverage scoped work and verify the actual artifact.
+- `audit`: inspect first, preserve baseline, separate observed facts from inferences, and avoid rewriting before evidence.
+- `polish`: improve quality and distinctiveness; use critique, calibration, and product/design/research judgment before adding features.
+- `release`: check version, README/changelog/status, package/build artifacts, git state, public/private risk, and release approval boundaries.
+- `dogfood`: use the artifact or workflow in a real session, then record privacy-safe observations and next work.
+- `research attack`: pursue the strongest proof/disproof/method line, label confidence, and adversarially audit consequential claims.
+- `recovery`: fix broken state, failed QA, stale branches, incorrect docs, bad public surfaces, or mismatched artifacts before new feature work.
+- `maintenance`: make small safe updates; avoid new architecture, product direction, or heavy process.
+
+Use `other: <short label>` only when these modes do not fit.
+
+Mode changes are normal. If a build task reveals stale public docs, switch to `recovery` or `release`. If a QA chain stops improving the product, switch to `polish`, `build`, or `research attack` as appropriate. Record meaningful mode changes in `current-state.md`.
 
 ## No Passive Acknowledgement
 

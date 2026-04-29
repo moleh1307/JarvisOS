@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.0.25 - 2026-04-29
+
+- Added Company Mode v0.8.1 Operating Mode Declaration.
+- `company/current-state.md` now includes an `Operating mode` field.
+- Chief of Staff should use operating mode during `continue` to route work differently for discovery, build, audit, polish, release, dogfood, research attack, recovery, and maintenance.
+- Updated greenfield/adoption guidance so setup chooses the initial operating mode.
+- Updated Company Mode continuation and adaptive operating references with mode-aware routing.
+
 ## 0.0.24 - 2026-04-29
 
 - Added Company Mode v0.8 Adaptive Project-Shape Inference.
