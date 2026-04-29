@@ -5,7 +5,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 # JARVIS Company Mode
 
-Company Mode v0.7 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, and feedback loops stored in markdown.
+Company Mode v0.7.1 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, and feedback loops stored in markdown.
 
 Use when the user asks for:
 
@@ -21,8 +21,8 @@ Read only the references needed for the current task:
 
 - Greenfield setup: `references/greenfield.md`
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
-- Continue/status/short replies/interruptions: `references/continuation.md`
-- Roles, team roster, role names, and team changes: `references/roles-and-roster.md`
+- Continue/status/short replies/interruptions/response preflight: `references/continuation.md`
+- Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
 - Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
 - GitHub, PRs, releases, versioning, and repo readiness: `references/github-release-versioning.md`
@@ -65,6 +65,8 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 - Company Mode is optional; do not use it for tiny tasks.
 - Every Company Mode reply starts with a role header built from `company/team-roster.md`.
+- Before every user-facing reply, run Response Preflight: if Company Mode is active, or if the topic is Company Mode / workflow R&D itself, the first line must be a roster-backed role header. If it is missing, rewrite the first line before sending.
+- Response Preflight applies to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Company JARVIS chats.
 - Role names are optional and file-backed; never invent names from chat memory.
 - Founder asks all material project questions before deciding team, file depth, and first work orders.
 - For existing projects: audit first, then create the company layer.
@@ -94,7 +96,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Current Boundary
 
-Company Mode v0.7 provides:
+Company Mode v0.7.1 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -114,6 +116,7 @@ Company Mode v0.7 provides:
 - Internal milestone acceptance without routine user review gates.
 - Project-scoped dependency/plugin autonomy, role-accurate reporting, and product-judgment checks to avoid QA/test treadmill behavior.
 - Creative Preproduction and Taste Gate for craft-critical user-facing artifacts.
+- Response Preflight / Header Guard for role-header reliability in Company Mode and workflow R&D discussions.
 
 Company Mode does not provide:
 
@@ -129,12 +132,13 @@ Company Mode does not provide:
 1. Understand whether this is greenfield, adoption, continuation, status, defect, side quest, release, or feedback.
 2. Read the smallest relevant live context: `team-roster.md`, `current-state.md`, `task-board.md`, role memory, and the specific reference file needed.
 3. Use the roster-backed role header for the responsible role.
-4. Create or update a work order for meaningful work.
-5. Execute within allowed scope.
-6. Verify using role-appropriate tools. For user-facing work, verify the rendered/packaged artifact when feasible.
-7. Run a compact internal critique before presenting a milestone.
-8. Update task board, current state, role memory, integration log, and project memory when state materially changes.
-9. Report compactly with: completed work, verification, blockers, feedback candidates if any, and one explicit next-action label.
+4. Before sending any user-facing reply, run Response Preflight and fix the header if needed.
+5. Create or update a work order for meaningful work.
+6. Execute within allowed scope.
+7. Verify using role-appropriate tools. For user-facing work, verify the rendered/packaged artifact when feasible.
+8. Run a compact internal critique before presenting a milestone.
+9. Update task board, current state, role memory, integration log, and project memory when state materially changes.
+10. Report compactly with: completed work, verification, blockers, feedback candidates if any, and one explicit next-action label.
 
 Use exact next-action labels:
 

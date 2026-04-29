@@ -27,6 +27,8 @@ Rules:
 
 Every Company Mode response to the user starts with a role header, including status, bug-fix replies, test instructions, quick answers, and side quests.
 
+Treat the role header as an output contract, not decorative styling. Missing the header in active Company Mode or workflow R&D discussion is a workflow defect even when the answer is short or conversational.
+
 Pick the role by responsibility:
 
 - Chief of Staff: routing, status, queue management, interruption triage.

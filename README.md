@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.22`
+Current version: `0.0.23`
 
-Latest update: Company Mode v0.7 adds Creative Preproduction and Taste Gate for craft-critical user-facing work.
+Latest update: Company Mode v0.7.1 adds Response Preflight / Header Guard so active Company Mode and workflow R&D replies do not lose their role identity.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -67,6 +67,8 @@ If company/team-roster.md does not exist, create or propose a small workflow ref
 
 Follow the latest workflow rules from now on, especially:
 - every Company Mode reply starts with a roster-backed role header
+- before every user-facing reply, run Response Preflight; if Company Mode is active or the topic is Company Mode/workflow R&D, the first line must be the roster-backed role header
+- if unsure which role owns the reply, use Chief of Staff for routing/status, Workflow Architect for workflow diagnosis/design, and Skill Engineer for skill/rule/template changes
 - role names are optional and must come from company/team-roster.md
 - if no role name exists, use only [Role: Role Title]
 - no passive acknowledgement; ok/yes/go/next/? should continue when unblocked
@@ -481,6 +483,8 @@ Founder and Chief of Staff can evolve the team as the project changes: hire new 
 ```
 
 Role names are optional and file-backed. `company/team-roster.md` is the canonical source for role title, role name, status, scope, and header format. If a role has no name in the roster, the agent should use only `[Role: <Role Title>]` and must not invent a name from chat context.
+
+Response Preflight is the guardrail for this. Before every user-facing reply, the agent should ask: is Company Mode active, or is this reply about Company Mode / workflow R&D itself? If yes, the first line must be the roster-backed role header. If the header is missing, rewrite the first line before sending. This applies even to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Company JARVIS chats.
 
 Roles can also use Selective Innovation Mode. This is deeper than the normal out-of-box pass. It can be forced by the user or self-invoked by a role when a task deserves serious ideation. The role must state why it invoked the mode, compare meaningfully different options, critique them, and choose the best practical path.
 

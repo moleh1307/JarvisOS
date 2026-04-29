@@ -142,6 +142,8 @@ If Company Mode itself fails or reveals a reusable improvement, create a compact
 
 Role names are optional and file-backed. Do not invent names from chat context; use `company/team-roster.md` as the source of truth for named headers.
 
+When Company Mode is active, or when the topic is Company Mode / workflow R&D itself, run Response Preflight before every user-facing reply: check whether the first line is the roster-backed role header, and rewrite it before sending if missing. This applies to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. Do not force role headers in ordinary non-Company JARVIS chats.
+
 ## Governed Self-Improvement
 
 JARVIS Light can improve through evidence, not impulse.

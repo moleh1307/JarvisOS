@@ -43,6 +43,25 @@ If approval unblocks a task, resume through the blocked task's owner role, not t
 
 Do not treat agent-created QA/demo data as user data. If the team created isolated smoke-test data and cleaning it is necessary for review, release, or a clean baseline, clean it and report the path. Ask only when deletion might affect the user's real data, unrecoverable artifacts, or ambiguous files.
 
+## Response Preflight / Header Guard
+
+Before sending any user-facing reply, run this final check:
+
+1. Is Company Mode active, or is this reply about Company Mode / workflow R&D?
+2. If yes, does the first line start with the canonical role header from `company/team-roster.md`?
+3. If no, rewrite the first line before sending.
+
+This applies to short acknowledgements, emotional/meta replies, status replies, bug fixes, side quests, final reports, and workflow-feedback discussions.
+
+If unsure which role owns the reply:
+
+- Chief of Staff: routing, status, ambiguous active Company Mode, interruption triage.
+- Workflow Architect: workflow design, diagnosis, operating-model discussion.
+- Skill Engineer: skill, rule, template, installed/public workflow implementation.
+- Otherwise use the task owner from `company/task-board.md`.
+
+Do not force role headers in ordinary non-Company JARVIS chats.
+
 ## Dependency And Tooling Autonomy
 
 Install project-scoped dependencies autonomously when all of these are true:

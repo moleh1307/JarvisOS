@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.23 - 2026-04-29
+
+- Added Company Mode v0.7.1 Response Preflight / Header Guard.
+- Agents now have an explicit final check before every user-facing reply: if Company Mode is active, or the topic is Company Mode / workflow R&D itself, the first line must be the roster-backed role header.
+- Added fallback routing for ambiguous headers: Chief of Staff for routing/status, Workflow Architect for workflow diagnosis/design, and Skill Engineer for skill/rule/template changes.
+- Clarified that the guard applies to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies, but not ordinary non-Company JARVIS chats.
+
 ## 0.0.22 - 2026-04-29
 
 - Added Company Mode v0.7 Creative Preproduction and Taste Gate.

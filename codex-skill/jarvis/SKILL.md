@@ -98,6 +98,8 @@ When Company Mode exposes reusable workflow friction or a behavior defect, recor
 
 Role names in Company Mode are optional and must come from `company/team-roster.md`; if no name is defined, use the role title only.
 
+When Company Mode is active, or when discussing Company Mode / workflow R&D itself, use the Company Mode Response Preflight before every user-facing reply: the first line must be the roster-backed role header. Do not force role headers in ordinary non-Company JARVIS chats.
+
 ## Choose The Right Note
 
 - Project state -> `memory/projects/<project>.md`
