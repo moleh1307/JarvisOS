@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.33 - 2026-04-29
+
+- Added progressive Founder discovery for new project initialization.
+- Founder should start with a small, direct first question batch instead of a long survey.
+- Follow-up questions are allowed when answers are insufficient, but long questionnaires should be split into rounds and reserved for genuinely complex or high-risk projects.
+
 ## 0.0.32 - 2026-04-29
 
 - Merged the public `jarvis` and `jarvis-company-mode` skill packages into one `jarvis-os` package.

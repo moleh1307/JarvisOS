@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.32`
+Current version: `0.0.33`
 
-Latest update: JARVIS OS is now a single Codex skill package. The old `jarvis` and `jarvis-company-mode` packages are merged into `jarvis-os`; Specialist Mode lives inside `jarvis-os/references/` and Company Mode remains a compatibility alias.
+Latest update: Founder discovery now starts with a small set of direct, high-leverage questions and asks follow-ups only when the first answers are not enough.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.

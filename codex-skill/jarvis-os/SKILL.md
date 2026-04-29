@@ -54,6 +54,8 @@ Activate Specialist Mode when the work benefits from durable role separation or 
 
 If the user gives a serious project but does not name a mode, infer the appropriate mode from the project shape. Ask only when the mode choice would materially change risk, scope, cost, or file layout.
 
+For new-project initialization, use progressive Founder discovery: ask a small first batch of direct, high-leverage questions, then ask follow-ups only if the answers are insufficient. Do not start with a long questionnaire unless the user asks for exhaustive discovery or the project risk genuinely requires it.
+
 ## Retrieve Context First
 
 Before non-trivial work:
