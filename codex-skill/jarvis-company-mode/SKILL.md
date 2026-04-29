@@ -1,25 +1,27 @@
 ---
 name: jarvis-company-mode
-description: "Role-based project workflow for JARVIS Light. Use when Codex should run a serious project through Founder, Chief of Staff, specialist roles, task boards, work orders, review gates, adoption audits for existing projects, and compact continue/status commands."
+description: "Role-based project workflow for JARVIS Light through JARVIS Specialist Mode, formerly Company Mode. Use when Codex should run a serious project through Founder, Chief of Staff, specialist roles, task boards, work orders, review gates, adoption audits for existing projects, and compact continue/status commands."
 ---
 
-# JARVIS Company Mode
+# JARVIS Specialist Mode
 
-Company Mode v0.8.5 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, excellence calibration gates, claim review loops, feedback loops, outcome contracts, retrieval budgets, and stop rules stored in markdown.
+JARVIS Specialist Mode is the successor name for JARVIS Company Mode. `Company Mode` remains a supported compatibility alias because existing chats, prompts, project folders, and the package name still use it.
+
+Specialist Mode / Company Mode v0.8.5 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, excellence calibration gates, claim review loops, feedback loops, outcome contracts, retrieval budgets, and stop rules stored in markdown.
 
 Use when the user asks for:
 
-- an agent army, company, studio, research team, or specialist team;
+- JARVIS Specialist Mode, JARVIS Company Mode, an agent army, company, studio, research team, or specialist team;
 - Founder/CEO/project-architect initialization;
-- adopting or retrofitting an existing project/repo/research folder into Company Mode;
-- `continue`, `status`, `show blockers`, or role-based execution after Company Mode is initialized;
+- adopting or retrofitting an existing project/repo/research folder into Specialist Mode / Company Mode;
+- `continue`, `status`, `show blockers`, or role-based execution after Specialist Mode / Company Mode is initialized;
 - serious app, research, data, writing, product, or website work where one undifferentiated agent would blur responsibilities.
 
 ## Outcome Contract
 
-Company Mode succeeds when a serious project has the right specialist structure for its actual shape, the next useful work keeps moving without routine user micromanagement, and durable files make continuation possible across chats.
+Specialist Mode succeeds when a serious project has the right specialist structure for its actual shape, the next useful work keeps moving without routine user micromanagement, and durable files make continuation possible across chats.
 
-Before a Company Mode response or milestone is treated as complete:
+Before a Specialist Mode / Company Mode response or milestone is treated as complete:
 
 - the responsible role is clear and the reply starts with the roster-backed role header;
 - the live project state, task board, operating mode, and relevant work order have been read narrowly;
@@ -68,7 +70,7 @@ Stop reading and execute when the next safe task is clear. Stop executing only f
 
 ## Required Project Files
 
-Company Mode lives inside the project workspace or repo:
+Specialist Mode / Company Mode lives inside the project workspace or repo:
 
 ```text
 company/
@@ -97,10 +99,10 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Non-Negotiable Rules
 
-- Company Mode is optional; do not use it for tiny tasks.
-- Every Company Mode reply starts with a role header built from `company/team-roster.md`.
-- Before every user-facing reply, run Response Preflight: if Company Mode is active, or if the topic is Company Mode / workflow R&D itself, the first line must be a roster-backed role header. If it is missing, rewrite the first line before sending.
-- Response Preflight applies to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Company JARVIS chats.
+- Specialist Mode is optional; do not use it for tiny tasks.
+- Every Specialist Mode / Company Mode reply starts with a role header built from `company/team-roster.md`.
+- Before every user-facing reply, run Response Preflight: if Specialist Mode / Company Mode is active, or if the topic is Specialist Mode / Company Mode / workflow R&D itself, the first line must be a roster-backed role header. If it is missing, rewrite the first line before sending.
+- Response Preflight applies to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Specialist JARVIS chats.
 - Role names are optional and file-backed; never invent names from chat memory.
 - Founder asks all material project questions before deciding team, file depth, and first work orders.
 - Founder must infer the project's shape before workflow design: what kind of work this is, what makes success hard, what evidence matters, what roles/artifacts are needed, what confidence lanes apply, and what verification or adversarial review gates are justified.
@@ -139,7 +141,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Current Boundary
 
-Company Mode v0.8.5 provides:
+Specialist Mode / Company Mode v0.8.5 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -159,7 +161,7 @@ Company Mode v0.8.5 provides:
 - Internal milestone acceptance without routine user review gates.
 - Project-scoped dependency/plugin autonomy, role-accurate reporting, and product-judgment checks to avoid QA/test treadmill behavior.
 - Creative Preproduction and Taste Gate for craft-critical user-facing artifacts.
-- Response Preflight / Header Guard for role-header reliability in Company Mode and workflow R&D discussions.
+- Response Preflight / Header Guard for role-header reliability in Specialist Mode / Company Mode and workflow R&D discussions.
 - Adaptive Project-Shape Inference before workflow design.
 - Operating Mode Declaration so continuation stays aligned with the project's current phase.
 - Workflow Refresh Playbook for upgrading older active chats without copying the whole rule set into the prompt.
@@ -171,7 +173,7 @@ Company Mode v0.8.5 provides:
 - Queue Re-Ranking after discoveries change the bottleneck.
 - GPT-5.5-aligned outcome contract, retrieval budget, and stop rules for top-level prompt discipline.
 
-Company Mode does not provide:
+Specialist Mode / Company Mode does not provide:
 
 - background workers;
 - true parallel execution;
@@ -226,7 +228,7 @@ Do not escalate for routine verified role/task branch pushes, internal PR update
 ## User Commands
 
 - `continue`: run the next unblocked task.
-- `workflow refresh`: reconcile an older active chat/project with the latest installed JARVIS and Company Mode rules.
+- `workflow refresh`: reconcile an older active chat/project with the latest installed JARVIS and Specialist Mode / Company Mode rules.
 - `ok`, `okay`, `yes`, `yep`, `go`, `next`, `do it`: continue when active and unblocked.
 - `?`, `why`, `what now`: inspect state and continue or state the exact blocker.
 - `status`: summarize current state, active task, blockers, and exact next action.
@@ -246,7 +248,7 @@ Installed and public versions should stay structurally aligned. The public skill
 
 ## JARVIS Compatibility
 
-Company Mode must preserve normal JARVIS Light discipline:
+Specialist Mode / Company Mode must preserve normal JARVIS Light discipline:
 
 - markdown is source of truth;
 - ask on consequential ambiguity;

@@ -65,7 +65,7 @@ Create feedback when a project reveals:
 - behavior defect, such as passive acknowledgement, missing role identity, poor continuation, or bad routing;
 - repeated workflow friction;
 - missing role, rule, template field, or review gate;
-- quality gap Company Mode should have caught;
+- quality gap Specialist Mode / Company Mode should have caught;
 - emergent pattern worth reusing;
 - candidate eval scenario from real project interaction.
 

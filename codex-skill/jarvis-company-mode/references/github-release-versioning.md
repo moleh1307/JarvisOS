@@ -28,7 +28,7 @@ Do not change global git identity for each role. Prefer per-commit `--author` or
 
 If a project is already explicitly waiting for the user because an escalation rule applies, do not use "needs approval" as a generic stop sign. State the exact decision needed: release approval, credential/cost approval, destructive action approval, scope choice, or explicitly requested user review.
 
-Do not confuse public repo baseline with final product acceptance. A verified baseline can be pushed to `main` while the app remains internally active or internally accepted, as long as README/status/limitations are honest and private Company Mode memory is not pushed.
+Do not confuse public repo baseline with final product acceptance. A verified baseline can be pushed to `main` while the app remains internally active or internally accepted, as long as README/status/limitations are honest and private Specialist Mode / Company Mode memory is not pushed.
 
 Project-scoped GitHub/QA dependencies such as test runners, browser testing packages, and official framework plugins are normal coding-project work. Do not turn them into GitHub/release approval gates unless they introduce external services, secrets, paid usage, telemetry/cloud runtime behavior, protected-branch risk, or unusual system-level impact.
 
@@ -54,15 +54,15 @@ For coding projects, README should include:
 - current status;
 - setup/run/build/test instructions;
 - known limitations;
-- where Company Mode state lives if relevant.
+- where Specialist Mode / Company Mode state lives if relevant.
 
 Include `.gitignore` when the stack produces local dependencies/build output. Do not treat a GitHub repo as shipped or handoff-ready while GitHub shows "Add a README" unless the absence is explicitly justified.
 
-If `company/` is kept private/ignored, the README should say where local Company Mode state lives and whether it is intentionally excluded from the public repo.
+If `company/` is kept private/ignored, the README should say where local Specialist Mode / Company Mode state lives and whether it is intentionally excluded from the public repo.
 
 ## Version Visibility
 
-If any role changes internal project version, release version, package version, app version, public template version, or Company Mode workflow version, visible project docs must change in the same task or commit.
+If any role changes internal project version, release version, package version, app version, public template version, or Specialist Mode / Company Mode workflow version, visible project docs must change in the same task or commit.
 
 Default targets:
 

@@ -25,9 +25,9 @@ Rules:
 
 ## User-Facing Role Identity
 
-Every Company Mode response to the user starts with a role header, including status, bug-fix replies, test instructions, quick answers, and side quests.
+Every Specialist Mode / Company Mode response to the user starts with a role header, including status, bug-fix replies, test instructions, quick answers, and side quests.
 
-Treat the role header as an output contract, not decorative styling. Missing the header in active Company Mode or workflow R&D discussion is a workflow defect even when the answer is short or conversational.
+Treat the role header as an output contract, not decorative styling. Missing the header in active Specialist Mode / Company Mode or workflow R&D discussion is a workflow defect even when the answer is short or conversational.
 
 Pick the role by responsibility:
 

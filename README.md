@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.30`
+Current version: `0.0.31`
 
-Latest update: Company Mode v0.8.5 adds GPT-5.5-aligned outcome contracts, retrieval budgets, and stop rules so agents read enough context to act correctly without turning every task into a giant prompt stack.
+Latest update: JARVIS Specialist Mode is now the future-facing name for the role-based project workflow. Company Mode remains a compatibility alias, and the public template still preserves the existing `jarvis-company-mode` package path.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -50,12 +50,12 @@ and files the next chat should read first.
 
 ### 3. Refresh An Older Active Chat
 
-Use this when JARVIS or Company Mode has been updated while an older project chat is still active.
+Use this when JARVIS or Specialist Mode / Company Mode has been updated while an older project chat is still active.
 
 ```text
 Jarvis, workflow refresh.
 
-Use JARVIS and JARVIS Company Mode.
+Use JARVIS and JARVIS Specialist Mode.
 
 Read the latest installed skills:
 - ~/.codex/skills/jarvis/SKILL.md
@@ -68,7 +68,7 @@ Then read the live project state:
 - company/task-board.md
 - company/integration-log.md if it exists
 
-If this project is missing newer Company Mode fields,
+If this project is missing newer Specialist Mode / Company Mode fields,
 create a small workflow refresh task and update the company state.
 
 Continue from the next unblocked task using the latest workflow rules.
@@ -94,9 +94,9 @@ Jarvis, create a fresh-chat handoff for this project using the latest JARVIS wor
 ### 4. New App Or Product
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
-Start a new project in Company Mode.
+Start a new project in Specialist Mode.
 Project idea:
 ...
 
@@ -108,9 +108,9 @@ Then choose the right workspace, decide the team, and create the first high-leve
 ### 5. Existing Repo Adoption
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
-Adopt this existing project into Company Mode:
+Adopt this existing project into Specialist Mode:
 /path/to/project
 
 Your first role is Founder / Organizational Auditor.
@@ -121,7 +121,7 @@ Do not reorganize or rewrite anything before the audit.
 ### 6. Research Project
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 Start a research team for:
 ...
@@ -135,7 +135,7 @@ Then decide the research team and create the first work orders.
 ### 7. Data / Quant Project
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 Start a data/quant project for:
 ...
@@ -150,7 +150,7 @@ Do not let anyone call results ready without verification and artifact hygiene.
 ### 8. Website Or Launch Page
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 Build a serious website for:
 ...
@@ -164,7 +164,7 @@ The team should critique weak design or messaging without waiting for me to say 
 ### 9. Writing / Thesis / Book
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 Create an editorial team for:
 ...
@@ -175,10 +175,10 @@ Then decide the editorial team and first work orders.
 Keep citations, claims, and next writing tasks durable in markdown.
 ```
 
-### 10. Bug Or Side Quest During Company Mode
+### 10. Bug Or Side Quest During Specialist Mode
 
 ```text
-Jarvis, side quest for the current Company Mode project:
+Jarvis, side quest for the current Specialist Mode project:
 ...
 
 Classify this as clarification, defect, side quest, or scope change.
@@ -191,12 +191,12 @@ Preserve the interrupted task and tell me whether the main flow resumes afterwar
 ok
 ```
 
-In an active Company Mode project, short acknowledgements such as `ok`, `yes`, `go`, `next`, or `?` should not produce passive replies. They should continue the next unblocked task or explain the exact blocker.
+In an active Specialist Mode / Company Mode project, short acknowledgements such as `ok`, `yes`, `go`, `next`, or `?` should not produce passive replies. They should continue the next unblocked task or explain the exact blocker.
 
 ### 12. Force Innovation Mode
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 For the next task, force Innovation Mode.
 Generate meaningfully different options.
@@ -209,10 +209,10 @@ Roles may also self-invoke Innovation Mode when the work is ambiguous, strategic
 
 ### 13. Report Workflow Feedback
 
-Use this when a real project exposes a reusable JARVIS / Company Mode improvement.
+Use this when a real project exposes a reusable JARVIS / Specialist Mode improvement.
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 Feedback for the workflow:
 ...
@@ -225,7 +225,7 @@ Do not turn it into a standing rule until it is triaged.
 ### 14. Release / Version Update
 
 ```text
-Jarvis, use JARVIS and JARVIS Company Mode.
+Jarvis, use JARVIS and JARVIS Specialist Mode.
 
 Run release readiness for this project.
 Check verification, version metadata, README/changelog visibility,
@@ -252,7 +252,7 @@ The base layer:
 
 This is for continuity.
 
-### 2. JARVIS Company Mode
+### 2. JARVIS Specialist Mode
 
 The optional serious-project layer:
 
@@ -399,9 +399,9 @@ Every meaningful output should answer:
 
 The goal is not pretty documentation. The goal is not losing track of reality.
 
-## Company Mode
+## Specialist Mode
 
-Company Mode is optional. Use it when the project is big enough that specialist roles would help.
+JARVIS Specialist Mode is optional. Use it when the project is big enough that specialist roles would help. Company Mode remains the compatibility alias.
 
 Examples:
 
@@ -446,7 +446,7 @@ The Founder becomes **Founder / Organizational Auditor**:
 2. Create `company/adoption-audit.md`.
 3. Separate observed facts from inferences and unknowns.
 4. Infer roles from the actual project structure.
-5. Add the Company Mode layer around the existing project.
+5. Add the Specialist Mode / Company Mode layer around the existing project.
 
 Adoption Mode should not rewrite or reorganize the project before it understands it.
 
@@ -454,7 +454,7 @@ After audit and baseline preservation, adoption should turn into takeover. The c
 
 ### Quality Bar
 
-Company Mode should not stop at “it works.”
+Specialist Mode should not stop at "it works."
 
 Roles should:
 
@@ -513,11 +513,11 @@ Founder and Chief of Staff can evolve the team as the project changes: hire new 
 
 Role names are optional and file-backed. `company/team-roster.md` is the canonical source for role title, role name, status, scope, and header format. If a role has no name in the roster, the agent should use only `[Role: <Role Title>]` and must not invent a name from chat context.
 
-Response Preflight is the guardrail for this. Before every user-facing reply, the agent should ask: is Company Mode active, or is this reply about Company Mode / workflow R&D itself? If yes, the first line must be the roster-backed role header. If the header is missing, rewrite the first line before sending. This applies even to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Company JARVIS chats.
+Response Preflight is the guardrail for this. Before every user-facing reply, the agent should ask: is Specialist Mode / Company Mode active, or is this reply about Specialist Mode / Company Mode / workflow R&D itself? If yes, the first line must be the roster-backed role header. If the header is missing, rewrite the first line before sending. This applies even to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Specialist JARVIS chats.
 
 Roles can also use Selective Innovation Mode. This is deeper than the normal out-of-box pass. It can be forced by the user or self-invoked by a role when a task deserves serious ideation. The role must state why it invoked the mode, compare meaningfully different options, critique them, and choose the best practical path.
 
-Company Mode also supports a feedback loop for improving the workflow itself. When a project exposes reusable friction, a behavior defect, a missing rule, or a useful emergent pattern, the team can file a compact feedback candidate. A JARVIS R&D / maintainer team can then triage it as `reject`, `document-only`, `patch-skill`, `update-template`, `add-eval-scenario`, or `public-release`. Feedback candidates are not rules until promoted.
+Specialist Mode also supports a feedback loop for improving the workflow itself. When a project exposes reusable friction, a behavior defect, a missing rule, or a useful emergent pattern, the team can file a compact feedback candidate. A JARVIS R&D / maintainer team can then triage it as `reject`, `document-only`, `patch-skill`, `update-template`, `add-eval-scenario`, or `public-release`. Feedback candidates are not rules until promoted.
 
 For coding projects, the workflow also supports:
 
@@ -528,9 +528,9 @@ For coding projects, the workflow also supports:
 
 If the remote already exists, verification passed, and the current branch is a role/task branch, agents may push the branch and open/update a PR without asking first. If the user provides a GitHub repo URL for a new coding project, that is authorization to configure the remote and push a clean README-backed baseline after verification unless the user explicitly says local-only or there is a concrete sensitive-data/protected-branch blocker. After internal acceptance, the reviewer role should merge the role/task branch and push `main` when project policy allows. They should still ask before protected/default branch changes when policy is unknown, publishing releases/tags/packages, changing remotes/settings, force-pushing, deleting branches, or pushing anything that may contain private data.
 
-For normal autonomous Company Mode projects, PRs are internal review artifacts. If a role opens a PR, the reviewer role should review it, request fixes if needed, then merge it after internal acceptance. Do not leave a draft PR waiting for the user unless there is a real product, release, secret, cost, or strategic decision.
+For normal autonomous Specialist Mode / Company Mode projects, PRs are internal review artifacts. If a role opens a PR, the reviewer role should review it, request fixes if needed, then merge it after internal acceptance. Do not leave a draft PR waiting for the user unless there is a real product, release, secret, cost, or strategic decision.
 
-Before a GitHub repo is treated as shipped or handoff-ready, it needs a `README.md`. For coding projects, README should explain what the project is, current status, setup/run/build/test instructions, known limitations, and where Company Mode state lives if relevant.
+Before a GitHub repo is treated as shipped or handoff-ready, it needs a `README.md`. For coding projects, README should explain what the project is, current status, setup/run/build/test instructions, known limitations, and where Specialist Mode / Company Mode state lives if relevant.
 
 For user-facing work, the company should use available tools for internal QA and internal role review before escalating to the user. Use Computer Use, browser testing, screenshots, renderers, test scripts, package launch commands, or file inspection where relevant. User review is not a routine milestone gate; it is for explicitly requested review or unavoidable owner-level judgment after internal QA.
 
@@ -561,7 +561,7 @@ After meaningful discoveries, Chief of Staff should ask whether the bottleneck c
 
 ### Excellence Calibration Gate
 
-For excellence-critical work, Company Mode should define the quality target before execution. This is not only for UI. It can apply to apps, research notes, data outputs, decks, architecture, public docs, strategy, papers, demos, and any deliverable where quality, rigor, trust, or originality defines success.
+For excellence-critical work, Specialist Mode should define the quality target before execution. This is not only for UI. It can apply to apps, research notes, data outputs, decks, architecture, public docs, strategy, papers, demos, and any deliverable where quality, rigor, trust, or originality defines success.
 
 Use Excellence Calibration when the team is about to set the quality ceiling for important work:
 
@@ -576,7 +576,7 @@ Skip the gate for tiny bug fixes, mechanical docs updates, routine QA, small ref
 
 ### Creative Preproduction And Taste Gate
 
-For craft-critical user-facing artifacts, Company Mode should not build first and judge later. Founder classifies the work as `utility-only`, `polished product`, `craft-critical`, or `signature product`. Craft-critical and signature work should activate Creative Director / Art Director, Product Designer / UX, UI Engineer, and Design QA responsibilities before major implementation.
+For craft-critical user-facing artifacts, Specialist Mode should not build first and judge later. Founder classifies the work as `utility-only`, `polished product`, `craft-critical`, or `signature product`. Craft-critical and signature work should activate Creative Director / Art Director, Product Designer / UX, UI Engineer, and Design QA responsibilities before major implementation.
 
 Before implementation, the team should gather best-in-class references and anti-references, write an art direction brief, compare divergent concepts, and choose a direction internally. Design QA should reject screenshots that look generic, template-like, card-heavy without product reason, decorative-gradient-driven, default component-library shaped, or disconnected from the product metaphor.
 
@@ -672,7 +672,7 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
    cp codex-skill/jarvis/SKILL.md ~/.codex/skills/jarvis/SKILL.md
    ```
 
-3. Optional: install Company Mode:
+3. Optional: install Specialist Mode:
 
    ```bash
    rm -rf ~/.codex/skills/jarvis-company-mode
@@ -688,7 +688,7 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
    Jarvis, use JARVIS. Read the relevant project memory first.
    ```
 
-6. For Company Mode examples, use the copy-paste starts near the top of this README.
+6. For Specialist Mode examples, use the copy-paste starts near the top of this README.
 
 ## Operating Loop
 
@@ -702,7 +702,7 @@ For meaningful work, the agent should:
 6. update the smallest durable note,
 7. create a handoff only when continuation would otherwise be lossy.
 
-In Company Mode:
+In Specialist Mode / Company Mode:
 
 1. Chief of Staff reads current state and task board.
 2. It picks the next unblocked task.

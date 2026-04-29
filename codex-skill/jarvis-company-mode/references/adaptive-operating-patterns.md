@@ -1,6 +1,6 @@
 # Adaptive Operating Patterns
 
-Use this reference when Company Mode must decide how to shape a project, which operating mode it is in, how much structure to create, when to run Excellence Calibration, how to label confidence, whether to run adversarial review, how to run the Claim Review Loop, and when to re-rank the queue.
+Use this reference when Specialist Mode / Company Mode must decide how to shape a project, which operating mode it is in, how much structure to create, when to run Excellence Calibration, how to label confidence, whether to run adversarial review, how to run the Claim Review Loop, and when to re-rank the queue.
 
 These are general operating patterns, not project-type recipes. Do not hardcode "math projects need X" or "apps need Y." Infer the project's needs from the user's goal, the observed project, the risk profile, and the success bar.
 
@@ -190,8 +190,8 @@ These patterns are meant to reduce confusion, not create ceremony.
 
 Use the lightest structure that preserves the next useful action:
 
-- Tiny task: skip Company Mode.
-- Simple Company Mode project: one-line shape inference, operating mode, normal task board, no optional artifacts.
+- Tiny task: skip Specialist Mode / Company Mode.
+- Simple Specialist Mode / Company Mode project: one-line shape inference, operating mode, normal task board, no optional artifacts.
 - Excellence-critical project: shape inference, operating mode, compact Excellence Calibration, then execute against that bar.
 - Serious uncertain project: shape inference, operating mode, confidence lanes, strategy map, and adversarial review or claim review for consequential results.
 - Long-horizon project: periodic compression of operating mode, current state, dead ends, live artifacts, and next attacks.

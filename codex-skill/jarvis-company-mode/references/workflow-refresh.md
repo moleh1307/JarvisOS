@@ -1,6 +1,6 @@
 # Workflow Refresh
 
-Use this when an older active Company Mode chat needs to adopt newer installed JARVIS / Company Mode rules without restarting the whole project.
+Use this when an older active Specialist Mode / Company Mode chat needs to adopt newer installed JARVIS rules without restarting the whole project.
 
 The goal is to reconcile the live project state with the latest workflow, then continue. It is not a license to rewrite the project, dump the whole rule list into chat, or create a second company layer.
 
@@ -9,7 +9,7 @@ The goal is to reconcile the live project state with the latest workflow, then c
 Run this playbook when:
 
 - the user says `workflow refresh`;
-- JARVIS or Company Mode was updated while an older project chat stayed active;
+- JARVIS or Specialist Mode / Company Mode was updated while an older project chat stayed active;
 - the project has stale behavior such as passive `ok` replies, missing role headers, missing operating mode, stale review gates, or outdated GitHub/version/QA assumptions;
 - the project is missing newer but relevant `company/` fields.
 
@@ -41,7 +41,7 @@ Run this playbook when:
 
 ## What Not To Do
 
-- Do not paste the full Company Mode rule set into the README, chat, or project state.
+- Do not paste the full Specialist Mode / Company Mode rule set into the README, chat, or project state.
 - Do not rewrite all company files just because the skill changed.
 - Do not create a new company layer when one already exists.
 - Do not ask the user for routine approval to update workflow state.

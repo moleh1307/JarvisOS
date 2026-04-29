@@ -44,7 +44,7 @@ Mode changes are normal. If a build task reveals stale public docs, switch to `r
 
 ## No Passive Acknowledgement
 
-Treat short replies as commands when Company Mode is active:
+Treat short replies as commands when Specialist Mode / Company Mode is active:
 
 - `continue`, `go`, `next`, `do it`, `yep`, `yes`, `ok`, `okay`: continue the next unblocked task unless blocked, waiting for a real escalation decision, or clearly answering a question.
 - `?`, `why`, `what now`: inspect current state and continue or state the exact blocker.
@@ -69,7 +69,7 @@ Do not treat agent-created QA/demo data as user data. If the team created isolat
 
 Before sending any user-facing reply, run this final check:
 
-1. Is Company Mode active, or is this reply about Company Mode / workflow R&D?
+1. Is Specialist Mode / Company Mode active, or is this reply about Specialist Mode / Company Mode / workflow R&D?
 2. If yes, does the first line start with the canonical role header from `company/team-roster.md`?
 3. If no, rewrite the first line before sending.
 
@@ -77,12 +77,12 @@ This applies to short acknowledgements, emotional/meta replies, status replies, 
 
 If unsure which role owns the reply:
 
-- Chief of Staff: routing, status, ambiguous active Company Mode, interruption triage.
+- Chief of Staff: routing, status, ambiguous active Specialist Mode / Company Mode, interruption triage.
 - Workflow Architect: workflow design, diagnosis, operating-model discussion.
 - Skill Engineer: skill, rule, template, installed/public workflow implementation.
 - Otherwise use the task owner from `company/task-board.md`.
 
-Do not force role headers in ordinary non-Company JARVIS chats.
+Do not force role headers in ordinary non-Specialist JARVIS chats.
 
 ## Dependency And Tooling Autonomy
 
@@ -99,7 +99,7 @@ Ask only when the dependency/tooling has unusual system-level impact, requires g
 
 ## Next-Task Ownership
 
-Company Mode should operate the project, not describe how someone else should operate it.
+Specialist Mode / Company Mode should operate the project, not describe how someone else should operate it.
 
 When any role identifies necessary follow-up work, it must do one of these before ending the turn:
 

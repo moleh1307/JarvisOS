@@ -54,7 +54,7 @@ Recommended defaults:
 - Archived real projects: the user's archive folder, for example `~/Projects/Archive/<ProjectName>`.
 - Data-heavy shared datasets or cross-project data stores: the user's data/projects folder, for example `~/Projects/Data/<ProjectName>`.
 - Experiments that are not yet real products: the user's experiments folder, for example `~/Projects/Experiments/<ProjectName>`.
-- JARVIS workflow tests, demos, and throwaway Company Mode trials only: a vault-local folder such as `<JARVIS-vault>/projects/<ProjectName>`.
+- JARVIS workflow tests, demos, and throwaway Specialist Mode / Company Mode trials only: a vault-local folder such as `<JARVIS-vault>/projects/<ProjectName>`.
 
 If the request is ambiguous between a real project and a JARVIS workflow test, ask one setup-level question before creating files. If files were created in the wrong root, do not move them silently; create a migration work order or ask the user.
 

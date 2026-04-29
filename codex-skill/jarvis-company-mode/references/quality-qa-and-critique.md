@@ -4,7 +4,7 @@ Use this reference for user-facing apps/sites/docs, design/product quality, QA, 
 
 ## Quality Bar
 
-Company Mode should not optimize for "barely works."
+Specialist Mode / Company Mode should not optimize for "barely works."
 
 Default expectations:
 
@@ -123,7 +123,7 @@ Use the role header that matches the work being reported:
 - QA evidence and release checks: report as QA / Release.
 - Native/runtime implementation: report as the relevant engineer role.
 
-If a task changes role midstream, switch headers at the transition. Do not let one specialist claim broad implementation, QA, release, and product decisions outside its scope. The point of Company Mode is role separation; reports should preserve that separation.
+If a task changes role midstream, switch headers at the transition. Do not let one specialist claim broad implementation, QA, release, and product decisions outside its scope. The point of Specialist Mode / Company Mode is role separation; reports should preserve that separation.
 
 ## Product Judgment Check
 

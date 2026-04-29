@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.31 - 2026-04-29
+
+- Introduced JARVIS Specialist Mode as the future-facing name for the role-based project workflow.
+- Preserved Company Mode as a compatibility alias for existing prompts, folders, chats, and the `jarvis-company-mode` package path.
+- Updated the public README, JARVIS skill, Specialist Mode skill, and key references so both old and new invocation phrases remain clear.
+
 ## 0.0.30 - 2026-04-29
 
 - Added Company Mode v0.8.5 GPT-5.5-aligned outcome contracts to the JARVIS and Company Mode skills.

@@ -33,7 +33,7 @@ Before finishing meaningful work, the outcome should satisfy:
 - Treat `Downloads` and Desktop copies as temporary or delivery copies unless explicitly declared canonical.
 - Use clickable absolute markdown links when referencing local artifacts in user-facing responses.
 - Learn from repeated friction through `system/learning-log.md`, but do not silently rewrite core rules from one-off events.
-- For serious projects that need specialist perspectives, use the optional `jarvis-company-mode` skill: Founder, Chief of Staff, roles, task boards, review gates, adoption audits, and `continue` commands.
+- For serious projects that need specialist perspectives, use the optional JARVIS Specialist Mode layer provided by the `jarvis-company-mode` skill: Founder, Chief of Staff, roles, task boards, review gates, adoption audits, and `continue` commands. `Company Mode` remains a supported compatibility alias.
 
 ## Retrieve Context First
 
@@ -119,21 +119,21 @@ Promotion statuses are: `candidate`, `repeated`, `promoted`, `rejected`, and `su
 
 Do not create learning entries for tiny tasks or one-off preferences. Do not let self-improvement become ceremony.
 
-## Company Mode Add-On
+## Specialist Mode Add-On
 
-When a project is too large for one undifferentiated agent mode, use Company Mode. It keeps normal JARVIS Light memory rules but adds project-local role files under `company/`, including Founder, Chief of Staff, specialist charters, role memories, team roster, task board, work orders, review gates, adaptive project-shape inference, operating mode, workflow feedback, and integration log.
+When a project is too large for one undifferentiated agent mode, use JARVIS Specialist Mode. It keeps normal JARVIS Light memory rules but adds project-local role files under `company/`, including Founder, Chief of Staff, specialist charters, role memories, team roster, task board, work orders, review gates, adaptive project-shape inference, operating mode, workflow feedback, and integration log. `Company Mode` remains valid for older prompts, folders, and chats.
 
-In active Company Mode projects, interpret `continue` as: Chief of Staff reads durable state, selects the next unblocked task, enters the assigned role, executes within scope, verifies, updates memory, and reports compactly.
+In active Specialist Mode / Company Mode projects, interpret `continue` as: Chief of Staff reads durable state, selects the next unblocked task, enters the assigned role, executes within scope, verifies, updates memory, and reports compactly.
 
 For existing projects, use Adoption Mode: audit the repo/folder first, separate observed facts from inferences, then create the company layer around the actual structure.
 
-When Company Mode exposes reusable workflow friction or a behavior defect, record a feedback candidate and route general workflow issues to the maintainer/R&D project for triage before changing standing rules.
+When Specialist Mode exposes reusable workflow friction or a behavior defect, record a feedback candidate and route general workflow issues to the maintainer/R&D project for triage before changing standing rules.
 
-Role names in Company Mode are optional and must come from `company/team-roster.md`; if no name is defined, use the role title only.
+Role names in Specialist Mode are optional and must come from `company/team-roster.md`; if no name is defined, use the role title only.
 
-When Company Mode is active, or when discussing Company Mode / workflow R&D itself, use the Company Mode Response Preflight before every user-facing reply: the first line must be the roster-backed role header. Do not force role headers in ordinary non-Company JARVIS chats.
+When Specialist Mode / Company Mode is active, or when discussing Specialist Mode / Company Mode / workflow R&D itself, use Response Preflight before every user-facing reply: the first line must be the roster-backed role header. Do not force role headers in ordinary non-Specialist JARVIS chats.
 
-For serious Company Mode projects, Founder should infer the project's shape before designing the workflow. The team should choose roles, artifacts, operating mode, confidence lanes, adversarial review gates, and strategy maps from the actual problem rather than from fixed project-type recipes. Chief of Staff should use operating mode during `continue` so the project does not handle discovery, build, audit, polish, release, dogfood, research attack, recovery, and maintenance the same way.
+For serious Specialist Mode projects, Founder should infer the project's shape before designing the workflow. The team should choose roles, artifacts, operating mode, confidence lanes, adversarial review gates, and strategy maps from the actual problem rather than from fixed project-type recipes. Chief of Staff should use operating mode during `continue` so the project does not handle discovery, build, audit, polish, release, dogfood, research attack, recovery, and maintenance the same way.
 
 ## Choose The Right Note
 
