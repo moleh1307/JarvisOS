@@ -2,9 +2,9 @@
 
 **A local-first operating system for Codex continuity.**
 
-Current version: `0.0.29`
+Current version: `0.0.30`
 
-Latest update: Company Mode v0.8.4 adds the Excellence Calibration Gate so teams define the reference class, top-tier bar, benchmarks, missing capabilities, and rejection tests before excellence-critical work sets the quality ceiling.
+Latest update: Company Mode v0.8.5 adds GPT-5.5-aligned outcome contracts, retrieval budgets, and stop rules so agents read enough context to act correctly without turning every task into a giant prompt stack.
 
 JARVIS Light turns a folder of markdown files into durable assistant memory.  
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.

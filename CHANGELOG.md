@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.30 - 2026-04-29
+
+- Added Company Mode v0.8.5 GPT-5.5-aligned outcome contracts to the JARVIS and Company Mode skills.
+- Added retrieval budgets and stop rules so agents read enough context to act correctly without over-reading the vault or project state.
+- Preserved Company Mode compatibility, role headers, QA, escalation, confidence lanes, and public/private safety rules.
+
 ## 0.0.29 - 2026-04-29
 
 - Added Company Mode v0.8.4 Excellence Calibration Gate.

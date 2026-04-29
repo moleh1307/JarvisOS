@@ -5,7 +5,7 @@ description: "Role-based project workflow for JARVIS Light. Use when Codex shoul
 
 # JARVIS Company Mode
 
-Company Mode v0.8.4 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, excellence calibration gates, claim review loops, and feedback loops stored in markdown.
+Company Mode v0.8.5 is an optional JARVIS Light layer for serious projects that benefit from specialist perspectives. It does not create true background agents. It makes one Codex agent operate through durable role contracts, queues, memories, review gates, a team roster, adaptive project-shape inference, operating modes, workflow refresh, excellence calibration gates, claim review loops, feedback loops, outcome contracts, retrieval budgets, and stop rules stored in markdown.
 
 Use when the user asks for:
 
@@ -14,6 +14,18 @@ Use when the user asks for:
 - adopting or retrofitting an existing project/repo/research folder into Company Mode;
 - `continue`, `status`, `show blockers`, or role-based execution after Company Mode is initialized;
 - serious app, research, data, writing, product, or website work where one undifferentiated agent would blur responsibilities.
+
+## Outcome Contract
+
+Company Mode succeeds when a serious project has the right specialist structure for its actual shape, the next useful work keeps moving without routine user micromanagement, and durable files make continuation possible across chats.
+
+Before a Company Mode response or milestone is treated as complete:
+
+- the responsible role is clear and the reply starts with the roster-backed role header;
+- the live project state, task board, operating mode, and relevant work order have been read narrowly;
+- the team has created, started, or completed the next concrete work order instead of ending with vague "should" language;
+- artifacts, claims, releases, and user-facing work have been verified with appropriate tools or labeled with the right confidence lane;
+- escalation is used only for real user decisions, not routine internal review.
 
 ## Progressive Loading
 
@@ -33,6 +45,26 @@ Read only the references needed for the current task:
 For a normal `continue`, read `team-roster.md`, `current-state.md`, `task-board.md`, relevant role memory, and the current operating mode. Load only the reference matching the task type and mode.
 
 For a workflow refresh in an old chat, read this `SKILL.md`, `references/workflow-refresh.md`, then the live project `company/` files. Load other references only when the active task needs them.
+
+## Retrieval Budget And Stop Rules
+
+For normal continuation, start with the minimum live state:
+
+1. `company/team-roster.md`
+2. `company/current-state.md`
+3. `company/task-board.md`
+4. current work order and assigned role memory
+5. one relevant reference file matching the operating mode or task type
+
+Load more only when:
+
+- the active task, owner, blocker, operating mode, or allowed scope is unclear;
+- adoption/audit, release, public push, design rejection, proof claim, or destructive-risk context is missing;
+- a downstream task depends on a consequential claim that needs Claim Review;
+- the project state appears stale or inconsistent;
+- the user explicitly asks for a broad review.
+
+Stop reading and execute when the next safe task is clear. Stop executing only for the escalation rules, an actual blocker, or completion of the current work order. Do not ask for routine review when internal role review and QA can decide.
 
 ## Required Project Files
 
@@ -107,7 +139,7 @@ Use the JARVIS Light `templates/company-mode/` files when creating these files.
 
 ## Current Boundary
 
-Company Mode v0.8.4 provides:
+Company Mode v0.8.5 provides:
 
 - Greenfield project initialization.
 - Existing-project Adoption Mode and Takeover Authority.
@@ -137,6 +169,7 @@ Company Mode v0.8.4 provides:
 - Adversarial Review Trigger for consequential internal results.
 - Claim Review Loop for assumptions/results that downstream work depends on.
 - Queue Re-Ranking after discoveries change the bottleneck.
+- GPT-5.5-aligned outcome contract, retrieval budget, and stop rules for top-level prompt discipline.
 
 Company Mode does not provide:
 
