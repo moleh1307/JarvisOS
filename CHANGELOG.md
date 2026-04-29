@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.34 - 2026-04-29
+
+- Added the Off-Roadmap Request Proposal Gate.
+- Substantial requests outside the current team roadmap should first receive a compact internal intake and proposal.
+- After user approval, the team executes the approved scope, verifies, updates state, and pushes when safe.
+
 ## 0.0.33 - 2026-04-29
 
 - Added progressive Founder discovery for new project initialization.

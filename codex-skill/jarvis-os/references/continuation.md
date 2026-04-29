@@ -158,3 +158,29 @@ Protocol:
 3. Preserve the interrupted task in `current-state.md`.
 4. If interruption becomes work, record parent/interrupted task in task board or work order.
 5. After handling it, state whether the main flow resumes, remains paused, or now has a new next task.
+
+## Off-Roadmap Request Proposal Gate
+
+When the user introduces a substantial request outside the current team roadmap, do not immediately patch and push just because the request sounds implementable.
+
+First run a short internal intake:
+
+1. Chief of Staff classifies the request as roadmap-aligned, off-roadmap improvement, defect, urgent fix, or strategic change.
+2. Read the live state and relevant references so the team understands what the request would affect.
+3. Route to the smallest relevant roles for internal discussion, usually Workflow Architect for workflow design, Skill Engineer for skill changes, Public Template Maintainer for public docs/versioning, QA for risk and verification.
+4. Produce a compact proposal before implementation when the change affects skills, templates, roadmap, versioning, public docs, architecture, project direction, or future agent behavior.
+
+The proposal should include:
+
+- what the team understood the user to want;
+- why it is or is not worth doing now;
+- proposed implementation scope;
+- risks or tradeoffs;
+- files/surfaces likely to change;
+- version/public impact;
+- verification plan;
+- exact approval line if user approval is needed.
+
+After the user approves the proposal, execute the approved scope, verify it, update state, and push when safe. Approval carries through the whole proposed safe action set.
+
+Skip this proposal gate only for tiny clarifications, obvious typo/docs fixes, urgent defects, or cases where the user explicitly asks for immediate execution and the risk is low.

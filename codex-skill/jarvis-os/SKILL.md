@@ -56,6 +56,8 @@ If the user gives a serious project but does not name a mode, infer the appropri
 
 For new-project initialization, use progressive Founder discovery: ask a small first batch of direct, high-leverage questions, then ask follow-ups only if the answers are insufficient. Do not start with a long questionnaire unless the user asks for exhaustive discovery or the project risk genuinely requires it.
 
+For substantial off-roadmap requests inside Specialist Mode or JARVIS R&D, run a short internal intake and propose the update before patching/pushing unless the user explicitly asks for immediate low-risk execution.
+
 ## Retrieve Context First
 
 Before non-trivial work:
