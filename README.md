@@ -44,7 +44,8 @@ Read the relevant project memory first, then help me with:
 Jarvis, use JARVIS.
 
 This chat is getting long. Create a fresh-chat handoff for this project.
-Include current objective, completed work, blockers, exact next steps, and files the next chat should read first.
+Include current objective, completed work, blockers, exact next steps,
+and files the next chat should read first.
 ```
 
 ### 3. Refresh An Older Active Chat
@@ -66,10 +67,11 @@ Then read the live project state:
 - company/task-board.md
 - company/integration-log.md if it exists
 
-If this project is missing newer Company Mode fields, create a small workflow refresh task and update the company state before continuing.
+If this project is missing newer Company Mode fields,
+create a small workflow refresh task and update the company state.
 
 Continue from the next unblocked task using the latest workflow rules.
-Do not ask me for routine review or approval unless the latest escalation rules require it.
+Do not ask me for routine review or approval unless escalation rules require it.
 ```
 
 The installed skills are the source of truth. This prompt intentionally does not copy every rule into the README, because the detailed rules change over time.
@@ -124,7 +126,8 @@ Start a research team for:
 ...
 
 Your first role is Principal Investigator / Founder.
-Ask all material questions needed to understand the research question, data, method, risks, and success criteria.
+Ask all material questions needed to understand the research question,
+data, method, risks, and success criteria.
 Then decide the research team and create the first work orders.
 ```
 
@@ -137,7 +140,8 @@ Start a data/quant project for:
 ...
 
 Your first role is Founder.
-Ask all material questions needed to understand the data, objective, constraints, validation needs, and delivery target.
+Ask all material questions needed to understand the data, objective,
+constraints, validation needs, and delivery target.
 Then decide the required team and first work orders.
 Do not let anyone call results ready without verification and artifact hygiene.
 ```
@@ -150,7 +154,8 @@ Jarvis, use JARVIS and JARVIS Company Mode.
 Build a serious website for:
 ...
 
-Founder should ask all material questions needed to understand the audience, offer, brand, content, visual direction, constraints, and success criteria.
+Founder should ask all material questions needed to understand the audience,
+offer, brand, content, visual direction, constraints, and success criteria.
 Then decide the team and first work orders.
 The team should critique weak design or messaging without waiting for me to say "make it better."
 ```
@@ -163,7 +168,8 @@ Jarvis, use JARVIS and JARVIS Company Mode.
 Create an editorial team for:
 ...
 
-Founder should ask all material questions needed to understand audience, thesis, scope, sources, tone, structure, and delivery format.
+Founder should ask all material questions needed to understand audience,
+thesis, scope, sources, tone, structure, and delivery format.
 Then decide the editorial team and first work orders.
 Keep citations, claims, and next writing tasks durable in markdown.
 ```
@@ -192,7 +198,9 @@ In an active Company Mode project, short acknowledgements such as `ok`, `yes`, `
 Jarvis, use JARVIS and JARVIS Company Mode.
 
 For the next task, force Innovation Mode.
-Generate meaningfully different options, critique them for value/risk/cost/originality/fit, then choose the best practical path.
+Generate meaningfully different options.
+Critique them for value, risk, cost, originality, and fit.
+Then choose the best practical path.
 Do not implement a risky or irreversible idea without creating a proposal or asking first.
 ```
 
@@ -219,7 +227,8 @@ Do not turn it into a standing rule until it is triaged.
 Jarvis, use JARVIS and JARVIS Company Mode.
 
 Run release readiness for this project.
-Check verification, version metadata, README/changelog visibility, git status, and whether a PR or tag is needed.
+Check verification, version metadata, README/changelog visibility,
+git status, and whether a PR or tag is needed.
 Do not publish a release or stop the company without my approval.
 ```
 
