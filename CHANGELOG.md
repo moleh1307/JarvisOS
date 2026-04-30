@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.43 - 2026-04-30
+
+- Tightened Closeout Integrity Check so state-aware completion options are explicitly checked before meaningful Specialist Mode reports.
+- Missing useful completion options now count as a closeout mismatch, not a harmless formatting omission.
+- This reinforces the existing `0.0.35` Completion Options Menu behavior by making it part of final report integrity.
+
 ## 0.0.42 - 2026-04-30
 
 - Added Memory Router and Lifecycle Lanes for JARVIS OS memory discipline.

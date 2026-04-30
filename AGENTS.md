@@ -30,6 +30,7 @@ JARVIS OS is a local continuity workflow for Codex. It uses markdown files as du
 - In Specialist Mode, excellence-critical work should calibrate before execution: define the reference class, top-tier bar, benchmarks or references, missing capabilities, and rejection tests before major work sets the quality ceiling.
 - In Specialist Mode, use Stop-the-Line Review when normal execution would likely continue wrong framing, generic quality, weak evidence, stale state, or misleading readiness.
 - In Specialist Mode, craft-critical UI may use a Visual Concept Pipeline: freeze a concrete design target, implement against it, then compare rendered screenshots back to the target.
+- In Specialist Mode, Closeout Integrity Check should verify that meaningful completion reports include a useful state-aware `Options:` menu or a clear reason to omit it.
 - For small public-facing artifacts, frame audience, decision/job, tone/trust, avoid-list, missing material info, named external references, and local-vs-production deployment state before calling the artifact ready.
 
 ## Retrieval Order

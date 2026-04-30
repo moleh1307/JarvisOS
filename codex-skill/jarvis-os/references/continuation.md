@@ -202,9 +202,10 @@ Check proportionally:
 - If artifacts changed, referenced files exist, are canonical or labeled correctly, and were verified by the relevant check.
 - If a capability surface was declared, required capabilities, approval lane, and verification path match what actually happened.
 - If a public artifact was deployed or updated locally, local files, live URL/deployment target, preview server state, and public/private data boundaries agree. If local and production differ, report that explicitly and offer the exact deploy or pause path.
+- State-aware completion options are present when useful. For meaningful completions, either include a compact `Options:` menu built from live state, or have a clear reason it would not help.
 - Blockers, `Decision needed:`, and `Options:` do not contradict autonomy rules or the actual next unblocked work.
 
-If the check finds a mismatch, fix the state before reporting when safe. If the mismatch cannot be fixed immediately, report it as `Blocked:` or route the project to `recovery` mode with the exact inconsistency.
+If the check finds a mismatch, fix the state before reporting when safe. Missing useful completion options are a mismatch for meaningful Specialist Mode closeouts, not a harmless formatting omission. If the mismatch cannot be fixed immediately, report it as `Blocked:` or route the project to `recovery` mode with the exact inconsistency.
 
 ## Queue Re-Ranking Check
 

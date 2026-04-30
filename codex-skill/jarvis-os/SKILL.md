@@ -83,7 +83,7 @@ In Specialist Mode, use Stop-the-Line Review when normal execution would likely 
 
 For substantial off-roadmap requests inside Specialist Mode or JARVIS R&D, run a short internal intake and propose the update before patching/pushing unless the user explicitly asks for immediate low-risk execution.
 
-Before meaningful Specialist Mode completion reports, run a quick Closeout Integrity Check so state files, work orders, docs/version/git/artifact claims, blockers, and completion options do not contradict each other.
+Before meaningful Specialist Mode completion reports, run a quick Closeout Integrity Check so state files, work orders, docs/version/git/artifact claims, blockers, and completion options do not contradict each other. The check should verify that a useful `Options:` menu is present or that there is a clear reason to omit it.
 
 After meaningful Specialist Mode task completion, end with a compact state-aware options menu when it would help the user choose the next command. Options should reflect the actual current state, such as continue, status, inspect, release, resolve blocker, review, pause, or archive, rather than a fixed generic list.
 

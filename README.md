@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.42`
+Current version: `0.0.43`
 
-Latest update: JARVIS OS now includes Memory Router and Lifecycle Lanes so agents route durable facts to the right note, mark freshness when needed, and split project memory before retrieval degrades.
+Latest update: Closeout Integrity Check now explicitly verifies state-aware completion options, so meaningful Specialist Mode reports should end with useful next commands or a clear reason options are not useful.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -664,6 +664,7 @@ Before meaningful Specialist Mode completion reports, run a Closeout Integrity C
 - git/GitHub branch, status, remote, commit, PR, tag, or release claims match tool results
 - referenced artifacts exist, are labeled correctly, and were verified
 - public artifact local files, live URL, deployment target, and privacy boundary agree when deployment is involved
+- useful state-aware completion options are present, or there is a clear reason they would not help
 - blockers and options do not contradict autonomy rules or the actual next unblocked work
 
 After meaningful Specialist Mode task completion, reports should also offer a small state-aware `Options:` menu when useful. The menu should be based on live state, not a fixed template:
