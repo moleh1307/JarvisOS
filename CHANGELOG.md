@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.40 - 2026-04-30
+
+- Added the Reference Router for JARVIS OS.
+- Agents now have a compact trigger-to-reference map for choosing the smallest useful reference bundle before deeper Specialist Mode work.
+- Clarified that routing should happen before loading large workflow stacks, with Stop-the-Line or operating-mode changes causing re-routing when needed.
+
 ## 0.0.39 - 2026-04-30
 
 - Added the Visual Concept Pipeline for craft-critical UI and visual product work.

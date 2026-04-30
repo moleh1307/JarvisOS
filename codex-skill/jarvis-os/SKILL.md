@@ -54,6 +54,19 @@ Activate Specialist Mode when the work benefits from durable role separation or 
 
 If the user gives a serious project but does not name a mode, infer the appropriate mode from the project shape. Ask only when the mode choice would materially change risk, scope, cost, or file layout.
 
+## Route References Before Deep Work
+
+Before loading deeper JARVIS OS references, choose the smallest reference set that matches the task. Use `references/reference-router.md` when multiple references could apply, when a task crosses Core/Specialist boundaries, or when the right workflow gate is not obvious.
+
+Reference routing should answer:
+
+- Is this Core or Specialist Mode?
+- Is this continuation, greenfield setup, adoption, public artifact, visual craft, QA, release, research/claim work, workflow feedback, or recovery?
+- Which focused references are needed now?
+- Which references can be skipped to avoid prompt bloat?
+
+Do not load every reference by default. Route first, read only the selected bundle, then act. Re-route if the work triggers Stop-the-Line Review, changes operating mode, or reveals a stronger bottleneck.
+
 For new-project initialization, use progressive Founder discovery: ask a small first batch of direct, high-leverage questions, then ask follow-ups only if the answers are insufficient. Do not start with a long questionnaire unless the user asks for exhaustive discovery or the project risk genuinely requires it.
 
 For small public-facing artifacts, use `references/public-artifacts.md`: frame the real audience and decision, handle named external references instead of silently skipping them, calibrate tone/taste lightly, respect public-data boundaries, and distinguish local changes from deployed production state.
@@ -158,6 +171,7 @@ When a project is too large for one undifferentiated agent mode, use JARVIS Spec
 
 Load Specialist Mode details progressively from this skill's `references/` folder:
 
+- Reference routing: `references/reference-router.md`
 - Greenfield setup: `references/greenfield.md`
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
 - Workflow refresh for older active chats: `references/workflow-refresh.md`

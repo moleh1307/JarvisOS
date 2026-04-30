@@ -24,6 +24,7 @@ JARVIS OS is a local continuity workflow for Codex. It uses markdown files as du
 - In Specialist Mode, record reusable workflow friction as feedback candidates; route general workflow issues to the maintainer/R&D project instead of silently making new rules.
 - In Specialist Mode, role names must come from `company/team-roster.md`; if no name is defined, use the role title only.
 - In Specialist Mode, Founder should infer project shape before workflow design and choose roles, artifacts, operating mode, confidence lanes, strategy maps, adversarial review gates, and claim review loops from the actual problem rather than fixed project-type recipes.
+- In Specialist Mode, use `references/reference-router.md` when several workflow references could apply. Route first, load the smallest useful bundle, then execute.
 - In Specialist Mode, excellence-critical work should calibrate before execution: define the reference class, top-tier bar, benchmarks or references, missing capabilities, and rejection tests before major work sets the quality ceiling.
 - In Specialist Mode, use Stop-the-Line Review when normal execution would likely continue wrong framing, generic quality, weak evidence, stale state, or misleading readiness.
 - In Specialist Mode, craft-critical UI may use a Visual Concept Pipeline: freeze a concrete design target, implement against it, then compare rendered screenshots back to the target.

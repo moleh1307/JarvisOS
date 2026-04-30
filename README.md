@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.39`
+Current version: `0.0.40`
 
-Latest update: craft-critical UI can now use a Visual Concept Pipeline: create or choose a concrete visual target, implement against it, then compare rendered screenshots back to the concept.
+Latest update: JARVIS OS now includes a Reference Router so agents choose the smallest relevant workflow references before deep Specialist Mode work.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -505,6 +505,23 @@ Project-shape inference describes what kind of work this is. Operating mode says
 - `maintenance`
 
 Chief of Staff uses this during `continue` to choose the right role, reference file, next task type, and queue re-ranking behavior. A project should not handle setup questions, product polishing, release readiness, broken-state recovery, and hard research attacks with the same generic loop.
+
+### Reference Router
+
+JARVIS OS uses a Reference Router before deeper Specialist Mode work. The router maps the task shape to the smallest useful reference bundle so agents do not need to paste, load, or remember the whole workflow stack.
+
+Examples:
+
+- older active chat refresh -> `workflow-refresh.md`
+- `continue`, blockers, interruptions, completion options -> `continuation.md`
+- new serious project -> `greenfield.md`
+- existing project takeover -> `adoption-takeover.md`
+- public artifacts -> `public-artifacts.md`
+- craft-critical UI -> `creative-preproduction.md` and sometimes `visual-concept-pipeline.md`
+- GitHub, release, version, changelog -> `github-release-versioning.md`
+- consequential claims or research/proof work -> `adaptive-operating-patterns.md`
+
+The rule is: route first, load only the selected references, execute, and re-route if Stop-the-Line Review or a changed bottleneck shows the initial route was wrong.
 
 Founder and Chief of Staff can evolve the team as the project changes: hire new roles, merge redundant roles, retire completed roles, or add temporary specialists. Each role may also keep a short name alongside its title, such as:
 
