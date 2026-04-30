@@ -46,6 +46,8 @@ List immediate next actions in order.
 
 List the minimum notes/files/artifacts needed before acting.
 
+Mark whether each item is `active`, `stable`, `candidate`, `archived`, or `superseded` when freshness matters.
+
 Use clickable absolute markdown links for local artifacts in user-facing handoff starters when possible.
 
 Use source labels when provenance matters:

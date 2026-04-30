@@ -26,6 +26,7 @@ JARVIS OS is a local continuity workflow for Codex. It uses markdown files as du
 - In Specialist Mode, Founder should infer project shape before workflow design and choose roles, artifacts, operating mode, confidence lanes, strategy maps, adversarial review gates, and claim review loops from the actual problem rather than fixed project-type recipes.
 - In Specialist Mode, use `references/reference-router.md` when several workflow references could apply. Route first, load the smallest useful bundle, then execute.
 - In Specialist Mode, declare the capability surface for tool-dependent work: available and required capabilities, missing/risky tools, approval lane, and verification path.
+- In meaningful memory writes, route facts to the canonical note, use lifecycle lanes when freshness matters, and split project notes when retrieval is degrading.
 - In Specialist Mode, excellence-critical work should calibrate before execution: define the reference class, top-tier bar, benchmarks or references, missing capabilities, and rejection tests before major work sets the quality ceiling.
 - In Specialist Mode, use Stop-the-Line Review when normal execution would likely continue wrong framing, generic quality, weak evidence, stale state, or misleading readiness.
 - In Specialist Mode, craft-critical UI may use a Visual Concept Pipeline: freeze a concrete design target, implement against it, then compare rendered screenshots back to the target.
@@ -178,6 +179,8 @@ Before creating or reshaping a serious Specialist Mode project, Founder should r
 Specialist Mode current state should declare an operating mode such as discovery, build, audit, polish, release, dogfood, research attack, recovery, or maintenance. Chief of Staff uses this mode during `continue` to route work, load the right references, and avoid treating every phase like generic task execution.
 
 For tool-dependent Specialist Mode work, declare the capability surface before execution or closeout: available capabilities, required capabilities, missing/risky tools, approval lane, and verification path. Do not ask the user to test, fetch, deploy, upload, or approve routine work that available tools and existing autonomy rules can handle.
+
+For meaningful memory writes, stale-memory conflicts, long project notes, or fresh-chat continuation, route memory before writing: choose the canonical home, mark lifecycle lane when freshness matters, keep current-state capsules short, and split project notes when retrieval is degrading.
 
 For consequential internal results, Specialist Mode should use confidence lanes and adversarial review proportionally. Mark important claims/results as verified, working-assumption, speculative, needs-audit, or rejected; proof claims, major design directions, method choices, architecture decisions, data results, release candidates, and public claims should be attacked before they become stable project truth. When downstream work depends on a consequential claim, use the Claim Review Loop: state the claim, assign a confidence lane, attack it independently, then mark the outcome as promoted, revised, rejected, or split before re-ranking the queue. After meaningful discoveries, Chief of Staff should re-rank the queue instead of blindly executing old work orders.
 

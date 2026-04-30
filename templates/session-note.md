@@ -52,6 +52,8 @@ What should the next session do first?
 
 ## End-of-Task Memory Check
 
+- Memory write routed to:
+- Lifecycle lane used where needed:
 - Project state changed:
 - Durable decision made:
 - Stable user preference/working rule appeared:
@@ -60,6 +62,7 @@ What should the next session do first?
 - Generated artifact verified:
 - Canonical output stored in project workspace:
 - Reusable lesson/failure pattern found:
+- Existing memory superseded or archived:
 - Notes updated:
 
 ## Retrospective

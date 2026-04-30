@@ -63,6 +63,7 @@ Reference routing should answer:
 - Is this Core or Specialist Mode?
 - Is this continuation, greenfield setup, adoption, public artifact, visual craft, QA, release, research/claim work, workflow feedback, or recovery?
 - Does the task depend on tools, permissions, external services, or verification capabilities?
+- Does the task change durable memory or depend on possibly stale memory?
 - Which focused references are needed now?
 - Which references can be skipped to avoid prompt bloat?
 
@@ -75,6 +76,8 @@ For small public-facing artifacts, use `references/public-artifacts.md`: frame t
 For craft-critical UI or visual product work, use `references/visual-concept-pipeline.md` when a concrete visual target would improve implementation: create or choose a concept, freeze it as the spec, implement from it, then compare rendered screenshots against it.
 
 For tool-dependent Specialist Mode work, use `references/capability-surface.md`: declare available and required capabilities, permission boundaries, approval lane, and verification path before asking the user to review, test, fetch, deploy, or approve avoidable manual work.
+
+For meaningful memory writes, stale-memory conflicts, long project notes, or fresh-chat continuation, use `references/memory-discipline.md`: route facts to the right canonical home, use lifecycle lanes when freshness matters, and split project notes when retrieval is degrading.
 
 In Specialist Mode, use Stop-the-Line Review when normal execution would likely produce wrong, generic, misleading, stale, or low-quality work. Stop, name the trigger, run a compact internal critique, then fix now, create a corrective work order, switch mode, run claim review, or escalate only if a real boundary requires it.
 
@@ -176,6 +179,7 @@ Load Specialist Mode details progressively from this skill's `references/` folde
 
 - Reference routing: `references/reference-router.md`
 - Capability surface, tool permissions, and verification routing: `references/capability-surface.md`
+- Memory routing, lifecycle lanes, freshness checks, and note splitting: `references/memory-discipline.md`
 - Greenfield setup: `references/greenfield.md`
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
 - Workflow refresh for older active chats: `references/workflow-refresh.md`

@@ -18,6 +18,7 @@ The router keeps `SKILL.md` short while making reference selection explicit. It 
 | Trigger | Load first | Add when needed |
 | --- | --- | --- |
 | Older active chat needs latest workflow | `workflow-refresh.md` | `continuation.md`, `roles-and-roster.md` |
+| Durable memory write, stale memory conflict, long project note, handoff, project-note split, memory cleanup | `memory-discipline.md` | `continuation.md` for closeout or handoff |
 | `continue`, `go`, `next`, short approval, status, blocker, interruption | `continuation.md` | `adaptive-operating-patterns.md` for queue re-ranking or claim review |
 | New serious project or unclear project shape | `greenfield.md` | `adaptive-operating-patterns.md`, `roles-and-roster.md`, domain-specific quality references |
 | Existing repo/project takeover | `adoption-takeover.md` | `github-release-versioning.md`, `quality-qa-and-critique.md` |
@@ -58,6 +59,7 @@ If the task becomes consequential, public-facing, long-running, or role-governed
 
 - If a task is both public-facing and visual, start with `public-artifacts.md` for audience/trust/privacy, then use `creative-preproduction.md` or `visual-concept-pipeline.md` for craft.
 - If a task is tool-dependent or verification-heavy, load `capability-surface.md` early enough to declare available tools, approval lane, and verification path before execution or closeout.
+- If a task changes durable memory and also executes project work, do the project work first, then use `memory-discipline.md` for the smallest correct continuity update.
 - If a task is both release-related and implementation-related, start with the implementation reference, then run `github-release-versioning.md` before reporting readiness.
 - If a task is both research/proof and public-facing, use `adaptive-operating-patterns.md` for confidence lanes before public wording.
 - If the user asks for a workflow change while a project is active, use `innovation-feedback.md` and `continuation.md` so the side quest is proposed or tracked without losing the active task.

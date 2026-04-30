@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.42 - 2026-04-30
+
+- Added Memory Router and Lifecycle Lanes for JARVIS OS memory discipline.
+- Agents now have a focused reference for routing durable facts to the right canonical note, marking active/stable/candidate/archived/superseded memory when freshness matters, and splitting long project notes before retrieval degrades.
+- Updated memory templates with lifecycle, routing, freshness, and split-trigger fields while keeping markdown as the canonical memory layer.
+
 ## 0.0.41 - 2026-04-30
 
 - Added Capability Surface Declaration for tool-dependent Specialist Mode work.
