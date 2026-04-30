@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.35`
+Current version: `0.0.36`
 
-Latest update: Specialist Mode completion reports can now offer state-aware next-command options after meaningful tasks.
+Latest update: Specialist Mode now runs a Closeout Integrity Check before meaningful completion reports so state, work orders, docs/version/git/artifact claims, blockers, and options stay aligned.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -591,6 +591,15 @@ Completion reports should use explicit next-action language:
 - `User review requested:` only when the user explicitly asked to review or progress genuinely depends on owner judgment
 
 If a role identifies the next necessary task, it should create, assign, or start that work order before ending the turn. Do not finish with vague handoffs such as "Founder should define..." or "Product Designer should consider..." unless the report also creates the actual work order or marks a concrete blocker/decision.
+
+Before meaningful Specialist Mode completion reports, run a Closeout Integrity Check so the report does not contradict durable state:
+
+- `company/current-state.md` and `company/task-board.md` agree on active task, blocker, operating mode, and next task
+- active work order status matches the report
+- README, changelog, version, package, release, or app metadata agree when version changed
+- git/GitHub branch, status, remote, commit, PR, tag, or release claims match tool results
+- referenced artifacts exist, are labeled correctly, and were verified
+- blockers and options do not contradict autonomy rules or the actual next unblocked work
 
 After meaningful Specialist Mode task completion, reports should also offer a small state-aware `Options:` menu when useful. The menu should be based on live state, not a fixed template:
 

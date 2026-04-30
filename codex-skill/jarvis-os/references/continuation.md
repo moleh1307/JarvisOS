@@ -20,7 +20,8 @@ When the user says `continue`:
 12. Update task board, current state, role memory, integration log, and operating mode if the project phase changed.
 13. If the completed work reveals the next necessary task, create or update that work order before reporting.
 14. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
-15. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
+15. Run the Closeout Integrity Check for meaningful completions.
+16. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
 
 ## Operating Mode Routing
 
@@ -147,6 +148,23 @@ Build the options from live state:
 - If the thread is long or compacted and the project is stable, include `Fresh chat: ...` or `Handoff: ...` only when it would materially improve continuation.
 
 Keep it short: normally 2-5 options, one line each. Do not add an options menu to tiny factual answers, urgent defect updates, or cases where it would obscure the direct answer. Do not offer options that contradict autonomy rules; for example, avoid routine "review" choices when internal review is enough, and avoid "release" choices when release is blocked by credentials or policy.
+
+## Closeout Integrity Check
+
+Before a meaningful Specialist Mode / Company Mode completion report, quickly check that the reported state matches the durable/project state. This prevents confident but stale reports and bad completion options.
+
+Run this check for meaningful work orders, workflow patches, releases, public pushes, handoffs, blocked-state reports, major artifacts, and any task where the next command depends on project state. Skip it for tiny factual answers, small clarifications, and urgent updates where a full check would slow down the fix.
+
+Check proportionally:
+
+- `company/current-state.md` matches `company/task-board.md`, including active task, blocker, operating mode, and next task.
+- The active work order status matches the report: active, done, blocked, review, internally accepted, or waiting-user-decision.
+- If version changed, visible docs and package/version surfaces agree, such as README, CHANGELOG, VERSION, package metadata, release notes, or app version.
+- If git/GitHub changed, branch, status, remote, commit, PR, tag, or release claims match tool results.
+- If artifacts changed, referenced files exist, are canonical or labeled correctly, and were verified by the relevant check.
+- Blockers, `Decision needed:`, and `Options:` do not contradict autonomy rules or the actual next unblocked work.
+
+If the check finds a mismatch, fix the state before reporting when safe. If the mismatch cannot be fixed immediately, report it as `Blocked:` or route the project to `recovery` mode with the exact inconsistency.
 
 ## Queue Re-Ranking Check
 

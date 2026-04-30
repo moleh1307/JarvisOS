@@ -58,6 +58,8 @@ For new-project initialization, use progressive Founder discovery: ask a small f
 
 For substantial off-roadmap requests inside Specialist Mode or JARVIS R&D, run a short internal intake and propose the update before patching/pushing unless the user explicitly asks for immediate low-risk execution.
 
+Before meaningful Specialist Mode completion reports, run a quick Closeout Integrity Check so state files, work orders, docs/version/git/artifact claims, blockers, and completion options do not contradict each other.
+
 After meaningful Specialist Mode task completion, end with a compact state-aware options menu when it would help the user choose the next command. Options should reflect the actual current state, such as continue, status, inspect, release, resolve blocker, review, pause, or archive, rather than a fixed generic list.
 
 ## Retrieve Context First
@@ -153,7 +155,7 @@ Load Specialist Mode details progressively from this skill's `references/` folde
 - Greenfield setup: `references/greenfield.md`
 - Existing-project adoption or takeover: `references/adoption-takeover.md`
 - Workflow refresh for older active chats: `references/workflow-refresh.md`
-- Continue/status/short replies/interruptions/response preflight/completion options: `references/continuation.md`
+- Continue/status/short replies/interruptions/response preflight/closeout checks/completion options: `references/continuation.md`
 - Adaptive project-shape inference, operating modes, confidence lanes, adversarial review, Claim Review Loop, and queue re-ranking: `references/adaptive-operating-patterns.md`
 - Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`

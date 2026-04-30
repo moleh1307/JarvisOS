@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.36 - 2026-04-30
+
+- Added the Closeout Integrity Check for Specialist Mode completion reports.
+- Meaningful completions should now verify that current state, task board, work order status, docs/version surfaces, git/GitHub claims, artifacts, blockers, and completion options agree before reporting.
+- Clarified that mismatches should be fixed before reporting when safe, or surfaced as `Blocked:` / recovery work when not immediately fixable.
+
 ## 0.0.35 - 2026-04-29
 
 - Added state-aware completion options for Specialist Mode reports.
