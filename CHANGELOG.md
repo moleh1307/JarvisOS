@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.37 - 2026-04-30
+
+- Added Lightweight Public Artifact Framing for small public-facing artifacts.
+- Agents should now frame audience, decision/job, tone/trust, avoid-list, missing material facts, and public-data boundaries before building personal sites, small public pages, public emails, bios, one-pagers, READMEs, and similar artifacts.
+- Named external references should be read or explicitly marked inaccessible instead of silently skipped.
+- Deployed artifacts should distinguish local latest files from production and report local-only changes with a clear Deploy/Pause path.
+
 ## 0.0.36 - 2026-04-30
 
 - Added the Closeout Integrity Check for Specialist Mode completion reports.

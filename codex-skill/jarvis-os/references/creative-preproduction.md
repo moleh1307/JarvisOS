@@ -4,6 +4,8 @@ Use this reference for craft-critical user-facing work: apps, websites, landing 
 
 Creative Preproduction is the visual/craft-specific form of the broader Excellence Calibration Gate. If the work is excellence-critical but not visual, use `references/adaptive-operating-patterns.md` and `references/quality-qa-and-critique.md` for calibration. If the work is visual or presentation-heavy, this reference supplies the stronger craft process.
 
+For smaller public-facing artifacts where full Specialist Mode or full Creative Preproduction would be too heavy, use `references/public-artifacts.md` first. Escalate back here when the work is craft-critical, signature-level, repeatedly rejected, or explicitly expected to be best-in-field.
+
 ## Craft Criticality
 
 Founder classifies every user-facing project or milestone:

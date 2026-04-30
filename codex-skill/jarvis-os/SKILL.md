@@ -56,6 +56,8 @@ If the user gives a serious project but does not name a mode, infer the appropri
 
 For new-project initialization, use progressive Founder discovery: ask a small first batch of direct, high-leverage questions, then ask follow-ups only if the answers are insufficient. Do not start with a long questionnaire unless the user asks for exhaustive discovery or the project risk genuinely requires it.
 
+For small public-facing artifacts, use `references/public-artifacts.md`: frame the real audience and decision, handle named external references instead of silently skipping them, calibrate tone/taste lightly, respect public-data boundaries, and distinguish local changes from deployed production state.
+
 For substantial off-roadmap requests inside Specialist Mode or JARVIS R&D, run a short internal intake and propose the update before patching/pushing unless the user explicitly asks for immediate low-risk execution.
 
 Before meaningful Specialist Mode completion reports, run a quick Closeout Integrity Check so state files, work orders, docs/version/git/artifact claims, blockers, and completion options do not contradict each other.
@@ -160,6 +162,7 @@ Load Specialist Mode details progressively from this skill's `references/` folde
 - Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
 - Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
+- Small public-facing artifacts, audience/tone/trust framing, external references, and deployment closeout: `references/public-artifacts.md`
 - GitHub, PRs, releases, versioning, and repo readiness: `references/github-release-versioning.md`
 - Selective Innovation Mode and workflow feedback: `references/innovation-feedback.md`
 

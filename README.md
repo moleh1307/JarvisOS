@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.36`
+Current version: `0.0.37`
 
-Latest update: Specialist Mode now runs a Closeout Integrity Check before meaningful completion reports so state, work orders, docs/version/git/artifact claims, blockers, and options stay aligned.
+Latest update: small public-facing artifacts now get lightweight audience/purpose/taste framing, named external references must be handled, and deployed artifacts must distinguish local changes from production.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -583,6 +583,18 @@ Before implementation, the team should gather best-in-class references and anti-
 
 If the user rejects visual quality as generic, ugly, AI-looking, template-like, or not best-in-field, the team should not simply tweak CSS or ask for taste. It should re-enter Creative Preproduction, strengthen the art direction, generate divergent concepts, and run screenshot-based Design QA again.
 
+### Small Public-Facing Artifacts
+
+Not every public artifact needs a full Specialist Mode team, but small public-facing work still needs framing before build. For personal pages, application sites, public READMEs, small landing pages, public emails, bios, one-pagers, and deployed static sites, JARVIS should identify:
+
+- audience and decision/job;
+- tone and trust signals;
+- what would feel generic, misleading, cringe, or off-purpose;
+- missing contact, call-to-action, privacy, consent, source, or deployment facts;
+- named external references that must be read or explicitly marked inaccessible.
+
+If the artifact is deployed, completion should distinguish local files from production. A local fix that has not been deployed should be reported as local-only with an explicit Deploy/Pause option.
+
 Completion reports should use explicit next-action language:
 
 - `Next task:` for unblocked continuation
@@ -599,6 +611,7 @@ Before meaningful Specialist Mode completion reports, run a Closeout Integrity C
 - README, changelog, version, package, release, or app metadata agree when version changed
 - git/GitHub branch, status, remote, commit, PR, tag, or release claims match tool results
 - referenced artifacts exist, are labeled correctly, and were verified
+- public artifact local files, live URL, deployment target, and privacy boundary agree when deployment is involved
 - blockers and options do not contradict autonomy rules or the actual next unblocked work
 
 After meaningful Specialist Mode task completion, reports should also offer a small state-aware `Options:` menu when useful. The menu should be based on live state, not a fixed template:
@@ -635,6 +648,7 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
 │           ├── github-release-versioning.md
 │           ├── greenfield.md
 │           ├── innovation-feedback.md
+│           ├── public-artifacts.md
 │           ├── quality-qa-and-critique.md
 │           └── roles-and-roster.md
 ├── handoffs/

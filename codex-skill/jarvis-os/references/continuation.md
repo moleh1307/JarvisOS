@@ -162,6 +162,7 @@ Check proportionally:
 - If version changed, visible docs and package/version surfaces agree, such as README, CHANGELOG, VERSION, package metadata, release notes, or app version.
 - If git/GitHub changed, branch, status, remote, commit, PR, tag, or release claims match tool results.
 - If artifacts changed, referenced files exist, are canonical or labeled correctly, and were verified by the relevant check.
+- If a public artifact was deployed or updated locally, local files, live URL/deployment target, preview server state, and public/private data boundaries agree. If local and production differ, report that explicitly and offer the exact deploy or pause path.
 - Blockers, `Decision needed:`, and `Options:` do not contradict autonomy rules or the actual next unblocked work.
 
 If the check finds a mismatch, fix the state before reporting when safe. If the mismatch cannot be fixed immediately, report it as `Blocked:` or route the project to `recovery` mode with the exact inconsistency.

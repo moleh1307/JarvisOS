@@ -25,6 +25,7 @@ JARVIS OS is a local continuity workflow for Codex. It uses markdown files as du
 - In Specialist Mode, role names must come from `company/team-roster.md`; if no name is defined, use the role title only.
 - In Specialist Mode, Founder should infer project shape before workflow design and choose roles, artifacts, operating mode, confidence lanes, strategy maps, adversarial review gates, and claim review loops from the actual problem rather than fixed project-type recipes.
 - In Specialist Mode, excellence-critical work should calibrate before execution: define the reference class, top-tier bar, benchmarks or references, missing capabilities, and rejection tests before major work sets the quality ceiling.
+- For small public-facing artifacts, frame audience, decision/job, tone/trust, avoid-list, missing material info, named external references, and local-vs-production deployment state before calling the artifact ready.
 
 ## Retrieval Order
 
@@ -87,6 +88,22 @@ Before saying an artifact is ready, verify it:
 - documents/decks/PDFs: open or render enough to confirm the file is not corrupt and contains expected content.
 
 When writing memory for generated artifacts, prefer compact operational bullets: input path, script/workflow path, output path, method definition, validation result, caveat, and next step.
+
+## Public-Facing Artifact Framing
+
+For small public-facing artifacts, such as personal sites, application pages, public READMEs, simple landing pages, public emails, bios, one-pagers, and deployed static sites, run a lightweight framing check before building:
+
+- who will read or judge this;
+- what decision or action the artifact should support;
+- what tone and trust signals matter;
+- what the artifact must avoid looking or sounding like;
+- whether contact, call-to-action, privacy boundary, consent, or deployment destination is missing.
+
+If the answers are clear from the prompt, infer them and proceed. If not, ask 2-3 direct questions instead of dumping a long questionnaire.
+
+If the user gives a URL, skill, screenshot, repo, design reference, or named external resource and says to check/use/follow it, read or inspect it before calling the artifact ready. If access fails, say so and state the fallback. Silent skipping is a defect.
+
+For deployed public artifacts, completion must distinguish local latest files from production. If a local fix is not deployed, report that explicitly and offer the exact deploy/pause path rather than saying the public artifact is finished.
 
 ## Large Project Notes
 
