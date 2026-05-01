@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.54 - 2026-05-01
+
+- Added a Closeout Resume Sweep for compaction, fresh-chat continuation, interruption, and restart recovery.
+- Continuation now checks whether the previous task was implemented but not fully closed before starting new work.
+- Task lifecycle and task cards now route interrupted closeouts back through state repair instead of treating public commits as enough.
+
 ## 0.0.53 - 2026-05-01
 
 - Added a Sunset Clause for meaningful R&D loop workflow features.

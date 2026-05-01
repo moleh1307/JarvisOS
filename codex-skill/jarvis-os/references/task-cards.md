@@ -56,6 +56,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 
 - Read the active project index/current-state first, then the latest active handoff.
 - Confirm active task, blockers, version/git state, and next action against tool reality when cheap.
+- If the last task appears implemented but not fully closed, run the Closeout Resume Sweep before new work.
 - Supersede older active handoffs if a new one becomes canonical.
 - Keep the new handoff short: objective, completed work, active state, exact next steps, and options.
 - Link the handoff from the project index/current state when it becomes the active continuation.
@@ -98,6 +99,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 
 - Run the stale dashboard or equivalent state check when drift risk is non-trivial.
 - Confirm current-state, task board, active work order lifecycle state, handoff, and blockers agree.
+- After compaction/resume, check whether the previous task needs closeout repair before reporting or starting new work.
 - If version/git changed, confirm README/CHANGELOG/VERSION and latest commit/status.
 - If artifacts changed, verify exact paths and label canonical, diagnostic, temporary, or superseded.
 - Do not report old blockers or old active tasks as current truth.

@@ -8,22 +8,45 @@ When the user says `continue`:
 
 1. Enter `[Role: Chief of Staff]`.
 2. Read `company/team-roster.md`, `company/current-state.md`, `company/task-board.md`, operating mode, and relevant role memory.
-3. Use the operating mode to choose the right default behavior and reference file before executing.
-4. If the task depends on tools, apps, external services, deployment, generated assets, or verification capability, load `capability-surface.md` and declare the capability surface compactly.
-5. Check blocked/review tasks before new work.
-6. Pick the highest-priority unblocked task unless the operating mode or a new bottleneck justifies re-ranking.
-7. Enter the assigned role using the roster-backed header.
-8. Execute within the task's allowed scope.
-9. Decide whether Selective Innovation Mode is needed.
-10. Verify role-appropriately. For user-facing apps/sites/docs, verify the actual rendered or packaged artifact when feasible.
-11. Run Stop-the-Line Review if continuing normally would produce wrong, generic, misleading, stale, or low-quality work.
-12. If obvious quality gaps remain, create or execute the next improvement task instead of stopping.
-13. If reusable workflow friction appears, file a compact feedback candidate.
-14. Update task board, current state, role memory, integration log, lifecycle state, risk lane, and operating mode if the project phase changed.
-15. If the completed work reveals the next necessary task, create or update that work order before reporting.
-16. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
-17. Run the Closeout Integrity Check for meaningful completions.
-18. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
+3. If the previous task appears implemented but not fully closed, run the Closeout Resume Sweep before starting new work.
+4. Use the operating mode to choose the right default behavior and reference file before executing.
+5. If the task depends on tools, apps, external services, deployment, generated assets, or verification capability, load `capability-surface.md` and declare the capability surface compactly.
+6. Check blocked/review tasks before new work.
+7. Pick the highest-priority unblocked task unless the operating mode or a new bottleneck justifies re-ranking.
+8. Enter the assigned role using the roster-backed header.
+9. Execute within the task's allowed scope.
+10. Decide whether Selective Innovation Mode is needed.
+11. Verify role-appropriately. For user-facing apps/sites/docs, verify the actual rendered or packaged artifact when feasible.
+12. Run Stop-the-Line Review if continuing normally would produce wrong, generic, misleading, stale, or low-quality work.
+13. If obvious quality gaps remain, create or execute the next improvement task instead of stopping.
+14. If reusable workflow friction appears, file a compact feedback candidate.
+15. Update task board, current state, role memory, integration log, lifecycle state, risk lane, and operating mode if the project phase changed.
+16. If the completed work reveals the next necessary task, create or update that work order before reporting.
+17. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
+18. Run the Closeout Integrity Check for meaningful completions.
+19. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
+
+## Closeout Resume Sweep
+
+Use this sweep after compaction, fresh-chat continuation, interruption, crash/restart, or any resume where the last task may have crossed an implementation boundary without completing project state.
+
+Run it before starting a new task when any of these are true:
+
+- code, public docs, version, commit, or artifacts changed but current state still points to the older task;
+- a work order says `done` but the task board, handoff, role memory, project memory, or integration log does not;
+- a public commit exists but closeout evidence, handoff, session note, or options are missing;
+- the latest handoff path in current state does not exist, is superseded, or points to the previous task;
+- the agent is resuming from a summary that says closeout was incomplete.
+
+Sweep the smallest relevant surfaces:
+
+1. Identify the last intended task and newest artifact/commit/version.
+2. Confirm whether the work order, task board, current state, handoff, project memory, role memory, integration log, and public repo agree.
+3. Patch missing closeout state before starting the next task when safe.
+4. If the mismatch is not safe to patch, mark recovery as the active task or blocker.
+5. Record the sweep in verification evidence only when it changed durable state or prevented drift.
+
+This sweep does not replace Closeout Integrity Check. It is the resume-time guard that decides whether closeout must be finished before new work starts.
 
 ## Team Discussion Routing
 

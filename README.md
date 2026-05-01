@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.53`
+Current version: `0.0.54`
 
-Latest update: JARVIS OS now includes a Sunset Clause so meaningful workflow features declare a future keep/simplify/merge/retire/extend-trial review trigger.
+Latest update: JARVIS OS now includes a Closeout Resume Sweep so interrupted or compacted closeouts are repaired before new work starts.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.

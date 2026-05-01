@@ -85,6 +85,8 @@ A task is not safely `Done` until:
 
 If verification could not run, record why and keep the confidence lane honest.
 
+If a resume, compaction, interruption, or fresh-chat handoff reveals that a task crossed the implementation boundary but did not finish closeout, treat the task as not yet fully done for routing purposes. Finish the missing closeout surfaces first or open a recovery task before starting unrelated work.
+
 ## Blocked And Decision Needed
 
 Use `Blocked` only for missing facts, files, credentials, access, dependencies, artifacts, or tool capability.
@@ -121,3 +123,5 @@ For meaningful lifecycle-aware tasks, closeout should say:
 - canonical artifact;
 - blocker or decision status;
 - next task or reason to pause.
+
+After context transitions, apply the Closeout Resume Sweep from `continuation.md` before accepting stale `done` claims at face value.
