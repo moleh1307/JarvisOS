@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.53 - 2026-05-01
+
+- Added a Sunset Clause for meaningful R&D loop workflow features.
+- Idea cards and work orders can now declare a review trigger and keep/simplify/merge/retire/extend-trial outcomes.
+- Clarified that sunset review creates a decision point, not permission for silent rule removal.
+
 ## 0.0.52 - 2026-05-01
 
 - Added a Friction Inbox template for lightweight workflow-friction capture.

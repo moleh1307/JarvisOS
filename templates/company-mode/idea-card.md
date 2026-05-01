@@ -39,6 +39,13 @@
 - Makes less necessary:
 - Added complexity justified because:
 
+## Sunset Clause
+
+- Review trigger:
+- Review options: keep / simplify / merge / retire / extend trial
+- Early retirement signal:
+- Owner:
+
 ## Task List
 
 - [ ]

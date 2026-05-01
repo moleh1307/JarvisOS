@@ -24,6 +24,8 @@
 - Adversarial review: not needed / consider / required / completed
 - Claim review outcome: none / promoted / revised / rejected / split
 - Queue impact: none / may re-rank / re-ranked
+- Sunset review trigger:
+- Sunset options: keep / simplify / merge / retire / extend trial / not applicable
 
 ## Objective
 

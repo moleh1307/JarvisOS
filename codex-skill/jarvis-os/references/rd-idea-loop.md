@@ -60,6 +60,22 @@ Capture the smallest useful item first. Inbox items are candidates, not rules. T
 
 Before pure ideation, check whether the Friction Inbox contains a stronger evidence-backed candidate. Prefer real friction over novelty when the friction is repeated, high-impact, or blocking compounding improvement.
 
+## Sunset Clause
+
+For meaningful workflow features, define a future review trigger before implementation begins.
+
+The review should be able to choose one of:
+
+- `keep`: the feature is still useful as written;
+- `simplify`: the feature works but can be lighter;
+- `merge`: the feature should be folded into another rule, card, or template;
+- `retire`: the feature no longer earns its complexity;
+- `extend trial`: more dogfood evidence is needed.
+
+Use a Sunset Clause for standing behavior changes, new references, new templates, new gates, and process additions. Skip it for tiny one-off tasks, urgent fixes, and artifacts that are already temporary.
+
+Do not retire, delete, or weaken a standing rule silently. A sunset review creates a decision point; it is not permission for unreviewed removal.
+
 ## Team Discussion
 
 Keep discussion compact. Use only the roles that can materially improve the decision:
@@ -78,6 +94,7 @@ For accepted ideas:
 
 - create or update an idea card;
 - complete the Subtraction Gate before final acceptance;
+- define a Sunset Clause for meaningful workflow features;
 - create one work order when the implementation is single-scope;
 - create a short task list when the idea naturally splits into two to five tasks;
 - mark lifecycle state and risk lane for meaningful work orders;
