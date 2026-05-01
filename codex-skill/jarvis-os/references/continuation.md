@@ -25,6 +25,12 @@ When the user says `continue`:
 17. Run the Closeout Integrity Check for meaningful completions.
 18. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
 
+## Team Discussion Routing
+
+When the user asks the team to discuss, decide, brainstorm, critique, review, or report, use same-chat role hats by default. Chief of Staff should route the discussion through the smallest relevant file-backed roles, synthesize the decision, and persist only durable conclusions.
+
+Do not spawn runtime subagents merely because the request mentions "team" or "agents." Runtime subagents are reserved for explicit subagent/delegation/parallel-agent requests or for bounded parallel investigation that materially improves the result and is worth the capacity cost. If runtime subagents are used, treat them as temporary helpers; do not store their runtime IDs as durable team memory.
+
 ## Operating Mode Routing
 
 `company/current-state.md` should include an `Operating mode` field. Chief of Staff uses it as a routing signal, not a rigid taxonomy.

@@ -533,6 +533,8 @@ Founder and Chief of Staff can evolve the team as the project changes: hire new 
 
 Role names are optional and file-backed. `company/team-roster.md` is the canonical source for role title, role name, status, scope, and header format. If a role has no name in the roster, the agent should use only `[Role: <Role Title>]` and must not invent a name from chat context.
 
+In Specialist Mode, the "team" is the same Codex agent changing hats across file-backed roles, not automatic runtime subagents. Prompts such as "discuss with your team" should normally produce a same-chat role discussion and synthesis. Runtime subagents should be used only when the user explicitly asks for subagents/delegation/parallel agents, or when bounded parallel investigation is worth the capacity cost; their IDs are temporary and should not become canonical team memory.
+
 Response Preflight is the guardrail for this. Before every user-facing reply, the agent should ask: is Specialist Mode / Company Mode active, or is this reply about Specialist Mode / Company Mode / workflow R&D itself? If yes, the first line must be the roster-backed role header. If the header is missing, rewrite the first line before sending. This applies even to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. It does not apply to ordinary non-Specialist JARVIS chats.
 
 Roles can also use Selective Innovation Mode. This is deeper than the normal out-of-box pass. It can be forced by the user or self-invoked by a role when a task deserves serious ideation. The role must state why it invoked the mode, compare meaningfully different options, critique them, and choose the best practical path.

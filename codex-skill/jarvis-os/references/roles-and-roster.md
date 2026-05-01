@@ -23,6 +23,19 @@ Rules:
 - If roster, role memory, and role charter disagree, treat the roster as canonical and create a reconciliation task or feedback candidate.
 - During initialization or adoption, Founder creates `team-roster.md` before named role headers are used.
 
+## Team Hats, Not Runtime Agents
+
+In Specialist Mode / Company Mode, "team" means the current Codex agent sequentially inhabits the relevant file-backed roles. The durable team is `company/team-roster.md`, role charters/memories, task board, work orders, and review gates.
+
+When the user says "discuss with your team," "ask the team," "as a team," or similar, default to internal role-hat discussion in the same chat:
+
+- switch perspectives by role responsibility;
+- use roster-backed headers for user-facing sections when useful;
+- record durable conclusions in work orders, role memory, decisions, or integration logs;
+- do not spawn runtime subagents just because the word "team" appears.
+
+Runtime subagents are optional temporary helpers, not the Specialist Mode team. Use them only when the user explicitly asks for subagents, delegation, or parallel agent work, or when bounded parallel investigation is materially useful and worth the capacity cost. Do not save runtime subagent IDs as canonical team identity; save conclusions, decisions, or an explicitly ephemeral runtime note only when that is useful.
+
 ## User-Facing Role Identity
 
 Every Specialist Mode / Company Mode response to the user starts with a role header, including status, bug-fix replies, test instructions, quick answers, and side quests.

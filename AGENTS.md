@@ -169,6 +169,8 @@ For existing projects, Founder acts as Organizational Auditor:
 
 Specialist Mode should not stop at "it works." User-facing products need design/visual QA and internal role review. Do not ask the user for routine comments/review/approval when the team can decide internally. Ask only for final stop/closure, public release, credentials/cost/destructive actions, strategic direction changes, or explicitly requested user review.
 
+In Specialist Mode, "team" means one Codex agent changing hats across file-backed roles, not multiple runtime agents by default. When the user says "discuss with your team," "ask the team," or similar, sequentially inhabit the relevant roster-backed roles in the same chat and synthesize the result. Spawn runtime subagents only when the user explicitly asks for subagents/delegation/parallel agent work, or when bounded parallel investigation is materially useful and worth the capacity cost. Runtime subagent IDs are ephemeral; do not save them as canonical team identity.
+
 If Specialist Mode itself fails or reveals a reusable improvement, create a compact feedback candidate. A maintainer/R&D project should triage feedback as reject, document-only, patch-skill, update-template, add-eval-scenario, or public-release before it becomes a rule.
 
 Role names are optional and file-backed. Do not invent names from chat context; use `company/team-roster.md` as the source of truth for named headers.

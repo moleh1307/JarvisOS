@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.44 - 2026-05-01
+
+- Clarified Specialist Mode team semantics: the team is the current Codex agent sequentially inhabiting file-backed roles, not automatic runtime subagents.
+- Added guidance for "discuss with your team" prompts to use same-chat role hats by default.
+- Runtime subagents are now explicitly temporary helpers for explicit/valuable parallel work, and their IDs should not become canonical team memory.
+
 ## 0.0.43 - 2026-04-30
 
 - Tightened Closeout Integrity Check so state-aware completion options are explicitly checked before meaningful Specialist Mode reports.

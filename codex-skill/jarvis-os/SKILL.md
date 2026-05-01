@@ -175,6 +175,8 @@ Do not create learning entries for tiny tasks or one-off preferences. Do not let
 
 When a project is too large for one undifferentiated agent mode, use JARVIS Specialist Mode. It keeps normal JARVIS OS memory rules but adds project-local role files under `company/`, including Founder, Chief of Staff, specialist charters, role memories, team roster, task board, work orders, review gates, adaptive project-shape inference, operating mode, workflow feedback, and integration log. `Company Mode` remains valid for older prompts, folders, and chats.
 
+In Specialist Mode, "team" means the current Codex agent sequentially inhabits file-backed roles using roster-backed headers, role memories, task boards, and work orders. Do not spawn runtime subagents merely because the user says "team," "discuss with your team," "ask the team," or similar. Runtime subagents are optional temporary helpers for explicit or clearly valuable parallel investigation; they are not durable team members and their IDs should not be saved as canonical team memory.
+
 Load Specialist Mode details progressively from this skill's `references/` folder:
 
 - Reference routing: `references/reference-router.md`
