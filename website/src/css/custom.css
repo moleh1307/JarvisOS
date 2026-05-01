@@ -24,14 +24,19 @@ html[data-theme='dark'] {
 }
 
 .navbar__logo {
-  width: 42px;
-  overflow: hidden;
+  width: 118px;
+  height: 36px;
+  margin-right: 0.75rem;
 }
 
 .navbar__logo img {
-  height: 28px;
-  object-fit: cover;
-  object-position: left center;
+  width: 118px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.navbar__title {
+  display: none;
 }
 
 .heroJarvis {

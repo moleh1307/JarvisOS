@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.68 - 2026-05-01
+
+- Fixed the docs navbar logo so the JarvisOS banner renders as a contained wordmark instead of a cropped icon.
+- Hid the duplicate navbar title beside the wordmark.
+
 ## 0.0.67 - 2026-05-01
 
 - Updated the GitHub Pages docs workflow to use Node 24.

@@ -7,7 +7,7 @@
 [![Docs](https://img.shields.io/badge/docs-docusaurus-111111?style=for-the-badge)](website/)
 [![Codex](https://img.shields.io/badge/codex-skill-111111?style=for-the-badge)](codex-skill/jarvis-os)
 [![Local First](https://img.shields.io/badge/memory-local_first-111111?style=for-the-badge)](#how-it-works)
-[![Version](https://img.shields.io/badge/version-0.0.67-111111?style=for-the-badge)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.0.68-111111?style=for-the-badge)](VERSION)
 
 **A local-first operating system for Codex continuity.**
 
