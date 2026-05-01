@@ -77,7 +77,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 ## R&D Idea Loop Card
 
 - Start with exactly one proposed idea unless the user explicitly asked for a broad brainstorm.
-- Check the Friction Inbox first when one exists; prefer repeated or high-impact real friction over novelty.
+- Check the Friction Inbox, Reflex candidates, and recent Learning Pulses first; if evidence is thin or stale, apply Learning Pulse Cadence before pure ideation.
 - Record why the idea is non-obvious, useful, feasible, and safe enough to discuss.
 - Run compact team discussion through the smallest relevant roles.
 - Decide accepted, rejected, or revise; record the reason in an idea card when durable.
@@ -108,6 +108,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 ## Learning Pulse Card
 
 - Use only when recent learning should be visible or when choosing between evidence-backed candidates and pure ideation.
+- Run before pure R&D ideation when three idea loops completed since the last pulse, or when no fresh unpromoted Friction/Reflex signal exists.
 - Read the smallest recent set: Reflex candidates, Friction Inbox items, recent idea cards/work orders, and current state.
 - Separate captured, promoted, rejected/archived, watch-next, and net effect.
 - Do not invent learning or promote rules from the pulse alone.

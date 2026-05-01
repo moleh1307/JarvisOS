@@ -30,9 +30,22 @@ Run a Learning Pulse when:
 - a Reflex candidate was created or promoted;
 - several meaningful sessions happened since the last pulse;
 - the R&D loop needs to choose between pure ideation and evidence-backed candidates;
+- three R&D idea loops have completed since the last pulse;
+- the R&D loop has no fresh unpromoted Friction or Reflex evidence before pure ideation;
 - self-improvement feels invisible and the user needs a compact state readout.
 
-Skip it for tiny tasks and ordinary closeouts unless the user asks.
+Skip it for tiny tasks, ordinary closeouts, and R&D starts where a recent pulse or fresh unpromoted evidence already answers the learning question.
+
+## Cadence
+
+Learning Pulse Cadence is manual and lightweight, not background automation.
+
+Run a compact pulse before pure R&D ideation when either condition is true:
+
+- cadence trigger: three R&D idea loops completed since the last pulse;
+- empty-evidence trigger: the Friction Inbox and Reflex candidates have no fresh unpromoted signal, and the agent would otherwise invent from memory.
+
+Do not run a pulse just because a loop starts. If a recent pulse is still current or a strong unpromoted candidate is already obvious, use that evidence directly.
 
 ## Sources
 
@@ -85,4 +98,4 @@ Promotion still goes through:
 
 ## Dogfood Use
 
-At the start of an R&D idea loop, run a compact pulse before pure ideation when Reflex or Friction candidates exist. Prefer a strong captured signal over novelty.
+At the start of an R&D idea loop, run a compact pulse before pure ideation when cadence or empty-evidence triggers apply. Prefer a strong captured signal over novelty.

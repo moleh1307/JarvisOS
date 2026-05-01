@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.58 - 2026-05-01
+
+- Added Learning Pulse Cadence for R&D idea loops.
+- Learning Pulse now runs before pure ideation when three R&D idea loops completed since the last pulse or when no fresh unpromoted Friction/Reflex signal exists.
+- Updated R&D Idea Loop and Task Cards guidance while clarifying that cadence is manual, lightweight, and not background automation.
+
 ## 0.0.57 - 2026-05-01
 
 - Added Idea Closeout Explanation to the R&D Idea Loop.

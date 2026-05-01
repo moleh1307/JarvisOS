@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.57`
+Current version: `0.0.58`
 
-Latest update: JARVIS OS now includes Idea Closeout Explanation so implemented R&D ideas are explained after they ship.
+Latest update: JARVIS OS now includes Learning Pulse Cadence so R&D loops surface learning before pure ideation when evidence is thin or stale.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.

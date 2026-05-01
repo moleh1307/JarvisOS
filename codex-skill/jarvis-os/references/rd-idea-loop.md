@@ -61,6 +61,8 @@ Capture the smallest useful item first. Inbox items are candidates, not rules. T
 
 Before pure ideation, check whether the Friction Inbox, Reflex candidates, or a recent Learning Pulse contains a stronger evidence-backed candidate. Prefer real friction or learning signal over novelty when the signal is repeated, high-impact, or blocking compounding improvement.
 
+Use Learning Pulse Cadence when evidence is thin or stale: if three R&D idea loops completed since the last pulse, or if there is no fresh unpromoted Friction/Reflex signal before ideation, run a compact Learning Pulse first. Skip it when a recent pulse is still current or a strong unpromoted candidate is already obvious.
+
 ## Sunset Clause
 
 For meaningful workflow features, define a future review trigger before implementation begins.
