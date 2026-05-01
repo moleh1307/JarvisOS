@@ -69,6 +69,8 @@ When the task type is already clear but execution still risks cognitive overload
 
 When creating, routing, reviewing, or closing Specialist Mode work orders, use `references/task-lifecycle.md` to keep task state, risk lane, acceptance criteria, verification evidence, canonical artifact, and closeout state aligned. Do not use it for trivial Core work where no durable task exists.
 
+When a Specialist Mode team is explicitly running continuous improvement, product R&D, workflow R&D, or an idea-by-idea loop, use `references/rd-idea-loop.md`. Keep one idea in focus, discuss it with the smallest useful role set, convert accepted ideas into short task lists, implement, refresh the project or skill, and dogfood the new behavior before returning to ideation.
+
 Reference routing should answer:
 
 - Is this Core or Specialist Mode?
@@ -200,6 +202,7 @@ Load Specialist Mode details progressively from this skill's `references/` folde
 - Reference routing: `references/reference-router.md`
 - Compact task-type checklists: `references/task-cards.md`
 - Task lifecycle, risk lanes, and done evidence: `references/task-lifecycle.md`
+- R&D idea loop, accepted/rejected idea handling, and dogfood evidence: `references/rd-idea-loop.md`
 - Capability surface, tool permissions, and verification routing: `references/capability-surface.md`
 - Memory routing, lifecycle lanes, freshness checks, and note splitting: `references/memory-discipline.md`
 - Greenfield setup: `references/greenfield.md`

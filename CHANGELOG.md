@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.50 - 2026-05-01
+
+- Added `references/rd-idea-loop.md` for continuous improvement, product R&D, workflow R&D, and idea-by-idea loops.
+- Added `templates/company-mode/idea-card.md` to capture proposed ideas, team discussion, decisions, task conversion, verification, and dogfood evidence.
+- Routed R&D idea loops from the skill, Reference Router, Continuation, and Task Cards.
+
 ## 0.0.49 - 2026-05-01
 
 - Added `references/task-lifecycle.md` with Task Lifecycle v1.

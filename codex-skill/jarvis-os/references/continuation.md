@@ -38,6 +38,7 @@ Do not spawn runtime subagents merely because the request mentions "team" or "ag
 Recommended modes:
 
 - `discovery`: ask material questions, infer project shape, avoid premature file creation or implementation.
+- `continuous R&D`: run one idea through ideation, team discussion, task-list conversion, implementation, refresh, and dogfood before returning to ideation.
 - `build`: implement the highest-leverage scoped work and verify the actual artifact.
 - `audit`: inspect first, preserve baseline, separate observed facts from inferences, and avoid rewriting before evidence.
 - `polish`: improve quality and distinctiveness; use critique, calibration, and product/design/research judgment before adding features.
@@ -48,6 +49,8 @@ Recommended modes:
 - `maintenance`: make small safe updates; avoid new architecture, product direction, or heavy process.
 
 Use `other: <short label>` only when these modes do not fit.
+
+For `continuous R&D`, load `rd-idea-loop.md` before starting the idea cycle. Do not return to a fresh idea until the accepted idea is implemented, explicitly rejected, blocked, or converted into a durable task list with a real next action.
 
 Mode changes are normal. If a build task reveals stale public docs, switch to `recovery` or `release`. If a QA chain stops improving the product, switch to `polish`, `build`, or `research attack` as appropriate. Record meaningful mode changes in `current-state.md`.
 

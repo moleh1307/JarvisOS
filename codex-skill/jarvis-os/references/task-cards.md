@@ -73,6 +73,16 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - Verify installed/public reachability with text search and run public leak/diff checks.
 - Close state with verification evidence, canonical artifact, work order, task board, current state, project memory, handoff, and public commit if applicable.
 
+## R&D Idea Loop Card
+
+- Start with exactly one proposed idea unless the user explicitly asked for a broad brainstorm.
+- Record why the idea is non-obvious, useful, feasible, and safe enough to discuss.
+- Run compact team discussion through the smallest relevant roles.
+- Decide accepted, rejected, or revise; record the reason in an idea card when durable.
+- Convert accepted ideas into one work order or a short one-to-five task list.
+- Define verification and dogfood evidence before implementation.
+- After implementation, refresh the project or skill, record where the new behavior was used, then return to ideation.
+
 ## Status Or Closeout Card
 
 - Run the stale dashboard or equivalent state check when drift risk is non-trivial.
