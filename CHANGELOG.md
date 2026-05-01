@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.61 - 2026-05-01
+
+- Added R&D Stack Compression Check to the R&D Idea Loop.
+- Updated Task Cards so repeated workflow-feature runs check whether new ideas can merge, simplify, downgrade, or become acceptance criteria before adding new workflow surface.
+- Clarified that standing behavior should not be silently retired; consequential removals still need sunset/review decisions.
+
 ## 0.0.60 - 2026-05-01
 
 - Added Regression Rehearsal for active eval seeds.

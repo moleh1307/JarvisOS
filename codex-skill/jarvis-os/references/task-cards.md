@@ -83,6 +83,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - Run compact team discussion through the smallest relevant roles.
 - Decide accepted, rejected, or revise; record the reason in an idea card when durable.
 - Run the Subtraction Gate: what does this simplify, remove, replace, or make less necessary?
+- Run Stack Compression Check after several workflow features in a row or when the idea mostly adds a new named mechanism.
 - Convert accepted ideas into one work order or a short one-to-five task list.
 - Define verification and dogfood evidence before implementation.
 - After implementation, refresh the project or skill, record where the new behavior was used, explain the idea compactly, then return to ideation.

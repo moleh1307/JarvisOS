@@ -46,6 +46,17 @@ If the honest answer is "nothing," the team may still accept the idea, but the i
 
 The goal is net workflow sharpness. Continuous R&D should make the system more capable without only making it larger.
 
+## Stack Compression Check
+
+After several workflow features in a row, or when a proposed idea mostly adds another named rule, card, template, or gate, run a compact compression check before acceptance:
+
+- Can this be merged into an existing reference, card, template, or closeout check?
+- Can an older rule be simplified, downgraded, or made less prominent?
+- Can this be a note, eval seed, or acceptance criterion instead of standing behavior?
+- Does accepting this idea reduce future work more than it increases cognitive load?
+
+Prefer `merge`, `simplify`, `downgrade`, or `reject` over adding a new surface when the benefit is mostly organizational. Do not silently retire or weaken standing behavior; create a sunset/review decision when removal is consequential.
+
 ## Friction Inbox
 
 Use a Friction Inbox when real usage reveals a small but potentially reusable problem:
@@ -149,4 +160,5 @@ Do not preserve long rejection debates. Preserve the insight that should prevent
 - Do not treat "creative" as permission to ignore verification.
 - Do not let Idea Closeout Explanation become generic filler; omit obvious repetition and explain only the useful design logic.
 - Do not run every eval seed on every loop; Regression Rehearsal uses one relevant seed or skips when stronger evidence already exists.
+- Do not add a new named mechanism when Stack Compression Check shows an existing reference/card/template can carry the behavior.
 - Do not return to ideation until the accepted feature is refreshed and dogfooded, unless a real blocker appears.
