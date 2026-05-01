@@ -194,7 +194,7 @@ Use the lightest structure that preserves the next useful action:
 
 - Tiny task: use JARVIS Core / Light Mode; skip Specialist Mode / Company Mode entirely.
 - Small normal task inside an existing project: Light Mode plus a focused memory update only if durable state changed.
-- Small-but-real project or focused adoption: Minimal Specialist Layer with current state, task board, one charter or adoption audit, and work orders; skip role memories, named roles, integration log, strategy map, evidence ledger, and adversarial review unless the project earns them.
+- Small-but-real project or focused adoption: Minimal Specialist Layer with current state, task board, one charter or adoption audit, and work orders; skip role memories, persistent role names, integration log, strategy map, evidence ledger, and adversarial review unless the project earns them.
 - Simple Specialist Mode / Company Mode project: one-line shape inference, operating mode, normal task board, no optional artifacts.
 - Excellence-critical project: shape inference, operating mode, compact Excellence Calibration, then execute against that bar.
 - Serious uncertain project: shape inference, operating mode, confidence lanes, strategy map, and adversarial review or claim review for consequential results.

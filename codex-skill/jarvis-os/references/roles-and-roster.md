@@ -1,6 +1,6 @@
 # Roles, Roster, And Team Changes
 
-Use this reference for role identity, team creation, team changes, role names, and role switching.
+Use this reference for role identity, team creation, team changes, functional role headers, and role switching.
 
 ## Team Roster
 
@@ -8,7 +8,6 @@ Use this reference for role identity, team creation, team changes, role names, a
 
 - role slug;
 - role title;
-- optional role name;
 - status: active / temporary / retired / merged;
 - reports to;
 - scope;
@@ -16,12 +15,12 @@ Use this reference for role identity, team creation, team changes, role names, a
 
 Rules:
 
-- Never invent a role name in a user-facing header.
-- If `team-roster.md` has no name for the role, use `[Role: <Role Title>]`.
-- If it defines a name, use `[Role: <Role Title> | Name: <Role Name>]`.
-- Active roles should not share the same name unless one is explicitly an alias, transition, or retired identity.
+- Use functional role headers by default: `[Role: <Role Title>]`.
+- Do not create persistent role names or persona names for normal Specialist Mode work.
+- Do not use `[Name: ...]` in user-facing headers.
+- Historical notes may contain older role names; treat them as historical labels, not active identity.
 - If roster, role memory, and role charter disagree, treat the roster as canonical and create a reconciliation task or feedback candidate.
-- During initialization or adoption, Founder creates `team-roster.md` before named role headers are used.
+- During initialization or adoption, Founder creates `team-roster.md` before role headers are used when the project needs a roster.
 
 ## Team Hats, Not Runtime Agents
 

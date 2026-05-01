@@ -23,7 +23,7 @@ The router keeps `SKILL.md` short while making reference selection explicit. It 
 | New serious project or unclear project shape | `greenfield.md` | `adaptive-operating-patterns.md`, `roles-and-roster.md`, domain-specific quality references |
 | Existing repo/project takeover | `adoption-takeover.md` | `github-release-versioning.md`, `quality-qa-and-critique.md` |
 | Tool-dependent work, plugin/tool use, local app/browser/imagegen/GitHub/deploy/email capability, or verification boundary | `capability-surface.md` | `quality-qa-and-critique.md`, `github-release-versioning.md`, domain reference |
-| Role headers, role names, team changes, roster drift | `roles-and-roster.md` | `continuation.md` for response preflight |
+| Role headers, team changes, roster drift | `roles-and-roster.md` | `continuation.md` for response preflight |
 | Research, data, proof, architecture, strategy, or consequential claims | `adaptive-operating-patterns.md` | `quality-qa-and-critique.md` |
 | Excellence-critical non-visual output | `adaptive-operating-patterns.md` | `quality-qa-and-critique.md`, `innovation-feedback.md` |
 | User-facing app/site/product with visual quality risk | `creative-preproduction.md` | `visual-concept-pipeline.md`, `quality-qa-and-critique.md` |

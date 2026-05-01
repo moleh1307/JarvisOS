@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.47 - 2026-05-01
+
+- Standardized Specialist Mode on functional role headers.
+- Removed persistent role/persona names from active role guidance and templates.
+- Updated examples so agents use `[Role: <Role Title>]` instead of `[Name: ...]` headers.
+
 ## 0.0.46 - 2026-05-01
 
 - Added explicit JARVIS Core / Light Mode guidance for small work.

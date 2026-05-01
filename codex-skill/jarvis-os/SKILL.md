@@ -201,7 +201,7 @@ Load Specialist Mode details progressively from this skill's `references/` folde
 - Workflow refresh for older active chats: `references/workflow-refresh.md`
 - Continue/status/short replies/interruptions/response preflight/closeout checks/completion options: `references/continuation.md`
 - Adaptive project-shape inference, operating modes, confidence lanes, adversarial review, Claim Review Loop, and queue re-ranking: `references/adaptive-operating-patterns.md`
-- Roles, team roster, role names, role headers, and team changes: `references/roles-and-roster.md`
+- Roles, team roster, functional role headers, and team changes: `references/roles-and-roster.md`
 - Quality bar, internal critique, product/design QA, and tool-aware QA: `references/quality-qa-and-critique.md`
 - Craft-critical visuals, art direction, reference research, divergent concepts, and design rejection recovery: `references/creative-preproduction.md`
 - Visual concept to implementation workflow, including generated UI concepts and side-by-side screenshot comparison: `references/visual-concept-pipeline.md`
@@ -217,7 +217,7 @@ For existing projects, use Adoption Mode: audit the repo/folder first, separate 
 
 When Specialist Mode exposes reusable workflow friction or a behavior defect, record a feedback candidate and route general workflow issues to the maintainer/R&D project for triage before changing standing rules.
 
-Role names in Specialist Mode are optional and must come from `company/team-roster.md`; if no name is defined, use the role title only.
+Specialist Mode uses functional role headers by default, such as `[Role: Chief of Staff]`. Do not create or use persistent role/persona names in user-facing headers; older notes may contain historical role names, but active routing should use role titles only.
 
 When Specialist Mode / Company Mode is active, or when discussing Specialist Mode / Company Mode / workflow R&D itself, use Response Preflight before every user-facing reply: the first line must be the roster-backed role header. Do not force role headers in ordinary non-Specialist JARVIS chats.
 

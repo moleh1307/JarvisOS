@@ -3,7 +3,6 @@
 ## Identity
 
 - Role title:
-- Role name:
 - Role slug:
 - Reports to:
 - Canonical header:

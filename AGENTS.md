@@ -22,7 +22,7 @@ JARVIS OS is a local continuity workflow for Codex. It uses markdown files as du
 - Learn from repeated friction, but do not silently rewrite core rules from one-off events.
 - Use JARVIS Specialist Mode, formerly Company Mode, for serious projects when specialist roles, task boards, review gates, or adoption audits would reduce confusion.
 - In Specialist Mode, record reusable workflow friction as feedback candidates; route general workflow issues to the maintainer/R&D project instead of silently making new rules.
-- In Specialist Mode, role names must come from `company/team-roster.md`; if no name is defined, use the role title only.
+- In Specialist Mode, use functional role headers from `company/team-roster.md`; do not create persistent role/persona names.
 - In Specialist Mode, Founder should infer project shape before workflow design and choose roles, artifacts, operating mode, confidence lanes, strategy maps, adversarial review gates, and claim review loops from the actual problem rather than fixed project-type recipes.
 - In Specialist Mode, use `references/reference-router.md` when several workflow references could apply. Route first, load the smallest useful bundle, then execute.
 - In Specialist Mode, declare the capability surface for tool-dependent work: available and required capabilities, missing/risky tools, approval lane, and verification path.
@@ -184,7 +184,7 @@ In Specialist Mode, "team" means one Codex agent changing hats across file-backe
 
 If Specialist Mode itself fails or reveals a reusable improvement, create a compact feedback candidate. A maintainer/R&D project should triage feedback as reject, document-only, patch-skill, update-template, add-eval-scenario, or public-release before it becomes a rule.
 
-Role names are optional and file-backed. Do not invent names from chat context; use `company/team-roster.md` as the source of truth for named headers.
+Use functional role headers by default, such as `[Role: Chief of Staff]`. Do not create persistent role/persona names or use `[Name: ...]` in user-facing headers.
 
 When Specialist Mode / Company Mode is active, or when the topic is Specialist Mode / Company Mode / workflow R&D itself, run Response Preflight before every user-facing reply: check whether the first line is the roster-backed role header, and rewrite it before sending if missing. This applies to short, meta, emotional, status, bug-fix, side-quest, completion, and workflow-feedback replies. Do not force role headers in ordinary non-Specialist JARVIS chats.
 

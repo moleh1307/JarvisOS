@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.46`
+Current version: `0.0.47`
 
-Latest update: JARVIS Core / Light Mode is now explicit for small work, and Specialist Mode can use a Minimal Specialist Layer for small-but-real projects or focused adoptions.
+Latest update: Specialist Mode now uses functional role headers by default and no longer creates persistent role/persona names.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -270,7 +270,7 @@ The optional serious-project layer:
 - out-of-box thinking
 - adaptive team changes
 - assertive role critique
-- optional role names
+- functional role headers
 - team roster for canonical role identity
 - GitHub autonomy rules for role/task branches
 - explicit next-action language
@@ -528,10 +528,10 @@ The rule is: route first, load only the selected references, execute, and re-rou
 Founder and Chief of Staff can evolve the team as the project changes: hire new roles, merge redundant roles, retire completed roles, or add temporary specialists. Each role may also keep a short name alongside its title, such as:
 
 ```text
-[Role: Product Designer | Name: Iris]
+[Role: Product Designer]
 ```
 
-Role names are optional and file-backed. `company/team-roster.md` is the canonical source for role title, role name, status, scope, and header format. If a role has no name in the roster, the agent should use only `[Role: <Role Title>]` and must not invent a name from chat context.
+Use functional role headers. `company/team-roster.md` is the canonical source for role title, status, scope, and header format. Agents should use `[Role: <Role Title>]` and must not invent persistent role/persona names from chat context.
 
 In Specialist Mode, the "team" is the same Codex agent changing hats across file-backed roles, not automatic runtime subagents. Prompts such as "discuss with your team" should normally produce a same-chat role discussion and synthesis. Runtime subagents should be used only when the user explicitly asks for subagents/delegation/parallel agents, or when bounded parallel investigation is worth the capacity cost; their IDs are temporary and should not become canonical team memory.
 
