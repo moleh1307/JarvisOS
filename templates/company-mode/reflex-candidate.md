@@ -39,3 +39,13 @@ What happened?
 - Decision:
 - Reason:
 - Promoted to:
+
+## Eval Seed
+
+- Needed: yes / no
+- Old failure:
+- Prompt/check:
+- Pass signal:
+- Fail signal:
+- Review cadence:
+- Seed artifact:

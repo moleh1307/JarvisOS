@@ -81,6 +81,20 @@ Promotion outputs can be:
 - memory split or cleanup task;
 - rejected/archived note with reason.
 
+## Eval Seeds
+
+When a Reflex or Friction signal is promoted into consequential standing behavior, create or link a tiny eval seed.
+
+An eval seed is not a full harness. It is a compact future check that answers:
+
+- old failure: what mistake, drift, or missed behavior should be caught;
+- prompt/check: the smallest scenario that would reveal the regression;
+- pass signal: what a good agent should do;
+- fail signal: what the old failure looked like;
+- review cadence: when to try the seed again.
+
+Create eval seeds for promoted rules, gates, templates, public workflow patches, or high-impact project lessons. Skip them for trivial promotions, one-off project facts, and cases where the acceptance criteria already contain an equivalent check.
+
 ## Compression And Pruning
 
 Alive systems need digestion.
@@ -102,6 +116,7 @@ When a Reflex produces an accepted improvement, record:
 - trigger observed;
 - candidate created;
 - promotion path;
+- eval seed, when the promotion is consequential;
 - what changed;
 - whether the change reduced future work, prevented drift, or improved memory.
 

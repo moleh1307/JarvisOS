@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.59 - 2026-05-01
+
+- Added Reflex Eval Seeds for consequential promoted learning.
+- Added an eval-seed template and Reflex candidate eval-seed fields.
+- Updated Self-Improvement Reflexes and Task Cards guidance so promoted standing behavior can carry a tiny future regression check without becoming a full eval harness.
+
 ## 0.0.58 - 2026-05-01
 
 - Added Learning Pulse Cadence for R&D idea loops.

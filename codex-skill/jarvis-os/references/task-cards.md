@@ -103,6 +103,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - Mark lane: observed, candidate, repeated, promoted, rejected, archived, or superseded.
 - Do not silently promote candidates into standing rules.
 - If the signal is strong, route to the R&D Idea Loop, work order, template update, eval, or memory cleanup.
+- When a signal is promoted into consequential standing behavior, create or link one tiny eval seed unless acceptance criteria already cover it.
 - Compress or archive candidates that do not recur.
 
 ## Learning Pulse Card
