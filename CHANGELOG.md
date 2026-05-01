@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.52 - 2026-05-01
+
+- Added a Friction Inbox template for lightweight workflow-friction capture.
+- Updated the R&D Idea Loop so future ideas can be grounded in captured friction before becoming rules or work orders.
+- Added a Friction Inbox task card for tiny evidence capture and triage.
+
 ## 0.0.51 - 2026-05-01
 
 - Added a Subtraction Gate to the R&D Idea Loop.

@@ -76,6 +76,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 ## R&D Idea Loop Card
 
 - Start with exactly one proposed idea unless the user explicitly asked for a broad brainstorm.
+- Check the Friction Inbox first when one exists; prefer repeated or high-impact real friction over novelty.
 - Record why the idea is non-obvious, useful, feasible, and safe enough to discuss.
 - Run compact team discussion through the smallest relevant roles.
 - Decide accepted, rejected, or revise; record the reason in an idea card when durable.
@@ -83,6 +84,15 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - Convert accepted ideas into one work order or a short one-to-five task list.
 - Define verification and dogfood evidence before implementation.
 - After implementation, refresh the project or skill, record where the new behavior was used, then return to ideation.
+
+## Friction Inbox Card
+
+- Capture only workflow friction that may matter again.
+- Keep the item tiny: what happened, where observed, frequency, impact, and candidate response.
+- Mark privacy: private, public-safe, or needs sanitization.
+- Do not promote inbox items directly into rules.
+- Triage as ignore, watch, idea-loop, work-order, update-template, add-eval, or public-release.
+- Prefer one good inbox item over a long list of weak observations.
 
 ## Status Or Closeout Card
 

@@ -45,6 +45,21 @@ If the honest answer is "nothing," the team may still accept the idea, but the i
 
 The goal is net workflow sharpness. Continuous R&D should make the system more capable without only making it larger.
 
+## Friction Inbox
+
+Use a Friction Inbox when real usage reveals a small but potentially reusable problem:
+
+- the agent hesitated or asked again because the workflow was unclear;
+- the agent repeated itself or added ceremony;
+- current state, blocker, version, or handoff drift appeared;
+- the user corrected the workflow, not just the task output;
+- a quality miss, routing miss, or tool gap appeared;
+- the same class of friction has happened before.
+
+Capture the smallest useful item first. Inbox items are candidates, not rules. They should not become standing behavior until triaged through the idea loop, a work order, eval, template update, or explicit user approval.
+
+Before pure ideation, check whether the Friction Inbox contains a stronger evidence-backed candidate. Prefer real friction over novelty when the friction is repeated, high-impact, or blocking compounding improvement.
+
 ## Team Discussion
 
 Keep discussion compact. Use only the roles that can materially improve the decision:

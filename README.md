@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.51`
+Current version: `0.0.52`
 
-Latest update: JARVIS OS now includes a Subtraction Gate for R&D idea loops so accepted ideas state what they simplify, remove, replace, or make less necessary.
+Latest update: JARVIS OS now includes a Friction Inbox so teams can capture small workflow friction before turning it into ideas, work orders, evals, or rules.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -532,7 +532,7 @@ Task cards are the lighter first stop when the task shape is obvious but the age
 
 Task Lifecycle v1 is the safety layer for meaningful work orders. It uses small lifecycle states, risk lanes, acceptance criteria, verification evidence, canonical artifacts, blockers/decisions, and closeout state so `done` means the work is actually safe to treat as finished.
 
-The R&D Idea Loop is for teams that want continuous improvement without brainstorming drift. It keeps one idea in focus, runs compact team discussion, turns accepted ideas into short task lists, requires implementation and refresh, and records dogfood evidence before returning to the next idea. Its Subtraction Gate asks what an accepted idea simplifies, removes, replaces, or makes less necessary so the system gets sharper instead of only larger.
+The R&D Idea Loop is for teams that want continuous improvement without brainstorming drift. It keeps one idea in focus, runs compact team discussion, turns accepted ideas into short task lists, requires implementation and refresh, and records dogfood evidence before returning to the next idea. Its Subtraction Gate asks what an accepted idea simplifies, removes, replaces, or makes less necessary so the system gets sharper instead of only larger. Its Friction Inbox captures small workflow problems as candidates first, so future ideas can come from real evidence instead of pure invention.
 
 Founder and Chief of Staff can evolve the team as the project changes: hire new roles, merge redundant roles, retire completed roles, or add temporary specialists. Each role may also keep a short name alongside its title, such as:
 
