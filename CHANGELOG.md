@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.69 - 2026-05-01
+
+- Updated README badges: docs now links to the deployed docs site in blue, built-by MOLEH appears in green, and version appears in red.
+
 ## 0.0.68 - 2026-05-01
 
 - Fixed the docs navbar logo so the JarvisOS banner renders as a contained wordmark instead of a cropped icon.
