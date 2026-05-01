@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.64 - 2026-05-01
+
+- Redesigned the README opening with a stronger product-style first screen.
+- Added a compact badge row, sharper positioning, proof-point style feature summary, and earlier quick-start path.
+- Kept the design inspired by strong agent README conventions without copying Hermes Agent content or structure.
+
 ## 0.0.63 - 2026-05-01
 
 - Added the JarvisOS banner image to the README.

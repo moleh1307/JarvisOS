@@ -4,18 +4,49 @@
 
 # JARVIS OS
 
-**A local-first operating system for Codex continuity.**
+[![Documentation](https://img.shields.io/badge/docs-local_markdown-111111?style=for-the-badge)](#copy-paste-starts)
+[![Codex Skill](https://img.shields.io/badge/codex-skill-111111?style=for-the-badge)](codex-skill/jarvis-os)
+[![Memory](https://img.shields.io/badge/memory-local_first-111111?style=for-the-badge)](#what-is-inside)
+[![Version](https://img.shields.io/badge/version-0.0.64-111111?style=for-the-badge)](VERSION)
+
+**The local-first continuity system that makes Codex remember through files, not vibes.**
+
+JARVIS OS turns a normal project folder into an inspectable operating layer for agent work: current state, decisions, handoffs, task boards, role routing, artifact hygiene, and governed self-improvement all live in markdown where you can read and change them.
+
+It is built for the moment when a chat gets too long, a project gets too many moving parts, or "start a fresh chat" should not mean "start from zero."
 
 This public template was previously named JARVIS Light. The public repository is now JarvisOS, and the workflow uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.63`
+Current version: `0.0.64`
 
-Latest update: JARVIS OS now includes a README banner and current public repository naming.
+Latest update: README opening redesigned with a stronger product-style first screen.
 
-JARVIS OS turns a folder of markdown files into durable assistant memory.
-It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
+## What It Does
 
-It is inspired by the same continuity problem that Chronicle-style memory tries to solve, but it is intentionally different:
+- **Keeps project state alive**: agents read the right markdown before meaningful work and update the smallest useful memory afterward.
+- **Makes fresh chats usable**: handoffs preserve objectives, blockers, exact next steps, and files to read first.
+- **Scales from light work to serious projects**: use Light Mode for small tasks, or Specialist Mode when roles, work orders, critique, QA, and release discipline reduce confusion.
+- **Improves without becoming chaotic**: lessons, failure patterns, and proposals can be captured, reviewed, promoted, rejected, or superseded instead of silently rewriting the rules.
+
+## Quick Start
+
+```bash
+git clone https://github.com/moleh1307/JarvisOS.git
+cd JarvisOS
+```
+
+Then point Codex at the installed skill:
+
+```text
+Jarvis, use JARVIS OS.
+
+Read the relevant project memory first, then help me with:
+...
+```
+
+## Positioning
+
+JARVIS OS is inspired by the same continuity problem that Chronicle-style memory tries to solve, but it is intentionally different:
 
 - no background screen capture
 - no automatic background screenshots
@@ -26,10 +57,6 @@ It is inspired by the same continuity problem that Chronicle-style memory tries 
 
 JARVIS OS is **not a Chronicle replacement**.
 It is the lightweight/manual mode: local markdown, explicit retrieval, compact memory, and agent discipline.
-
-## The One-Sentence Version
-
-JARVIS OS makes Codex behave less like a fresh chat and more like an organized teammate that can read the project state, do the work, and leave the next session in a better position.
 
 ## Copy-Paste Starts
 
