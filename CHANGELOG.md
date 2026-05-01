@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.48 - 2026-05-01
+
+- Added `references/task-cards.md` with compact execution checklists for common task types.
+- Routed task cards from the skill entry point and Reference Router.
+- Updated README reference guidance so agents can reduce cognitive load without loading the whole workflow stack.
+
 ## 0.0.47 - 2026-05-01
 
 - Standardized Specialist Mode on functional role headers.

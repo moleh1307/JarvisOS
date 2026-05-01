@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.47`
+Current version: `0.0.48`
 
-Latest update: Specialist Mode now uses functional role headers by default and no longer creates persistent role/persona names.
+Latest update: JARVIS OS now includes compact task cards for common task types, reducing agent cognitive load before deeper reference routing.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.
@@ -515,6 +515,7 @@ JARVIS OS uses a Reference Router before deeper Specialist Mode work. The router
 Examples:
 
 - older active chat refresh -> `workflow-refresh.md`
+- clear task type with too many rules to synthesize -> `task-cards.md`
 - `continue`, blockers, interruptions, completion options -> `continuation.md`
 - new serious project -> `greenfield.md`
 - existing project takeover -> `adoption-takeover.md`
@@ -524,6 +525,8 @@ Examples:
 - consequential claims or research/proof work -> `adaptive-operating-patterns.md`
 
 The rule is: route first, load only the selected references, execute, and re-route if Stop-the-Line Review or a changed bottleneck shows the initial route was wrong.
+
+Task cards are the lighter first stop when the task shape is obvious but the agent needs a compact checklist. They cover common work such as coding fixes, research outputs, public artifacts, adoption audits, fresh continuations, workflow patches, and status/closeout. They are not a replacement for deeper references; they point the agent back to the right reference when risk appears.
 
 Founder and Chief of Staff can evolve the team as the project changes: hire new roles, merge redundant roles, retire completed roles, or add temporary specialists. Each role may also keep a short name alongside its title, such as:
 
@@ -701,13 +704,19 @@ git commit --author="JARVIS Frontend Engineer <your-verified-email@example.com>"
 │       └── references/
 │           ├── adoption-takeover.md
 │           ├── adaptive-operating-patterns.md
+│           ├── capability-surface.md
 │           ├── continuation.md
 │           ├── creative-preproduction.md
 │           ├── github-release-versioning.md
 │           ├── greenfield.md
 │           ├── innovation-feedback.md
+│           ├── memory-discipline.md
 │           ├── public-artifacts.md
 │           ├── quality-qa-and-critique.md
+│           ├── reference-router.md
+│           ├── task-cards.md
+│           ├── visual-concept-pipeline.md
+│           ├── workflow-refresh.md
 │           └── roles-and-roster.md
 ├── handoffs/
 │   └── README.md

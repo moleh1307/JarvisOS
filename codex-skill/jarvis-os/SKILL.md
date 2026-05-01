@@ -65,6 +65,8 @@ If the user gives a serious project but does not name a mode, infer the appropri
 
 Before loading deeper JARVIS OS references, choose the smallest reference set that matches the task. Use `references/reference-router.md` when multiple references could apply, when a task crosses Core/Specialist boundaries, or when the right workflow gate is not obvious.
 
+When the task type is already clear but execution still risks cognitive overload, use `references/task-cards.md` for a compact checklist before deeper references. Task cards are optional execution aids for common task types; skip them for trivial work and route deeper when risk appears.
+
 Reference routing should answer:
 
 - Is this Core or Specialist Mode?
@@ -194,6 +196,7 @@ In Specialist Mode, "team" means the current Codex agent sequentially inhabits f
 Load Specialist Mode details progressively from this skill's `references/` folder:
 
 - Reference routing: `references/reference-router.md`
+- Compact task-type checklists: `references/task-cards.md`
 - Capability surface, tool permissions, and verification routing: `references/capability-surface.md`
 - Memory routing, lifecycle lanes, freshness checks, and note splitting: `references/memory-discipline.md`
 - Greenfield setup: `references/greenfield.md`

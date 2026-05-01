@@ -17,6 +17,7 @@ The router keeps `SKILL.md` short while making reference selection explicit. It 
 
 | Trigger | Load first | Add when needed |
 | --- | --- | --- |
+| Clear task type but too many possible rules to synthesize | `task-cards.md` | the specific deeper reference named by the selected card |
 | Older active chat needs latest workflow | `workflow-refresh.md` | `continuation.md`, `roles-and-roster.md` |
 | Durable memory write, stale memory conflict, long project note, handoff, project-note split, memory cleanup | `memory-discipline.md` | `continuation.md` for closeout or handoff |
 | `continue`, `go`, `next`, short approval, status, blocker, interruption | `continuation.md` | `adaptive-operating-patterns.md` for queue re-ranking or claim review |
@@ -50,10 +51,11 @@ If the task becomes consequential, public-facing, long-running, or role-governed
 
 1. Identify the active mode: JARVIS Core or Specialist Mode.
 2. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
-3. Select the smallest reference bundle from the table.
-4. Read only the selected references and the live project state needed for the next action.
-5. Execute or propose according to the selected route.
-6. If the route was wrong, run Stop-the-Line Review and switch route.
+3. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
+4. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
+5. Read only the selected references and the live project state needed for the next action.
+6. Execute or propose according to the selected route.
+7. If the route was wrong, run Stop-the-Line Review and switch route.
 
 ## Conflict Rules
 
