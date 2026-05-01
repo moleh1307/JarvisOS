@@ -6,8 +6,6 @@
 
 [![Docs](https://img.shields.io/badge/docs-moleh1307.github.io%2FJarvisOS-1f6feb?style=for-the-badge)](https://moleh1307.github.io/JarvisOS/)
 [![Built By](https://img.shields.io/badge/built_by-MOLEH-2ea44f?style=for-the-badge)](https://github.com/moleh1307)
-[![Codex](https://img.shields.io/badge/codex-skill-111111?style=for-the-badge)](codex-skill/jarvis-os)
-[![Local First](https://img.shields.io/badge/memory-local_first-111111?style=for-the-badge)](#how-it-works)
 [![Version](https://img.shields.io/badge/version-0.0.69-da3633?style=for-the-badge)](VERSION)
 
 **A local-first operating system for Codex continuity.**
