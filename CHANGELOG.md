@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.70 - 2026-05-01
+
+- Redesigned the Docusaurus landing page around a distinctive JarvisOS continuity-console concept.
+- Preserved docs navigation and docs content while updating landing-specific styling.
+- Verified the production Docusaurus build and rendered desktop/mobile landing states locally.
+
 ## 0.0.69 - 2026-05-01
 
 - Updated README badges: docs now links to the deployed docs site in blue, built-by MOLEH appears in green, and version appears in red.
