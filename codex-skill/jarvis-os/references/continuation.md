@@ -152,8 +152,30 @@ Triggers include:
 - a consequential claim, design direction, method, architecture, or release/readiness assumption is being treated as stable without enough support;
 - README/status/version/deployment/artifact reality conflicts with reported state;
 - the same fix failed twice or the team is looping on superficial patches;
+- the same class of vague quality feedback repeats, such as "improve more," "still not good," "not enough," or the same direction is rejected twice;
 - the work needs a capability, role, reference class, or tool that the current path lacks;
 - the active queue is optimizing the wrong thing after a new discovery or failure.
+
+### Vague Improvement Loop Gate
+
+Use this gate when repeated dissatisfaction suggests the current frame is wrong, not merely unfinished.
+
+Trigger it only when:
+
+- the same class of vague quality feedback appears twice after patches;
+- the same direction is rejected twice;
+- QA finds the same class of failure after a patch; and
+- the next default move would be another incremental patch without changing frame, evidence, role, capability, or operating mode.
+
+Do not trigger it for one vague comment when there is one obvious local fix, a narrow clarification, or an existing gate that can resolve the issue.
+
+When triggered:
+
+1. Stop normal task chaining.
+2. Diagnose the likely bottleneck: goal, operating mode, audience, taste bar, evidence, capability, role, or side-effect boundary.
+3. Continue only through `fix now`, `switch mode`, `corrective work order`, `review/calibration`, or `decision needed`.
+4. If creating a work order, name the diagnosed bottleneck in the title or objective.
+5. End with sharper state-aware options, not generic "continue improving."
 
 Use this compact format internally:
 

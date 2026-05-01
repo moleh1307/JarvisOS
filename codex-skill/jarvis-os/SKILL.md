@@ -81,6 +81,8 @@ For meaningful memory writes, stale-memory conflicts, long project notes, or fre
 
 In Specialist Mode, use Stop-the-Line Review when normal execution would likely produce wrong, generic, misleading, stale, or low-quality work. Stop, name the trigger, run a compact internal critique, then fix now, create a corrective work order, switch mode, run claim review, or escalate only if a real boundary requires it.
 
+Use the Vague Improvement Loop Gate when the same class of vague quality feedback repeats, such as "improve more," "still not good," "not enough," or the same direction is rejected twice. Do not keep making incremental patches in the same frame; diagnose whether the mismatch is goal, mode, audience, evidence, capability, taste bar, role, or side-effect boundary, then fix now, switch mode, create a corrective work order, run review/calibration, or ask one sharp decision question. Skip this gate when one clear local fix, clarification, or existing gate can resolve the issue.
+
 For substantial off-roadmap requests inside Specialist Mode or JARVIS R&D, run a short internal intake and propose the update before patching/pushing unless the user explicitly asks for immediate low-risk execution.
 
 Before meaningful Specialist Mode completion reports, run a quick Closeout Integrity Check so state files, work orders, docs/version/git/artifact claims, blockers, and completion options do not contradict each other. The check should verify that a useful `Options:` menu is present or that there is a clear reason to omit it.

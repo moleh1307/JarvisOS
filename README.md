@@ -608,10 +608,13 @@ Common triggers:
 - consequential claims, design directions, methods, architecture, or readiness assumptions treated as stable too early;
 - README, status, version, deployment, or artifact reality conflicting with reported state;
 - repeated superficial fixes after the same failure;
+- repeated vague quality feedback such as "improve more," "still not good," or "not enough" after patches;
 - missing role, capability, reference class, or tool for the work;
 - an old queue optimizing the wrong thing after a discovery or failure.
 
 Default outcomes are: fix now, create a corrective work order, switch operating mode, run claim review, or escalate only when a real boundary requires it.
+
+The Vague Improvement Loop Gate is the anti-patch-loop version of Stop-the-Line. Use it only when the same class of vague dissatisfaction or QA failure appears twice and the next default move would be another incremental patch without changing frame, evidence, role, capability, or operating mode. Skip it when one clear local fix, clarification, or existing gate can resolve the issue.
 
 ### Creative Preproduction And Taste Gate
 

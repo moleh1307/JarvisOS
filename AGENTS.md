@@ -157,6 +157,8 @@ For craft-critical UI or visual product work, Specialist Mode may use a Visual C
 
 Specialist Mode should run Stop-the-Line Review when normal execution would likely produce wrong, generic, misleading, stale, or low-quality work. Stop, name the trigger, run compact internal critique, then fix now, create a corrective work order, switch operating mode, run claim review, or escalate only if a real boundary requires it.
 
+Use the Vague Improvement Loop Gate when the same class of vague quality feedback repeats, such as "improve more," "still not good," "not enough," or the same direction is rejected twice. Do not keep making incremental patches in the same frame; diagnose whether the mismatch is goal, mode, audience, evidence, capability, taste bar, role, or side-effect boundary, then fix now, switch mode, create a corrective work order, run review/calibration, or ask one sharp decision question. Skip this gate when one clear local fix, clarification, or existing gate can resolve the issue.
+
 For new projects, Founder initializes the company from the user's idea.
 
 For existing projects, Founder acts as Organizational Auditor:

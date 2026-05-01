@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.45 - 2026-05-01
+
+- Added the Vague Improvement Loop Gate as a focused Stop-the-Line extension.
+- Repeated vague dissatisfaction such as "improve more," "still not good," or repeated rejection of the same direction now triggers diagnosis instead of another incremental patch.
+- Added an anti-ceremony guard: skip the gate when one clear local fix, clarification, or existing gate can resolve the issue.
+
 ## 0.0.44 - 2026-05-01
 
 - Clarified Specialist Mode team semantics: the team is the current Codex agent sequentially inhabiting file-backed roles, not automatic runtime subagents.
