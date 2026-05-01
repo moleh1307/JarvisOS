@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.57 - 2026-05-01
+
+- Added Idea Closeout Explanation to the R&D Idea Loop.
+- Updated idea-card templates so implemented ideas can explain the problem, concept, mechanics, value, tradeoffs, and dogfood path.
+- Updated the R&D Idea Loop task card so closeouts explain the idea after refresh and verification.
+
 ## 0.0.56 - 2026-05-01
 
 - Added Learning Pulse reports for compact self-improvement readouts.

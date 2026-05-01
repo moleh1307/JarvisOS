@@ -14,8 +14,9 @@ Run one idea at a time:
 4. If accepted, Chief of Staff or project manager converts it into a short task list.
 5. The team implements the task list.
 6. The project or skill is refreshed.
-7. The team dogfoods the new feature in the next cycle.
-8. Return to one new idea.
+7. The closeout explains the implemented idea compactly.
+8. The team dogfoods the new feature in the next cycle.
+9. Return to one new idea.
 
 Do not batch many unrelated ideas unless the user explicitly asks for a broad brainstorm. A loop is strongest when every idea must survive discussion, implementation planning, and dogfood evidence.
 
@@ -107,6 +108,21 @@ Dogfood evidence should answer:
 - Did it help, fail, or add overhead?
 - What should the next loop learn from it?
 
+## Idea Closeout Explanation
+
+After implementing an accepted idea, include a compact explanation of the idea itself in the closeout.
+
+The explanation should cover:
+
+- problem: what friction, gap, or opportunity triggered the idea;
+- concept: the core mechanism in plain language;
+- practice: how agents will use it;
+- value: why it improves JARVIS OS or the active project;
+- tradeoffs: what could become noisy, redundant, unsafe, or heavy;
+- dogfood path: where the team will use it next.
+
+Keep this explanation short. It should help the user understand the design, not restate every file changed or duplicate the work order.
+
 ## Rejected Idea Handling
 
 For rejected ideas, keep only the useful reason:
@@ -127,4 +143,5 @@ Do not preserve long rejection debates. Preserve the insight that should prevent
 - Do not run the full loop for urgent bug fixes or obvious maintenance.
 - Do not let the ideation role override evidence, safety, or user direction.
 - Do not treat "creative" as permission to ignore verification.
+- Do not let Idea Closeout Explanation become generic filler; omit obvious repetition and explain only the useful design logic.
 - Do not return to ideation until the accepted feature is refreshed and dogfooded, unless a real blocker appears.

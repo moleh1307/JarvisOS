@@ -84,7 +84,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - Run the Subtraction Gate: what does this simplify, remove, replace, or make less necessary?
 - Convert accepted ideas into one work order or a short one-to-five task list.
 - Define verification and dogfood evidence before implementation.
-- After implementation, refresh the project or skill, record where the new behavior was used, then return to ideation.
+- After implementation, refresh the project or skill, record where the new behavior was used, explain the idea compactly, then return to ideation.
 
 ## Friction Inbox Card
 

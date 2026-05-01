@@ -67,3 +67,12 @@
 - Refreshed in JARVIS OS:
 - Public/private impact:
 - Next idea loop ready: yes / no
+
+## Idea Explanation
+
+- Problem:
+- Concept:
+- How it works:
+- Why it helps:
+- Tradeoffs:
+- Dogfood path:
