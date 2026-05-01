@@ -58,7 +58,7 @@ Use a Friction Inbox when real usage reveals a small but potentially reusable pr
 
 Capture the smallest useful item first. Inbox items are candidates, not rules. They should not become standing behavior until triaged through the idea loop, a work order, eval, template update, or explicit user approval.
 
-Before pure ideation, check whether the Friction Inbox contains a stronger evidence-backed candidate. Prefer real friction over novelty when the friction is repeated, high-impact, or blocking compounding improvement.
+Before pure ideation, check whether the Friction Inbox, Reflex candidates, or a recent Learning Pulse contains a stronger evidence-backed candidate. Prefer real friction or learning signal over novelty when the signal is repeated, high-impact, or blocking compounding improvement.
 
 ## Sunset Clause
 

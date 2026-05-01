@@ -4,9 +4,9 @@
 
 This public template was previously named JARVIS Light. The repository path may keep that name during the migration, but the workflow now uses JARVIS OS as the umbrella name.
 
-Current version: `0.0.55`
+Current version: `0.0.56`
 
-Latest update: JARVIS OS now includes Self-Improvement Reflexes so meaningful work can produce tiny learning candidates without silently rewriting rules.
+Latest update: JARVIS OS now includes Learning Pulse reports so recent self-improvement signals can be surfaced compactly.
 
 JARVIS OS turns a folder of markdown files into durable assistant memory.
 It helps Codex work across long chats, fresh chats, projects, research, codebases, and handoffs without pretending the chat history itself is the source of truth.

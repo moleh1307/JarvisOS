@@ -105,6 +105,14 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - If the signal is strong, route to the R&D Idea Loop, work order, template update, eval, or memory cleanup.
 - Compress or archive candidates that do not recur.
 
+## Learning Pulse Card
+
+- Use only when recent learning should be visible or when choosing between evidence-backed candidates and pure ideation.
+- Read the smallest recent set: Reflex candidates, Friction Inbox items, recent idea cards/work orders, and current state.
+- Separate captured, promoted, rejected/archived, watch-next, and net effect.
+- Do not invent learning or promote rules from the pulse alone.
+- Keep the report compact and private by default.
+
 ## Status Or Closeout Card
 
 - Run the stale dashboard or equivalent state check when drift risk is non-trivial.

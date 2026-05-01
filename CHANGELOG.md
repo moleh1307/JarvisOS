@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.56 - 2026-05-01
+
+- Added Learning Pulse reports for compact self-improvement readouts.
+- Added a learning-pulse template and routing from the skill, Reference Router, Task Cards, and R&D Idea Loop.
+- Clarified that a pulse can recommend promotion but cannot silently change standing rules.
+
 ## 0.0.55 - 2026-05-01
 
 - Added Self-Improvement Reflexes for candidate-producing learning after meaningful work.

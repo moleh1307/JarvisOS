@@ -73,6 +73,8 @@ When a Specialist Mode team is explicitly running continuous improvement, produc
 
 When meaningful work reveals reusable behavior signals, use `references/self-improvement-reflexes.md`. Reflexes let JARVIS notice, capture, compress, and route learning candidates without silently rewriting standing rules.
 
+When the user asks what JARVIS learned or when self-improvement should be visible, use `references/learning-pulse.md` to summarize recent Reflex/Friction candidates, promotions, archived/rejected items, and watch-next signals.
+
 Reference routing should answer:
 
 - Is this Core or Specialist Mode?
