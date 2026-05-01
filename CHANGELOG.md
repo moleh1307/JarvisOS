@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.65 - 2026-05-01
+
+- Compressed the README opening into a shorter, sharper first screen.
+- Moved explanation below the quick start and replaced long proof points with a compact capability table.
+
 ## 0.0.64 - 2026-05-01
 
 - Redesigned the README opening with a stronger product-style first screen.
