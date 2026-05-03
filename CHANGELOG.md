@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.80 - 2026-05-03
+
+- Added Done Shape to Agent Work Pack so meaningful deliverables define the intended finished output before execution.
+- Updated installed/public Work Pack templates and docs with audience, final form, must-be-visible, must-not-become, and quality-feel fields.
+- Kept Done Shape inside Work Pack rather than adding a new standalone gate.
+
 ## 0.0.79 - 2026-05-03
 
 - Added `references/skill-composition.md` so agents can combine JarvisOS with domain and plugin skills without over-reading.

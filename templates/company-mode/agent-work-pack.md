@@ -48,6 +48,14 @@
 - Canonical artifact:
 - Temporary artifacts:
 
+## Done Shape
+
+- Audience/user:
+- Final form:
+- Must be visible:
+- Must not become:
+- Quality feel:
+
 ## Verification
 
 - Required checks:

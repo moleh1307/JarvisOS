@@ -72,6 +72,7 @@ Keep Work Packs compact. A useful Work Pack answers:
 - Allowed autonomous actions: what can proceed without asking.
 - Stop/ask triggers: exact boundaries that require Melih or another real owner.
 - Expected outputs: artifact paths or report shape.
+- Done Shape: who the finished output is for, what form it takes, what must be visible, and what would make it feel wrong.
 - Verification: commands, checks, renders, tests, source checks, or review gates.
 - Memory update target: where durable state goes if changed.
 - Done criteria: observable conditions.
@@ -137,6 +138,14 @@ Optional fields:
 - Canonical artifact:
 - Temporary artifacts:
 
+## Done Shape
+
+- Audience/user:
+- Final form:
+- Must be visible:
+- Must not become:
+- Quality feel:
+
 ## Verification
 
 - Required checks:
@@ -156,10 +165,11 @@ Optional fields:
 2. Choose Light Mode, Minimal Specialist Layer, or Full Specialist Mode.
 3. Read only the current-state/work-order/context needed to fill the pack.
 4. Route references with `reference-router.md` or `task-cards.md`.
-5. Declare capability and verification boundaries if tool-dependent.
-6. Mark what is temporary and what would become durable.
-7. Execute the task.
-8. At closeout, promote only durable facts and let the pack expire.
+5. For meaningful deliverables, define Done Shape before implementation.
+6. Declare capability and verification boundaries if tool-dependent.
+7. Mark what is temporary and what would become durable.
+8. Execute the task.
+9. At closeout, promote only durable facts and let the pack expire.
 
 ## Quality Bar
 
@@ -168,6 +178,7 @@ Good Work Pack:
 - fits on one screen when possible;
 - names exact files/references;
 - prevents over-reading;
+- states the finished output shape before execution when the deliverable is meaningful;
 - makes done criteria obvious;
 - separates temporary execution context from durable memory;
 - reduces repeated questions.
@@ -179,6 +190,7 @@ Bad Work Pack:
 - becomes another current-state file;
 - is mandatory for tiny tasks;
 - contains vague instructions like "do research well";
+- uses Done Shape as decorative prose instead of a concrete output target;
 - survives after the task without a reason.
 
 ## Interaction With Other Surfaces
