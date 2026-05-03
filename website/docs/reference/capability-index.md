@@ -26,6 +26,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Artifact Hygiene | Files, docs, images, data, PDFs, or generated outputs need trust labels and verification. | any meaningful artifact | [Artifact Hygiene](../concepts/artifact-hygiene.md) |
 | Context Freshness Badge | A task relies on memory, state files, git status, public versions, blockers, dates, or mutable external facts. | stale-risk context | [Checklists](checklists.md) |
 | Verification Breadcrumb | A result, artifact, version, build, test, dashboard, or public claim was verified and future agents may need to trust or rerun it. | `verified`, `tests passed`, `ready` | [Checklists](checklists.md) |
+| Rollback Handle | A public template change, installed skill change, workflow rule, or consequential R&D feature may need a future safe undo path. | release closeout, workflow patch | [Checklists](checklists.md) |
 | Scratchpad Expiry | Temporary notes, assumptions, QA outputs, screenshots, drafts, Work Packs, or diagnostics may become memory noise. | closeout after scratch work | [Checklists](checklists.md) |
 | Reference Router | Several workflow references could apply and the agent should not over-read. | complex routing | [Reference Router](../operations/reference-router.md) |
 | Agent Work Pack | A meaningful task has scattered context, tools, constraints, and done criteria. | `create a Work Pack` | [Agent Work Pack](../operations/agent-work-pack.md) |
