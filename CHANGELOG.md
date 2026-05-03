@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.78 - 2026-05-03
+
+- Added `tools/jarvis-doctor.py`, a deterministic public-template diagnostic for agents.
+- Added docs for Jarvis Doctor under Operations and routed it into workflow patch / closeout task cards.
+- Doctor checks version metadata, required files, JarvisOS reference reachability, docs sidebar targets, obvious private-leak patterns, and git state.
+
 ## 0.0.77 - 2026-05-03
 
 - Added Agent Work Pack as a temporary task-local execution context for meaningful JarvisOS work.
