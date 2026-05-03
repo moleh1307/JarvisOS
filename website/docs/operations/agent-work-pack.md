@@ -14,6 +14,7 @@ It gives the current agent one compact brief:
 - what not to read unless needed;
 - which tools and permissions matter;
 - what output is expected;
+- what the finished output should look and feel like;
 - what verification proves done;
 - where durable memory should be updated.
 
@@ -102,6 +103,14 @@ At closeout, the Work Pack should expire. Promote only durable facts into:
 - Canonical artifact:
 - Temporary artifacts:
 
+## Done Shape
+
+- Audience/user:
+- Final form:
+- Must be visible:
+- Must not become:
+- Quality feel:
+
 ## Verification
 
 - Required checks:
@@ -119,7 +128,10 @@ At closeout, the Work Pack should expire. Promote only durable facts into:
 
 A good Work Pack fits on one screen when possible, names exact files, prevents over-reading, states stop/ask triggers, and makes done criteria observable.
 
+For meaningful deliverables, it also names the Done Shape before implementation: who the result is for, what form the final artifact takes, what must be visible, what it must not become, and what quality feel the team is aiming for.
+
 ## Bad Work Pack
 
 A bad Work Pack duplicates the whole work order, lists every JarvisOS rule, becomes another current-state file, or is created for every tiny task.
 
+Bad Done Shape is vague decoration like "make it professional." Useful Done Shape is concrete enough to guide implementation and review.
