@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.81 - 2026-05-03
+
+- Added a compact Command Deck to `jarvis-os` so common phrases such as `status`, `continue`, `new idea`, `create a Work Pack`, and `JarvisOS Skill Ticket` route consistently.
+- Added Command Deck examples to the public prompt library and README.
+- Clarified that command phrases are intent shortcuts, not a rigid parser or automation layer.
+
 ## 0.0.80 - 2026-05-03
 
 - Added Done Shape to Agent Work Pack so meaningful deliverables define the intended finished output before execution.
