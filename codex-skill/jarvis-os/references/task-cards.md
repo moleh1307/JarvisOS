@@ -12,6 +12,8 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 4. If a check reveals drift, blocker, or risk, fix it or route to the deeper reference.
 5. Close with the smallest durable state update that future continuation needs.
 
+If the card still leaves execution context scattered across state, work orders, tools, references, and verification requirements, create or mentally assemble an Agent Work Pack from `agent-work-pack.md`. Do not create a Work Pack for tiny tasks where the card itself is enough.
+
 ## Coding Fix Card
 
 - Identify the repo, branch, changed files, and user-visible behavior before editing.
@@ -66,6 +68,7 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 ## Workflow Patch Card
 
 - Name the friction, evidence, and rule gap before patching.
+- Use an Agent Work Pack when the patch touches installed skill, public template, task board, docs/version, and validation surfaces in one task.
 - Set lifecycle state and risk lane for the workflow patch work order.
 - Decide whether this is private-only, installed-skill, public-template, template, or eval work.
 - Patch the canonical installed skill first when standing behavior changes.
@@ -107,6 +110,19 @@ Task cards are compact execution checklists. They do not replace deeper referenc
 - If the signal is strong, route to the R&D Idea Loop, work order, template update, eval, or memory cleanup.
 - When a signal is promoted into consequential standing behavior, create or link one tiny eval seed unless acceptance criteria already cover it.
 - Compress or archive candidates that do not recur.
+
+## Cross-Project Contribution / Skill Ticket Card
+
+- Use when another JarvisOS chat/project reveals something reusable for JarvisOS itself, especially when the command is `JarvisOS Skill Ticket`.
+- Review available chat history, project memory, decisions, artifacts, repeated workflows, prompts, tools, and failure modes.
+- Separate reusable behavior from project-local context and private facts.
+- Mark privacy lane: private, needs-sanitization, or public-safe.
+- Mark evidence strength: one-off, repeated-in-project, repeated-across-projects, high-impact, or user-approved.
+- For skill/skillset proposals, list trigger conditions, workflow, inputs/tools, outputs, verification checks, privacy boundary, examples, and recommendation.
+- Skill drafts must be detailed and long enough to explain the workflow clearly without hidden chat context.
+- If implementation is meant to happen later in the R&D chat, create a ticket ID in the format `JST-YYYYMMDD-short-slug`.
+- Save a candidate under project `company/contributions/` or central `company/contribution-inbox/` when available.
+- Do not patch, install, or publish JarvisOS changes directly unless the user explicitly approves that implementation step.
 
 ## Regression Rehearsal Card
 

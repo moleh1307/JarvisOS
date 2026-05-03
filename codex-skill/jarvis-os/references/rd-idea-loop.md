@@ -70,7 +70,7 @@ Use a Friction Inbox when real usage reveals a small but potentially reusable pr
 
 Capture the smallest useful item first. Inbox items are candidates, not rules. They should not become standing behavior until triaged through the idea loop, a work order, eval, template update, or explicit user approval.
 
-Before pure ideation, check whether the Friction Inbox, Reflex candidates, or a recent Learning Pulse contains a stronger evidence-backed candidate. Prefer real friction or learning signal over novelty when the signal is repeated, high-impact, or blocking compounding improvement.
+Before pure ideation, check whether the Friction Inbox, Reflex candidates, cross-project contribution candidates, or a recent Learning Pulse contains a stronger evidence-backed candidate. Prefer real friction, project contribution, or learning signal over novelty when the signal is repeated, high-impact, or blocking compounding improvement.
 
 Use Learning Pulse Cadence when evidence is thin or stale: if three R&D idea loops completed since the last pulse, or if there is no fresh unpromoted Friction/Reflex signal before ideation, run a compact Learning Pulse first. Skip it when a recent pulse is still current or a strong unpromoted candidate is already obvious.
 
@@ -109,6 +109,7 @@ Record the decision in an idea card when the idea is accepted, rejected for a du
 For accepted ideas:
 
 - create or update an idea card;
+- link any contribution candidate that supplied the evidence;
 - complete the Subtraction Gate before final acceptance;
 - define a Sunset Clause for meaningful workflow features;
 - create one work order when the implementation is single-scope;

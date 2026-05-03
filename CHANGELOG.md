@@ -1,5 +1,45 @@
 # Changelog
 
+## 0.0.77 - 2026-05-03
+
+- Added Agent Work Pack as a temporary task-local execution context for meaningful JarvisOS work.
+- Added `references/agent-work-pack.md` and `templates/company-mode/agent-work-pack.md`.
+- Routed Work Packs through the Reference Router and Task Cards so agents can reduce over-reading without creating another task board.
+
+## 0.0.76 - 2026-05-03
+
+- Rejected the dense `ARCHIVE_OS` panel layout and rebuilt the docs landing page around a full-bleed retro-futurist archive-room hero.
+- Added new generated bitmap assets for the archive-room hero scene and holographic local-memory seal.
+- Simplified the page into a cinematic first viewport, command dock, invocation strip, and artifact-style docs links.
+
+## 0.0.75 - 2026-05-02
+
+- Recreated the Docusaurus docs landing page as a retro-futurist `ARCHIVE_OS` memory workstation.
+- Added project-bound generated bitmap assets for a JarvisOS memory cartridge and CRT memory texture under `website/static/img/landing/`.
+- Built the landing page around archive files, docs routes, boot logs, command rail, and memory-cartridge bay instead of a generic SaaS hero/cards structure.
+
+## 0.0.74 - 2026-05-02
+
+- Removed the custom Docusaurus landing page implementation so the docs landing can be recreated from a clean surface.
+- Replaced the root page with a minimal redirect to `/docs/intro` and removed landing-specific CSS while preserving shared docs theme/navbar styling.
+
+## 0.0.73 - 2026-05-02
+
+- Added `references/skill-quality-standard.md` so JarvisOS skill and skill-ticket drafts follow an explicit quality bar.
+- Routed skill creation/review through the Reference Router and strengthened skill-ticket templates with ownership, delegation, hard-boundary, repair, provenance, and acceptance-criteria sections.
+- Added public docs for the Skill Quality Standard.
+
+## 0.0.72 - 2026-05-02
+
+- Added the `JarvisOS Skill Ticket` command so other JarvisOS chats can create numbered R&D tickets for reusable discoveries, feature ideas, and skill/skillset candidates.
+- Added `references/cross-project-contributions.md`, contribution routing in the skill/router/task cards/R&D loop/reflexes, and reusable `contribution-candidate.md` / `skill-ticket.md` templates.
+- Added public docs and prompt-library commands for skill tickets and skillset extraction.
+
+## 0.0.71 - 2026-05-01
+
+- Reworked the Docusaurus landing page to echo the original Hermes Agent framed editorial grid while keeping JarvisOS visually distinct.
+- Added JarvisOS-specific framed navigation, local install/invoke commands, terminal continuity demo, vault map, and feature matrix.
+
 ## 0.0.70 - 2026-05-01
 
 - Redesigned the Docusaurus landing page around a distinctive JarvisOS continuity-console concept.

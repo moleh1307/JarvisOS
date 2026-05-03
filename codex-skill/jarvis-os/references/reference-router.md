@@ -18,9 +18,12 @@ The router keeps `SKILL.md` short while making reference selection explicit. It 
 | Trigger | Load first | Add when needed |
 | --- | --- | --- |
 | Clear task type but too many possible rules to synthesize | `task-cards.md` | the specific deeper reference named by the selected card |
+| Serious/fresh/complex task where execution context is scattered across state, work orders, skills, tools, references, and verification | `agent-work-pack.md` | `task-cards.md`, `task-lifecycle.md`, `capability-surface.md`, or domain reference named by the pack |
 | Creating, routing, reviewing, blocking, or closing a work order | `task-lifecycle.md` | `continuation.md` for closeout integrity |
 | Continuous improvement, product R&D, workflow R&D, or idea-by-idea loop | `rd-idea-loop.md` | `innovation-feedback.md`, `task-lifecycle.md` when accepted ideas become work |
 | Reusable behavior signal, self-improvement candidate, agent learning, memory metabolism, or "alive" workflow behavior | `self-improvement-reflexes.md` | `rd-idea-loop.md` when promoted; `memory-discipline.md` when writing durable memory |
+| `JarvisOS Skill Ticket`, cross-project contribution, "make this a JarvisOS feature", reusable discovery from another chat, or skill/skillset extraction from chat history | `cross-project-contributions.md` | `skill-quality-standard.md` for skill drafts/reviews; `self-improvement-reflexes.md`, `rd-idea-loop.md`, `skill-creator` only after approval |
+| Creating, reviewing, accepting, or implementing a JarvisOS skill, skillset, or skill-ticket draft | `skill-quality-standard.md` | `cross-project-contributions.md` for ticket routing; `skill-creator` only after approval |
 | "What did JARVIS learn?", learning readout, reflex summary, recent self-improvement status | `learning-pulse.md` | `self-improvement-reflexes.md` if new candidates should be captured |
 | Older active chat needs latest workflow | `workflow-refresh.md` | `continuation.md`, `roles-and-roster.md` |
 | Durable memory write, stale memory conflict, long project note, handoff, project-note split, memory cleanup | `memory-discipline.md` | `continuation.md` for closeout or handoff |
@@ -56,14 +59,17 @@ If the task becomes consequential, public-facing, long-running, or role-governed
 1. Identify the active mode: JARVIS Core or Specialist Mode.
 2. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
 3. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
-4. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
-5. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
-6. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
-7. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
-8. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
-9. Read only the selected references and the live project state needed for the next action.
-10. Execute or propose according to the selected route.
-11. If the route was wrong, run Stop-the-Line Review and switch route.
+4. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
+5. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
+6. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
+7. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
+8. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
+9. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
+10. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
+11. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
+12. Read only the selected references and the live project state needed for the next action.
+13. Execute or propose according to the selected route.
+14. If the route was wrong, run Stop-the-Line Review and switch route.
 
 ## Conflict Rules
 

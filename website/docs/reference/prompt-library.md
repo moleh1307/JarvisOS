@@ -34,6 +34,73 @@ Read the latest installed JARVIS OS skill and the live project state.
 Continue from the next unblocked task using the latest workflow rules.
 ```
 
+## JarvisOS Skill Ticket
+
+Short command:
+
+```text
+JarvisOS Skill Ticket
+```
+
+Expanded command:
+
+```text
+Jarvis, use JARVIS OS.
+
+Create a JarvisOS Skill Ticket from this chat.
+Review the available chat history, project memory, decisions, artifacts,
+repeated workflows, prompts, tools, and failure modes.
+
+Create a detailed skill ticket with:
+- ticket ID;
+- source evidence;
+- reusable pattern;
+- proposed skill or skillset;
+- detailed skill draft with ownership boundary, delegation boundary,
+  hard boundaries, workflow, repair path, outputs, and verification;
+- privacy lane;
+- what stays project-local;
+- anti-bloat review;
+- suggested implementation path;
+- verification plan;
+- R&D handoff prompt.
+
+Save it under company/skill-tickets/ if that vault is available.
+Otherwise print the full ticket in chat.
+Do not implement it here.
+```
+
+## Skillset Extraction
+
+```text
+Jarvis, use JARVIS OS.
+
+Review this chat's available history, project memory, decisions, artifacts,
+repeated workflows, prompts, tools, and failure modes.
+Use the Cross-Project Contribution Bridge to propose a JarvisOS skill or
+skillset based on what became reusable here.
+
+For each proposed skill, include:
+- name;
+- trigger conditions;
+- non-triggers;
+- ownership boundary;
+- delegation boundary;
+- hard boundaries;
+- reusable workflow;
+- repair or fallback workflow;
+- required inputs/tools;
+- output artifacts and provenance;
+- verification checks and acceptance criteria;
+- privacy boundary;
+- examples;
+- recommendation: create-skill, merge-into-existing-skill,
+  keep-as-project-memory, make-template, or reject.
+
+Do not install or publish anything yet. Package the result as a JarvisOS
+Skill Ticket for R&D.
+```
+
 ## New App Or Product
 
 ```text

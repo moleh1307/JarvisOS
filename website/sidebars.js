@@ -36,8 +36,11 @@ const sidebars = {
       label: 'Operations',
       items: [
         'operations/reference-router',
+        'operations/agent-work-pack',
         'operations/task-lifecycle',
         'operations/quality-gates',
+        'operations/cross-project-contributions',
+        'operations/skill-quality-standard',
         'operations/public-artifacts',
         'operations/release-and-github-pages',
       ],

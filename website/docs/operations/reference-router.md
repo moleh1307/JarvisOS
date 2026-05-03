@@ -33,6 +33,8 @@ Before deep work, ask:
 | visual/craft critical work | `references/creative-preproduction.md` and `references/visual-concept-pipeline.md` |
 | continuation/status/closeout | `references/continuation.md` |
 | self-improvement | `references/self-improvement-reflexes.md` |
+| `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction | `references/cross-project-contributions.md` |
+| skill or skillset creation/review | `references/skill-quality-standard.md` |
 | R&D loop | `references/rd-idea-loop.md` |
 
 ## Stop Rule

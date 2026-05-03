@@ -14,6 +14,7 @@ It may:
 - create a compact candidate in the project-local reflex inbox, Friction Inbox, learning log, or the smallest canonical memory home;
 - mark the candidate with lifecycle lane: `observed`, `candidate`, `repeated`, `promoted`, `rejected`, `archived`, or `superseded`;
 - propose promotion into an idea loop, work order, eval, template, or workflow patch.
+- route reusable discoveries from non-R&D projects into Cross-Project Contributions when they may become JarvisOS features, skills, or skillsets.
 
 It must not:
 
@@ -78,6 +79,8 @@ Promotion outputs can be:
 - eval prompt/check;
 - template update;
 - public workflow patch;
+- cross-project contribution candidate;
+- skill or skillset candidate;
 - memory split or cleanup task;
 - rejected/archived note with reason.
 
