@@ -14,6 +14,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Badge mutable context internally as fresh, verified, stale-risk, or working-assumption.
 - Make the change or answer the question.
 - Verify meaningful output.
+- Leave a compact verification breadcrumb when verification matters.
 - Update memory only if future continuation benefits.
 
 ## Clarifying Follow-Up
@@ -48,6 +49,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Check privacy/public-data boundaries.
 - Build or edit.
 - Verify local output.
+- Record the exact artifact path and check used.
 - Distinguish local, pushed, and deployed state.
 
 ## Memory Write
@@ -75,5 +77,15 @@ description: Compact execution checklists for common JARVIS OS work.
 - Check version and changelog.
 - Run relevant tests/builds.
 - Run leak or public/private boundary scans.
+- Record the exact verification commands, version, branch, commit, and dashboard/source used.
 - Confirm deployment or publish boundary.
 - Push only when safe and authorized.
+
+## Verification Breadcrumb
+
+- Name the exact command, tool, script, source, artifact path, or rendered output used.
+- Include the meaningful result instead of a giant log dump.
+- For public/version/git claims, include commit, branch, version file, build/test command, or dashboard.
+- For generated artifacts, include the canonical path and concrete check performed.
+- If verification was not possible, state what was not checked and why.
+- Skip breadcrumbs for tiny answers where verification is irrelevant.

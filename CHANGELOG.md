@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.93 - 2026-05-03
+
+- Added Verification Breadcrumb so agents record the exact command, tool, source, artifact path, commit, or dashboard behind meaningful verification claims.
+- Updated public checklists and Capability Index with compact rerunnable evidence guidance.
+- Clarified that verification summaries should include meaningful results without dumping giant logs, and should name gaps when checks were not possible.
+
 ## 0.0.92 - 2026-05-03
 
 - Added Context Freshness Badge so agents internally mark mutable context as `fresh`, `verified`, `stale-risk`, or `working-assumption` before relying on it.

@@ -267,6 +267,18 @@ After retrieving enough context, perform the requested work directly. Do not let
 
 Before saying a generated artifact is ready, verify the exact file. For data outputs, check existence, row count, key columns/header, summary counts, a small sample, and known caveats. For plots/images, render or open the artifact and check title, axes, definition, and canonical output path. For documents/decks/PDFs, open or render enough to confirm the file is not corrupt and contains the expected content.
 
+## Verification Breadcrumb
+
+When reporting or recording that something was verified, leave a compact breadcrumb that a future agent can trust or rerun:
+
+- name the exact command, tool, script, source, artifact path, or rendered output used;
+- include the meaningful result, not a giant log dump;
+- for public/version/git claims, include the commit, branch, version file, build/test command, or dashboard used;
+- for documents, data, images, and generated artifacts, include the canonical path and the concrete check performed;
+- if verification was not possible, say what was not checked and why.
+
+Use breadcrumbs in work orders, memory updates, handoffs, and final summaries when verification matters. Do not turn tiny answers into evidence reports.
+
 ## Write Durable Memory
 
 After meaningful work, run a small memory check before finishing:
