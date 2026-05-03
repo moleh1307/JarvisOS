@@ -279,6 +279,18 @@ When reporting or recording that something was verified, leave a compact breadcr
 
 Use breadcrumbs in work orders, memory updates, handoffs, and final summaries when verification matters. Do not turn tiny answers into evidence reports.
 
+## Scratchpad Expiry
+
+Temporary execution context should expire instead of drifting into durable memory.
+
+Before closeout, decide what happens to temporary notes, assumptions, local QA files, screenshots, generated drafts, Work Packs, diagnostic outputs, and one-off analysis:
+
+- `promote`: move the durable fact, decision, artifact, blocker, or next step into the canonical memory/project/output file;
+- `archive diagnostic`: keep the artifact only when it may help future verification, repair, audit, or comparison, and label it as diagnostic/non-canonical;
+- `discard`: leave no durable trace for scratch work that has served its purpose.
+
+Do not preserve scratch just because it exists. If a temporary item is promoted, copy only the reusable result, not the whole working trail. If a temporary artifact remains in the repo or workspace, label whether it is canonical, diagnostic, temporary, superseded, or safe to delete.
+
 ## Write Durable Memory
 
 After meaningful work, run a small memory check before finishing:

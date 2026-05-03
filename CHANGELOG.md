@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.94 - 2026-05-03
+
+- Added Scratchpad Expiry so agents choose whether temporary notes, assumptions, QA files, screenshots, drafts, Work Packs, diagnostics, and one-off analysis should be promoted, archived as diagnostic, or discarded.
+- Updated public checklists and Capability Index with closeout guidance for scratch artifacts.
+- Clarified that scratch work should not become durable memory unless its reusable result is promoted to the canonical home.
+
 ## 0.0.93 - 2026-05-03
 
 - Added Verification Breadcrumb so agents record the exact command, tool, source, artifact path, commit, or dashboard behind meaningful verification claims.

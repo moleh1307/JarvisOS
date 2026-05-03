@@ -15,6 +15,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Make the change or answer the question.
 - Verify meaningful output.
 - Leave a compact verification breadcrumb when verification matters.
+- Expire temporary scratch: promote, archive diagnostic, or discard.
 - Update memory only if future continuation benefits.
 
 ## Clarifying Follow-Up
@@ -89,3 +90,12 @@ description: Compact execution checklists for common JARVIS OS work.
 - For generated artifacts, include the canonical path and concrete check performed.
 - If verification was not possible, state what was not checked and why.
 - Skip breadcrumbs for tiny answers where verification is irrelevant.
+
+## Scratchpad Expiry
+
+- Identify temporary notes, assumptions, QA files, screenshots, drafts, Work Packs, diagnostics, and one-off analysis.
+- Promote only durable facts, decisions, blockers, artifacts, or next steps into canonical memory.
+- Archive diagnostic outputs only when they help future verification, repair, audit, or comparison.
+- Discard scratch work that has served its purpose.
+- Label any remaining temporary artifact as canonical, diagnostic, temporary, superseded, or safe to delete.
+- Do not preserve whole working trails when only the reusable result matters.
