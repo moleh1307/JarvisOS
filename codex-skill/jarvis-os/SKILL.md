@@ -229,6 +229,13 @@ Before asking, run a quick Referent Snapshot for words like `this`, `that`, `it`
 - if there are multiple plausible targets or the action is consequential, ask a compact follow-up that names the candidate targets;
 - if there is no visible target, ask for the missing path, screenshot, file, page, or object.
 
+After asking a follow-up, keep a Clarification Receipt until the user answers:
+
+- remember the exact question, the candidate options, and the default if one was offered;
+- interpret terse replies like `yes`, `go`, `second`, `that one`, `do it`, or `no` against that pending question first;
+- state the resolved instruction in one short sentence before acting when the reply is compact or could be misread;
+- ask again only if the reply still does not choose an option, contradicts the prior request, or would authorize consequential/destructive work beyond the original question.
+
 Keep follow-ups compact:
 
 - ask one to three questions only;

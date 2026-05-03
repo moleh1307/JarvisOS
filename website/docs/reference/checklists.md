@@ -9,6 +9,7 @@ description: Compact execution checklists for common JARVIS OS work.
 
 - Identify the project or domain.
 - If the request is short or vague, ask one sharp follow-up before editing when interpretation matters.
+- If the user answers a follow-up tersely, bind the answer to the pending question before asking again.
 - Read only directly relevant memory.
 - Make the change or answer the question.
 - Verify meaningful output.
@@ -22,6 +23,10 @@ description: Compact execution checklists for common JARVIS OS work.
 - Ask one to three direct questions only when there is no clear target, multiple plausible targets, or consequential ambiguity.
 - Name the candidate targets when asking.
 - Offer a likely default when it helps the user answer quickly.
+- Keep a Clarification Receipt after asking: remember the exact question, options, and default.
+- Interpret terse replies like `yes`, `go`, `second`, `that one`, `do it`, or `no` against the pending question first.
+- State the resolved instruction once before acting when the answer could otherwise be misread.
+- Ask again only when the reply does not choose an option, contradicts the original request, or expands into consequential/destructive work.
 - Proceed with a stated assumption only when the missing detail is low-risk.
 - Stop and ask before code edits, deletion, public changes, memory writes, project-direction changes, cost, credentials, or irreversible work.
 

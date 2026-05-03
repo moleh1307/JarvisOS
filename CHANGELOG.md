@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.91 - 2026-05-03
+
+- Added Clarification Receipt so agents bind terse replies like `yes`, `go`, `second`, or `that one` back to the follow-up question they asked.
+- Updated public checklists and Capability Index with follow-up answer binding guidance.
+- Clarified that agents should restate the resolved instruction once before acting when a compact answer could otherwise be misread.
+
 ## 0.0.90 - 2026-05-03
 
 - Added Referent Snapshot inside Clarifying Follow-Up Gate so agents identify what `this`, `that`, `it`, `here`, or similar words likely point to before acting or asking.
