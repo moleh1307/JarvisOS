@@ -65,3 +65,7 @@ A JARVIS OS session succeeds when Codex can:
 5. leave the next session in a clearer state.
 
 The goal is not more ceremony. The goal is continuity without confusion.
+
+## Where To Look Next
+
+Use the [Capability Index](reference/capability-index.md) when you want a compact map of what JARVIS OS can do and which doc explains each capability.
