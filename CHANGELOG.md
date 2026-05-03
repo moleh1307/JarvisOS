@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.97 - 2026-05-03
+
+- Added Rollback Handle so public/template/workflow changes leave a compact future repair pointer.
+- Updated public checklists and Capability Index with rollback guidance for commit, version, branch, touched section, safest undo route, and required revalidation.
+- Clarified that rollback handles are not rollback requests; they are short repair pointers for future agents.
+
 ## 0.0.96 - 2026-05-03
 
 - Added Usage Example Closeout so agents include a short practical example after implementing a JARVIS R&D idea or workflow feature.

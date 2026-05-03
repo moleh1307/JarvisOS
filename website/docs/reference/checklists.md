@@ -81,6 +81,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Run relevant tests/builds.
 - Run leak or public/private boundary scans.
 - Record the exact verification commands, version, branch, commit, and dashboard/source used.
+- Record a rollback handle for public/template/workflow changes.
 - Confirm deployment or publish boundary.
 - Push only when safe and authorized.
 
@@ -92,6 +93,15 @@ description: Compact execution checklists for common JARVIS OS work.
 - For generated artifacts, include the canonical path and concrete check performed.
 - If verification was not possible, state what was not checked and why.
 - Skip breadcrumbs for tiny answers where verification is irrelevant.
+
+## Rollback Handle
+
+- Use it for public template changes, installed skill changes, workflow rules, or consequential JARVIS R&D features.
+- Record public commit, version, branch, and touched feature/section.
+- Name the safest rollback route: revert commit, remove section, restore previous version, or disable through sunset/merge decision.
+- List what must be revalidated after rollback.
+- Note if rollback would be risky or needs user approval.
+- Keep it short; it is a repair pointer, not a requirement to roll back.
 
 ## Scratchpad Expiry
 

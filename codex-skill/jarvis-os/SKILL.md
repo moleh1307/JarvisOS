@@ -286,6 +286,17 @@ When reporting or recording that something was verified, leave a compact breadcr
 
 Use breadcrumbs in work orders, memory updates, handoffs, and final summaries when verification matters. Do not turn tiny answers into evidence reports.
 
+## Rollback Handle
+
+For public template changes, installed skill changes, workflow rules, or other consequential JARVIS R&D features, record a compact rollback handle during closeout:
+
+- the public commit, version, branch, and touched feature/section;
+- the safest rollback route, such as revert the commit, remove a named section, restore a previous version, or disable the behavior through a sunset/merge decision;
+- what must be revalidated after rollback, usually Doctor, docs build, leak scan, diff check, stale dashboard, or affected artifact checks;
+- any reason rollback would be risky or need user approval.
+
+Keep the handle short. Do not imply rollback is required; it is a future repair pointer.
+
 ## Scratchpad Expiry
 
 Temporary execution context should expire instead of drifting into durable memory.
