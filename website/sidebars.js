@@ -43,6 +43,7 @@ const sidebars = {
         'operations/quality-gates',
         'operations/cross-project-contributions',
         'operations/skill-quality-standard',
+        'operations/sunset-review-ledger',
         'operations/public-artifacts',
         'operations/release-and-github-pages',
       ],

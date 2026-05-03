@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.85 - 2026-05-03
+
+- Added Sunset Review Ledger guidance so R&D features with sunset clauses can be tracked without scanning scattered work orders.
+- Added public docs for reviewing keep/simplify/merge/retire/extend-trial outcomes.
+- Kept the ledger optional and lightweight; it is an inventory for review, not another mandatory gate.
+
 ## 0.0.84 - 2026-05-03
 
 - Added a public Capability Index under Reference so users and agents can see what JarvisOS can do without scanning the changelog.
