@@ -7,8 +7,11 @@ description: A compact map of what JARVIS OS can do and where each capability li
 
 This page is a map, not a new workflow. Use it when you want to know what JARVIS OS can do and where to look next.
 
+JarvisOS agents should apply these capabilities by relevance. The user should not need to name every internal feature; the agent chooses the smallest useful set for the task.
+
 | Capability | Use it when | Primary trigger | Where to read |
 | --- | --- | --- | --- |
+| Relevance-First Auto-Routing | JARVIS OS is invoked and the agent must choose which features apply. | `Jarvis, use JARVIS OS` | this page, [Reference Router](../operations/reference-router.md) |
 | Light Mode | The task is small, local, or self-contained. | `Jarvis, use JARVIS OS` | [Light Mode](../modes/light-mode.md) |
 | Specialist Mode | The project needs roles, work orders, durable state, review, or release discipline. | `Jarvis, use JARVIS OS Specialist Mode` | [Specialist Mode](../modes/specialist-mode.md) |
 | Mode Exit Ramp | Specialist Mode work is closed and the next task can be lighter. | closeout after serious work | [Light Mode](../modes/light-mode.md), [Specialist Mode](../modes/specialist-mode.md) |
@@ -34,6 +37,7 @@ This page is a map, not a new workflow. Use it when you want to know what JARVIS
 
 ## Choosing Quickly
 
+- Apply features by relevance; do not wait for the user to name every feature.
 - Start with Light Mode unless the task earns Specialist Mode.
 - Use Specialist Mode when state, roles, review, release risk, or long-running continuity matter.
 - Use the Command Deck for short invocations.
