@@ -1,6 +1,6 @@
 {
   "name": "jarvisos-docs",
-  "version": "0.0.88",
+  "version": "0.0.89",
   "private": true,
   "scripts": {
     "start": "docusaurus start",

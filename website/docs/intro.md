@@ -19,6 +19,8 @@ Instead of asking an agent to remember a long conversation forever, JARVIS OS te
 
 Invoke JARVIS OS once; the agent should route the right features by relevance. Small work stays light, serious work can activate Specialist Mode, scattered context can trigger a Work Pack, and public changes can trigger validation and release checks.
 
+Short prompts are fine. If intent is unclear in a way that would change the work, the agent should ask a compact follow-up instead of guessing.
+
 ## What JARVIS OS Solves
 
 Long agent projects usually fail in predictable ways:

@@ -210,6 +210,27 @@ Ask a clarifying question instead of guessing when ambiguity could materially af
 
 For low-risk gaps, state the assumption briefly and proceed.
 
+## Clarifying Follow-Up Gate
+
+Short or vague user messages are normal. Do not force users to write long prompts when one sharp follow-up would put everyone on the same page.
+
+Ask a follow-up before implementation when the request uses unclear references or underspecified intent that would change the work, such as:
+
+- "change this" when `this` is not identifiable from the current context;
+- "make it better" when the quality target, audience, or artifact is unclear;
+- "fix it" when the failing behavior is not known;
+- "do that" when multiple recent actions could be meant;
+- "clean this" when deletion, refactor, formatting, or archival could all fit.
+
+Keep follow-ups compact:
+
+- ask one to three questions only;
+- name the specific ambiguity;
+- offer a likely default when useful;
+- proceed without asking only when the missing detail is low-risk and the assumption can be safely stated.
+
+If the ambiguity blocks code edits, file deletion, public changes, memory writes, project direction, cost, credentials, or irreversible work, stop and ask. The goal is shared intent, not interrogation.
+
 ## Execute the Task
 
 After retrieving enough context, perform the requested work directly. Do not let memory discipline become ceremony. Use normal engineering rigor, verify when appropriate, and keep outputs practical.

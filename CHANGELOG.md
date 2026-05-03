@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.89 - 2026-05-03
+
+- Added Clarifying Follow-Up Gate so agents ask compact follow-up questions before acting on short or vague requests that would change implementation.
+- Updated public intro, README, Capability Index, and checklists with same-page follow-up guidance.
+- Clarified that low-risk gaps can still proceed with stated assumptions, while consequential ambiguity should stop for a question.
+
 ## 0.0.88 - 2026-05-03
 
 - Added Relevance-First Auto-Routing so agents use JarvisOS features by task relevance instead of requiring users to name each mechanism.

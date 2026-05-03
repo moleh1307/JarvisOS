@@ -8,10 +8,19 @@ description: Compact execution checklists for common JARVIS OS work.
 ## Light Mode Task
 
 - Identify the project or domain.
+- If the request is short or vague, ask one sharp follow-up before editing when interpretation matters.
 - Read only directly relevant memory.
 - Make the change or answer the question.
 - Verify meaningful output.
 - Update memory only if future continuation benefits.
+
+## Clarifying Follow-Up
+
+- Identify the unclear reference, target, or desired outcome.
+- Ask one to three direct questions.
+- Offer a likely default when it helps the user answer quickly.
+- Proceed with a stated assumption only when the missing detail is low-risk.
+- Stop and ask before code edits, deletion, public changes, memory writes, project-direction changes, cost, credentials, or irreversible work.
 
 ## Specialist Mode Continuation
 
