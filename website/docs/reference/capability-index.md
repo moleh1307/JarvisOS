@@ -19,6 +19,7 @@ This page is a map, not a new workflow. Use it when you want to know what JARVIS
 | Reference Router | Several workflow references could apply and the agent should not over-read. | complex routing | [Reference Router](../operations/reference-router.md) |
 | Agent Work Pack | A meaningful task has scattered context, tools, constraints, and done criteria. | `create a Work Pack` | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Done Shape | A deliverable needs a clear target before implementation. | meaningful deliverable Work Pack | [Agent Work Pack](../operations/agent-work-pack.md) |
+| Assumption Ledger | A Work Pack needs to carry consequential assumptions without blocking execution. | meaningful Work Pack with uncertainty | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Skill Composition | Multiple skills apply and the lead/support boundary is unclear. | named or overlapping skills | [Skill Composition](../operations/skill-composition.md) |
 | Task Lifecycle | A Specialist Mode work order needs state, risk, evidence, blockers, or closeout. | work order change | [Task Lifecycle](../operations/task-lifecycle.md) |
 | Quality Gates | Output needs critique, verification, or closeout integrity. | QA/review/readiness | [Quality Gates](../operations/quality-gates.md) |

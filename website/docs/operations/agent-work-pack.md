@@ -13,6 +13,7 @@ It gives the current agent one compact brief:
 - what to read first;
 - what not to read unless needed;
 - which tools and permissions matter;
+- which important assumptions are being carried;
 - what output is expected;
 - what the finished output should look and feel like;
 - what verification proves done;
@@ -96,6 +97,12 @@ At closeout, the Work Pack should expire. Promote only durable facts into:
 - Allowed autonomous actions:
 - Approval needed:
 
+## Assumption Ledger
+
+| Assumption | Confidence | Why acceptable now | Revisit trigger |
+| --- | --- | --- | --- |
+|  | high / medium / low |  |  |
+
 ## Execution
 
 - Steps:
@@ -130,8 +137,12 @@ A good Work Pack fits on one screen when possible, names exact files, prevents o
 
 For meaningful deliverables, it also names the Done Shape before implementation: who the result is for, what form the final artifact takes, what must be visible, what it must not become, and what quality feel the team is aiming for.
 
+It should also expose consequential assumptions instead of hiding them in confident prose. Record only assumptions that could affect outcome, scope, privacy, cost, or verification; low-risk ordinary guesses do not need a row.
+
 ## Bad Work Pack
 
 A bad Work Pack duplicates the whole work order, lists every JarvisOS rule, becomes another current-state file, or is created for every tiny task.
 
 Bad Done Shape is vague decoration like "make it professional." Useful Done Shape is concrete enough to guide implementation and review.
+
+Bad Assumption Ledger lists obvious facts or turns every minor unknown into a blocker. Useful Assumption Ledger says what is being assumed, why it is acceptable for now, and when to revisit.

@@ -41,6 +41,12 @@
 - Allowed autonomous actions:
 - Approval needed:
 
+## Assumption Ledger
+
+| Assumption | Confidence | Why acceptable now | Revisit trigger |
+| --- | --- | --- | --- |
+|  | high / medium / low |  |  |
+
 ## Execution
 
 - Steps:

@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.87 - 2026-05-03
+
+- Added Assumption Ledger to Agent Work Pack so meaningful tasks can expose consequential assumptions without stopping execution.
+- Updated installed/public Work Pack templates and public docs with confidence and revisit-trigger fields.
+- Added Assumption Ledger to the Capability Index as part of Agent Work Pack.
+
 ## 0.0.86 - 2026-05-03
 
 - Added Dogfood Return Check to the R&D Loop so each new idea can briefly learn from the previous implemented feature.

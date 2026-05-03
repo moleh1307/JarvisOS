@@ -71,6 +71,7 @@ Keep Work Packs compact. A useful Work Pack answers:
 - Required tools: capabilities needed for execution.
 - Allowed autonomous actions: what can proceed without asking.
 - Stop/ask triggers: exact boundaries that require the user or another real owner.
+- Assumption Ledger: working assumptions, confidence, and revisit trigger when guessing is acceptable but consequential if wrong.
 - Expected outputs: artifact paths or report shape.
 - Done Shape: who the finished output is for, what form it takes, what must be visible, and what would make it feel wrong.
 - Verification: commands, checks, renders, tests, source checks, or review gates.
@@ -131,6 +132,12 @@ Optional fields:
 - Allowed autonomous actions:
 - Approval needed:
 
+## Assumption Ledger
+
+| Assumption | Confidence | Why acceptable now | Revisit trigger |
+| --- | --- | --- | --- |
+|  | high / medium / low |  |  |
+
 ## Execution
 
 - Steps:
@@ -166,10 +173,11 @@ Optional fields:
 3. Read only the current-state/work-order/context needed to fill the pack.
 4. Route references with `reference-router.md` or `task-cards.md`.
 5. For meaningful deliverables, define Done Shape before implementation.
-6. Declare capability and verification boundaries if tool-dependent.
-7. Mark what is temporary and what would become durable.
-8. Execute the task.
-9. At closeout, promote only durable facts and let the pack expire.
+6. Record only assumptions that could affect outcome, scope, privacy, cost, or verification.
+7. Declare capability and verification boundaries if tool-dependent.
+8. Mark what is temporary and what would become durable.
+9. Execute the task.
+10. At closeout, promote only durable facts and let the pack expire.
 
 ## Quality Bar
 
@@ -179,6 +187,7 @@ Good Work Pack:
 - names exact files/references;
 - prevents over-reading;
 - states the finished output shape before execution when the deliverable is meaningful;
+- makes important assumptions visible without turning low-risk guesses into blockers;
 - makes done criteria obvious;
 - separates temporary execution context from durable memory;
 - reduces repeated questions.
@@ -191,6 +200,7 @@ Bad Work Pack:
 - is mandatory for tiny tasks;
 - contains vague instructions like "do research well";
 - uses Done Shape as decorative prose instead of a concrete output target;
+- hides consequential guesses inside confident execution;
 - survives after the task without a reason.
 
 ## Interaction With Other Surfaces
