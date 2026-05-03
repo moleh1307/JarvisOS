@@ -153,6 +153,16 @@ For substantial off-roadmap requests inside Specialist Mode or JARVIS R&D, run a
 
 Before meaningful Specialist Mode completion reports, run a quick Closeout Integrity Check so state files, work orders, docs/version/git/artifact claims, blockers, and completion options do not contradict each other. The check should verify that a useful `Options:` menu is present or that there is a clear reason to omit it.
 
+Use Closeout Stack Order when several closeout pieces apply. Keep the final report compact and ordered:
+
+1. outcome and public/version state;
+2. usage example, only for implemented R&D ideas or user-facing workflow features;
+3. verification breadcrumbs, only the meaningful checks/results;
+4. rollback handle, only for public/template/workflow changes or consequential releases;
+5. state-aware options, only when useful.
+
+Omit sections that do not apply. Do not repeat the same fact in several closeout sections.
+
 After meaningful Specialist Mode task completion, end with a compact state-aware options menu when it would help the user choose the next command. Options should reflect the actual current state, such as continue, status, inspect, release, resolve blocker, review, pause, or archive, rather than a fixed generic list.
 
 After implementing a JARVIS R&D idea or workflow feature, include a short usage example in the closeout so users can understand how the feature works in practice. Keep it concrete and small:

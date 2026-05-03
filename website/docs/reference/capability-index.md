@@ -15,6 +15,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Light Mode | The task is small, local, or self-contained. | `Jarvis, use JARVIS OS` | [Light Mode](../modes/light-mode.md) |
 | Specialist Mode | The project needs roles, work orders, durable state, review, or release discipline. | `Jarvis, use JARVIS OS Specialist Mode` | [Specialist Mode](../modes/specialist-mode.md) |
 | Mode Exit Ramp | Specialist Mode work is closed and the next task can be lighter. | closeout after serious work | [Light Mode](../modes/light-mode.md), [Specialist Mode](../modes/specialist-mode.md) |
+| Closeout Stack Order | Several closeout pieces apply and the final report could become bloated. | closeout with example, verification, rollback, options | [Checklists](checklists.md) |
 | Command Deck | You want short invocation phrases instead of long prompts. | `status`, `continue`, `new idea` | [Prompt Library](prompt-library.md) |
 | Clarifying Follow-Up Gate | A short/vague request would change implementation depending on interpretation. | `change this`, `fix it`, `make it better` | [Checklists](checklists.md) |
 | Referent Snapshot | The request says `this`, `that`, `it`, `here`, or similar and the target must be identified. | vague target words | [Checklists](checklists.md) |

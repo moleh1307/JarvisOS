@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.98 - 2026-05-03
+
+- Added Closeout Stack Order so agents keep final reports compact when outcome, usage example, verification breadcrumbs, rollback handle, and options all apply.
+- Updated public checklists and Capability Index with ordered closeout guidance.
+- Clarified that agents should omit irrelevant closeout sections and avoid repeating the same fact across sections.
+
 ## 0.0.97 - 2026-05-03
 
 - Added Rollback Handle so public/template/workflow changes leave a compact future repair pointer.

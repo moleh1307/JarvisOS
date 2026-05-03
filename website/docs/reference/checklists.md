@@ -43,6 +43,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Load only the references needed.
 - Execute and verify.
 - After implementing an R&D idea or workflow feature, include a short usage example in the closeout.
+- Use Closeout Stack Order when several closeout pieces apply.
 - Update state and closeout.
 
 ## Public Artifact
@@ -128,3 +129,12 @@ description: Compact execution checklists for common JARVIS OS work.
 - Show what the agent would do differently because of the new feature.
 - Keep it to one short paragraph or two bullets.
 - Skip only for purely internal cleanup with no user-observable behavior.
+
+## Closeout Stack Order
+
+- Use it when several closeout pieces apply.
+- Order the final report as outcome/version, usage example, verification breadcrumbs, rollback handle, then state-aware options.
+- Include only sections that apply.
+- Keep verification to meaningful checks/results.
+- Include rollback only for public/template/workflow changes or consequential releases.
+- Do not repeat the same fact across sections.
