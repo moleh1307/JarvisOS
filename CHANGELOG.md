@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.92 - 2026-05-03
+
+- Added Context Freshness Badge so agents internally mark mutable context as `fresh`, `verified`, `stale-risk`, or `working-assumption` before relying on it.
+- Updated public checklists and Capability Index with freshness guidance for memory, repo, public-version, blocker, date, and external-fact claims.
+- Clarified that live tool state should win over stale memory during execution, with canonical memory updated during closeout.
+
 ## 0.0.91 - 2026-05-03
 
 - Added Clarification Receipt so agents bind terse replies like `yes`, `go`, `second`, or `that one` back to the follow-up question they asked.

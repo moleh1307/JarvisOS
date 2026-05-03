@@ -178,6 +178,22 @@ Use this retrieval order:
 
 Retrieve narrowly. Do not read the entire vault by default.
 
+## Context Freshness Badge
+
+When a task depends on memory, state files, git status, current UI/browser state, public version, blockers, dates, or external facts, tag the context internally before acting:
+
+- `fresh`: just read from the canonical file or current tool output and no conflict is visible;
+- `verified`: checked against a tool, repo, artifact, build, dashboard, or source of truth;
+- `stale-risk`: memory may lag because the fact changes often, the note is old, the repo/tool state is dirty, or another source disagrees;
+- `working-assumption`: plausible but not directly verified, and safe enough to proceed only with a stated assumption.
+
+Use the badge to choose behavior:
+
+- for low-risk work, proceed with a short stated assumption when needed;
+- for consequential claims, file edits, public/version claims, blockers, deployments, credentials, costs, or destructive actions, verify or ask before acting;
+- if memory and live tool state conflict, trust the live source for execution and update the canonical memory during closeout;
+- do not print badges mechanically in every reply. Mention them only when they explain risk, source quality, or a verification choice.
+
 ## Retrieval Budget And Stop Rules
 
 Use the smallest evidence set that can support correct action.

@@ -11,6 +11,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - If the request is short or vague, ask one sharp follow-up before editing when interpretation matters.
 - If the user answers a follow-up tersely, bind the answer to the pending question before asking again.
 - Read only directly relevant memory.
+- Badge mutable context internally as fresh, verified, stale-risk, or working-assumption.
 - Make the change or answer the question.
 - Verify meaningful output.
 - Update memory only if future continuation benefits.
@@ -52,10 +53,21 @@ description: Compact execution checklists for common JARVIS OS work.
 ## Memory Write
 
 - Choose the canonical home.
+- If memory conflicts with live tool state, trust the live source for execution and update the canonical memory during closeout.
+- Mark mutable facts as stale-risk or working-assumption until verified.
 - Write the smallest durable note.
 - Add source labels only when useful.
 - Link related notes when it improves retrieval.
 - Avoid duplicate truths.
+
+## Context Freshness
+
+- Use `fresh` when the fact was just read from the canonical file or current tool output.
+- Use `verified` when it was checked against a repo, artifact, build, dashboard, or source of truth.
+- Use `stale-risk` when the fact changes often, the note is old, the repo/tool state is dirty, or sources disagree.
+- Use `working-assumption` when the fact is plausible but not directly verified.
+- Verify before consequential claims, public/version claims, blockers, deployments, credentials, costs, deletion, or irreversible work.
+- Do not print freshness labels mechanically; mention them only when they explain risk or verification.
 
 ## Release
 

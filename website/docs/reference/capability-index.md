@@ -22,6 +22,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Accidental Message Guard | A prior message was wrong, accidental, or cancelled. | `ignore previous`, `cancel that` | [Prompt Library](prompt-library.md) |
 | Fresh-Chat Handoff | A chat is getting long or another session needs to continue. | `fresh-chat handoff` | [Fresh Chat](../getting-started/fresh-chat.md), [Handoffs](../concepts/handoffs.md) |
 | Artifact Hygiene | Files, docs, images, data, PDFs, or generated outputs need trust labels and verification. | any meaningful artifact | [Artifact Hygiene](../concepts/artifact-hygiene.md) |
+| Context Freshness Badge | A task relies on memory, state files, git status, public versions, blockers, dates, or mutable external facts. | stale-risk context | [Checklists](checklists.md) |
 | Reference Router | Several workflow references could apply and the agent should not over-read. | complex routing | [Reference Router](../operations/reference-router.md) |
 | Agent Work Pack | A meaningful task has scattered context, tools, constraints, and done criteria. | `create a Work Pack` | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Done Shape | A deliverable needs a clear target before implementation. | meaningful deliverable Work Pack | [Agent Work Pack](../operations/agent-work-pack.md) |
