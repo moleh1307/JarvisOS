@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.88 - 2026-05-03
+
+- Added Relevance-First Auto-Routing so agents use JarvisOS features by task relevance instead of requiring users to name each mechanism.
+- Updated public intro, README, and Capability Index with the auto-routing principle.
+- Clarified that auto-routing means optimal feature selection, not running every JarvisOS feature on every task.
+
 ## 0.0.87 - 2026-05-03
 
 - Added Assumption Ledger to Agent Work Pack so meaningful tasks can expose consequential assumptions without stopping execution.

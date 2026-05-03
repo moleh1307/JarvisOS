@@ -17,6 +17,8 @@ markdown = durable continuity layer
 
 Instead of asking an agent to remember a long conversation forever, JARVIS OS teaches the agent to retrieve the right files, do the work, verify outputs, and leave the smallest useful trace for the next session.
 
+Invoke JARVIS OS once; the agent should route the right features by relevance. Small work stays light, serious work can activate Specialist Mode, scattered context can trigger a Work Pack, and public changes can trigger validation and release checks.
+
 ## What JARVIS OS Solves
 
 Long agent projects usually fail in predictable ways:
