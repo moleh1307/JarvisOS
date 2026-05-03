@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.83 - 2026-05-03
+
+- Added Accidental Message Guard guidance so cancelled, accidental, or ignored prior user messages are treated as discarded instructions.
+- Added `ignore previous` / `cancel that` to the Command Deck and prompt library.
+- Clarified that cancelled instructions should not create artifacts or memory unless a separate durable preference or safety-relevant fact is still affirmed.
+
 ## 0.0.82 - 2026-05-03
 
 - Added Mode Exit Ramp guidance so agents downshift from Specialist Mode to Light Mode after meaningful closeout when the next work no longer needs project machinery.

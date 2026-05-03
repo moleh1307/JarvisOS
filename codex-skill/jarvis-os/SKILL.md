@@ -33,6 +33,7 @@ Before finishing meaningful work, the outcome should satisfy:
 - Prefer structured vault notes over buried transcript recall when recovering context.
 - Treat long chats as expendable working surfaces: preserve durable state in markdown so the user can start a fresh chat when compaction or token cost becomes inefficient.
 - Keep momentum: gather enough context, do the task, then preserve the important parts.
+- If the user says a prior message was accidental, cancelled, wrong, or should be ignored, treat that prior message as discarded instructions. Do not execute it, create artifacts from it, or write memory from it unless it contains a separate durable preference or safety-relevant fact the user still affirms.
 - Ask when ambiguity would materially affect code, memory, project direction, or irreversible work.
 - Never claim to remember facts that are not in the current context or vault.
 - Prefer human-readable markdown notes over opaque storage or verbose transcript dumps.
@@ -75,6 +76,7 @@ Treat these as stable intent shortcuts, not rigid parser syntax. Route by the us
 | `create a Work Pack` | Create or mentally assemble an Agent Work Pack for meaningful work with scattered context. |
 | `JarvisOS Skill Ticket` | Package a reusable discovery from the current chat for JarvisOS R&D review; do not implement it in that project unless explicitly asked. |
 | `fresh-chat handoff` | Create a compact continuation handoff with objective, completed work, blockers, next steps, and read-first files. |
+| `ignore previous` or `cancel that` | Discard the prior accidental/cancelled instruction and route only the newest valid request. |
 | `adopt this project` | Audit an existing project before adding Specialist Mode structure. |
 | `release readiness` | Check verification, version metadata, docs/readme/changelog visibility, git state, and approval boundaries before release. |
 

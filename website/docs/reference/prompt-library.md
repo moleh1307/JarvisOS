@@ -17,10 +17,22 @@ Use these as short intent shortcuts. They are not rigid syntax; agents should st
 | `create a Work Pack` | Task-local execution context before meaningful work. |
 | `JarvisOS Skill Ticket` | Package a reusable discovery for JarvisOS R&D. |
 | `fresh-chat handoff` | Continuation note for a new chat. |
+| `ignore previous` / `cancel that` | Discard an accidental or cancelled prior instruction. |
 | `adopt this project` | Existing project audit before Specialist Mode structure. |
 | `release readiness` | Verification, version, docs, git, and approval checks. |
 
 ## Normal Continuity
+
+## Ignore Previous
+
+```text
+Ignore the previous message. It was accidental.
+
+Now do this instead:
+...
+```
+
+The agent should discard the cancelled instruction, avoid creating artifacts or memory from it, and route only the newest valid request.
 
 ```text
 Jarvis, use JARVIS OS.
