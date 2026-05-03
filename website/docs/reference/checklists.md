@@ -46,6 +46,15 @@ description: Compact execution checklists for common JARVIS OS work.
 - Use Closeout Stack Order when several closeout pieces apply.
 - Update state and closeout.
 
+## Feature Saturation Check
+
+- Use it when several consecutive R&D additions land in the same workflow area.
+- Name the active cluster: closeout, ambiguity, memory, verification, public docs, creative craft, R&D governance, or another specific area.
+- Decide the next move before adding another adjacent feature: continue, consolidate, simplify/remove, switch domain, or ask the user if direction changes materially.
+- Continue only when the new idea solves a distinct failure mode, compresses existing behavior, or clearly earns its place.
+- Prefer consolidation or simplification when the idea mainly adds another label, gate, checklist, or section around the same task moment.
+- Keep it lightweight; do not turn every R&D cycle into a formal saturation review.
+
 ## Public Artifact
 
 - Identify audience and decision.

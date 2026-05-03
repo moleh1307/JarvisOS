@@ -38,7 +38,7 @@ Use features automatically when their trigger is naturally present:
 - scattered meaningful execution context: create or mentally assemble an Agent Work Pack;
 - consequential uncertainty inside a Work Pack: use Assumption Ledger;
 - multiple applicable skills: use Skill Composition routing;
-- R&D idea loop: use Dogfood Return Check, Subtraction Gate, and the R&D Loop reference;
+- R&D idea loop: use Dogfood Return Check, Feature Saturation Check, Subtraction Gate, and the R&D Loop reference;
 - public template/repo change: update docs/version metadata, run validation, commit, and push when safe;
 - cancelled or accidental prior instruction: apply Accidental Message Guard.
 
@@ -112,6 +112,14 @@ When starting meaningful work where the needed execution context is scattered ac
 When creating, routing, reviewing, or closing Specialist Mode work orders, use `references/task-lifecycle.md` to keep task state, risk lane, acceptance criteria, verification evidence, canonical artifact, and closeout state aligned. Do not use it for trivial Core work where no durable task exists.
 
 When a Specialist Mode team is explicitly running continuous improvement, product R&D, workflow R&D, or an idea-by-idea loop, use `references/rd-idea-loop.md`. Keep one idea in focus, discuss it with the smallest useful role set, convert accepted ideas into short task lists, implement, refresh the project or skill, and dogfood the new behavior before returning to ideation.
+
+Use Feature Saturation Check when R&D has added several consecutive features in the same workflow area before adding another adjacent feature. Keep it lightweight:
+
+- name the active cluster, such as closeout, ambiguity, memory, verification, public docs, creative craft, or R&D governance;
+- decide whether the next idea should continue, consolidate, simplify or remove, switch domain, or ask the user if the direction materially changes;
+- continue only when the new idea solves a distinct failure mode, compresses existing behavior, or earns its place despite being nearby;
+- prefer consolidation or simplification when the idea mainly adds another label, gate, section, or checklist around the same task moment;
+- do not block one-off high-value ideas or turn this into a mandatory review for every cycle.
 
 When meaningful work reveals reusable behavior signals, use `references/self-improvement-reflexes.md`. Reflexes let JARVIS notice, capture, compress, and route learning candidates without silently rewriting standing rules.
 

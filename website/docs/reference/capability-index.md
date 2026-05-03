@@ -39,6 +39,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Public Artifact Framing | A README, public page, bio, landing page, email, or simple site will be judged externally. | public-facing artifact | [Public Artifacts](../operations/public-artifacts.md) |
 | R&D Idea Loop | A team is improving a product, workflow, or JarvisOS itself idea by idea. | `new idea` | [R&D Loop](../modes/rd-loop.md) |
 | Dogfood Return Check | A new R&D loop starts and the last feature may have produced evidence. | start of `new idea` loop | [R&D Loop](../modes/rd-loop.md) |
+| Feature Saturation Check | Several consecutive R&D additions land in the same workflow area and the next idea may add bloat. | repeated nearby workflow features | [Checklists](checklists.md) |
 | Cross-Project Contribution | Another JarvisOS chat finds a reusable workflow or skill candidate. | `JarvisOS Skill Ticket` | [Cross-Project Contributions](../operations/cross-project-contributions.md) |
 | Skill Quality Standard | A JarvisOS skill or skillset needs to be detailed, reusable, and verifiable. | skill creation/review | [Skill Quality Standard](../operations/skill-quality-standard.md) |
 | Self-Improvement | A repeated friction pattern should become a candidate, not a silent rule. | learning/reflex signal | [Self-Improvement](../concepts/self-improvement.md) |

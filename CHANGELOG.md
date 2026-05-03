@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.99 - 2026-05-03
+
+- Added Feature Saturation Check so R&D loops pause before adding another adjacent feature after several consecutive additions in the same workflow area.
+- Updated public checklists and Capability Index with continue, consolidate, simplify/remove, switch-domain, and ask-user outcomes.
+- Clarified that the check stays lightweight and should not block one-off high-value ideas.
+
 ## 0.0.98 - 2026-05-03
 
 - Added Closeout Stack Order so agents keep final reports compact when outcome, usage example, verification breadcrumbs, rollback handle, and options all apply.
