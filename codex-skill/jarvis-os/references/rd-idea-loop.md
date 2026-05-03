@@ -92,6 +92,27 @@ Use a Sunset Clause for standing behavior changes, new references, new templates
 
 Do not retire, delete, or weaken a standing rule silently. A sunset review creates a decision point; it is not permission for unreviewed removal.
 
+## Sunset Review Ledger
+
+When several meaningful workflow features have active Sunset Clauses, keep a compact Sunset Review Ledger in the project governance layer.
+
+Use a ledger when sunset clauses are becoming scattered across work orders, idea cards, or session notes. Skip it for small projects with only one or two obvious trial features.
+
+The ledger should track only review-useful facts:
+
+- feature or task ID;
+- what was added;
+- review trigger;
+- current evidence;
+- likely review outcome;
+- next review action;
+- owner or role;
+- status such as `watch`, `due`, `reviewed`, `retired`, or `merged`.
+
+The ledger is an inventory, not a new approval gate. Agents should consult it during status, R&D continuation, Stack Compression Check, or maintenance review when it is likely to prevent stale process debt.
+
+When a sunset review happens, record one compact decision: `keep`, `simplify`, `merge`, `retire`, or `extend trial`, plus the reason and any follow-up work order. Do not duplicate the full work order history in the ledger.
+
 ## Team Discussion
 
 Keep discussion compact. Use only the roles that can materially improve the decision:

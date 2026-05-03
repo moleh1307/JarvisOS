@@ -28,6 +28,7 @@ Use:
 
 - Subtraction Gate: what does this simplify, remove, or make less necessary?
 - Sunset Clause: when should this be reviewed or retired?
+- Sunset Review Ledger: where are active review triggers tracked when they start to scatter?
 - Learning Pulse: what recent evidence supports this?
 - Regression Rehearsal: does it preserve behavior we already care about?
 - Stack Compression Check: can new ideas merge with existing rules?
