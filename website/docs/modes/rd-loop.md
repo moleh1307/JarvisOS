@@ -11,14 +11,26 @@ It turns creative ideas into reviewed, implemented, dogfooded workflow changes.
 
 ## Loop Shape
 
-1. Generate one out-of-box idea.
-2. Discuss it with the smallest useful role set.
-3. Accept, reject, merge, or defer it.
-4. Convert accepted ideas into a short task list.
-5. Implement.
-6. Refresh the skill and public template if needed.
-7. Dogfood the behavior.
-8. Return to ideation.
+1. Briefly check whether the last R&D feature affected this cycle.
+2. Generate one out-of-box idea.
+3. Discuss it with the smallest useful role set.
+4. Accept, reject, merge, or defer it.
+5. Convert accepted ideas into a short task list.
+6. Implement.
+7. Refresh the skill and public template if needed.
+8. Define where the new behavior should be dogfooded next.
+9. Return to ideation.
+
+## Dogfood Return Check
+
+Before a fresh idea, the team can ask:
+
+- What was the last feature supposed to improve?
+- Did this cycle use it, avoid it, or show it is too early to judge?
+- Did it reduce friction or add overhead?
+- Should today's idea use that evidence or ignore it?
+
+Keep this tiny. It is a return signal, not a full retrospective.
 
 ## Guardrails
 
@@ -27,6 +39,7 @@ R&D should not add complexity endlessly.
 Use:
 
 - Subtraction Gate: what does this simplify, remove, or make less necessary?
+- Dogfood Return Check: did the last improvement actually change this cycle?
 - Sunset Clause: when should this be reviewed or retired?
 - Sunset Review Ledger: where are active review triggers tracked when they start to scatter?
 - Learning Pulse: what recent evidence supports this?

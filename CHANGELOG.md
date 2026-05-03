@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.86 - 2026-05-03
+
+- Added Dogfood Return Check to the R&D Loop so each new idea can briefly learn from the previous implemented feature.
+- Updated the R&D Loop docs and Capability Index with the new return signal.
+- Kept it tiny and optional when evidence is too early, avoiding a full retrospective ceremony.
+
 ## 0.0.85 - 2026-05-03
 
 - Added Sunset Review Ledger guidance so R&D features with sunset clauses can be tracked without scanning scattered work orders.
