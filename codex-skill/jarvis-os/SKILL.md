@@ -65,6 +65,8 @@ If the user gives a serious project but does not name a mode, infer the appropri
 
 Before loading deeper JARVIS OS references, choose the smallest reference set that matches the task. Use `references/reference-router.md` when multiple references could apply, when a task crosses Core/Specialist boundaries, or when the right workflow gate is not obvious.
 
+When multiple skills apply to the same request, use `references/skill-composition.md` to decide the lead skill, supporting skill, ownership boundary, and closeout shape. JarvisOS should own continuity, memory, Specialist Mode, and closeout; domain/plugin skills should own the deliverable's method, format, quality bar, and domain-specific verification.
+
 When the task type is already clear but execution still risks cognitive overload, use `references/task-cards.md` for a compact checklist before deeper references. Task cards are optional execution aids for common task types; skip them for trivial work and route deeper when risk appears.
 
 When starting meaningful work where the needed execution context is scattered across state, work orders, skills, references, tools, and verification requirements, use `references/agent-work-pack.md` to create or mentally assemble a temporary task-local mission packet. Work Packs are not a second task board and are not mandatory for tiny Light Mode work; they expire after the task unless promoted into a handoff, work order, or memory update.
@@ -87,6 +89,7 @@ Reference routing should answer:
 - Is this continuation, greenfield setup, adoption, public artifact, visual craft, QA, release, research/claim work, workflow feedback, or recovery?
 - Does the task depend on tools, permissions, external services, or verification capabilities?
 - Does the task change durable memory or depend on possibly stale memory?
+- Do multiple skills apply, and if so which skill leads versus supports?
 - Is this a `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction that should be routed into JarvisOS R&D instead of directly promoted?
 - Is this a skill or skillset proposal that needs the Skill Quality Standard?
 - Which focused references are needed now?

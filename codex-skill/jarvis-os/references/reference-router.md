@@ -17,6 +17,7 @@ The router keeps `SKILL.md` short while making reference selection explicit. It 
 
 | Trigger | Load first | Add when needed |
 | --- | --- | --- |
+| Multiple skills apply, named skills overlap, or a domain/plugin skill must be combined with JarvisOS continuity | `skill-composition.md` | the lead skill's `SKILL.md`, then only the narrow JarvisOS/domain references needed |
 | Clear task type but too many possible rules to synthesize | `task-cards.md` | the specific deeper reference named by the selected card |
 | Serious/fresh/complex task where execution context is scattered across state, work orders, skills, tools, references, and verification | `agent-work-pack.md` | `task-cards.md`, `task-lifecycle.md`, `capability-surface.md`, or domain reference named by the pack |
 | Creating, routing, reviewing, blocking, or closing a work order | `task-lifecycle.md` | `continuation.md` for closeout integrity |
@@ -58,22 +59,24 @@ If the task becomes consequential, public-facing, long-running, or role-governed
 
 1. Identify the active mode: JARVIS Core or Specialist Mode.
 2. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
-3. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
-4. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
-5. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
-6. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
-7. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
-8. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
-9. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
-10. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
-11. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
-12. Read only the selected references and the live project state needed for the next action.
-13. Execute or propose according to the selected route.
-14. If the route was wrong, run Stop-the-Line Review and switch route.
+3. Use `skill-composition.md` when multiple skills apply and the lead/support boundary is not obvious.
+4. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
+5. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
+6. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
+7. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
+8. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
+9. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
+10. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
+11. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
+12. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
+13. Read only the selected references and the live project state needed for the next action.
+14. Execute or propose according to the selected route.
+15. If the route was wrong, run Stop-the-Line Review and switch route.
 
 ## Conflict Rules
 
 - If a task is both public-facing and visual, start with `public-artifacts.md` for audience/trust/privacy, then use `creative-preproduction.md` or `visual-concept-pipeline.md` for craft.
+- If multiple skills apply, use `skill-composition.md` to choose the lead skill before loading deep domain references.
 - If a task is tool-dependent or verification-heavy, load `capability-surface.md` early enough to declare available tools, approval lane, and verification path before execution or closeout.
 - If a task changes durable memory and also executes project work, do the project work first, then use `memory-discipline.md` for the smallest correct continuity update.
 - If a task is both release-related and implementation-related, start with the implementation reference, then run `github-release-versioning.md` before reporting readiness.

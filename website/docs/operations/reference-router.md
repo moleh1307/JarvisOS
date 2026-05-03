@@ -24,6 +24,7 @@ Before deep work, ask:
 
 | Task | Reference |
 | --- | --- |
+| multiple skills apply | `references/skill-composition.md` |
 | common task checklist | `references/task-cards.md` |
 | work order lifecycle | `references/task-lifecycle.md` |
 | memory writes or stale memory | `references/memory-discipline.md` |

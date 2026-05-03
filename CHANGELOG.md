@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.79 - 2026-05-03
+
+- Added `references/skill-composition.md` so agents can combine JarvisOS with domain and plugin skills without over-reading.
+- Routed multi-skill tasks through the Reference Router and public Operations docs.
+- Clarified lead/support ownership: JarvisOS owns continuity and closeout while domain skills own deliverable method, format, quality bar, and domain verification.
+
 ## 0.0.78 - 2026-05-03
 
 - Added `tools/jarvis-doctor.py`, a deterministic public-template diagnostic for agents.
