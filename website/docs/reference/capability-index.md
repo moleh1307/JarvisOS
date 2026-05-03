@@ -17,6 +17,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Mode Exit Ramp | Specialist Mode work is closed and the next task can be lighter. | closeout after serious work | [Light Mode](../modes/light-mode.md), [Specialist Mode](../modes/specialist-mode.md) |
 | Command Deck | You want short invocation phrases instead of long prompts. | `status`, `continue`, `new idea` | [Prompt Library](prompt-library.md) |
 | Clarifying Follow-Up Gate | A short/vague request would change implementation depending on interpretation. | `change this`, `fix it`, `make it better` | [Checklists](checklists.md) |
+| Referent Snapshot | The request says `this`, `that`, `it`, `here`, or similar and the target must be identified. | vague target words | [Checklists](checklists.md) |
 | Accidental Message Guard | A prior message was wrong, accidental, or cancelled. | `ignore previous`, `cancel that` | [Prompt Library](prompt-library.md) |
 | Fresh-Chat Handoff | A chat is getting long or another session needs to continue. | `fresh-chat handoff` | [Fresh Chat](../getting-started/fresh-chat.md), [Handoffs](../concepts/handoffs.md) |
 | Artifact Hygiene | Files, docs, images, data, PDFs, or generated outputs need trust labels and verification. | any meaningful artifact | [Artifact Hygiene](../concepts/artifact-hygiene.md) |

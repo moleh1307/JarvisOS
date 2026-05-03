@@ -16,8 +16,11 @@ description: Compact execution checklists for common JARVIS OS work.
 
 ## Clarifying Follow-Up
 
+- Run a quick Referent Snapshot for words like `this`, `that`, `it`, `there`, `here`, `the file`, `the page`, or `the project`.
+- Identify the most likely target from current browser/app context, selected path, recent message, active project state, or latest artifact.
 - Identify the unclear reference, target, or desired outcome.
-- Ask one to three direct questions.
+- Ask one to three direct questions only when there is no clear target, multiple plausible targets, or consequential ambiguity.
+- Name the candidate targets when asking.
 - Offer a likely default when it helps the user answer quickly.
 - Proceed with a stated assumption only when the missing detail is low-risk.
 - Stop and ask before code edits, deletion, public changes, memory writes, project-direction changes, cost, credentials, or irreversible work.

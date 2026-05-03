@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.90 - 2026-05-03
+
+- Added Referent Snapshot inside Clarifying Follow-Up Gate so agents identify what `this`, `that`, `it`, `here`, or similar words likely point to before acting or asking.
+- Updated public checklists and Capability Index with target-resolution guidance.
+- Clarified that agents may proceed with a stated target assumption only when there is one plausible low-risk target.
+
 ## 0.0.89 - 2026-05-03
 
 - Added Clarifying Follow-Up Gate so agents ask compact follow-up questions before acting on short or vague requests that would change implementation.

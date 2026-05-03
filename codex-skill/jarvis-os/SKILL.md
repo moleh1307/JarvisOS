@@ -222,6 +222,13 @@ Ask a follow-up before implementation when the request uses unclear references o
 - "do that" when multiple recent actions could be meant;
 - "clean this" when deletion, refactor, formatting, or archival could all fit.
 
+Before asking, run a quick Referent Snapshot for words like `this`, `that`, `it`, `there`, `here`, `the file`, `the page`, or `the project`:
+
+- identify the most likely target from the current browser/app context, selected file/path, recent user message, active project state, or latest artifact;
+- if there is exactly one plausible target and the action is low-risk, state the assumption briefly and proceed;
+- if there are multiple plausible targets or the action is consequential, ask a compact follow-up that names the candidate targets;
+- if there is no visible target, ask for the missing path, screenshot, file, page, or object.
+
 Keep follow-ups compact:
 
 - ask one to three questions only;
