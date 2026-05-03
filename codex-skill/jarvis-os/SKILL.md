@@ -155,6 +155,13 @@ Before meaningful Specialist Mode completion reports, run a quick Closeout Integ
 
 After meaningful Specialist Mode task completion, end with a compact state-aware options menu when it would help the user choose the next command. Options should reflect the actual current state, such as continue, status, inspect, release, resolve blocker, review, pause, or archive, rather than a fixed generic list.
 
+After implementing a JARVIS R&D idea or workflow feature, include a short usage example in the closeout so users can understand how the feature works in practice. Keep it concrete and small:
+
+- show a realistic trigger phrase, task moment, or agent behavior;
+- show what the agent would do differently because of the new feature;
+- keep it to one short paragraph or two bullets;
+- skip only when the implementation is purely internal cleanup with no user-observable behavior.
+
 ## Locate the Vault and Scope the Task
 
 1. Determine the JARVIS vault root from explicit user instruction when available.

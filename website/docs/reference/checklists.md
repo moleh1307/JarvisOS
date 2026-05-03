@@ -42,6 +42,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Pick the next unblocked task.
 - Load only the references needed.
 - Execute and verify.
+- After implementing an R&D idea or workflow feature, include a short usage example in the closeout.
 - Update state and closeout.
 
 ## Public Artifact
@@ -109,3 +110,11 @@ description: Compact execution checklists for common JARVIS OS work.
 - Keep it to one screen.
 - Do not create a new handoff file only to store a seed.
 - Promote it into a full handoff only when work remains open, a blocker exists, the thread is costly, or another session/agent is likely to continue.
+
+## Usage Example Closeout
+
+- Use it after implementing a JARVIS R&D idea or workflow feature.
+- Show a realistic trigger phrase, task moment, or agent behavior.
+- Show what the agent would do differently because of the new feature.
+- Keep it to one short paragraph or two bullets.
+- Skip only for purely internal cleanup with no user-observable behavior.

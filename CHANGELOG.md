@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.96 - 2026-05-03
+
+- Added Usage Example Closeout so agents include a short practical example after implementing a JARVIS R&D idea or workflow feature.
+- Updated public checklists and Capability Index with usage-example guidance.
+- Clarified that examples should be concrete and small, and can be skipped for purely internal cleanup with no user-observable behavior.
+
 ## 0.0.95 - 2026-05-03
 
 - Added One-Screen Handoff Seed so agents can preserve compact continuation context when a full handoff file would be too much.
