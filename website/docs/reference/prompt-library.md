@@ -5,6 +5,21 @@ description: Common prompts for using JARVIS OS.
 
 # Prompt Library
 
+## Command Deck
+
+Use these as short intent shortcuts. They are not rigid syntax; agents should still route by context.
+
+| Command | Use it for |
+| --- | --- |
+| `status` | Compact current state. |
+| `continue` / `go` / `next` | Next unblocked task. |
+| `new idea` | One R&D Idea Loop cycle. |
+| `create a Work Pack` | Task-local execution context before meaningful work. |
+| `JarvisOS Skill Ticket` | Package a reusable discovery for JarvisOS R&D. |
+| `fresh-chat handoff` | Continuation note for a new chat. |
+| `adopt this project` | Existing project audit before Specialist Mode structure. |
+| `release readiness` | Verification, version, docs, git, and approval checks. |
+
 ## Normal Continuity
 
 ```text

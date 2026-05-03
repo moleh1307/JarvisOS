@@ -61,6 +61,23 @@ Activate Specialist Mode when the work benefits from durable role separation or 
 
 If the user gives a serious project but does not name a mode, infer the appropriate mode from the project shape. Ask only when the mode choice would materially change risk, scope, cost, or file layout. When unsure between Light Mode and Specialist Mode, start in Light Mode and escalate only when role separation, persistent state, review gates, or project governance would clearly reduce risk or confusion.
 
+## Command Deck
+
+Treat these as stable intent shortcuts, not rigid parser syntax. Route by the user's actual context and newest message.
+
+| User phrase | Intent |
+| --- | --- |
+| `status` | Give a compact state report from the relevant current state and project memory. |
+| `continue`, `go`, or `next` | Continue the next unblocked task, using Specialist Mode only when the active project already warrants it. |
+| `new idea` | In JARVIS R&D or another active R&D loop, run one R&D Idea Loop cycle. |
+| `create a Work Pack` | Create or mentally assemble an Agent Work Pack for meaningful work with scattered context. |
+| `JarvisOS Skill Ticket` | Package a reusable discovery from the current chat for JarvisOS R&D review; do not implement it in that project unless explicitly asked. |
+| `fresh-chat handoff` | Create a compact continuation handoff with objective, completed work, blockers, next steps, and read-first files. |
+| `adopt this project` | Audit an existing project before adding Specialist Mode structure. |
+| `release readiness` | Check verification, version metadata, docs/readme/changelog visibility, git state, and approval boundaries before release. |
+
+If a shortcut could affect files, memory, release state, credentials, paid services, or destructive actions, apply the normal ambiguity and approval rules before acting.
+
 ## Route References Before Deep Work
 
 Before loading deeper JARVIS OS references, choose the smallest reference set that matches the task. Use `references/reference-router.md` when multiple references could apply, when a task crosses Core/Specialist boundaries, or when the right workflow gate is not obvious.
