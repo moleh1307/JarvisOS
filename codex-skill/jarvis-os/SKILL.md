@@ -61,6 +61,8 @@ Activate Specialist Mode when the work benefits from durable role separation or 
 
 If the user gives a serious project but does not name a mode, infer the appropriate mode from the project shape. Ask only when the mode choice would materially change risk, scope, cost, or file layout. When unsure between Light Mode and Specialist Mode, start in Light Mode and escalate only when role separation, persistent state, review gates, or project governance would clearly reduce risk or confusion.
 
+Use a Mode Exit Ramp after meaningful Specialist Mode closeout. If the work order is done, blockers are clear, state is updated, and the next likely request is a small question, narrow edit, status check, or ordinary artifact task, downshift the next turn to Light Mode unless the user asks to continue Specialist Mode. Do not downshift when active work remains, release/deployment risk is open, role review is still needed, memory/state is inconsistent, the user asks the team to keep running, or the topic is JARVIS R&D / Specialist Mode itself.
+
 ## Command Deck
 
 Treat these as stable intent shortcuts, not rigid parser syntax. Route by the user's actual context and newest message.

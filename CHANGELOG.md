@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.82 - 2026-05-03
+
+- Added Mode Exit Ramp guidance so agents downshift from Specialist Mode to Light Mode after meaningful closeout when the next work no longer needs project machinery.
+- Updated Light Mode and Specialist Mode docs with downshift criteria and exceptions.
+- Clarified that active work, review, release risk, inconsistent state, and explicit team-running requests should keep Specialist Mode active.
+
 ## 0.0.81 - 2026-05-03
 
 - Added a compact Command Deck to `jarvis-os` so common phrases such as `status`, `continue`, `new idea`, `create a Work Pack`, and `JarvisOS Skill Ticket` route consistently.

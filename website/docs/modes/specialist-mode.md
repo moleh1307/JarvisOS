@@ -95,3 +95,17 @@ Use the full layer for complex projects:
 - release readiness.
 
 The goal is not bureaucracy. The goal is fewer missed obligations.
+
+## Mode Exit Ramp
+
+After meaningful closeout, check whether Specialist Mode is still needed.
+
+Downshift the next turn to Light Mode when:
+
+- the active work order is done;
+- blockers are clear;
+- current state and memory are updated;
+- no release, deployment, credential, destructive, or public/private boundary remains open;
+- the next likely request is a small question, narrow edit, status check, or ordinary artifact task.
+
+Do not downshift when active work remains, review is still needed, state is inconsistent, or the user asks the team to keep running.

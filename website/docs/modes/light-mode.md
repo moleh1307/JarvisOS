@@ -55,3 +55,14 @@ Escalate when:
 - the work is public-facing;
 - release or deployment risk exists;
 - repeated continuation would otherwise drift.
+
+## Returning From Specialist Mode
+
+After Specialist Mode work closes, return to Light Mode when:
+
+- the work order is done;
+- blockers are clear;
+- state and memory are updated;
+- the next likely request is a small question, narrow edit, status check, or ordinary artifact task.
+
+Do not stay in Specialist Mode by inertia. Use the heavier layer only while it is earning its weight.
