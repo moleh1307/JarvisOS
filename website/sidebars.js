@@ -37,6 +37,7 @@ const sidebars = {
       items: [
         'operations/reference-router',
         'operations/agent-work-pack',
+        'operations/jarvis-doctor',
         'operations/task-lifecycle',
         'operations/quality-gates',
         'operations/cross-project-contributions',

@@ -74,6 +74,7 @@ If the card still leaves execution context scattered across state, work orders, 
 - Patch the canonical installed skill first when standing behavior changes.
 - Mirror public sanitized changes only when the behavior belongs in the reusable template.
 - Update version/changelog/README when public behavior changes.
+- Run `python tools/jarvis-doctor.py` in the public template when the script is available.
 - Verify installed/public reachability with text search and run public leak/diff checks.
 - Close state with verification evidence, canonical artifact, work order, task board, current state, project memory, handoff, and public commit if applicable.
 
@@ -146,6 +147,7 @@ If the card still leaves execution context scattered across state, work orders, 
 ## Status Or Closeout Card
 
 - Run the stale dashboard or equivalent state check when drift risk is non-trivial.
+- Run `python tools/jarvis-doctor.py` before public-template commit/push when available.
 - Confirm current-state, task board, active work order lifecycle state, handoff, and blockers agree.
 - After compaction/resume, check whether the previous task needs closeout repair before reporting or starting new work.
 - If version/git changed, confirm README/CHANGELOG/VERSION and latest commit/status.
