@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.95 - 2026-05-03
+
+- Added One-Screen Handoff Seed so agents can preserve compact continuation context when a full handoff file would be too much.
+- Updated public checklists and Capability Index with seed guidance for current objective, live facts, next action, risks, read-first files, and fresh-chat starter text.
+- Clarified that agents should not create a new handoff file only to store a seed; promote to full handoff only when continuation risk earns it.
+
 ## 0.0.94 - 2026-05-03
 
 - Added Scratchpad Expiry so agents choose whether temporary notes, assumptions, QA files, screenshots, drafts, Work Packs, diagnostics, and one-off analysis should be promoted, archived as diagnostic, or discarded.

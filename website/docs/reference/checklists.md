@@ -38,6 +38,7 @@ description: Compact execution checklists for common JARVIS OS work.
 - Read `company/current-state.md`.
 - Check `company/task-board.md`.
 - Identify operating mode.
+- If continuation is likely but a full handoff is too much, maintain a one-screen handoff seed.
 - Pick the next unblocked task.
 - Load only the references needed.
 - Execute and verify.
@@ -99,3 +100,12 @@ description: Compact execution checklists for common JARVIS OS work.
 - Discard scratch work that has served its purpose.
 - Label any remaining temporary artifact as canonical, diagnostic, temporary, superseded, or safe to delete.
 - Do not preserve whole working trails when only the reusable result matters.
+
+## One-Screen Handoff Seed
+
+- Use it when a full handoff would be too much but continuation is likely.
+- Keep it inside current state, a session note, an existing handoff, or the closeout summary.
+- Include current objective, checked live facts, next action, blockers or risks, read-first files, and one fresh-chat starter paragraph.
+- Keep it to one screen.
+- Do not create a new handoff file only to store a seed.
+- Promote it into a full handoff only when work remains open, a blocker exists, the thread is costly, or another session/agent is likely to continue.

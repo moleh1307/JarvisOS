@@ -428,6 +428,17 @@ The handoff must capture:
 
 The handoff should be compact enough to make a new Codex chat usable without reading the old chat history. It should point to the minimum vault notes and project files needed to resume.
 
+When a full handoff would be too much but continuation is likely, maintain a One-Screen Handoff Seed in the current-state note, session note, existing handoff, or closeout summary:
+
+- current objective;
+- live facts checked this turn, with freshness or verification breadcrumbs when useful;
+- next action;
+- blockers or risks;
+- minimum read-first files;
+- one fresh-chat starter paragraph.
+
+Keep the seed to one screen. Do not create a new handoff file only to store a seed. Promote the seed into a full handoff only when work remains open, a blocker exists, the thread is becoming costly, or another agent/session is likely to continue.
+
 If the task is complete and the thread is not becoming costly to continue, prefer updating the project note and session note instead of creating extra handoff files.
 
 ## Output Discipline

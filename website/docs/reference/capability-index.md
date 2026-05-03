@@ -21,6 +21,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Clarification Receipt | The user answers a follow-up with a terse reply that must bind back to the pending question. | `yes`, `go`, `second`, `that one` | [Checklists](checklists.md) |
 | Accidental Message Guard | A prior message was wrong, accidental, or cancelled. | `ignore previous`, `cancel that` | [Prompt Library](prompt-library.md) |
 | Fresh-Chat Handoff | A chat is getting long or another session needs to continue. | `fresh-chat handoff` | [Fresh Chat](../getting-started/fresh-chat.md), [Handoffs](../concepts/handoffs.md) |
+| One-Screen Handoff Seed | Continuation is likely, but a full handoff file would be too much. | long thread, likely fresh chat | [Checklists](checklists.md) |
 | Artifact Hygiene | Files, docs, images, data, PDFs, or generated outputs need trust labels and verification. | any meaningful artifact | [Artifact Hygiene](../concepts/artifact-hygiene.md) |
 | Context Freshness Badge | A task relies on memory, state files, git status, public versions, blockers, dates, or mutable external facts. | stale-risk context | [Checklists](checklists.md) |
 | Verification Breadcrumb | A result, artifact, version, build, test, dashboard, or public claim was verified and future agents may need to trust or rerun it. | `verified`, `tests passed`, `ready` | [Checklists](checklists.md) |
