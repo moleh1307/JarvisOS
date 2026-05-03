@@ -8,17 +8,31 @@ The loop exists to turn creative ideas into tested workflow changes without lett
 
 Run one idea at a time:
 
-1. Ideation role proposes one out-of-box idea.
-2. Relevant team roles discuss the idea.
-3. If rejected, record the rejection reason and return to ideation.
-4. If accepted, Chief of Staff or project manager converts it into a short task list.
-5. The team implements the task list.
-6. The project or skill is refreshed.
-7. The closeout explains the implemented idea compactly.
-8. The team dogfoods the new feature in the next cycle.
-9. Return to one new idea.
+1. Run Dogfood Return Check for the last meaningful R&D feature when useful.
+2. Ideation role proposes one out-of-box idea.
+3. Relevant team roles discuss the idea.
+4. If rejected, record the rejection reason and return to ideation.
+5. If accepted, Chief of Staff or project manager converts it into a short task list.
+6. The team implements the task list.
+7. The project or skill is refreshed.
+8. The closeout explains the implemented idea compactly.
+9. The team defines where the new feature should be dogfooded next.
+10. Return to one new idea.
 
 Do not batch many unrelated ideas unless the user explicitly asks for a broad brainstorm. A loop is strongest when every idea must survive discussion, implementation planning, and dogfood evidence.
+
+## Dogfood Return Check
+
+At the start of a new R&D loop, briefly check the last meaningful R&D feature before proposing a fresh idea, unless the user explicitly wants to skip review or the previous feature is clearly not relevant yet.
+
+Answer only what helps the next decision:
+
+- What was the last feature expected to improve?
+- Did this cycle use it, avoid it, or reveal that it is too early to judge?
+- Did it reduce friction, add overhead, expose a gap, or need a future sunset review?
+- Should today's idea use that evidence, ignore it, or record a follow-up candidate?
+
+Keep this check tiny. It is a return signal, not a retrospective. If it shows no useful evidence, say `too early` and move on.
 
 ## Idea Quality Bar
 
