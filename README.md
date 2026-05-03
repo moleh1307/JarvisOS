@@ -6,7 +6,7 @@
 
 [![Docs](https://img.shields.io/badge/docs-moleh1307.github.io%2FJarvisOS-1f6feb?style=for-the-badge)](https://moleh1307.github.io/JarvisOS/)
 [![Built By](https://img.shields.io/badge/built_by-MOLEH-2ea44f?style=for-the-badge)](https://github.com/moleh1307)
-[![Version](https://img.shields.io/badge/version-0.0.83-da3633?style=for-the-badge)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.0.84-da3633?style=for-the-badge)](VERSION)
 
 **A local-first operating system for Codex continuity.**
 
@@ -18,7 +18,7 @@ Memory files. Handoffs. Task boards. Specialist Mode. Artifact hygiene. Self-imp
 
 ## Docs
 
-Full docs live in the Docusaurus site under [website/](website/).
+Full docs live in the Docusaurus site under [website/](website/). Start with the docs [Capability Index](website/docs/reference/capability-index.md) when you want the compact feature map.
 
 After GitHub Pages is enabled, the public docs URL is:
 

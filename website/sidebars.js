@@ -52,6 +52,7 @@ const sidebars = {
       label: 'Reference',
       items: [
         'reference/folder-structure',
+        'reference/capability-index',
         'reference/prompt-library',
         'reference/checklists',
       ],

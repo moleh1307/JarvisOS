@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.84 - 2026-05-03
+
+- Added a public Capability Index under Reference so users and agents can see what JarvisOS can do without scanning the changelog.
+- Linked the Capability Index from the docs intro, sidebar, and README.
+- Kept the index as a documentation map only; it does not add a new workflow rule or automation layer.
+
 ## 0.0.83 - 2026-05-03
 
 - Added Accidental Message Guard guidance so cancelled, accidental, or ignored prior user messages are treated as discarded instructions.
