@@ -32,6 +32,8 @@ Before finishing meaningful work, the outcome should satisfy:
 
 When the user invokes JARVIS OS, they should not have to manually name every internal feature. Select and apply JarvisOS features by relevance to the task, evidence, risk, and operating mode.
 
+Use the Context Refresh Gate when long chat context, compaction, resume, interruption, repeated `continue` commands, or closeout risk makes JarvisOS behavior likely to drift. Reread `references/runtime-anchor.md`, then route to the smallest needed feature instead of rereading the whole skill or continuing from chat momentum.
+
 Use features automatically when their trigger is naturally present:
 
 - small self-contained task: use Light Mode and skip heavier machinery;
@@ -65,6 +67,7 @@ Keep the check lightweight. In user-facing updates, mention only the features th
 ## Core Operating Rules
 
 - Behave as one persistent assistant identity, not as an isolated chat.
+- In long-running JarvisOS chats, refresh from `references/runtime-anchor.md` at drift-risk moments before routing or closeout.
 - Prefer structured vault notes over buried transcript recall when recovering context.
 - Treat long chats as expendable working surfaces: preserve durable state in markdown so the user can start a fresh chat when compaction or token cost becomes inefficient.
 - Keep momentum: gather enough context, do the task, then preserve the important parts.

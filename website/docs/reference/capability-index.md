@@ -12,6 +12,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Capability | Use it when | Primary trigger | Where to read |
 | --- | --- | --- | --- |
 | Relevance-First Auto-Routing | JARVIS OS is invoked and the agent must choose which features apply. | `Jarvis, use JARVIS OS` | this page, [Reference Router](../operations/reference-router.md) |
+| Runtime Anchor / Context Refresh Gate | Long chat context, compaction, resume, interruption, repeated continuation, or closeout risk may make agents forget JarvisOS behavior. | long `continue` chain, compaction, pre-closeout | [Runtime Anchor](../operations/runtime-anchor.md), [Reference Router](../operations/reference-router.md) |
 | Bare JARVIS OS Mode Choice Gate | JARVIS OS is invoked without a task, mode, project, or target. | `Jarvis, use JARVIS OS` alone | [Light Mode](../modes/light-mode.md), [Specialist Mode](../modes/specialist-mode.md) |
 | Feature Adoption Check | Existing JarvisOS features were named or naturally triggered and should not be silently skipped. | JARVIS R&D, workflow feedback, public template change | [Checklists](checklists.md) |
 | Light Mode | The task is small, local, or self-contained. | `Jarvis, use JARVIS OS` | [Light Mode](../modes/light-mode.md) |
@@ -55,6 +56,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 ## Choosing Quickly
 
 - Apply features by relevance; do not wait for the user to name every feature.
+- Refresh from the Runtime Anchor when long context, compaction, repeated continuation, or closeout risk could make JarvisOS behavior drift.
 - If JARVIS OS is invoked with no task, mode, project, or target, explain Core and Specialist Mode briefly and ask which mode to use.
 - Use Feature Adoption Check when the user names a feature or a task naturally triggers one.
 - Start with Light Mode unless the task earns Specialist Mode.

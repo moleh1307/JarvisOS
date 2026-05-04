@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.107 - 2026-05-04
+
+- Added Runtime Anchor, a one-screen refresh reference for long chats, compaction, resume, repeated continuation, and pre-closeout drift risk.
+- Added Context Refresh Gate routing so agents reload the anchor before choosing deeper JarvisOS features instead of rereading the whole skill or continuing from chat momentum.
+- Updated public docs, Capability Index, checklists, and README with the anti-drift workflow.
+
 ## 0.0.106 - 2026-05-04
 
 - Added a bare JARVIS OS Mode Choice Gate: if the user only says `Jarvis, use JARVIS OS` with no task, mode, project, or target, the agent briefly explains Core and Specialist Mode and asks which mode to use.

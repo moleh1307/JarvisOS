@@ -17,6 +17,7 @@ The router keeps `SKILL.md` short while making reference selection explicit. It 
 
 | Trigger | Load first | Add when needed |
 | --- | --- | --- |
+| Long chat, compaction, resume, interruption, repeated `continue`, or risk that JarvisOS features are being forgotten | `runtime-anchor.md` | the specific reference selected after the anchor questions |
 | Multiple skills apply, named skills overlap, or a domain/plugin skill must be combined with JarvisOS continuity | `skill-composition.md` | the lead skill's `SKILL.md`, then only the narrow JarvisOS/domain references needed |
 | Clear task type but too many possible rules to synthesize | `task-cards.md` | the specific deeper reference named by the selected card |
 | Serious/fresh/complex task where execution context is scattered across state, work orders, skills, tools, references, and verification | `agent-work-pack.md` | `task-cards.md`, `task-lifecycle.md`, `capability-surface.md`, or domain reference named by the pack |
@@ -58,23 +59,24 @@ If the task becomes consequential, public-facing, long-running, or role-governed
 
 ## Routing Procedure
 
-1. Identify whether the message contains an actual task. If the user only invokes JARVIS OS with no task, mode, project, or target, stay in the main skill's bare-invocation mode chooser and ask whether to use Core or Specialist Mode.
-2. Identify the active mode: JARVIS Core or Specialist Mode.
-3. If Specialist Mode is requested, identify the exact target project/workflow before routing deeper. Ask when the target is ambiguous; do not default to JARVIS R&D just because the workspace is the JARVIS vault, `company/` exists, or the user also says `JARVIS OS`.
-4. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
-5. Use `skill-composition.md` when multiple skills apply and the lead/support boundary is not obvious.
-6. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
-7. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
-8. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
-9. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
-10. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
-11. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
-12. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
-13. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
-14. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
-15. Read only the selected references and the live project state needed for the next action.
-16. Execute or propose according to the selected route.
-17. If the route was wrong, run Stop-the-Line Review and switch route.
+1. If context is long, compacted, resumed, interrupted, or JarvisOS behavior may be drifting, read `runtime-anchor.md` first.
+2. Identify whether the message contains an actual task. If the user only invokes JARVIS OS with no task, mode, project, or target, stay in the main skill's bare-invocation mode chooser and ask whether to use Core or Specialist Mode.
+3. Identify the active mode: JARVIS Core or Specialist Mode.
+4. If Specialist Mode is requested, identify the exact target project/workflow before routing deeper. Ask when the target is ambiguous; do not default to JARVIS R&D just because the workspace is the JARVIS vault, `company/` exists, or the user also says `JARVIS OS`.
+5. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
+6. Use `skill-composition.md` when multiple skills apply and the lead/support boundary is not obvious.
+7. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
+8. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
+9. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
+10. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
+11. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
+12. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
+13. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
+14. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
+15. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
+16. Read only the selected references and the live project state needed for the next action.
+17. Execute or propose according to the selected route.
+18. If the route was wrong, run Stop-the-Line Review and switch route.
 
 ## Conflict Rules
 

@@ -23,6 +23,8 @@ Short prompts are fine. If intent is unclear in a way that would change the work
 
 If the user only invokes JARVIS OS with no task, mode, project, or target, the agent should not silently choose. It should briefly explain JARVIS Core / Light Mode and JARVIS Specialist Mode, then ask which mode to use.
 
+Long chats can drift as context grows. The Runtime Anchor is a one-screen refresh note agents should reload after compaction, repeated continuation, interruption, or before important closeout so they keep using the right JarvisOS features without reading the full skill again.
+
 ## What JARVIS OS Solves
 
 Long agent projects usually fail in predictable ways:

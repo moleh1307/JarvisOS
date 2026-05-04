@@ -6,7 +6,7 @@
 
 [![Docs](https://img.shields.io/badge/docs-moleh1307.github.io%2FJarvisOS-1f6feb?style=for-the-badge)](https://moleh1307.github.io/JarvisOS/)
 [![Built By](https://img.shields.io/badge/built_by-MOLEH-2ea44f?style=for-the-badge)](https://github.com/moleh1307)
-[![Version](https://img.shields.io/badge/version-0.0.106-da3633?style=for-the-badge)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.0.107-da3633?style=for-the-badge)](VERSION)
 
 **A local-first operating system for Codex continuity.**
 
@@ -16,6 +16,8 @@ Invoke it once; agents should route the right JarvisOS features by relevance ins
 Short prompts are fine; when intent is unclear, agents should ask a sharp follow-up instead of guessing.
 
 Memory files. Handoffs. Task boards. Specialist Mode. Artifact hygiene. Self-improvement logs. No hidden database. No transcript dumping.
+
+Long chats can drift. JARVIS OS includes a Runtime Anchor: a one-screen refresh note agents should reload after compaction, repeated continuation, or before important closeout so they keep using the right continuity features without rereading the whole skill.
 
 ---
 

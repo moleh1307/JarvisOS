@@ -5,6 +5,17 @@ description: Compact execution checklists for common JARVIS OS work.
 
 # Checklists
 
+## Context Refresh Gate
+
+- Use when context is long, compacted, resumed, interrupted, or the agent may be forgetting JarvisOS features.
+- Use when the user says `continue`, `status`, `what now`, `go`, or says the agent forgot JarvisOS in a long-running thread.
+- Use before meaningful file edits in a JarvisOS project.
+- Use before final closeout on non-trivial work.
+- Read `references/runtime-anchor.md` or the public Runtime Anchor page.
+- Answer the anchor questions: mode, target, relevant state, triggered feature, ambiguity, verification, and memory update.
+- Route to the smallest needed feature; do not reread the whole skill by default.
+- Continue execution only after the mode, target, and verification path are clear enough.
+
 ## Light Mode Task
 
 - Identify the project or domain.

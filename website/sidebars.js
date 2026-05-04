@@ -36,6 +36,7 @@ const sidebars = {
       label: 'Operations',
       items: [
         'operations/reference-router',
+        'operations/runtime-anchor',
         'operations/skill-dictionary',
         'operations/skill-composition',
         'operations/project-skill-incubator',
