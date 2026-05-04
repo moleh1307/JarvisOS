@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.101 - 2026-05-04
+
+- Added Skill Dictionary routing so agents can choose standalone/domain skills without loading every skill file.
+- Added a Skill Dictionary maintenance rule and verifier for skill additions, removals, renames, and material reroutes.
+- Updated public docs, Capability Index, checklists, and R&D loop guidance with the Skill Dictionary flow.
+
 ## 0.0.100 - 2026-05-04
 
 - Added Feature Adoption Check so agents must use or explicitly skip named/naturally triggered JarvisOS features.

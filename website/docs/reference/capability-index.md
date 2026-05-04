@@ -31,6 +31,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Rollback Handle | A public template change, installed skill change, workflow rule, or consequential R&D feature may need a future safe undo path. | release closeout, workflow patch | [Checklists](checklists.md) |
 | Scratchpad Expiry | Temporary notes, assumptions, QA outputs, screenshots, drafts, Work Packs, or diagnostics may become memory noise. | closeout after scratch work | [Checklists](checklists.md) |
 | Reference Router | Several workflow references could apply and the agent should not over-read. | complex routing | [Reference Router](../operations/reference-router.md) |
+| Skill Dictionary | A specialized task may match a standalone/domain skill and the agent should not load every skill file. | research/math/tool/domain work | [Skill Dictionary](../operations/skill-dictionary.md) |
 | Agent Work Pack | A meaningful task has scattered context, tools, constraints, and done criteria. | `create a Work Pack` | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Done Shape | A deliverable needs a clear target before implementation. | meaningful deliverable Work Pack | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Assumption Ledger | A Work Pack needs to carry consequential assumptions without blocking execution. | meaningful Work Pack with uncertainty | [Agent Work Pack](../operations/agent-work-pack.md) |
@@ -55,6 +56,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 - Use Specialist Mode when state, roles, review, release risk, or long-running continuity matter.
 - Use the Command Deck for short invocations.
 - Use the Reference Router when several docs could apply.
+- Use the Skill Dictionary when a specialized task may match a standalone/domain skill.
 - Use a Work Pack when execution context is scattered.
 - Use Jarvis Doctor before public template commits.
 

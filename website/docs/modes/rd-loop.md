@@ -46,6 +46,7 @@ Use:
 - Subtraction Gate: what does this simplify, remove, or make less necessary?
 - Feature Adoption Check: are named or naturally triggered features actually being used?
 - Dogfood Return Check: did the last improvement actually change this cycle?
+- Skill Dictionary Update Check: did this cycle create, remove, rename, or materially reroute a skill?
 - Sunset Clause: when should this be reviewed or retired?
 - Sunset Review Ledger: where are active review triggers tracked when they start to scatter?
 - Learning Pulse: what recent evidence supports this?

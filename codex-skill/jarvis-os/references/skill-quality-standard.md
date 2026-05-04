@@ -205,9 +205,10 @@ When implementing an accepted skill-quality change:
 1. Add or update the installed skill/reference first.
 2. Mirror public-safe guidance into the public template only when it belongs there.
 3. Update the Reference Router if agents need to discover the reference.
-4. Update the skill ticket template or docs if ticket authors must use the standard.
-5. Run targeted validation: parse frontmatter where relevant, check references exist, run `rg` for routing terms, run public leak scan for public changes, and run `git diff --check`.
-6. Update the work order, task board, and current state only with durable facts.
+4. Update `skill-dictionary.md` when a skill is created, installed, removed, renamed, or materially rerouted.
+5. Update the skill ticket template or docs if ticket authors must use the standard.
+6. Run targeted validation: parse frontmatter where relevant, check references exist, run the skill dictionary verifier when skills changed, run `rg` for routing terms, run public leak scan for public changes, and run `git diff --check`.
+7. Update the work order, task board, and current state only with durable facts.
 
 ## Anti-Patterns
 
@@ -220,4 +221,3 @@ When implementing an accepted skill-quality change:
 - Public examples containing private paths or project-specific facts.
 - Rewriting JarvisOS core for a project-local trick.
 - Adding a new skill when a template, task card, or reference patch would be enough.
-

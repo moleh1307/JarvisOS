@@ -36,6 +36,7 @@ const sidebars = {
       label: 'Operations',
       items: [
         'operations/reference-router',
+        'operations/skill-dictionary',
         'operations/skill-composition',
         'operations/agent-work-pack',
         'operations/jarvis-doctor',
