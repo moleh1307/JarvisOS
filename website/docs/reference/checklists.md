@@ -59,6 +59,16 @@ description: Compact execution checklists for common JARVIS OS work.
 - For public template/repo changes, run Jarvis Doctor unless unavailable or genuinely irrelevant.
 - Keep it lightweight; this is an adoption guard, not a new long form.
 
+## Skill Dictionary Routing
+
+- Use it when a specialized task may match a standalone/domain skill but the user did not name the skill.
+- Scan the dictionary before reading full skill files.
+- Choose one lead skill for the main deliverable.
+- Add supporting skills only when they uniquely improve a subtask.
+- Read only the selected skill files and triggered references.
+- Update the dictionary when a skill is created, installed, removed, renamed, or materially rerouted.
+- Run the skill dictionary check when skill coverage changed.
+
 ## Feature Saturation Check
 
 - Use it when several consecutive R&D additions land in the same workflow area.

@@ -38,6 +38,7 @@ Use features automatically when their trigger is naturally present:
 - serious project or durable team work: use Specialist Mode;
 - scattered meaningful execution context: create or mentally assemble an Agent Work Pack;
 - consequential uncertainty inside a Work Pack: use Assumption Ledger;
+- task may match a standalone/domain skill: inspect the Skill Dictionary, choose the smallest lead/support skill set, then read only the selected skill files;
 - multiple applicable skills: use Skill Composition routing;
 - R&D idea loop: use Dogfood Return Check, Feature Saturation Check, Subtraction Gate, and the R&D Loop reference;
 - public template/repo change: update docs/version metadata, run validation, commit, and push when safe;
@@ -120,6 +121,8 @@ Before loading deeper JARVIS OS references, choose the smallest reference set th
 
 When multiple skills apply to the same request, use `references/skill-composition.md` to decide the lead skill, supporting skill, ownership boundary, and closeout shape. JarvisOS should own continuity, memory, Specialist Mode, and closeout; domain/plugin skills should own the deliverable's method, format, quality bar, and domain-specific verification.
 
+When a task may match a standalone/domain skill but the user did not name it, use `references/skill-dictionary.md` before opening skill files. The dictionary is a compact routing index; it prevents both missed skills and context bloat. Use it to shortlist candidate skills, then read only the selected lead/support skill instructions.
+
 When the task type is already clear but execution still risks cognitive overload, use `references/task-cards.md` for a compact checklist before deeper references. Task cards are optional execution aids for common task types; skip them for trivial work and route deeper when risk appears.
 
 When starting meaningful work where the needed execution context is scattered across state, work orders, skills, references, tools, and verification requirements, use `references/agent-work-pack.md` to create or mentally assemble a temporary task-local mission packet. Work Packs are not a second task board and are not mandatory for tiny Light Mode work; they expire after the task unless promoted into a handoff, work order, or memory update.
@@ -150,6 +153,7 @@ Reference routing should answer:
 - Is this continuation, greenfield setup, adoption, public artifact, visual craft, QA, release, research/claim work, workflow feedback, or recovery?
 - Does the task depend on tools, permissions, external services, or verification capabilities?
 - Does the task change durable memory or depend on possibly stale memory?
+- Does the task naturally match a standalone/domain skill, and has the Skill Dictionary been used before loading full skill files?
 - Do multiple skills apply, and if so which skill leads versus supports?
 - Is this a `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction that should be routed into JarvisOS R&D instead of directly promoted?
 - Is this a skill or skillset proposal that needs the Skill Quality Standard?
@@ -398,6 +402,7 @@ In Specialist Mode, "team" means the current Codex agent sequentially inhabits f
 Load Specialist Mode details progressively from this skill's `references/` folder:
 
 - Reference routing: `references/reference-router.md`
+- Skill dictionary for compact standalone/domain skill discovery: `references/skill-dictionary.md`
 - Compact task-type checklists: `references/task-cards.md`
 - Agent Work Pack for temporary task-local execution context: `references/agent-work-pack.md`
 - Task lifecycle, risk lanes, and done evidence: `references/task-lifecycle.md`

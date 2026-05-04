@@ -160,6 +160,7 @@ For accepted ideas:
 - link any contribution candidate that supplied the evidence;
 - complete the Subtraction Gate before final acceptance;
 - define a Sunset Clause for meaningful workflow features;
+- update the Skill Dictionary and run its verifier if the idea creates, removes, renames, or materially changes a skill;
 - create one work order when the implementation is single-scope;
 - create a short task list when the idea naturally splits into two to five tasks;
 - mark lifecycle state and risk lane for meaningful work orders;

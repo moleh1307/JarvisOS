@@ -8,11 +8,12 @@ This map is a routing aid, not a new gate. It should reduce cognitive load by ma
 
 When multiple skills apply:
 
-1. Pick one lead skill for the main deliverable.
-2. Use supporting skills only for the part they uniquely improve.
-3. Keep JarvisOS responsible for continuity, memory, Specialist Mode, work orders, handoffs, and closeout.
-4. Keep domain skills responsible for domain method, output format, quality bar, and domain-specific verification.
-5. Stop loading skill references once the lead/support boundary is clear enough to act.
+1. Use `skill-dictionary.md` first when the candidate skills are not already obvious from the live skill list or user wording.
+2. Pick one lead skill for the main deliverable.
+3. Use supporting skills only for the part they uniquely improve.
+4. Keep JarvisOS responsible for continuity, memory, Specialist Mode, work orders, handoffs, and closeout.
+5. Keep domain skills responsible for domain method, output format, quality bar, and domain-specific verification.
+6. Stop loading skill references once the lead/support boundary is clear enough to act.
 
 Do not merge every skill's whole workflow into one mega-process. Compose only the needed pieces.
 
@@ -126,6 +127,7 @@ Use when creating or updating a reusable Codex skill.
 Do not:
 
 - load every referenced skill file just because several skills are installed;
+- skip the Skill Dictionary when a specialized task may match an installed standalone skill but the right skill is not obvious;
 - create duplicate task boards, session notes, or memories for a domain skill task;
 - use JarvisOS as an excuse to soften a specialized skill's quality bar;
 - let a domain skill bypass artifact hygiene or public/private boundaries;
