@@ -32,6 +32,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Scratchpad Expiry | Temporary notes, assumptions, QA outputs, screenshots, drafts, Work Packs, or diagnostics may become memory noise. | closeout after scratch work | [Checklists](checklists.md) |
 | Reference Router | Several workflow references could apply and the agent should not over-read. | complex routing | [Reference Router](../operations/reference-router.md) |
 | Skill Dictionary | A specialized task may match a standalone/domain skill and the agent should not load every skill file. | research/math/tool/domain work | [Skill Dictionary](../operations/skill-dictionary.md) |
+| Project Skill Incubator | A Specialist Mode project has repeated local workflow that may deserve a local project skill. | repeated project-local procedure | [Project Skill Incubator](../operations/project-skill-incubator.md) |
 | Agent Work Pack | A meaningful task has scattered context, tools, constraints, and done criteria. | `create a Work Pack` | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Done Shape | A deliverable needs a clear target before implementation. | meaningful deliverable Work Pack | [Agent Work Pack](../operations/agent-work-pack.md) |
 | Assumption Ledger | A Work Pack needs to carry consequential assumptions without blocking execution. | meaningful Work Pack with uncertainty | [Agent Work Pack](../operations/agent-work-pack.md) |
@@ -57,6 +58,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 - Use the Command Deck for short invocations.
 - Use the Reference Router when several docs could apply.
 - Use the Skill Dictionary when a specialized task may match a standalone/domain skill.
+- Use Project Skill Incubator before creating local project skills.
 - Use a Work Pack when execution context is scattered.
 - Use Jarvis Doctor before public template commits.
 

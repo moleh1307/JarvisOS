@@ -69,6 +69,16 @@ description: Compact execution checklists for common JARVIS OS work.
 - Update the dictionary when a skill is created, installed, removed, renamed, or materially rerouted.
 - Run the skill dictionary check when skill coverage changed.
 
+## Project Skill Incubator
+
+- Use it when repeated Specialist Mode project-local workflow may deserve a local skill.
+- Try a project note, checklist, or playbook before creating a project skill.
+- Create a project skill only when triggers, non-triggers, workflow, outputs, verification, and sunset trigger are clear.
+- Store local skills under `company/project-skills/`.
+- Maintain `company/project-skills/index.md` when skills exist or future agents may miss them.
+- Run the project-skill checker when creating, changing, promoting, retiring, or relying on project skills.
+- Keep project skills local unless dogfood or cross-project evidence justifies a JarvisOS Skill Ticket.
+
 ## Feature Saturation Check
 
 - Use it when several consecutive R&D additions land in the same workflow area.

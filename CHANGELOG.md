@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.102 - 2026-05-04
+
+- Added Project Skill Incubator so Specialist Mode projects can grow local project-specific skills from repeated workflow evidence.
+- Added a project skill template and project-skill checker for local skill structure.
+- Updated routing, Skill Dictionary, Skill Quality Standard, R&D loop guidance, Capability Index, checklists, and public docs.
+
 ## 0.0.101 - 2026-05-04
 
 - Added Skill Dictionary routing so agents can choose standalone/domain skills without loading every skill file.

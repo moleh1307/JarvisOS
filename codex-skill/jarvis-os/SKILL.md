@@ -40,6 +40,7 @@ Use features automatically when their trigger is naturally present:
 - consequential uncertainty inside a Work Pack: use Assumption Ledger;
 - task may match a standalone/domain skill: inspect the Skill Dictionary, choose the smallest lead/support skill set, then read only the selected skill files;
 - multiple applicable skills: use Skill Composition routing;
+- repeated project-local workflow inside Specialist Mode: use Project Skill Incubator before creating a local project skill;
 - R&D idea loop: use Dogfood Return Check, Feature Saturation Check, Subtraction Gate, and the R&D Loop reference;
 - public template/repo change: update docs/version metadata, run validation, commit, and push when safe;
 - cancelled or accidental prior instruction: apply Accidental Message Guard.
@@ -129,6 +130,8 @@ When starting meaningful work where the needed execution context is scattered ac
 
 When creating, routing, reviewing, or closing Specialist Mode work orders, use `references/task-lifecycle.md` to keep task state, risk lane, acceptance criteria, verification evidence, canonical artifact, and closeout state aligned. Do not use it for trivial Core work where no durable task exists.
 
+When repeated project-local work suggests the project team needs its own evolving local skill, use `references/project-skill-incubator.md`. Project skills live in the project first, usually under `company/project-skills/`; they should not become global JarvisOS skills until dogfood and cross-project evidence justify promotion.
+
 When a Specialist Mode team is explicitly running continuous improvement, product R&D, workflow R&D, or an idea-by-idea loop, use `references/rd-idea-loop.md`. Keep one idea in focus, discuss it with the smallest useful role set, convert accepted ideas into short task lists, implement, refresh the project or skill, and dogfood the new behavior before returning to ideation.
 
 Use Feature Saturation Check when R&D has added several consecutive features in the same workflow area before adding another adjacent feature. Keep it lightweight:
@@ -157,6 +160,7 @@ Reference routing should answer:
 - Do multiple skills apply, and if so which skill leads versus supports?
 - Is this a `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction that should be routed into JarvisOS R&D instead of directly promoted?
 - Is this a skill or skillset proposal that needs the Skill Quality Standard?
+- Does repeated project-local work justify a project skill, or is a checklist/work-order enough?
 - Which focused references are needed now?
 - Which references can be skipped to avoid prompt bloat?
 
@@ -406,6 +410,7 @@ Load Specialist Mode details progressively from this skill's `references/` folde
 - Compact task-type checklists: `references/task-cards.md`
 - Agent Work Pack for temporary task-local execution context: `references/agent-work-pack.md`
 - Task lifecycle, risk lanes, and done evidence: `references/task-lifecycle.md`
+- Project Skill Incubator for project-local evolving skills: `references/project-skill-incubator.md`
 - R&D idea loop, accepted/rejected idea handling, and dogfood evidence: `references/rd-idea-loop.md`
 - Cross-project contributions and skillset extraction candidates: `references/cross-project-contributions.md`
 - Skill creation, skill-ticket draft quality, ownership boundaries, repair paths, and acceptance criteria: `references/skill-quality-standard.md`

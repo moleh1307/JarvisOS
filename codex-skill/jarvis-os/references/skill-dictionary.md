@@ -54,3 +54,21 @@ Use the live skill list first, then treat these as routing families:
 - Browser/GitHub/mail/calendar/document/spreadsheet/presentation/plugin skills: lead tool-specific operations when the relevant plugin is available.
 
 JarvisOS supports domain/plugin skills with memory, artifact hygiene, approval boundaries, and closeout. It should not replace the domain skill's technical method.
+
+## Project-Specific Skills
+
+Some Specialist Mode projects may define local project skills under `company/project-skills/`.
+
+Use them when:
+
+- the active project has `company/project-skills/index.md`;
+- the index trigger matches the current project task;
+- the project skill adds local context or local verification beyond installed/global skills.
+
+Do not use them when:
+
+- an installed/global skill fully owns the task and the project skill adds no local value;
+- the project skill is stale, contradicted by current project evidence, or marked retired;
+- the task is one-off and a work-order checklist is enough.
+
+When project skills are created or updated, use `project-skill-incubator.md` and run the project-skill checker.

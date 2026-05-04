@@ -28,10 +28,13 @@ REQUIRED_PATHS = [
     "CHANGELOG.md",
     "codex-skill/jarvis-os/SKILL.md",
     "codex-skill/jarvis-os/references/skill-dictionary.md",
+    "codex-skill/jarvis-os/references/project-skill-incubator.md",
     "codex-skill/jarvis-os/references/reference-router.md",
     "codex-skill/jarvis-os/references/task-cards.md",
     "templates/company-mode/work-order.md",
+    "templates/company-mode/project-skill.md",
     "tools/skill-dictionary-check.py",
+    "tools/project-skill-check.py",
     "website/sidebars.js",
     "website/package.json",
 ]

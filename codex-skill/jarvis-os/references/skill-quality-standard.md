@@ -29,6 +29,8 @@ Do not apply the full standard when:
 - a small docs clarification is enough;
 - the workflow belongs in project memory, not a reusable skill.
 
+For project-local repeated workflows, use `project-skill-incubator.md` first. Promote to this full global skill standard only when project dogfood or cross-project evidence justifies it.
+
 ## Skill Shape
 
 Every serious JarvisOS skill should answer these questions explicitly.
@@ -188,6 +190,7 @@ Before accepting a skill proposal, the R&D team should ask:
 
 - Does this solve repeated or high-impact friction?
 - Does it belong in a separate skill instead of core JarvisOS?
+- Does it belong as a project skill first instead of a global skill?
 - Does an existing reference already cover most of it?
 - Can it replace or simplify an existing rule?
 - Are the trigger and non-trigger boundaries clear?

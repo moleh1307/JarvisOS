@@ -38,6 +38,7 @@ const sidebars = {
         'operations/reference-router',
         'operations/skill-dictionary',
         'operations/skill-composition',
+        'operations/project-skill-incubator',
         'operations/agent-work-pack',
         'operations/jarvis-doctor',
         'operations/task-lifecycle',
