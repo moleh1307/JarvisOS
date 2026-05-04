@@ -11,15 +11,20 @@ It turns creative ideas into reviewed, implemented, dogfooded workflow changes.
 
 ## Loop Shape
 
-1. Briefly check whether the last R&D feature affected this cycle.
-2. Generate one out-of-box idea.
-3. Discuss it with the smallest useful role set.
-4. Accept, reject, merge, or defer it.
-5. Convert accepted ideas into a short task list.
-6. Implement.
-7. Refresh the skill and public template if needed.
-8. Define where the new behavior should be dogfooded next.
-9. Return to ideation.
+1. Run Feature Adoption Check for named or naturally triggered JarvisOS features.
+2. Briefly check whether the last R&D feature affected this cycle.
+3. Generate one out-of-box idea.
+4. Discuss it with the smallest useful role set.
+5. Accept, reject, merge, or defer it.
+6. Convert accepted ideas into a short task list.
+7. Implement.
+8. Refresh the skill and public template if needed.
+9. Define where the new behavior should be dogfooded next.
+10. Return to ideation.
+
+## Feature Adoption Check
+
+Before working, the team names which existing features should matter in this cycle. If the user names Jarvis Doctor, Usage Example Closeout, or another feature, it must be used or explicitly skipped with a reason. Public template changes should run Jarvis Doctor before closeout.
 
 ## Dogfood Return Check
 
@@ -39,6 +44,7 @@ R&D should not add complexity endlessly.
 Use:
 
 - Subtraction Gate: what does this simplify, remove, or make less necessary?
+- Feature Adoption Check: are named or naturally triggered features actually being used?
 - Dogfood Return Check: did the last improvement actually change this cycle?
 - Sunset Clause: when should this be reviewed or retired?
 - Sunset Review Ledger: where are active review triggers tracked when they start to scatter?

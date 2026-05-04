@@ -39,12 +39,25 @@ description: Compact execution checklists for common JARVIS OS work.
 - Check `company/task-board.md`.
 - Identify operating mode.
 - If continuation is likely but a full handoff is too much, maintain a one-screen handoff seed.
+- Run Feature Adoption Check for JARVIS R&D, workflow feedback, public template work, or named JarvisOS features.
 - Pick the next unblocked task.
 - Load only the references needed.
 - Execute and verify.
 - After implementing an R&D idea or workflow feature, include a short usage example in the closeout.
 - Use Closeout Stack Order when several closeout pieces apply.
 - Update state and closeout.
+
+## Feature Adoption Check
+
+- Use it for meaningful JARVIS R&D, Specialist Mode workflow changes, public template changes, or when the user names an existing JarvisOS feature.
+- Identify named features from the prompt or recent feedback, such as Jarvis Doctor, Usage Example Closeout, Dogfood Return Check, or Closeout Stack Order.
+- Identify naturally triggered features from the task type: R&D Loop, public validation, memory routing, capability surface, closeout, skill quality, or release readiness.
+- Identify the last meaningful feature in the active workflow area when dogfooding is relevant.
+- For each applicable feature, use it or mark `skipped` with a short reason.
+- Do not silently ignore named features, public validation tools, or closeout rules that clearly apply.
+- In the user-facing report, mention only the features that materially shaped the work or were deliberately skipped.
+- For public template/repo changes, run Jarvis Doctor unless unavailable or genuinely irrelevant.
+- Keep it lightweight; this is an adoption guard, not a new long form.
 
 ## Feature Saturation Check
 

@@ -25,6 +25,7 @@ Before finishing meaningful work, the outcome should satisfy:
 - consequential ambiguity has been asked or clearly bounded by a low-risk assumption;
 - the requested work is completed or the exact blocker is named;
 - generated artifacts are verified before being called ready;
+- named or naturally triggered JarvisOS features were used, or were consciously skipped with a brief reason when the skip matters;
 - durable memory is updated only when project state, decisions, blockers, preferences, artifacts, or next steps actually changed.
 
 ## Relevance-First Auto-Routing
@@ -43,6 +44,20 @@ Use features automatically when their trigger is naturally present:
 - cancelled or accidental prior instruction: apply Accidental Message Guard.
 
 Do not run every feature just because it exists. The goal is optimal routing: enough structure to prevent failure, little enough structure to keep momentum.
+
+## Feature Adoption Check
+
+Use Feature Adoption Check for meaningful JARVIS R&D, Specialist Mode workflow changes, public template changes, or when the user names an existing JarvisOS feature and expects it to matter.
+
+Before execution, make a compact applicability pass:
+
+- named features in the user's request or recent feedback, such as Jarvis Doctor, Usage Example Closeout, Dogfood Return Check, or Closeout Stack Order;
+- features naturally triggered by the task type, such as R&D Loop, public release validation, memory routing, capability surface, closeout, or skill quality;
+- the last meaningful feature added in the active workflow area, when the task is a dogfood or improvement loop.
+
+For each applicable feature, either use it or explicitly mark it `skipped` with a short reason. Do not silently ignore a named feature, a public validation tool, or a closeout rule that the current task clearly triggers.
+
+Keep the check lightweight. In user-facing updates, mention only the features that materially shaped the work or were deliberately skipped. In closeout, include a usage example for new user-observable workflow features and run Jarvis Doctor for public template/repo changes unless it is unavailable or genuinely irrelevant.
 
 ## Core Operating Rules
 

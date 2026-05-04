@@ -8,18 +8,31 @@ The loop exists to turn creative ideas into tested workflow changes without lett
 
 Run one idea at a time:
 
-1. Run Dogfood Return Check for the last meaningful R&D feature when useful.
-2. Ideation role proposes one out-of-box idea.
-3. Relevant team roles discuss the idea.
-4. If rejected, record the rejection reason and return to ideation.
-5. If accepted, Chief of Staff or project manager converts it into a short task list.
-6. The team implements the task list.
-7. The project or skill is refreshed.
-8. The closeout explains the implemented idea compactly.
-9. The team defines where the new feature should be dogfooded next.
-10. Return to one new idea.
+1. Run Feature Adoption Check for named/applicable JarvisOS features in the current loop.
+2. Run Dogfood Return Check for the last meaningful R&D feature when useful.
+3. Ideation role proposes one out-of-box idea.
+4. Relevant team roles discuss the idea.
+5. If rejected, record the rejection reason and return to ideation.
+6. If accepted, Chief of Staff or project manager converts it into a short task list.
+7. The team implements the task list.
+8. The project or skill is refreshed.
+9. The closeout explains the implemented idea compactly.
+10. The team defines where the new feature should be dogfooded next.
+11. Return to one new idea.
 
 Do not batch many unrelated ideas unless the user explicitly asks for a broad brainstorm. A loop is strongest when every idea must survive discussion, implementation planning, and dogfood evidence.
+
+## Feature Adoption Check
+
+At the start of a JARVIS R&D cycle, name the small set of existing features that should affect this cycle. Include features the user explicitly mentioned, features triggered by the task type, and the last meaningful feature in the same workflow area when dogfooding is relevant.
+
+For each applicable feature, use it or mark `skipped` with a reason. Examples:
+
+- `Usage Example Closeout`: used because this cycle implements a user-visible workflow feature.
+- `Jarvis Doctor`: used because the public template changed.
+- `Feature Saturation Check`: skipped because this is a defect repair, not another adjacent feature addition.
+
+This check exists to prevent feature creation from outpacing feature adoption. Keep it compact; it should change behavior, not add a long preamble.
 
 ## Dogfood Return Check
 

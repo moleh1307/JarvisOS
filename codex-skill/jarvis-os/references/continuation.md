@@ -10,21 +10,22 @@ When the user says `continue`:
 2. Read `company/team-roster.md`, `company/current-state.md`, `company/task-board.md`, operating mode, and relevant role memory.
 3. If the previous task appears implemented but not fully closed, run the Closeout Resume Sweep before starting new work.
 4. Use the operating mode to choose the right default behavior and reference file before executing.
-5. If the task depends on tools, apps, external services, deployment, generated assets, or verification capability, load `capability-surface.md` and declare the capability surface compactly.
-6. Check blocked/review tasks before new work.
-7. Pick the highest-priority unblocked task unless the operating mode or a new bottleneck justifies re-ranking.
-8. Enter the assigned role using the roster-backed header.
-9. Execute within the task's allowed scope.
-10. Decide whether Selective Innovation Mode is needed.
-11. Verify role-appropriately. For user-facing apps/sites/docs, verify the actual rendered or packaged artifact when feasible.
-12. Run Stop-the-Line Review if continuing normally would produce wrong, generic, misleading, stale, or low-quality work.
-13. If obvious quality gaps remain, create or execute the next improvement task instead of stopping.
-14. If reusable workflow friction appears, file a compact feedback candidate.
-15. Update task board, current state, role memory, integration log, lifecycle state, risk lane, and operating mode if the project phase changed.
-16. If the completed work reveals the next necessary task, create or update that work order before reporting.
-17. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
-18. Run the Closeout Integrity Check for meaningful completions.
-19. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
+5. Run Feature Adoption Check when continuing JARVIS R&D, public template work, workflow feedback, or any task where the user named a JarvisOS feature.
+6. If the task depends on tools, apps, external services, deployment, generated assets, or verification capability, load `capability-surface.md` and declare the capability surface compactly.
+7. Check blocked/review tasks before new work.
+8. Pick the highest-priority unblocked task unless the operating mode or a new bottleneck justifies re-ranking.
+9. Enter the assigned role using the roster-backed header.
+10. Execute within the task's allowed scope.
+11. Decide whether Selective Innovation Mode is needed.
+12. Verify role-appropriately. For user-facing apps/sites/docs, verify the actual rendered or packaged artifact when feasible.
+13. Run Stop-the-Line Review if continuing normally would produce wrong, generic, misleading, stale, or low-quality work.
+14. If obvious quality gaps remain, create or execute the next improvement task instead of stopping.
+15. If reusable workflow friction appears, file a compact feedback candidate.
+16. Update task board, current state, role memory, integration log, lifecycle state, risk lane, and operating mode if the project phase changed.
+17. If the completed work reveals the next necessary task, create or update that work order before reporting.
+18. Run the Queue Re-Ranking Check if the result was meaningful or surprising.
+19. Run the Closeout Integrity Check for meaningful completions.
+20. Report compactly with completed work, verification, blockers, explicit next action, and state-aware completion options when useful.
 
 ## Closeout Resume Sweep
 
@@ -258,6 +259,7 @@ Check proportionally:
 - If git/GitHub changed, branch, status, remote, commit, PR, tag, or release claims match tool results.
 - If artifacts changed, referenced files exist, are canonical or labeled correctly, and were verified by the relevant check.
 - If a capability surface was declared, required capabilities, approval lane, and verification path match what actually happened.
+- If the user named a JarvisOS feature, or the task naturally triggered one, the report does not silently skip it; the feature was used or skipped with reason.
 - If a public artifact was deployed or updated locally, local files, live URL/deployment target, preview server state, and public/private data boundaries agree. If local and production differ, report that explicitly and offer the exact deploy or pause path.
 - State-aware completion options are present when useful. For meaningful completions, either include a compact `Options:` menu built from live state, or have a clear reason it would not help.
 - Blockers, `Decision needed:`, and `Options:` do not contradict autonomy rules or the actual next unblocked work.

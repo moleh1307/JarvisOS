@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.100 - 2026-05-04
+
+- Added Feature Adoption Check so agents must use or explicitly skip named/naturally triggered JarvisOS features.
+- Routed the check into R&D loops, Specialist Mode continuation, closeout, public template validation, and the Capability Index.
+- Clarified that Jarvis Doctor should run for public template/repo changes unless unavailable or genuinely irrelevant.
+
 ## 0.0.99 - 2026-05-03
 
 - Added Feature Saturation Check so R&D loops pause before adding another adjacent feature after several consecutive additions in the same workflow area.
