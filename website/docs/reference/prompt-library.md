@@ -70,7 +70,7 @@ Jarvis, use JARVIS OS Specialist Mode for this project:
 /path/to/project
 ```
 
-If you only say `go for Specialist Mode`, the agent should ask which project or folder instead of assuming JARVIS R&D.
+If you only say `go for Specialist Mode`, even inside a JARVIS vault with an existing `company/` folder, the agent should ask which project or folder instead of assuming JARVIS R&D.
 
 ## JarvisOS Skill Ticket
 

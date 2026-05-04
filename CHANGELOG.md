@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.105 - 2026-05-04
+
+- Tightened Specialist Mode Target Gate after dogfood showed `company/` presence still let a bare activation bind to JARVIS R&D.
+- Clarified that existing Specialist files and the phrase `JARVIS OS` are not target consent; bare Specialist Mode asks for the project/folder unless the user explicitly names R&D, a public-template task, or a JRD/work-order continuation.
+
 ## 0.0.104 - 2026-05-04
 
 - Added a Specialist Mode Target Gate so bare requests like `go for Specialist Mode` ask for the project/folder instead of defaulting to JARVIS R&D.

@@ -101,10 +101,10 @@ Ask a short clarifying question instead of defaulting to JARVIS R&D when all are
 
 - the user only says something like `go for Specialist Mode`, `use Specialist Mode`, `activate Company Mode`, or `go team mode`;
 - no explicit target path, project name, active work order, or current project has been bound in this turn;
-- recent context includes another plausible project, deleted/cleaned project state, or a non-R&D artifact;
+- the message does not explicitly say JARVIS R&D, continue R&D, new idea, public template, JarvisOS workflow bug, or a specific JRD/work-order ID;
 - choosing the wrong target would create files, memory, work orders, or an R&D route.
 
-Do not route to JARVIS R&D merely because the current workspace is the JARVIS vault or because the phrase mentions Specialist Mode. Route to JARVIS R&D only when the user explicitly asks for JARVIS OS/R&D improvement, `new idea`, public template work, workflow bug fixing, or the live JARVIS R&D state is clearly the active target.
+Do not route to JARVIS R&D merely because the current workspace is the JARVIS vault, because `company/` exists, because the phrase mentions Specialist Mode, or because the user also says `JARVIS OS`. Existing Specialist Mode files are evidence of a possible target, not consent to bind to that target. Route to JARVIS R&D only when the user explicitly asks for JARVIS OS/R&D improvement, `new idea`, public template work, workflow bug fixing, or a specific JRD/work-order continuation.
 
 When the target is inferable with high confidence, state it once before acting, for example: `Specialist Mode target: /path/to/project`. When it is not, ask: `Specialist Mode for which project or folder?`
 

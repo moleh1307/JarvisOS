@@ -13,13 +13,13 @@ It is the successor name for the older Company Mode. Company Mode remains a comp
 
 Specialist Mode must govern a specific target: a project, repo, folder, research problem, product, or workflow.
 
-If the user only says something like `go for Specialist Mode` and the target is unclear, the agent should ask:
+If the user only says something like `go for Specialist Mode` without naming a target in the message, the agent should ask:
 
 ```text
 Specialist Mode for which project or folder?
 ```
 
-Do not default to JARVIS R&D just because the current workspace is a JARVIS vault. Route to JARVIS R&D only when the user explicitly asks for JARVIS OS/R&D improvement, `new idea`, public template work, workflow bug fixing, or the live JARVIS R&D state is clearly the active target.
+Do not default to JARVIS R&D just because the current workspace is a JARVIS vault, because `company/` exists, or because the user also says `JARVIS OS`. Existing Specialist Mode files are evidence of a possible target, not consent to bind to that target. Route to JARVIS R&D only when the user explicitly asks for JARVIS OS/R&D improvement, `new idea`, public template work, workflow bug fixing, or a specific JRD/work-order continuation.
 
 When the target is clear, state it once before acting:
 
