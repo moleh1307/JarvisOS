@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.104 - 2026-05-04
+
+- Added a Specialist Mode Target Gate so bare requests like `go for Specialist Mode` ask for the project/folder instead of defaulting to JARVIS R&D.
+- Updated Specialist Mode docs, checklists, capability index, prompt library, and quick-start prompts to require or state the Specialist Mode target.
+
 ## 0.0.103 - 2026-05-04
 
 - Added Project Skill Index Routing so Specialist Mode agents scan `company/project-skills/index.md` when local project skills already exist.

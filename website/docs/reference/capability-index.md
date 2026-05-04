@@ -15,6 +15,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Feature Adoption Check | Existing JarvisOS features were named or naturally triggered and should not be silently skipped. | JARVIS R&D, workflow feedback, public template change | [Checklists](checklists.md) |
 | Light Mode | The task is small, local, or self-contained. | `Jarvis, use JARVIS OS` | [Light Mode](../modes/light-mode.md) |
 | Specialist Mode | The project needs roles, work orders, durable state, review, or release discipline. | `Jarvis, use JARVIS OS Specialist Mode` | [Specialist Mode](../modes/specialist-mode.md) |
+| Specialist Mode Target Gate | A bare Specialist Mode request could apply to the wrong project. | `go for Specialist Mode` without target | [Specialist Mode](../modes/specialist-mode.md) |
 | Mode Exit Ramp | Specialist Mode work is closed and the next task can be lighter. | closeout after serious work | [Light Mode](../modes/light-mode.md), [Specialist Mode](../modes/specialist-mode.md) |
 | Closeout Stack Order | Several closeout pieces apply and the final report could become bloated. | closeout with example, verification, rollback, options | [Checklists](checklists.md) |
 | Command Deck | You want short invocation phrases instead of long prompts. | `status`, `continue`, `new idea` | [Prompt Library](prompt-library.md) |
@@ -56,6 +57,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 - Use Feature Adoption Check when Melih names a feature or a task naturally triggers one.
 - Start with Light Mode unless the task earns Specialist Mode.
 - Use Specialist Mode when state, roles, review, release risk, or long-running continuity matter.
+- Resolve the Specialist Mode target before creating files, memory, or work orders.
 - Use the Command Deck for short invocations.
 - Use the Reference Router when several docs could apply.
 - Use the Skill Dictionary when a specialized task may match a standalone/domain skill.

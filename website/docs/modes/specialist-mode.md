@@ -9,6 +9,24 @@ Specialist Mode is the serious-project layer of JARVIS OS.
 
 It is the successor name for the older Company Mode. Company Mode remains a compatibility alias.
 
+## Target Gate
+
+Specialist Mode must govern a specific target: a project, repo, folder, research problem, product, or workflow.
+
+If the user only says something like `go for Specialist Mode` and the target is unclear, the agent should ask:
+
+```text
+Specialist Mode for which project or folder?
+```
+
+Do not default to JARVIS R&D just because the current workspace is a JARVIS vault. Route to JARVIS R&D only when the user explicitly asks for JARVIS OS/R&D improvement, `new idea`, public template work, workflow bug fixing, or the live JARVIS R&D state is clearly the active target.
+
+When the target is clear, state it once before acting:
+
+```text
+Specialist Mode target: /path/to/project
+```
+
 ## What It Adds
 
 Specialist Mode can add:

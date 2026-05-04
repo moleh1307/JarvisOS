@@ -6,7 +6,7 @@
 
 [![Docs](https://img.shields.io/badge/docs-moleh1307.github.io%2FJarvisOS-1f6feb?style=for-the-badge)](https://moleh1307.github.io/JarvisOS/)
 [![Built By](https://img.shields.io/badge/built_by-MOLEH-2ea44f?style=for-the-badge)](https://github.com/moleh1307)
-[![Version](https://img.shields.io/badge/version-0.0.103-da3633?style=for-the-badge)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.0.104-da3633?style=for-the-badge)](VERSION)
 
 **A local-first operating system for Codex continuity.**
 
@@ -108,7 +108,10 @@ Serious project:
 ```text
 Jarvis, use JARVIS OS Specialist Mode.
 
-Start a project for:
+Specialist Mode target:
+/path/to/project-or-new-project-name
+
+Start or continue a project for:
 ...
 
 Ask the material questions, choose the right team, and create the first work orders.
@@ -124,6 +127,8 @@ Adopt this existing project:
 
 Audit first. Do not reorganize before understanding the repo.
 ```
+
+If you only say `go for Specialist Mode`, JARVIS should ask which project or folder instead of assuming the JARVIS R&D project.
 
 Create a JarvisOS skill ticket:
 

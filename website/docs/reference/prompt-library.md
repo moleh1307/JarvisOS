@@ -61,6 +61,17 @@ Read the latest installed JARVIS OS skill and the live project state.
 Continue from the next unblocked task using the latest workflow rules.
 ```
 
+## Activate Specialist Mode
+
+Bare command, only safe when the project target is already clear:
+
+```text
+Jarvis, use JARVIS OS Specialist Mode for this project:
+/path/to/project
+```
+
+If you only say `go for Specialist Mode`, the agent should ask which project or folder instead of assuming JARVIS R&D.
+
 ## JarvisOS Skill Ticket
 
 Short command:
