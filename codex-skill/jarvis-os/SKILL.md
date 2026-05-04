@@ -39,6 +39,7 @@ Use features automatically when their trigger is naturally present:
 - scattered meaningful execution context: create or mentally assemble an Agent Work Pack;
 - consequential uncertainty inside a Work Pack: use Assumption Ledger;
 - task may match a standalone/domain skill: inspect the Skill Dictionary, choose the smallest lead/support skill set, then read only the selected skill files;
+- active Specialist Mode project has `company/project-skills/index.md`: scan the local project-skill index before choosing the project workflow, and read only triggered local skills;
 - multiple applicable skills: use Skill Composition routing;
 - repeated project-local workflow inside Specialist Mode: use Project Skill Incubator before creating a local project skill;
 - R&D idea loop: use Dogfood Return Check, Feature Saturation Check, Subtraction Gate, and the R&D Loop reference;
@@ -124,6 +125,8 @@ When multiple skills apply to the same request, use `references/skill-compositio
 
 When a task may match a standalone/domain skill but the user did not name it, use `references/skill-dictionary.md` before opening skill files. The dictionary is a compact routing index; it prevents both missed skills and context bloat. Use it to shortlist candidate skills, then read only the selected lead/support skill instructions.
 
+When a Specialist Mode project already has `company/project-skills/index.md`, scan that compact local index during routing before choosing the project workflow. Use a project skill only when its trigger matches and it adds local context, local constraints, or local verification beyond installed/global skills. Do not claim a project skill was used unless the index and the triggered project-skill file were actually read.
+
 When the task type is already clear but execution still risks cognitive overload, use `references/task-cards.md` for a compact checklist before deeper references. Task cards are optional execution aids for common task types; skip them for trivial work and route deeper when risk appears.
 
 When starting meaningful work where the needed execution context is scattered across state, work orders, skills, references, tools, and verification requirements, use `references/agent-work-pack.md` to create or mentally assemble a temporary task-local mission packet. Work Packs are not a second task board and are not mandatory for tiny Light Mode work; they expire after the task unless promoted into a handoff, work order, or memory update.
@@ -157,6 +160,7 @@ Reference routing should answer:
 - Does the task depend on tools, permissions, external services, or verification capabilities?
 - Does the task change durable memory or depend on possibly stale memory?
 - Does the task naturally match a standalone/domain skill, and has the Skill Dictionary been used before loading full skill files?
+- Does the active Specialist Mode project have `company/project-skills/index.md`, and does any local project skill trigger?
 - Do multiple skills apply, and if so which skill leads versus supports?
 - Is this a `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction that should be routed into JarvisOS R&D instead of directly promoted?
 - Is this a skill or skillset proposal that needs the Skill Quality Standard?

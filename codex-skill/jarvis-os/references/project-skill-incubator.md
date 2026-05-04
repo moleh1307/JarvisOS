@@ -83,6 +83,18 @@ python3 tools/project-skill-check.py <project-root>
 
 The checker validates structure and obvious drift. It does not replace dogfood evidence or role review.
 
+## Use During Project Work
+
+At the start of meaningful Specialist Mode work:
+
+1. Check whether `company/project-skills/index.md` exists.
+2. If it exists, scan it before choosing project workflow.
+3. Use a project skill only if its trigger applies and it adds local context, constraints, or verification.
+4. Prefer installed/global domain skills when the task is general and the project skill adds no local value.
+5. If a project skill is stale or wrong, create a repair work order instead of silently following it.
+
+Do not claim a project skill was used unless the index and the triggered project-skill file were actually read.
+
 ## Promotion To Global JARVIS
 
 Promote a project skill to global JARVIS only when at least one is true:

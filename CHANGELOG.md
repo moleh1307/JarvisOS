@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.103 - 2026-05-04
+
+- Added Project Skill Index Routing so Specialist Mode agents scan `company/project-skills/index.md` when local project skills already exist.
+- Clarified that local project skills should be used only when their trigger matches and they add local context, constraints, or verification.
+- Updated Project Skill Incubator docs, Capability Index, and checklists with the project-skill adoption rule.
+
 ## 0.0.102 - 2026-05-04
 
 - Added Project Skill Incubator so Specialist Mode projects can grow local project-specific skills from repeated workflow evidence.

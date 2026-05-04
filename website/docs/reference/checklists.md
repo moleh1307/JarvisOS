@@ -71,6 +71,9 @@ description: Compact execution checklists for common JARVIS OS work.
 
 ## Project Skill Incubator
 
+- At the start of meaningful Specialist Mode work, scan `company/project-skills/index.md` when it exists.
+- Use a local project skill only when its trigger matches and it adds local context, constraints, or verification.
+- Do not claim a project skill was used unless the index and triggered skill file were actually read.
 - Use it when repeated Specialist Mode project-local workflow may deserve a local skill.
 - Try a project note, checklist, or playbook before creating a project skill.
 - Create a project skill only when triggers, non-triggers, workflow, outputs, verification, and sunset trigger are clear.
