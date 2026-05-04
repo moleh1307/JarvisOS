@@ -36,8 +36,9 @@ description: Compact execution checklists for common JARVIS OS work.
 ## Specialist Mode Continuation
 
 - Resolve the Specialist Mode target first: project, repo, folder, research problem, product, or workflow.
-- If the user only says `go for Specialist Mode` or similar and the target is unclear, ask which project/folder instead of defaulting to JARVIS R&D.
-- Route to JARVIS R&D only when the user explicitly asks for JarvisOS/R&D improvement, `new idea`, public template work, workflow bug fixing, or the live R&D state is clearly active.
+- If the user only says `go for Specialist Mode` or similar and no target is explicit in the message, ask which project/folder instead of defaulting to JARVIS R&D.
+- Do not treat existing `company/` files or the phrase `JARVIS OS` as target consent.
+- Route to JARVIS R&D only when the user explicitly asks for JarvisOS/R&D improvement, `new idea`, public template work, workflow bug fixing, or a specific JRD/work-order continuation.
 - Read `company/current-state.md`.
 - Check `company/task-board.md`.
 - Identify operating mode.

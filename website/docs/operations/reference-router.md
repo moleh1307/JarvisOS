@@ -37,7 +37,7 @@ Before deep work, ask:
 | self-improvement | `references/self-improvement-reflexes.md` |
 | `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction | `references/cross-project-contributions.md` |
 | skill or skillset creation/review | `references/skill-quality-standard.md` |
-| bare Specialist Mode request with unclear target | stay in the main skill target gate and ask for the project/folder |
+| bare Specialist Mode request with unclear target | stay in the main skill target gate and ask for the project/folder; do not bind to JARVIS R&D because `company/` exists |
 | R&D loop | `references/rd-idea-loop.md` |
 
 ## Stop Rule
