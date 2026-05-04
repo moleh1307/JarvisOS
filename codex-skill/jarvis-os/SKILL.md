@@ -95,6 +95,19 @@ Activate Specialist Mode when the work benefits from durable role separation or 
 - the task is a serious greenfield project, existing-project adoption, product/app/site build, research program, data/quant project, release, or long-running workflow;
 - the project needs Founder/Chief-of-Staff routing, work orders, role memories, QA gates, internal review, or autonomous `continue` behavior.
 
+Before activating Specialist Mode, resolve the Specialist Mode target. The target is the project, repo, folder, research problem, product, or workflow that Specialist Mode will govern.
+
+Ask a short clarifying question instead of defaulting to JARVIS R&D when all are true:
+
+- the user only says something like `go for Specialist Mode`, `use Specialist Mode`, `activate Company Mode`, or `go team mode`;
+- no explicit target path, project name, active work order, or current project has been bound in this turn;
+- recent context includes another plausible project, deleted/cleaned project state, or a non-R&D artifact;
+- choosing the wrong target would create files, memory, work orders, or an R&D route.
+
+Do not route to JARVIS R&D merely because the current workspace is the JARVIS vault or because the phrase mentions Specialist Mode. Route to JARVIS R&D only when the user explicitly asks for JARVIS OS/R&D improvement, `new idea`, public template work, workflow bug fixing, or the live JARVIS R&D state is clearly the active target.
+
+When the target is inferable with high confidence, state it once before acting, for example: `Specialist Mode target: /path/to/project`. When it is not, ask: `Specialist Mode for which project or folder?`
+
 If the user gives a serious project but does not name a mode, infer the appropriate mode from the project shape. Ask only when the mode choice would materially change risk, scope, cost, or file layout. When unsure between Light Mode and Specialist Mode, start in Light Mode and escalate only when role separation, persistent state, review gates, or project governance would clearly reduce risk or confusion.
 
 Use a Mode Exit Ramp after meaningful Specialist Mode closeout. If the work order is done, blockers are clear, state is updated, and the next likely request is a small question, narrow edit, status check, or ordinary artifact task, downshift the next turn to Light Mode unless the user asks to continue Specialist Mode. Do not downshift when active work remains, release/deployment risk is open, role review is still needed, memory/state is inconsistent, the user asks the team to keep running, or the topic is JARVIS R&D / Specialist Mode itself.
@@ -156,6 +169,7 @@ When the user asks what JARVIS learned or when self-improvement should be visibl
 Reference routing should answer:
 
 - Is this Core or Specialist Mode?
+- If Specialist Mode, what exact project/workflow is the target, and is the target explicit, inferred, or unclear?
 - Is this continuation, greenfield setup, adoption, public artifact, visual craft, QA, release, research/claim work, workflow feedback, or recovery?
 - Does the task depend on tools, permissions, external services, or verification capabilities?
 - Does the task change durable memory or depend on possibly stale memory?

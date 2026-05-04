@@ -56,6 +56,9 @@ If an old chat is still active, use a workflow refresh prompt:
 Jarvis, workflow refresh.
 
 Use JARVIS OS Specialist Mode.
+
+Specialist Mode target:
+/path/to/project
 Read the latest installed JARVIS OS skill and the live project state.
 Continue from the next unblocked task using the latest workflow rules.
 ```

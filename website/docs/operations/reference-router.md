@@ -14,6 +14,7 @@ The Reference Router helps choose the smallest useful reference bundle.
 Before deep work, ask:
 
 - Is this Light Mode or Specialist Mode?
+- If Specialist Mode, what exact project or workflow is the target?
 - Is this continuation, greenfield setup, adoption, public artifact, visual craft, QA, release, research, workflow feedback, or recovery?
 - Does the task depend on tools or permissions?
 - Does the task change durable memory?
@@ -36,6 +37,7 @@ Before deep work, ask:
 | self-improvement | `references/self-improvement-reflexes.md` |
 | `JarvisOS Skill Ticket`, cross-project contribution, or skillset extraction | `references/cross-project-contributions.md` |
 | skill or skillset creation/review | `references/skill-quality-standard.md` |
+| bare Specialist Mode request with unclear target | stay in the main skill target gate and ask for the project/folder |
 | R&D loop | `references/rd-idea-loop.md` |
 
 ## Stop Rule

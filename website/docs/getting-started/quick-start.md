@@ -79,6 +79,9 @@ and files the next chat should read first.
 ```text
 Jarvis, use JARVIS OS Specialist Mode.
 
+Specialist Mode target:
+/path/to/project
+
 Start a serious project for:
 ...
 
