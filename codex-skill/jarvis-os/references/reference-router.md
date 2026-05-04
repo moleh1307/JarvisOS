@@ -58,21 +58,23 @@ If the task becomes consequential, public-facing, long-running, or role-governed
 
 ## Routing Procedure
 
-1. Identify the active mode: JARVIS Core or Specialist Mode.
-2. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
-3. Use `skill-composition.md` when multiple skills apply and the lead/support boundary is not obvious.
-4. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
-5. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
-6. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
-7. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
-8. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
-9. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
-10. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
-11. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
-12. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
-13. Read only the selected references and the live project state needed for the next action.
-14. Execute or propose according to the selected route.
-15. If the route was wrong, run Stop-the-Line Review and switch route.
+1. Identify whether the message contains an actual task. If the user only invokes JARVIS OS with no task, mode, project, or target, stay in the main skill's bare-invocation mode chooser and ask whether to use Core or Specialist Mode.
+2. Identify the active mode: JARVIS Core or Specialist Mode.
+3. If Specialist Mode is requested, identify the exact target project/workflow before routing deeper. Ask when the target is ambiguous; do not default to JARVIS R&D just because the workspace is the JARVIS vault, `company/` exists, or the user also says `JARVIS OS`.
+4. Identify the request class: continue, initialize, adopt, build, research, public artifact, visual craft, release, QA, workflow feedback, or recovery.
+5. Use `skill-composition.md` when multiple skills apply and the lead/support boundary is not obvious.
+6. Use `task-cards.md` when a compact task-type checklist is enough to start safely.
+7. Use `agent-work-pack.md` when a task-local brief would reduce over-reading or scattered execution context.
+8. Use `task-lifecycle.md` when durable work-order state, risk lane, blocker, evidence, or done status is being changed.
+9. Use `rd-idea-loop.md` when the task is explicitly running an idea loop, continuous improvement loop, product R&D loop, or workflow R&D loop.
+10. Use `self-improvement-reflexes.md` when the task is about active learning, candidate capture, memory metabolism, or making JARVIS feel more alive without silent rule mutation.
+11. Use `cross-project-contributions.md` when another JarvisOS chat/project should create a `JarvisOS Skill Ticket` or package a reusable discovery, proposed feature, or candidate skill/skillset for R&D review.
+12. Use `skill-quality-standard.md` when the task creates, proposes, reviews, or implements a skill, skillset, or skill-ticket draft.
+13. Use `learning-pulse.md` when the task is to make recent learning visible without changing standing behavior.
+14. Select the smallest deeper reference bundle from the table when the card exposes higher risk or missing detail.
+15. Read only the selected references and the live project state needed for the next action.
+16. Execute or propose according to the selected route.
+17. If the route was wrong, run Stop-the-Line Review and switch route.
 
 ## Conflict Rules
 

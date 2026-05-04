@@ -80,6 +80,15 @@ Keep the check lightweight. In user-facing updates, mention only the features th
 
 ## Choose Core Or Specialist Mode
 
+If the user only invokes JARVIS OS without a task, mode, project, or target, do not silently choose a mode. Give a compact mode chooser and ask which mode to use:
+
+- **JARVIS Core / Light Mode**: normal one-agent continuity for small or ordinary tasks; targeted memory retrieval, artifact hygiene, and minimal note updates.
+- **JARVIS Specialist Mode**: serious or long-running project work; roles, task boards, work orders, quality gates, operating modes, and closeout discipline.
+
+Then ask: `Which mode should I use: Core or Specialist Mode? If Specialist Mode, send the target project, folder, or work-order ID.`
+
+This bare-invocation gate applies to prompts like `Jarvis, use JARVIS OS` or `Jarvis, use $jarvis-os` when nothing else is requested. It does not apply when the same message includes a real task, such as `review this paper`, `adapt this project`, `summarize this folder`, `continue JRD-123`, or `use Specialist Mode for /path/to/project`; route those by relevance.
+
 Default to JARVIS Core when the user asks for a normal single-agent task: answer a question, edit a file, continue one project, create an artifact, inspect memory, or do ordinary coding/research help.
 
 JARVIS Core is the default Light Mode. In Light Mode, keep the workflow intentionally small:

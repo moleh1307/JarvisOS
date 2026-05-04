@@ -23,6 +23,14 @@ Use these as short intent shortcuts. They are not rigid syntax; agents should st
 
 ## Normal Continuity
 
+## Bare Mode Choice
+
+```text
+Jarvis, use JARVIS OS.
+```
+
+Expected behavior: the agent gives a compact choice between JARVIS Core / Light Mode and JARVIS Specialist Mode, then asks which mode to use. This gate applies only when no actual task, mode, project, or target is included.
+
 ## Ignore Previous
 
 ```text

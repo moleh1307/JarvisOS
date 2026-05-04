@@ -21,6 +21,8 @@ Invoke JARVIS OS once; the agent should route the right features by relevance. S
 
 Short prompts are fine. If intent is unclear in a way that would change the work, the agent should ask a compact follow-up instead of guessing.
 
+If the user only invokes JARVIS OS with no task, mode, project, or target, the agent should not silently choose. It should briefly explain JARVIS Core / Light Mode and JARVIS Specialist Mode, then ask which mode to use.
+
 ## What JARVIS OS Solves
 
 Long agent projects usually fail in predictable ways:
