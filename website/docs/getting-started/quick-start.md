@@ -64,6 +64,14 @@ Read the relevant project memory first, then help me with:
 ...
 ```
 
+## Mode Choice Prompt
+
+```text
+Jarvis, use JARVIS OS.
+```
+
+When this is the whole request, JARVIS OS should briefly explain Core / Light Mode and Specialist Mode, then ask which mode to use. When the prompt includes a concrete task, the agent should route automatically.
+
 ## Fresh-Chat Prompt
 
 ```text

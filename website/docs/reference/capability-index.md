@@ -12,6 +12,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 | Capability | Use it when | Primary trigger | Where to read |
 | --- | --- | --- | --- |
 | Relevance-First Auto-Routing | JARVIS OS is invoked and the agent must choose which features apply. | `Jarvis, use JARVIS OS` | this page, [Reference Router](../operations/reference-router.md) |
+| Bare JARVIS OS Mode Choice Gate | JARVIS OS is invoked without a task, mode, project, or target. | `Jarvis, use JARVIS OS` alone | [Light Mode](../modes/light-mode.md), [Specialist Mode](../modes/specialist-mode.md) |
 | Feature Adoption Check | Existing JarvisOS features were named or naturally triggered and should not be silently skipped. | JARVIS R&D, workflow feedback, public template change | [Checklists](checklists.md) |
 | Light Mode | The task is small, local, or self-contained. | `Jarvis, use JARVIS OS` | [Light Mode](../modes/light-mode.md) |
 | Specialist Mode | The project needs roles, work orders, durable state, review, or release discipline. | `Jarvis, use JARVIS OS Specialist Mode` | [Specialist Mode](../modes/specialist-mode.md) |
@@ -54,6 +55,7 @@ JarvisOS agents should apply these capabilities by relevance. The user should no
 ## Choosing Quickly
 
 - Apply features by relevance; do not wait for the user to name every feature.
+- If JARVIS OS is invoked with no task, mode, project, or target, explain Core and Specialist Mode briefly and ask which mode to use.
 - Use Feature Adoption Check when Melih names a feature or a task naturally triggers one.
 - Start with Light Mode unless the task earns Specialist Mode.
 - Use Specialist Mode when state, roles, review, release risk, or long-running continuity matter.

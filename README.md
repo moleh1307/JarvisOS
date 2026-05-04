@@ -6,7 +6,7 @@
 
 [![Docs](https://img.shields.io/badge/docs-moleh1307.github.io%2FJarvisOS-1f6feb?style=for-the-badge)](https://moleh1307.github.io/JarvisOS/)
 [![Built By](https://img.shields.io/badge/built_by-MOLEH-2ea44f?style=for-the-badge)](https://github.com/moleh1307)
-[![Version](https://img.shields.io/badge/version-0.0.105-da3633?style=for-the-badge)](VERSION)
+[![Version](https://img.shields.io/badge/version-0.0.106-da3633?style=for-the-badge)](VERSION)
 
 **A local-first operating system for Codex continuity.**
 
@@ -71,6 +71,8 @@ markdown = continuity layer
 
 **Specialist Mode** for serious work. Add roles, task boards, work orders, review gates, capability checks, and closeout discipline.
 
+If you only invoke JARVIS OS without a task, the agent should explain these two modes briefly and ask which one to use. If your prompt includes a real task, the agent should route automatically.
+
 ## Prompts
 
 Command deck:
@@ -92,6 +94,14 @@ Jarvis, use JARVIS OS.
 Read the relevant project memory first, then help me with:
 ...
 ```
+
+Mode chooser:
+
+```text
+Jarvis, use JARVIS OS.
+```
+
+Expected behavior: the agent briefly explains JARVIS Core / Light Mode and JARVIS Specialist Mode, then asks which mode to use.
 
 Fresh handoff:
 

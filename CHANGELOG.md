@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.0.106 - 2026-05-04
+
+- Added a bare JARVIS OS Mode Choice Gate: if the user only says `Jarvis, use JARVIS OS` with no task, mode, project, or target, the agent briefly explains Core and Specialist Mode and asks which mode to use.
+- Clarified that task-bearing JARVIS OS prompts still route automatically; the mode chooser should not interrupt concrete requests like paper reviews, project adoption, folder summaries, or named work-order continuation.
+
 ## 0.0.105 - 2026-05-04
 
 - Tightened Specialist Mode Target Gate after dogfood showed `company/` presence still let a bare activation bind to JARVIS R&D.
