@@ -23,6 +23,13 @@ It checks common closeout mistakes:
 
 Jarvis Doctor reduces agent memory burden. It turns several manual checks into one command.
 
+To check for an additional private term without putting it in the repository,
+set it in this clone's local Git configuration:
+
+```bash
+git config --local jarvis.privateTerm 'your-private-term'
+```
+
 ## What It Does Not Replace
 
 It does not replace:

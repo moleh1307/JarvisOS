@@ -43,7 +43,6 @@ PRIVATE_PATTERNS = [
     r"/Users/",
     r"Desktop/JARVIS",
     r"/Volumes/",
-    r"private-local-user",
     r"academic-paper-review",
     r"(?:API[_-]?KEY|SECRET|TOKEN|PASSWORD)\s*[:=]",
 ]
@@ -186,6 +185,9 @@ def check_sidebar(root: Path, errors: list[str]) -> None:
 
 def check_private_leaks(root: Path, errors: list[str]) -> None:
     compiled = [(pattern, re.compile(pattern, re.IGNORECASE)) for pattern in PRIVATE_PATTERNS]
+    private_term = run_git(root, "config", "--local", "--get", "jarvis.privateTerm")
+    if private_term:
+        compiled.append(("locally configured private term", re.compile(re.escape(private_term), re.IGNORECASE)))
     for path in iter_text_files(root):
         rel = path.relative_to(root)
         text = read_text(path)
